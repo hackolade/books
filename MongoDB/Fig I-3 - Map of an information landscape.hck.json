@@ -1,0 +1,745 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c7dd61b1-1c1a-400c-8b53-fb6c0ec5fa54"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "childCollection": [
+                "25bf1125-573f-4f8a-b08d-e0c9f65322e5",
+                "70177f9e-8bc1-4c69-97ba-1182eb0581aa",
+                "f16e7efe-1cc7-4849-9456-f813fb22e30d"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Image",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "43799d3b-5da6-419b-b959-076072b527e6"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "45a1bdb0-d894-41a3-9120-3be68e6d9112",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Dog",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d13ef83b-0490-4352-9069-c805efbf6fda"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "25bf1125-573f-4f8a-b08d-e0c9f65322e5",
+            "parentCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "parentCollections": [
+                "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Cat",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "2e2e5d26-a96b-4abf-9f51-07afdd55bb43"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "70177f9e-8bc1-4c69-97ba-1182eb0581aa",
+            "parentCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "parentCollections": [
+                "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Bird",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a8e09643-e119-41ab-9005-307c7d72a760"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "f16e7efe-1cc7-4849-9456-f813fb22e30d",
+            "parentCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "parentCollections": [
+                "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Breed",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ccacf6cc-6ba3-4b81-92e2-08e45a3e760d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "a7ef81ff-7218-44ec-aed2-e28adda8585f",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Gender",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "6d2c29de-a51b-40b9-bac0-afee4b905f57"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "858f4823-a1fd-42ab-89e7-98d2d146940a",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Color",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e3c68892-40bb-455d-9ee0-47feaa3015ea"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "b2412242-6efb-4563-8c43-4b2df0854599",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Vaccination",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "60ef3b4b-c39c-4c66-9294-ba0b1347e9b3"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "ffe590b3-d293-4ca2-a41f-ab8942e0d95b",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Size",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "364f00b8-dd29-4158-bfa2-a36a921b298d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "f38bd091-4948-4681-87ef-acdec81e5901",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Take",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1..n",
+            "childField": [],
+            "childCardinality": "1..n",
+            "level": "field",
+            "GUID": "343fb86b-f1ad-4f33-91f5-d388527736aa",
+            "lineSize": 2,
+            "parentCollection": "45a1bdb0-d894-41a3-9120-3be68e6d9112",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "6f57759b-78d3-4e40-87e6-e3e12f07c014",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1434,
+                        "y": 1256.25
+                    },
+                    {
+                        "x": 1489.0209409943532,
+                        "y": 1256.25
+                    },
+                    {
+                        "x": 1489.0209409943532,
+                        "y": 1280.5
+                    },
+                    {
+                        "x": 1544.0418819887066,
+                        "y": 1280.5
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "Belong to",
+            "relationshipType": "Foreign Key",
+            "parentField": [],
+            "parentCardinality": "1..n",
+            "childField": [],
+            "childCardinality": "1..n",
+            "level": "field",
+            "GUID": "1d2e4cd8-d0cc-4119-8885-db54c6ed042e",
+            "lineSize": 2,
+            "parentCollection": "a7ef81ff-7218-44ec-aed2-e28adda8585f",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "3bc72e7d-793d-4483-bcae-7c53c6b43dc2",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1434,
+                        "y": 1166.75
+                    },
+                    {
+                        "x": 1477.5,
+                        "y": 1166.75
+                    },
+                    {
+                        "x": 1477.5,
+                        "y": 1138.5
+                    },
+                    {
+                        "x": 1521,
+                        "y": 1138.5
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "Categorize",
+            "relationshipType": "Foreign Master",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "0..n",
+            "GUID": "3e5bc8cb-583e-423e-8b8f-8addd41de0c9",
+            "level": "field",
+            "lineSize": 2,
+            "parentCollection": "858f4823-a1fd-42ab-89e7-98d2d146940a",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "015d375b-65ed-4242-872a-145902abeb9f",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1280,
+                        "y": 1166.75
+                    },
+                    {
+                        "x": 1231,
+                        "y": 1166.75
+                    },
+                    {
+                        "x": 1231,
+                        "y": 1138.5
+                    },
+                    {
+                        "x": 1182,
+                        "y": 1138.5
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        },
+        {
+            "name": "Describe",
+            "relationshipType": "Foreign Master",
+            "parentField": [],
+            "parentCardinality": "0..n",
+            "childField": [],
+            "childCardinality": "0..n",
+            "level": "field",
+            "GUID": "a322cc59-f881-4d9d-b23f-ab69fbec3b78",
+            "lineSize": 2,
+            "parentCollection": "",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "9a552f99-3203-4dad-8b53-13a5a2d748b1",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1280,
+                        "y": 1275.128599149513
+                    },
+                    {
+                        "x": 1174,
+                        "y": 1275.128599149513
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        },
+        {
+            "name": "Describe",
+            "relationshipType": "Foreign Key",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "0..n",
+            "level": "field",
+            "GUID": "79285602-48c3-44c6-860d-1f0e6f553923",
+            "lineSize": 2,
+            "parentCollection": "b2412242-6efb-4563-8c43-4b2df0854599",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "e3e49ad5-731a-4e80-9802-120233361ac6",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1280,
+                        "y": 1256.25
+                    },
+                    {
+                        "x": 1229.9790590056468,
+                        "y": 1256.25
+                    },
+                    {
+                        "x": 1229.9790590056468,
+                        "y": 1277.8557268254829
+                    },
+                    {
+                        "x": 1179.9581180112934,
+                        "y": 1277.8557268254829
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        },
+        {
+            "name": "Be given",
+            "relationshipType": "Foreign Key",
+            "parentField": [],
+            "parentCardinality": "0..n",
+            "childField": [],
+            "childCardinality": "0..n",
+            "level": "field",
+            "GUID": "11526661-b2c0-44df-aa70-c978514034d1",
+            "lineSize": 2,
+            "parentCollection": "ffe590b3-d293-4ca2-a41f-ab8942e0d95b",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "a1e60aca-1578-4ec7-9288-65dd9f20fffc",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1434,
+                        "y": 1211.5
+                    },
+                    {
+                        "x": 1484.4162360225869,
+                        "y": 1211.5
+                    },
+                    {
+                        "x": 1484.4162360225869,
+                        "y": 1226.170111819305
+                    },
+                    {
+                        "x": 1534.8324720451737,
+                        "y": 1226.170111819305
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "Group",
+            "relationshipType": "Foreign Master",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "0..n",
+            "GUID": "b28fc8ab-abdf-4715-b034-56002a6160ea",
+            "level": "field",
+            "lineSize": 2,
+            "parentCollection": "f38bd091-4948-4681-87ef-acdec81e5901",
+            "childCollection": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+            "hackoladeStyles": {
+                "GUID": "3d60c6af-c5f4-46ac-b6b0-0dc3063263f6",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1280,
+                        "y": 1211.5
+                    },
+                    {
+                        "x": 1224.5,
+                        "y": 1211.5
+                    },
+                    {
+                        "x": 1224.5,
+                        "y": 1206.6520247679537
+                    },
+                    {
+                        "x": 1169,
+                        "y": 1206.6520247679537
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529": "Pet",
+        "45a1bdb0-d894-41a3-9120-3be68e6d9112": "Image",
+        "343fb86b-f1ad-4f33-91f5-d388527736aa": "Take",
+        "25bf1125-573f-4f8a-b08d-e0c9f65322e5": "Dog",
+        "70177f9e-8bc1-4c69-97ba-1182eb0581aa": "Cat",
+        "f16e7efe-1cc7-4849-9456-f813fb22e30d": "Bird",
+        "a7ef81ff-7218-44ec-aed2-e28adda8585f": "Breed",
+        "1d2e4cd8-d0cc-4119-8885-db54c6ed042e": "Belong to",
+        "858f4823-a1fd-42ab-89e7-98d2d146940a": "Gender",
+        "3e5bc8cb-583e-423e-8b8f-8addd41de0c9": "Categorize",
+        "a322cc59-f881-4d9d-b23f-ab69fbec3b78": "Describe",
+        "b2412242-6efb-4563-8c43-4b2df0854599": "Color",
+        "79285602-48c3-44c6-860d-1f0e6f553923": "Describe",
+        "ffe590b3-d293-4ca2-a41f-ab8942e0d95b": "Vaccination",
+        "11526661-b2c0-44df-aa70-c978514034d1": "Be given",
+        "f38bd091-4948-4681-87ef-acdec81e5901": "Size",
+        "b28fc8ab-abdf-4715-b034-56002a6160ea": "Group"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "e902de0b-667e-4c51-8fec-cc0159adf39b"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "0c812598-eb8e-4918-bf1e-c2013a93231b"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "08042f28-802d-4445-afe3-06983acefb39"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-02-19T12:34:48.399Z",
+    "GUID": "6874e6ad-f92d-438f-8d00-0597d4c4e01a",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-04-23T10:11:31.921Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.12"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+                        "x": 1280,
+                        "y": 1122,
+                        "width": 154,
+                        "height": 179,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "45a1bdb0-d894-41a3-9120-3be68e6d9112",
+                        "x": 1544.0418819887066,
+                        "y": 1264,
+                        "width": 157,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "25bf1125-573f-4f8a-b08d-e0c9f65322e5",
+                        "x": 1111.5,
+                        "y": 1401,
+                        "width": 145,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "70177f9e-8bc1-4c69-97ba-1182eb0581aa",
+                        "x": 1286.5,
+                        "y": 1401,
+                        "width": 141,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "f16e7efe-1cc7-4849-9456-f813fb22e30d",
+                        "x": 1457.5,
+                        "y": 1401,
+                        "width": 146,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "a7ef81ff-7218-44ec-aed2-e28adda8585f",
+                        "x": 1521,
+                        "y": 1122,
+                        "width": 156,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "858f4823-a1fd-42ab-89e7-98d2d146940a",
+                        "x": 1018,
+                        "y": 1122,
+                        "width": 164,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "b2412242-6efb-4563-8c43-4b2df0854599",
+                        "x": 1027.9581180112934,
+                        "y": 1261.3557268254829,
+                        "width": 152,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "ffe590b3-d293-4ca2-a41f-ab8942e0d95b",
+                        "x": 1534.8324720451737,
+                        "y": 1209.670111819305,
+                        "width": 187,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "f38bd091-4948-4681-87ef-acdec81e5901",
+                        "x": 1025,
+                        "y": 1190.1520247679537,
+                        "width": 144,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+                            "size": 100,
+                            "x": 1228.0689120187214,
+                            "y": 1168
+                        },
+                        {
+                            "GUID": "45a1bdb0-d894-41a3-9120-3be68e6d9112",
+                            "size": 100,
+                            "x": 1452,
+                            "y": 1283
+                        },
+                        {
+                            "GUID": "25bf1125-573f-4f8a-b08d-e0c9f65322e5",
+                            "size": 100,
+                            "x": 1089.0689120187214,
+                            "y": 1393.9898955172653
+                        },
+                        {
+                            "GUID": "70177f9e-8bc1-4c69-97ba-1182eb0581aa",
+                            "size": 100,
+                            "x": 1228.0689120187214,
+                            "y": 1399.9898955172653
+                        },
+                        {
+                            "GUID": "f16e7efe-1cc7-4849-9456-f813fb22e30d",
+                            "size": 100,
+                            "x": 1362.0689120187214,
+                            "y": 1391.9898955172653
+                        },
+                        {
+                            "GUID": "a7ef81ff-7218-44ec-aed2-e28adda8585f",
+                            "size": 100,
+                            "x": 1457,
+                            "y": 1071
+                        },
+                        {
+                            "GUID": "858f4823-a1fd-42ab-89e7-98d2d146940a",
+                            "size": 100,
+                            "x": 999,
+                            "y": 1071
+                        },
+                        {
+                            "GUID": "b2412242-6efb-4563-8c43-4b2df0854599",
+                            "size": 100,
+                            "x": 999,
+                            "y": 1283
+                        },
+                        {
+                            "GUID": "ffe590b3-d293-4ca2-a41f-ab8942e0d95b",
+                            "size": 100,
+                            "x": 1456,
+                            "y": 1175
+                        },
+                        {
+                            "GUID": "f38bd091-4948-4681-87ef-acdec81e5901",
+                            "size": 100,
+                            "x": 999,
+                            "y": 1175
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "c0a63563-3a3b-4e31-b4cc-1a37ea2a2529",
+                        "autoHeight": false,
+                        "autoWidth": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
