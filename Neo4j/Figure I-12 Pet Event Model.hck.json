@@ -1,0 +1,640 @@
+{
+    "modelName": "Prescription",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8e000856-95f6-4f04-8e10-4c5ab5227514"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "84d02112-2001-4614-a9ad-fae8fa3ea587",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Breed",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a5401a2c-b51e-4568-b928-fae574fadbb7"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "4d49fdc1-6b7d-4393-a05e-3093ec16889d",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Event",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "fca5462b-d6c9-4af5-8025-42aee1976dc7"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "a9ded9b4-eced-4c3e-9fff-be52d657635c",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Event",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "885aea46-f8ad-4ff1-bfec-4931a4c5c252"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "84df5af7-4ebf-4881-b61b-fae03cabd7e2",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "collectionName": "Examination",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "feba5da3-f2f1-4675-8eb4-1febf9ecc894"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "129e4a7a-c809-4bef-8c49-16651166cb2a",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Clinic",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1235ac9e-9460-4a6d-9393-5cd862589634"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "f819d276-5ffe-4229-9526-27b027c536e5",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Examination",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4b441b9d-7df7-46c6-99a9-337a2b0cac26"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "121115e1-c81d-4b05-9dbb-308f3eadf198",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "collectionName": "Event",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a4d11e41-9732-464c-94d3-92215c010f7c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "6e101b22-8eee-49c8-91ef-fa3a6c91f718",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "collectionName": "Prescription",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f548da57-248d-4065-b4fb-c14de6c45d0d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "574ea60f-a26a-4e5d-8dcf-a54b9d78622e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "HAS_BREED",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "84d02112-2001-4614-a9ad-fae8fa3ea587",
+            "childCollection": "4d49fdc1-6b7d-4393-a05e-3093ec16889d",
+            "level": "entity",
+            "GUID": "dab648da-726d-4216-8a5b-ab5a287e923e",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "NEXT",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "84d02112-2001-4614-a9ad-fae8fa3ea587",
+            "childCollection": "a9ded9b4-eced-4c3e-9fff-be52d657635c",
+            "level": "entity",
+            "GUID": "2a94b5ec-192e-4914-97c2-cdb2cfa2c046",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "NEXT",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "a9ded9b4-eced-4c3e-9fff-be52d657635c",
+            "childCollection": "84df5af7-4ebf-4881-b61b-fae03cabd7e2",
+            "level": "entity",
+            "GUID": "8e2b7f35-9aa1-4e5b-88fd-6ca14d844423",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAD_EXAM",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "a9ded9b4-eced-4c3e-9fff-be52d657635c",
+            "childCollection": "129e4a7a-c809-4bef-8c49-16651166cb2a",
+            "level": "entity",
+            "GUID": "a82c4e06-7385-443e-b072-56d382b6645d",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "AT_CLINIC",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "129e4a7a-c809-4bef-8c49-16651166cb2a",
+            "childCollection": "f819d276-5ffe-4229-9526-27b027c536e5",
+            "level": "entity",
+            "GUID": "422c534b-a5fa-487b-a60e-19ec10e78545",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAD_EXAM",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "84df5af7-4ebf-4881-b61b-fae03cabd7e2",
+            "childCollection": "121115e1-c81d-4b05-9dbb-308f3eadf198",
+            "level": "entity",
+            "GUID": "340585fe-c9c7-487e-ad5e-a11f36417560",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "AT_CLINC",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "121115e1-c81d-4b05-9dbb-308f3eadf198",
+            "childCollection": "f819d276-5ffe-4229-9526-27b027c536e5",
+            "level": "entity",
+            "GUID": "bbac8e2b-1278-4880-9512-296135c29aee",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "NEXT",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "84df5af7-4ebf-4881-b61b-fae03cabd7e2",
+            "childCollection": "6e101b22-8eee-49c8-91ef-fa3a6c91f718",
+            "level": "entity",
+            "GUID": "211ecb8e-aa34-44a2-a3cd-03c59f778d95",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "PRESCRIBED",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "6e101b22-8eee-49c8-91ef-fa3a6c91f718",
+            "childCollection": "574ea60f-a26a-4e5d-8dcf-a54b9d78622e",
+            "level": "entity",
+            "GUID": "e0c9988b-e34f-4350-b4fa-47059d930c42",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "84d02112-2001-4614-a9ad-fae8fa3ea587": "Pet",
+        "4d49fdc1-6b7d-4393-a05e-3093ec16889d": "Breed",
+        "dab648da-726d-4216-8a5b-ab5a287e923e": "HAS_BREED",
+        "a9ded9b4-eced-4c3e-9fff-be52d657635c": "Event",
+        "2a94b5ec-192e-4914-97c2-cdb2cfa2c046": "NEXT",
+        "84df5af7-4ebf-4881-b61b-fae03cabd7e2": "Event",
+        "8e2b7f35-9aa1-4e5b-88fd-6ca14d844423": "NEXT",
+        "129e4a7a-c809-4bef-8c49-16651166cb2a": "Examination",
+        "a82c4e06-7385-443e-b072-56d382b6645d": "HAD_EXAM",
+        "f819d276-5ffe-4229-9526-27b027c536e5": "Clinic",
+        "422c534b-a5fa-487b-a60e-19ec10e78545": "AT_CLINIC",
+        "121115e1-c81d-4b05-9dbb-308f3eadf198": "Examination",
+        "340585fe-c9c7-487e-ad5e-a11f36417560": "HAD_EXAM",
+        "bbac8e2b-1278-4880-9512-296135c29aee": "AT_CLINC",
+        "6e101b22-8eee-49c8-91ef-fa3a6c91f718": "Event",
+        "211ecb8e-aa34-44a2-a3cd-03c59f778d95": "NEXT",
+        "574ea60f-a26a-4e5d-8dcf-a54b9d78622e": "Prescription",
+        "e0c9988b-e34f-4350-b4fa-47059d930c42": "PRESCRIBED"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ef81b87a-3e62-405c-91da-f748e87a9dab"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "17426eaa-2f44-40bc-a295-4b4502107ca7"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "52059cde-1fc8-46f5-9b27-256186318fb9"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-02-15T14:36:03.516Z",
+    "GUID": "067ac0d7-29c3-4acb-94fa-fe7f6482e704",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "lastModifTS": "2023-05-08T17:35:44.457Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "84d02112-2001-4614-a9ad-fae8fa3ea587",
+                        "x": 1236,
+                        "y": 1206,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "4d49fdc1-6b7d-4393-a05e-3093ec16889d",
+                        "x": 1074,
+                        "y": 1105,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "dab648da-726d-4216-8a5b-ab5a287e923e",
+                        "x": 1000,
+                        "y": 1000,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "a9ded9b4-eced-4c3e-9fff-be52d657635c",
+                        "x": 1228,
+                        "y": 1366,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "2a94b5ec-192e-4914-97c2-cdb2cfa2c046",
+                        "x": 1020,
+                        "y": 1020,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "84df5af7-4ebf-4881-b61b-fae03cabd7e2",
+                        "x": 1424,
+                        "y": 1308,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "8e2b7f35-9aa1-4e5b-88fd-6ca14d844423",
+                        "x": 1040,
+                        "y": 1040,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "129e4a7a-c809-4bef-8c49-16651166cb2a",
+                        "x": 1261,
+                        "y": 1176,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "a82c4e06-7385-443e-b072-56d382b6645d",
+                        "x": 1060,
+                        "y": 1060,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f819d276-5ffe-4229-9526-27b027c536e5",
+                        "x": 1364,
+                        "y": 1040,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "422c534b-a5fa-487b-a60e-19ec10e78545",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "121115e1-c81d-4b05-9dbb-308f3eadf198",
+                        "x": 1463,
+                        "y": 1156,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "340585fe-c9c7-487e-ad5e-a11f36417560",
+                        "x": 1100,
+                        "y": 1100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "bbac8e2b-1278-4880-9512-296135c29aee",
+                        "x": 1120,
+                        "y": 1120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "6e101b22-8eee-49c8-91ef-fa3a6c91f718",
+                        "x": 1616,
+                        "y": 1301,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "211ecb8e-aa34-44a2-a3cd-03c59f778d95",
+                        "x": 1140,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "574ea60f-a26a-4e5d-8dcf-a54b9d78622e",
+                        "x": 1657,
+                        "y": 1144,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "e0c9988b-e34f-4350-b4fa-47059d930c42",
+                        "x": 1160,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "84d02112-2001-4614-a9ad-fae8fa3ea587",
+                            "size": 100,
+                            "x": 1000.9659449096931,
+                            "y": 1276.1146073372195
+                        },
+                        {
+                            "GUID": "4d49fdc1-6b7d-4393-a05e-3093ec16889d",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1050.9197137246424
+                        },
+                        {
+                            "GUID": "a9ded9b4-eced-4c3e-9fff-be52d657635c",
+                            "size": 100,
+                            "x": 1195.483004337551,
+                            "y": 1274
+                        },
+                        {
+                            "GUID": "84df5af7-4ebf-4881-b61b-fae03cabd7e2",
+                            "size": 100,
+                            "x": 1396.483004337551,
+                            "y": 1275
+                        },
+                        {
+                            "GUID": "129e4a7a-c809-4bef-8c49-16651166cb2a",
+                            "size": 100,
+                            "x": 1192.483004337551,
+                            "y": 1117
+                        },
+                        {
+                            "GUID": "f819d276-5ffe-4229-9526-27b027c536e5",
+                            "size": 100,
+                            "x": 1310.483004337551,
+                            "y": 1000
+                        },
+                        {
+                            "GUID": "121115e1-c81d-4b05-9dbb-308f3eadf198",
+                            "size": 100,
+                            "x": 1394.483004337551,
+                            "y": 1123
+                        },
+                        {
+                            "GUID": "6e101b22-8eee-49c8-91ef-fa3a6c91f718",
+                            "size": 100,
+                            "x": 1586.483004337551,
+                            "y": 1269
+                        },
+                        {
+                            "GUID": "574ea60f-a26a-4e5d-8dcf-a54b9d78622e",
+                            "size": 100,
+                            "x": 1582.483004337551,
+                            "y": 1111
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

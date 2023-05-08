@@ -1,0 +1,622 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Patient",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "86b82280-85ab-4c03-af62-5c1315719917"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "17dc3906-f42d-40ad-abc8-5d01709194c6",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Address",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "611b39f6-6937-4a78-8474-915fd931f1d0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "299d70af-7c50-4cd4-a373-94be59d77bac",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Encounter",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "61e4356d-d213-492e-a5f8-ed9980329c69"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Organization",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f069df62-267c-4ab4-a9fc-7209a1a3f5e7"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "3c11670f-4374-4e55-9ff2-7b59a2be9041",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Provider",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b22af721-3220-487b-b933-da941db95493"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "8b29b558-ab8c-48f1-9fab-98e3a2955c5e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Procedure",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8da6ff7e-3679-4eec-b6c1-d834140a5ff3"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "25e2ec7a-6304-45de-9f01-cfbd9e9c68d5",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Condition",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ad073580-9e07-4630-8a57-d90b512e9baf"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "b64688c9-8093-48de-83da-eecb2e0ba2fd",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Observation",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d65e07d8-a0e5-45f8-91e9-820e700f4240"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "78af8e01-5579-41c9-80df-22dbaf2af671",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "HAS_ADDRESS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "17dc3906-f42d-40ad-abc8-5d01709194c6",
+            "childCollection": "299d70af-7c50-4cd4-a373-94be59d77bac",
+            "level": "entity",
+            "GUID": "74b1f647-46ec-4c30-9c20-77b0d442ea4d",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_ENCOUNTER",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "17dc3906-f42d-40ad-abc8-5d01709194c6",
+            "childCollection": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "level": "entity",
+            "GUID": "09117be5-bad0-450a-adac-5d5688d61876",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "NEXT",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "childCollection": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "level": "entity",
+            "GUID": "f8d951c0-409b-4854-b342-27f5cc8761f5",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_PROVIDER",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "17dc3906-f42d-40ad-abc8-5d01709194c6",
+            "childCollection": "3c11670f-4374-4e55-9ff2-7b59a2be9041",
+            "level": "entity",
+            "GUID": "bbebe579-741e-4a68-9da1-a736c892914c",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_ADDRESS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "3c11670f-4374-4e55-9ff2-7b59a2be9041",
+            "childCollection": "299d70af-7c50-4cd4-a373-94be59d77bac",
+            "level": "entity",
+            "GUID": "b317f182-b3a9-4688-b498-532352dbd386",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "BELONGS_TO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "8b29b558-ab8c-48f1-9fab-98e3a2955c5e",
+            "childCollection": "3c11670f-4374-4e55-9ff2-7b59a2be9041",
+            "level": "entity",
+            "GUID": "25dab1a5-0af2-4740-a5d6-22a2d89be6ea",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_ADDRESS",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "8b29b558-ab8c-48f1-9fab-98e3a2955c5e",
+            "childCollection": "299d70af-7c50-4cd4-a373-94be59d77bac",
+            "level": "entity",
+            "GUID": "5e66ae32-569a-4010-9748-bca4f0ff2f49",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_PROCEDURE",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "childCollection": "25e2ec7a-6304-45de-9f01-cfbd9e9c68d5",
+            "level": "entity",
+            "GUID": "fd3095af-5d1b-41e3-83cb-f00ab1807977",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_CONDITION",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "childCollection": "b64688c9-8093-48de-83da-eecb2e0ba2fd",
+            "level": "entity",
+            "GUID": "2040650e-8961-478b-848e-738d7f2527e4",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "HAS_OBSERVATION",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+            "childCollection": "78af8e01-5579-41c9-80df-22dbaf2af671",
+            "level": "entity",
+            "GUID": "faa4a84a-8034-41a6-9b9c-34d345becfb3",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "17dc3906-f42d-40ad-abc8-5d01709194c6": "Patient",
+        "299d70af-7c50-4cd4-a373-94be59d77bac": "Address",
+        "74b1f647-46ec-4c30-9c20-77b0d442ea4d": "HAS_ADDRESS",
+        "c538c3bd-e200-498c-bd0d-78b1cb3f4f10": "Encounter",
+        "09117be5-bad0-450a-adac-5d5688d61876": "HAS_ENCOUNTER",
+        "f8d951c0-409b-4854-b342-27f5cc8761f5": "NEXT",
+        "3c11670f-4374-4e55-9ff2-7b59a2be9041": "Organization",
+        "bbebe579-741e-4a68-9da1-a736c892914c": "HAS_PROVIDER",
+        "b317f182-b3a9-4688-b498-532352dbd386": "HAS_ADDRESS",
+        "8b29b558-ab8c-48f1-9fab-98e3a2955c5e": "Provider",
+        "25dab1a5-0af2-4740-a5d6-22a2d89be6ea": "BELONGS_TO",
+        "5e66ae32-569a-4010-9748-bca4f0ff2f49": "HAS_ADDRESS",
+        "25e2ec7a-6304-45de-9f01-cfbd9e9c68d5": "Procedure",
+        "fd3095af-5d1b-41e3-83cb-f00ab1807977": "HAS_PROCEDURE",
+        "b64688c9-8093-48de-83da-eecb2e0ba2fd": "Condition",
+        "2040650e-8961-478b-848e-738d7f2527e4": "HAS_CONDITION",
+        "78af8e01-5579-41c9-80df-22dbaf2af671": "Observation",
+        "faa4a84a-8034-41a6-9b9c-34d345becfb3": "HAS_OBSERVATION"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ec62a1cf-8de9-4535-95d6-9ded91e695de"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "d84c21f8-7429-4bff-a822-5a0bcc08061b"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b69d9a9e-653c-4bb5-ba81-f80fe1e95a61"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "4.3",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-01-24T15:51:42.438Z",
+    "GUID": "c4074c44-69bd-42aa-a8c0-4ef1a689a29d",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T17:36:16.721Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "17dc3906-f42d-40ad-abc8-5d01709194c6",
+                        "x": 1272,
+                        "y": 1086,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "299d70af-7c50-4cd4-a373-94be59d77bac",
+                        "x": 1074,
+                        "y": 1192,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "74b1f647-46ec-4c30-9c20-77b0d442ea4d",
+                        "x": 1000,
+                        "y": 1000,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+                        "x": 1485,
+                        "y": 1101,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "09117be5-bad0-450a-adac-5d5688d61876",
+                        "x": 1020,
+                        "y": 1020,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f8d951c0-409b-4854-b342-27f5cc8761f5",
+                        "x": 1040,
+                        "y": 1040,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "3c11670f-4374-4e55-9ff2-7b59a2be9041",
+                        "x": 1253,
+                        "y": 1327,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "bbebe579-741e-4a68-9da1-a736c892914c",
+                        "x": 1060,
+                        "y": 1060,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b317f182-b3a9-4688-b498-532352dbd386",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "8b29b558-ab8c-48f1-9fab-98e3a2955c5e",
+                        "x": 1169,
+                        "y": 1465,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "25dab1a5-0af2-4740-a5d6-22a2d89be6ea",
+                        "x": 1100,
+                        "y": 1100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "5e66ae32-569a-4010-9748-bca4f0ff2f49",
+                        "x": 1120,
+                        "y": 1120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "25e2ec7a-6304-45de-9f01-cfbd9e9c68d5",
+                        "x": 1472,
+                        "y": 1291,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "fd3095af-5d1b-41e3-83cb-f00ab1807977",
+                        "x": 1140,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b64688c9-8093-48de-83da-eecb2e0ba2fd",
+                        "x": 1620,
+                        "y": 1305,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "2040650e-8961-478b-848e-738d7f2527e4",
+                        "x": 1160,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "78af8e01-5579-41c9-80df-22dbaf2af671",
+                        "x": 1706,
+                        "y": 1099.3333333333333,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "faa4a84a-8034-41a6-9b9c-34d345becfb3",
+                        "x": 1180,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "17dc3906-f42d-40ad-abc8-5d01709194c6",
+                            "size": 100,
+                            "x": 1129.1488510053728,
+                            "y": 1000
+                        },
+                        {
+                            "GUID": "299d70af-7c50-4cd4-a373-94be59d77bac",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1210
+                        },
+                        {
+                            "GUID": "c538c3bd-e200-498c-bd0d-78b1cb3f4f10",
+                            "size": 100,
+                            "x": 1452,
+                            "y": 1000
+                        },
+                        {
+                            "GUID": "3c11670f-4374-4e55-9ff2-7b59a2be9041",
+                            "size": 100,
+                            "x": 1216,
+                            "y": 1210
+                        },
+                        {
+                            "GUID": "8b29b558-ab8c-48f1-9fab-98e3a2955c5e",
+                            "size": 100,
+                            "x": 1123,
+                            "y": 1362
+                        },
+                        {
+                            "GUID": "25e2ec7a-6304-45de-9f01-cfbd9e9c68d5",
+                            "size": 100,
+                            "x": 1387.3333333333335,
+                            "y": 1210
+                        },
+                        {
+                            "GUID": "b64688c9-8093-48de-83da-eecb2e0ba2fd",
+                            "size": 100,
+                            "x": 1619.333333333333,
+                            "y": 1210
+                        },
+                        {
+                            "GUID": "78af8e01-5579-41c9-80df-22dbaf2af671",
+                            "size": 100,
+                            "x": 1708.0000000000005,
+                            "y": 1000
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 342
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

@@ -1,0 +1,444 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Interaction",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Interaction_ID",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "1d13380c-6a0c-4435-bb76-d8b0caf99343",
+                    "error": {}
+                },
+                {
+                    "name": "Interaction_Type",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "3706a986-c25e-4889-bb8c-5483d7db661d",
+                    "error": {}
+                },
+                {
+                    "name": "WebPage",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9769d13b-b4f1-435b-830e-62cfc3e33cd4",
+                    "error": {}
+                },
+                {
+                    "name": "Interaction_Date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9563dccd-e367-4be1-b3f2-cca10f2c991f",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "9f59d355-407f-41f9-944e-f4fb7d3db95e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": true
+                }
+            }
+        },
+        {
+            "collectionName": "Interaction",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Interaction_ID",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4bc6fcbc-cdcf-4754-9b50-d05dd4357caf",
+                    "error": {}
+                },
+                {
+                    "name": "Interaction_Type",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5a6fa386-caba-4989-9e43-a52ad3db9b27",
+                    "error": {}
+                },
+                {
+                    "name": "WebPage",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "261ccf74-7942-4aab-93c0-c89809e5150b",
+                    "error": {}
+                },
+                {
+                    "name": "Interaction_Date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c1eb66d1-911a-4ab9-ac65-22b5a44dc08b",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d60bc306-a206-4024-ac01-201180d67af0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "579d7551-9c5a-49ff-979a-77cbb395fd52",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": true
+                }
+            }
+        },
+        {
+            "collectionName": "Customer",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Customer_ID",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4e24ddde-0c15-47cd-a707-056a9ea95e12",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4e0bdb99-133a-4a3b-a569-8a50b1b12327"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": ":HAS_INTERACTION",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
+            "level": "entity",
+            "GUID": "46b363a2-78a6-4f3b-9fed-adc25690235d",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "name": "Time_Period",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8a13bfa8-ccc8-4e84-af7d-a74a96ca0e6c",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "NEXT",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
+            "childCollection": "579d7551-9c5a-49ff-979a-77cbb395fd52",
+            "level": "entity",
+            "GUID": "48a38872-471d-484f-b892-ad356765a589",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "name": "Time_Period",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8c4d948d-859f-4140-926b-1a92a03a8b5e",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": ":HAS_INTERACTION",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca",
+            "childCollection": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
+            "level": "entity",
+            "GUID": "568340a6-8229-48c2-9615-1435c18e14a7",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "f597e8c4-fb77-4022-b498-1c5c5a6926ee": "Interaction",
+        "1d13380c-6a0c-4435-bb76-d8b0caf99343": "Interaction_ID",
+        "3706a986-c25e-4889-bb8c-5483d7db661d": "Interaction_Type",
+        "9769d13b-b4f1-435b-830e-62cfc3e33cd4": "WebPage",
+        "9563dccd-e367-4be1-b3f2-cca10f2c991f": "Interaction_Date",
+        "46b363a2-78a6-4f3b-9fed-adc25690235d": ":HAS_INTERACTION",
+        "8a13bfa8-ccc8-4e84-af7d-a74a96ca0e6c": "Time_Period",
+        "579d7551-9c5a-49ff-979a-77cbb395fd52": "Interaction",
+        "4bc6fcbc-cdcf-4754-9b50-d05dd4357caf": "Interaction_ID",
+        "5a6fa386-caba-4989-9e43-a52ad3db9b27": "Interaction_Type",
+        "261ccf74-7942-4aab-93c0-c89809e5150b": "WebPage",
+        "c1eb66d1-911a-4ab9-ac65-22b5a44dc08b": "Interaction_Date",
+        "48a38872-471d-484f-b892-ad356765a589": "NEXT",
+        "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca": "Customer",
+        "568340a6-8229-48c2-9615-1435c18e14a7": ":HAS_INTERACTION",
+        "4e24ddde-0c15-47cd-a707-056a9ea95e12": "Customer_ID",
+        "8c4d948d-859f-4140-926b-1a92a03a8b5e": "Time_Period"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "8a70ba40-e52a-4362-8c8f-ed4cbe371e4c"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "01d6652e-8d17-4f37-8170-5aeaf4a637fa"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "de441674-5771-4ae6-8fcb-342f97ff1178"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "4.3",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-04-27T14:16:08.618Z",
+    "GUID": "7cea1540-fb6e-436d-a71f-0fd94bee41e4",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T17:43:37.019Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
+                        "x": 1449,
+                        "y": 1184,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "46b363a2-78a6-4f3b-9fed-adc25690235d",
+                        "x": 60,
+                        "y": 60,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "579d7551-9c5a-49ff-979a-77cbb395fd52",
+                        "x": 1509,
+                        "y": 1209,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "48a38872-471d-484f-b892-ad356765a589",
+                        "x": 120,
+                        "y": 120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca",
+                        "x": 1023,
+                        "y": 1347,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "568340a6-8229-48c2-9615-1435c18e14a7",
+                        "x": 1356,
+                        "y": 1315.5,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [
+                    "f597e8c4-fb77-4022-b498-1c5c5a6926ee"
+                ],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
+                            "size": 100,
+                            "x": 1331.160556463116,
+                            "y": 1341
+                        },
+                        {
+                            "GUID": "579d7551-9c5a-49ff-979a-77cbb395fd52",
+                            "size": 100,
+                            "x": 1652.160556463116,
+                            "y": 1339
+                        },
+                        {
+                            "GUID": "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca",
+                            "size": 100,
+                            "x": 1006,
+                            "y": 1344
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

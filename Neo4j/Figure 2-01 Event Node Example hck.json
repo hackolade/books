@@ -1,0 +1,360 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Event",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "2d042f46-81f9-4b3d-b248-ece6c0d2427c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "2fe87552-1056-4065-ba5c-9d50633f2226",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b16b637f-ae10-4351-bec7-6756bcef8e6b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "8009face-c085-4c89-a845-79754b2c86e6",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Vaccination",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "51c973c6-96ad-4c1f-9bd2-dd0ad79a586d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "4a4a5696-2cc2-420f-b7db-4dcf3f91b374",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Clinic",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bfbb6539-f993-4972-bd22-af3f3001c0c4"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "88ed31e2-bcf5-4ce0-92c1-abb2cab52f73",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Veterinarian",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4027bd05-7746-4811-b0e9-e1d7ff337793"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "137dd8eb-ecd0-478a-bf20-05de7415b7f8",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "8009face-c085-4c89-a845-79754b2c86e6",
+            "childCollection": "2fe87552-1056-4065-ba5c-9d50633f2226",
+            "level": "entity",
+            "GUID": "f5f869fe-5b3d-49d9-bfa3-5a18febd28e5",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "4a4a5696-2cc2-420f-b7db-4dcf3f91b374",
+            "childCollection": "2fe87552-1056-4065-ba5c-9d50633f2226",
+            "level": "entity",
+            "GUID": "184fff37-ce09-4157-9c8d-c02752608cfb",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "88ed31e2-bcf5-4ce0-92c1-abb2cab52f73",
+            "childCollection": "2fe87552-1056-4065-ba5c-9d50633f2226",
+            "level": "entity",
+            "GUID": "87b2aead-9749-4094-bf1d-ed4accae69ff",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "137dd8eb-ecd0-478a-bf20-05de7415b7f8",
+            "childCollection": "2fe87552-1056-4065-ba5c-9d50633f2226",
+            "level": "entity",
+            "GUID": "a1f320ee-3802-4d47-939e-f397559af33f",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "2fe87552-1056-4065-ba5c-9d50633f2226": "Event",
+        "8009face-c085-4c89-a845-79754b2c86e6": "Pet",
+        "f5f869fe-5b3d-49d9-bfa3-5a18febd28e5": "",
+        "4a4a5696-2cc2-420f-b7db-4dcf3f91b374": "Vaccination",
+        "184fff37-ce09-4157-9c8d-c02752608cfb": "",
+        "88ed31e2-bcf5-4ce0-92c1-abb2cab52f73": "Clinic",
+        "87b2aead-9749-4094-bf1d-ed4accae69ff": "",
+        "137dd8eb-ecd0-478a-bf20-05de7415b7f8": "Veterinarian",
+        "a1f320ee-3802-4d47-939e-f397559af33f": ""
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "54bf03ad-58d4-4394-93dc-9f9c461a631a"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "5d89171b-29fc-4da9-98d1-22ea4e9c1045"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "156dd687-4406-4747-aa02-c3a01a53ef18"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-03-21T16:19:52.385Z",
+    "GUID": "4e7445a9-8f42-4a31-8498-7cd547dd3f52",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T17:51:11.045Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "2fe87552-1056-4065-ba5c-9d50633f2226",
+                        "x": 1085,
+                        "y": 1084,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "8009face-c085-4c89-a845-79754b2c86e6",
+                        "x": 1467,
+                        "y": 1166,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "f5f869fe-5b3d-49d9-bfa3-5a18febd28e5",
+                        "x": 1000,
+                        "y": 1000,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "4a4a5696-2cc2-420f-b7db-4dcf3f91b374",
+                        "x": 1257,
+                        "y": 1003,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "184fff37-ce09-4157-9c8d-c02752608cfb",
+                        "x": 1020,
+                        "y": 1020,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "88ed31e2-bcf5-4ce0-92c1-abb2cab52f73",
+                        "x": 1222,
+                        "y": 1364,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "87b2aead-9749-4094-bf1d-ed4accae69ff",
+                        "x": 1040,
+                        "y": 1040,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "137dd8eb-ecd0-478a-bf20-05de7415b7f8",
+                        "x": 1018,
+                        "y": 1171,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "a1f320ee-3802-4d47-939e-f397559af33f",
+                        "x": 1060,
+                        "y": 1060,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "2fe87552-1056-4065-ba5c-9d50633f2226",
+                            "size": 100,
+                            "x": 1199.9242222973494,
+                            "y": 1173.1844809258537
+                        },
+                        {
+                            "GUID": "8009face-c085-4c89-a845-79754b2c86e6",
+                            "size": 100,
+                            "x": 1412.0140089021565,
+                            "y": 1175.1946866958474
+                        },
+                        {
+                            "GUID": "4a4a5696-2cc2-420f-b7db-4dcf3f91b374",
+                            "size": 100,
+                            "x": 1196,
+                            "y": 1000
+                        },
+                        {
+                            "GUID": "88ed31e2-bcf5-4ce0-92c1-abb2cab52f73",
+                            "size": 100,
+                            "x": 1202,
+                            "y": 1366
+                        },
+                        {
+                            "GUID": "137dd8eb-ecd0-478a-bf20-05de7415b7f8",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1175
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

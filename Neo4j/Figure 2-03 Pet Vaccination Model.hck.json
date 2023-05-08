@@ -1,0 +1,566 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "45db1cc6-4f82-4f46-9ce9-f1640345da05",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a07fbe41-1c99-48ed-ae4e-4ebec4afdcdb",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Age",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "890271ea-3132-4b43-bbbf-ea2b3c49c09e",
+                    "error": {}
+                },
+                {
+                    "name": "Gender",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "2deb0d37-26d6-4de3-abe8-380500e4e786",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1b88fe1d-a6cb-40f3-9e03-477178b9ef0e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "97e39379-8464-42ab-915b-877d4e23a830",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Vaccination",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Vaccination Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ba7c3822-6ae0-4b0c-8b03-ef74945239d3",
+                    "error": {}
+                },
+                {
+                    "name": "Vaccination Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "72fa8dda-c2c7-499b-857c-9127ac1ad758",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f775e446-8d49-4476-95af-ea2956d90992"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "5a952bc1-d272-4bec-9931-77c21cf49db3",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Describe",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "ab26da6f-ae78-4f76-ae78-ac0347692dc7",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Categorize",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "93e75ccb-9a27-4cde-b366-98916c382a21",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Taken Of",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "540c5ee6-14c7-40b5-8923-907abf01f424",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Color Of",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "8a816131-282b-4e60-8a43-dd3b0dd293d2",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "GIVEN_TO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "5a952bc1-d272-4bec-9931-77c21cf49db3",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "79b33ce5-0161-4354-86f1-7927c52dfa26",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": [
+                {
+                    "name": "Vaccination Date",
+                    "type": "multiple",
+                    "properties": [],
+                    "multipleTypes": [
+                        {
+                            "childType": "temporal",
+                            "type": "string",
+                            "GUID": "4166c12a-2274-418f-b265-c121aa77476b",
+                            "error": {}
+                        },
+                        {
+                            "type": "string",
+                            "GUID": "aedd3943-c73b-4fea-9a1a-87898924edb0"
+                        }
+                    ],
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "GUID": "0ebb4f83-c694-4cc1-b538-0e4e39ef2677",
+                    "hackoladeMeta": {},
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "unique": false,
+                    "compositeNodeKey": false
+                }
+            ]
+        },
+        {
+            "name": "Size Categorizes",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "66fded2f-6a96-46eb-9822-dd770170f866",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Is A Pet",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "708bd4d3-06a9-4256-9851-ed8f82ce52d2",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Is A Pet",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "2f3373ba-98ac-4948-8756-853d054d6b7e",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Is A Pet",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "c5f3679c-ae7a-4fb9-89e7-1c7284861f96",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "Adopted",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "",
+            "childCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "level": "entity",
+            "GUID": "11ea7943-a617-46af-b039-8daa63be80e5",
+            "lineSize": 2,
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "PET_GENDER",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "97e39379-8464-42ab-915b-877d4e23a830",
+            "childCollection": "",
+            "level": "entity",
+            "GUID": "40197931-991d-4643-9d01-5663b06b67dc",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "97e39379-8464-42ab-915b-877d4e23a830": "Pet",
+        "ab26da6f-ae78-4f76-ae78-ac0347692dc7": "Describe",
+        "93e75ccb-9a27-4cde-b366-98916c382a21": "Categorize",
+        "540c5ee6-14c7-40b5-8923-907abf01f424": "Taken Of",
+        "8a816131-282b-4e60-8a43-dd3b0dd293d2": "Color Of",
+        "5a952bc1-d272-4bec-9931-77c21cf49db3": "Vaccination",
+        "79b33ce5-0161-4354-86f1-7927c52dfa26": "GIVEN_TO",
+        "66fded2f-6a96-46eb-9822-dd770170f866": "Size Categorizes",
+        "708bd4d3-06a9-4256-9851-ed8f82ce52d2": "Is A Pet",
+        "2f3373ba-98ac-4948-8756-853d054d6b7e": "Is A Pet",
+        "c5f3679c-ae7a-4fb9-89e7-1c7284861f96": "Is A Pet",
+        "11ea7943-a617-46af-b039-8daa63be80e5": "Adopted",
+        "ba7c3822-6ae0-4b0c-8b03-ef74945239d3": "Vaccination Code",
+        "72fa8dda-c2c7-499b-857c-9127ac1ad758": "Vaccination Name",
+        "45db1cc6-4f82-4f46-9ce9-f1640345da05": "Pet Number",
+        "a07fbe41-1c99-48ed-ae4e-4ebec4afdcdb": "Pet Name",
+        "890271ea-3132-4b43-bbbf-ea2b3c49c09e": "Pet Age",
+        "0ebb4f83-c694-4cc1-b538-0e4e39ef2677": "Vaccination Date",
+        "40197931-991d-4643-9d01-5663b06b67dc": "PET_GENDER",
+        "2deb0d37-26d6-4de3-abe8-380500e4e786": "Gender"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "f10510b6-4486-4556-a8d0-2578626196ea"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "698b8192-83d8-4700-874e-341e5c070a0a"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "7e9df881-be8a-492b-a807-58d66baf7f60"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "4.3",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2022-12-22T15:39:07.745Z",
+    "GUID": "59bf11d0-5520-4cc6-90c9-717457bbe4af",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T17:55:43.835Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "97e39379-8464-42ab-915b-877d4e23a830",
+                        "x": 1499,
+                        "y": 1122,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "ab26da6f-ae78-4f76-ae78-ac0347692dc7",
+                        "x": 1000,
+                        "y": 1000,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "93e75ccb-9a27-4cde-b366-98916c382a21",
+                        "x": 1020,
+                        "y": 1020,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "540c5ee6-14c7-40b5-8923-907abf01f424",
+                        "x": 1040,
+                        "y": 1040,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "8a816131-282b-4e60-8a43-dd3b0dd293d2",
+                        "x": 1060,
+                        "y": 1060,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "5a952bc1-d272-4bec-9931-77c21cf49db3",
+                        "x": 1671,
+                        "y": 1253,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "79b33ce5-0161-4354-86f1-7927c52dfa26",
+                        "x": 1080,
+                        "y": 1080,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "66fded2f-6a96-46eb-9822-dd770170f866",
+                        "x": 1100,
+                        "y": 1100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "708bd4d3-06a9-4256-9851-ed8f82ce52d2",
+                        "x": 1120,
+                        "y": 1120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "2f3373ba-98ac-4948-8756-853d054d6b7e",
+                        "x": 1140,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "c5f3679c-ae7a-4fb9-89e7-1c7284861f96",
+                        "x": 1160,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "11ea7943-a617-46af-b039-8daa63be80e5",
+                        "x": 1180,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "40197931-991d-4643-9d01-5663b06b67dc",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "97e39379-8464-42ab-915b-877d4e23a830",
+                            "size": 100,
+                            "x": 1138,
+                            "y": 1269
+                        },
+                        {
+                            "GUID": "5a952bc1-d272-4bec-9931-77c21cf49db3",
+                            "size": 100,
+                            "x": 1576.679269464655,
+                            "y": 1269
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

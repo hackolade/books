@@ -1,0 +1,348 @@
+{
+    "modelName": "Vaccination",
+    "collections": [
+        {
+            "collectionName": "Gender",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Gender Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7e8a6057-46a6-495f-8b71-0b09239c9c9b",
+                    "error": {}
+                },
+                {
+                    "name": "Gender Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "94cd200d-5644-4708-b053-2fb2103ec637",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b4038d8b-1e43-458c-bb66-8cd35dc0b174"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "52fb9003-66c5-4a44-8f02-ee809dd57930"
+        },
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5021ffae-86fd-4b3c-93cd-478a225277cc",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "05504227-3411-4a41-9144-1517e50d34a1",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Age",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8108e8df-9aa5-439d-8889-8fc64a49e9fe",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f4ac410b-7b67-4f13-a6f0-4f4a9285ab49"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "efa6c185-c818-479e-a0e2-9dea4777874a"
+        },
+        {
+            "collectionName": "Vaccination",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Vaccination Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "91107f13-cfdf-4008-b612-0b199433c229",
+                    "error": {}
+                },
+                {
+                    "name": "Vaccination Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "cada8148-8942-4240-8223-4be8acfe69e1",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d10efc32-e539-4e37-8e85-8c94a1a7abf8"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "6bc2295f-6e50-4cf2-8349-21ee0b21dab0"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": ":HAS_GENDER",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "efa6c185-c818-479e-a0e2-9dea4777874a",
+            "childCollection": "52fb9003-66c5-4a44-8f02-ee809dd57930",
+            "level": "entity",
+            "GUID": "eec4fc83-8b51-440a-86b3-3afd6609e8db",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": ":GIVEN_TO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "6bc2295f-6e50-4cf2-8349-21ee0b21dab0",
+            "childCollection": "efa6c185-c818-479e-a0e2-9dea4777874a",
+            "level": "entity",
+            "GUID": "7f8cda92-970d-47b0-81e9-37736a50d02c",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "52fb9003-66c5-4a44-8f02-ee809dd57930": "Gender",
+        "7e8a6057-46a6-495f-8b71-0b09239c9c9b": "Gender Code",
+        "94cd200d-5644-4708-b053-2fb2103ec637": "Gender Name",
+        "efa6c185-c818-479e-a0e2-9dea4777874a": "Pet",
+        "5021ffae-86fd-4b3c-93cd-478a225277cc": "Pet Number",
+        "05504227-3411-4a41-9144-1517e50d34a1": "Pet Name",
+        "8108e8df-9aa5-439d-8889-8fc64a49e9fe": "Pet Age",
+        "eec4fc83-8b51-440a-86b3-3afd6609e8db": ":HAS_GENDER",
+        "6bc2295f-6e50-4cf2-8349-21ee0b21dab0": "Vaccination",
+        "7f8cda92-970d-47b0-81e9-37736a50d02c": ":GIVEN_TO",
+        "91107f13-cfdf-4008-b612-0b199433c229": "Vaccination Code",
+        "cada8148-8942-4240-8223-4be8acfe69e1": "Vaccination Name"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "713692a6-9e01-49ed-8608-75487df6b105"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "a83e5f1a-c4ea-486e-ad52-b8f5302de679"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b85631fa-9e51-4d41-8f4e-ea25b62347f9"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-08T17:26:49.162Z",
+    "GUID": "f990f179-aef3-456f-afa9-bb22c999d16e",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "lastModifTS": "2023-05-08T17:30:43.506Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "52fb9003-66c5-4a44-8f02-ee809dd57930",
+                        "x": 1238,
+                        "y": 1321,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "efa6c185-c818-479e-a0e2-9dea4777874a",
+                        "x": 1347,
+                        "y": 1525,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "eec4fc83-8b51-440a-86b3-3afd6609e8db",
+                        "x": 1412.5,
+                        "y": 1473,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "6bc2295f-6e50-4cf2-8349-21ee0b21dab0",
+                        "x": 1629,
+                        "y": 1461,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "7f8cda92-970d-47b0-81e9-37736a50d02c",
+                        "x": 1608,
+                        "y": 1543,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "52fb9003-66c5-4a44-8f02-ee809dd57930",
+                            "size": 100,
+                            "x": 1208,
+                            "y": 1120.2641978148238
+                        },
+                        {
+                            "GUID": "efa6c185-c818-479e-a0e2-9dea4777874a",
+                            "size": 100,
+                            "x": 1208,
+                            "y": 1420.4724738147102
+                        },
+                        {
+                            "GUID": "6bc2295f-6e50-4cf2-8349-21ee0b21dab0",
+                            "size": 100,
+                            "x": 1543.7495902390804,
+                            "y": 1421.534365552085
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

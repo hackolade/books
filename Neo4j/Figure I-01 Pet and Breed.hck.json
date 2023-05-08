@@ -1,0 +1,150 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "92db57e9-763d-4f52-bddd-2cbd2c50071a"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "695663c4-eb7b-43fb-8968-a56369408cf1"
+        },
+        {
+            "collectionName": "Breed",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "0637ed25-7702-44b5-afeb-2d19f2f74556"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "3f33619e-483b-4015-ba36-b1fe0649af8b"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "695663c4-eb7b-43fb-8968-a56369408cf1": "Pet",
+        "3f33619e-483b-4015-ba36-b1fe0649af8b": "Breed"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "2188745c-80bc-4e39-b019-7d28d828b7b1"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "a120a083-e543-4284-9366-d7ea6db41c94"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "3ca38e3c-f5d2-410e-a947-62b6bf32a46e"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-08T16:41:53.023Z",
+    "GUID": "19d618d9-31d4-4b83-97f4-0ac80f011587",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T16:43:24.748Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "695663c4-eb7b-43fb-8968-a56369408cf1",
+                        "x": 1260,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "3f33619e-483b-4015-ba36-b1fe0649af8b",
+                        "x": 1633,
+                        "y": 1306,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "695663c4-eb7b-43fb-8968-a56369408cf1",
+                            "size": 100,
+                            "x": 1269,
+                            "y": 1183
+                        },
+                        {
+                            "GUID": "3f33619e-483b-4015-ba36-b1fe0649af8b",
+                            "size": 100,
+                            "x": 1611,
+                            "y": 1183
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
