@@ -1,0 +1,284 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "type": "objectId",
+                    "color": "#555555",
+                    "primaryKey": true,
+                    "GUID": "062f75cc-0cfb-4e94-824b-b3ffc7c28ca5",
+                    "error": {}
+                },
+                {
+                    "type": "string",
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "GUID": "d0358f4a-476b-4d38-bd32-bd0b0b3c81b8",
+                    "error": {}
+                },
+                {
+                    "type": "document",
+                    "properties": [
+                        {
+                            "type": "string",
+                            "name": "Gender Code",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "compositeKey": [
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "GUID": "0aed5414-7915-45fa-8645-d2ce629a631e",
+                            "error": {}
+                        },
+                        {
+                            "type": "string",
+                            "name": "Gender Name",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "compositeKey": [
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "GUID": "27dd0652-e533-4cdb-b99c-42679416795b",
+                            "error": {}
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "name": "Gender",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "GUID": "d3483dc6-ba0d-4aec-b207-f503ebc372bf",
+                    "error": {}
+                },
+                {
+                    "type": "array",
+                    "properties": [
+                        {
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "type": "string",
+                                    "name": "Vaccination Date",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "compositeKey": [
+                                        "compositePrimaryKey",
+                                        "compositeUniqueKey"
+                                    ],
+                                    "GUID": "1caf09d1-d3d3-4084-83ff-9b364a26d36a",
+                                    "error": {}
+                                },
+                                {
+                                    "type": "document",
+                                    "properties": [
+                                        {
+                                            "type": "string",
+                                            "name": "Vaccination Code",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "compositeKey": [
+                                                "compositePrimaryKey",
+                                                "compositeUniqueKey"
+                                            ],
+                                            "GUID": "490506fe-2162-4ae4-9602-87e33723a466",
+                                            "error": {}
+                                        },
+                                        {
+                                            "type": "string",
+                                            "name": "Vaccination Name",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "compositeKey": [
+                                                "compositePrimaryKey",
+                                                "compositeUniqueKey"
+                                            ],
+                                            "GUID": "1854be35-d85d-47a0-a45e-70dc8e1e72e9",
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "name": "Vaccination",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "compositeKey": [
+                                        "compositePrimaryKey",
+                                        "compositeUniqueKey"
+                                    ],
+                                    "GUID": "0760ea6c-a04d-4e8b-9274-bdc189f745b6",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "compositeKey": [
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "GUID": "fdfd952b-93bf-4b87-b494-6d42a76a0232",
+                            "arrayItem": true,
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "name": "Vaccinations",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "uniqueItems": false,
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "GUID": "4af692e4-d906-41f7-a565-88afce496b33",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e8b38a6d-5737-402d-9d3b-e536a9d5ab76"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "GUID": "b7ef8e7e-3245-45f0-9940-aab5a024b882"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "b7ef8e7e-3245-45f0-9940-aab5a024b882": "Pet",
+        "062f75cc-0cfb-4e94-824b-b3ffc7c28ca5": "Pet Number",
+        "d0358f4a-476b-4d38-bd32-bd0b0b3c81b8": "Pet Name",
+        "d3483dc6-ba0d-4aec-b207-f503ebc372bf": "Gender",
+        "0aed5414-7915-45fa-8645-d2ce629a631e": "Gender Code",
+        "27dd0652-e533-4cdb-b99c-42679416795b": "Gender Name",
+        "4af692e4-d906-41f7-a565-88afce496b33": "Vaccinations",
+        "1caf09d1-d3d3-4084-83ff-9b364a26d36a": "Vaccination Date",
+        "0760ea6c-a04d-4e8b-9274-bdc189f745b6": "Vaccination",
+        "490506fe-2162-4ae4-9602-87e33723a466": "Vaccination Code",
+        "1854be35-d85d-47a0-a45e-70dc8e1e72e9": "Vaccination Name"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ca21e892-8939-4dc4-9dc8-6193c8847c93"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "b6d154cf-ab6f-46d8-b242-0c8d9915da31"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "bab1daa9-659f-4233-a242-e370349725be"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "v5.0",
+    "dbVendor": "MongoDB",
+    "appTarget": "MONGODB",
+    "creationTS": "2023-04-21T09:30:48.885Z",
+    "GUID": "100f3f11-1975-49e1-ac16-7d85e4226adf",
+    "isLineageEnabled": false,
+    "polyglotModelPaths": [],
+    "lastModifTS": "2023-05-08T17:08:03.603Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "b7ef8e7e-3245-45f0-9940-aab5a024b882",
+                        "x": 1048.2930629400767,
+                        "y": 1653.6092474764826,
+                        "width": 282,
+                        "height": 231,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

@@ -1,0 +1,1465 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "Fee Generation",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Customer Category Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "d437a866-e746-46b1-97fb-4564ffa9c4df",
+                    "required": false,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+                    "foreignField": [
+                        "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+                        "5992d7ae-fb8d-4513-802f-0ce7c14bb5de"
+                    ],
+                    "parentRelationship": "fe3dd4a8-aa4b-4ffe-9a1a-3c35f7b9f268",
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Branch Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "29919c0f-e1b1-4620-af00-dc409b693ad3",
+                    "required": false,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                    "foreignField": [
+                        "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                        "a6c626c9-889f-4371-87f8-2bc32143386d"
+                    ],
+                    "parentRelationship": "dcbd75bf-f092-422d-ad06-507def455d69",
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Month Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "3f2f497b-b3b4-4596-8613-5407e243c673",
+                    "required": false,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "c22c5a7c-df21-4db6-9b66-966311822c20",
+                    "foreignField": [
+                        "c22c5a7c-df21-4db6-9b66-966311822c20",
+                        "b026e69b-ba3d-4c7e-9a23-3a1ee7897791"
+                    ],
+                    "parentRelationship": "2ae17997-680f-484d-b5c3-b51ce447d63f",
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Year Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "fa6cacf0-ff29-4c24-b9ba-3c753887c6d8",
+                    "required": false,
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Account Type Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "fd072fdf-296d-402a-a76f-abad2e7f5c63",
+                    "required": false,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+                    "foreignField": [
+                        "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+                        "aedb930e-a5fa-4f0b-916e-d00531c98636"
+                    ],
+                    "parentRelationship": "1bbc9aeb-98ec-4384-b5c3-a09424cc5fb9",
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Fee Generation Count",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "d333a1bd-c20d-458f-84c1-2df257134dbd"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "2232a001-5a64-420a-8a3c-a51a29e9196d",
+                    "error": {}
+                },
+                {
+                    "name": "Fee Generation Amount",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1,
+                        "GUID": "e8c0d0d2-4819-491e-9095-085701fb2b97"
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "4d644249-2394-4e89-96ab-2d471c2adce8",
+                    "mode": "dec",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "6dc8cffe-350b-4313-89f0-b7fd0d688b6d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+            "primaryKey": [
+                {
+                    "GUID": "d528384f-6ca3-4b17-9b9a-7d4972e71b30",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "d437a866-e746-46b1-97fb-4564ffa9c4df",
+                            "type": ""
+                        },
+                        {
+                            "keyId": "29919c0f-e1b1-4620-af00-dc409b693ad3",
+                            "type": ""
+                        },
+                        {
+                            "keyId": "3f2f497b-b3b4-4596-8613-5407e243c673",
+                            "type": ""
+                        },
+                        {
+                            "keyId": "fa6cacf0-ff29-4c24-b9ba-3c753887c6d8",
+                            "type": ""
+                        },
+                        {
+                            "keyId": "fd072fdf-296d-402a-a76f-abad2e7f5c63",
+                            "type": ""
+                        }
+                    ]
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Customer Category",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Customer Category Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "5992d7ae-fb8d-4513-802f-0ce7c14bb5de",
+                    "childRelationships": [
+                        "fe3dd4a8-aa4b-4ffe-9a1a-3c35f7b9f268"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Customer Category Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "7ac0abaa-cd5b-432f-9f07-8fd3a9c419cc",
+                    "length": 50,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "731d3f55-4664-4093-8644-df8be9da3db7"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Month",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Month Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "b026e69b-ba3d-4c7e-9a23-3a1ee7897791",
+                    "required": false,
+                    "childRelationships": [
+                        "2ae17997-680f-484d-b5c3-b51ce447d63f"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Year Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "4a125966-24e0-4cec-a9bf-a210c43c4b6b",
+                    "required": false,
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+                    "foreignField": [
+                        "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+                        "61afd825-914f-4eee-95d3-6d05de9d6f47"
+                    ],
+                    "parentRelationship": "9b9e24e1-a555-4477-b797-a0fc578e7386",
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Month Description Text",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "68617fce-5b2a-48e4-8b65-3233e3c9fb0e",
+                    "length": 50,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bb73eeb9-67cb-4792-abc9-110950f51bf8"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
+            "primaryKey": [
+                {
+                    "GUID": "99073836-6e1e-47fd-a0f0-d754e7aca9aa",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "b026e69b-ba3d-4c7e-9a23-3a1ee7897791",
+                            "type": ""
+                        },
+                        {
+                            "keyId": "4a125966-24e0-4cec-a9bf-a210c43c4b6b",
+                            "type": ""
+                        }
+                    ]
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Year",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Year Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "61afd825-914f-4eee-95d3-6d05de9d6f47",
+                    "childRelationships": [
+                        "9b9e24e1-a555-4477-b797-a0fc578e7386"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Year Description Text",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "d6b2176e-46f8-4fd8-b57f-4a4d8d36e012",
+                    "length": 50,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "61f880aa-b5d1-482d-9e21-e57873501afc"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Account Type",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Account Type Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "aedb930e-a5fa-4f0b-916e-d00531c98636",
+                    "childRelationships": [
+                        "1bbc9aeb-98ec-4384-b5c3-a09424cc5fb9"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Account Type Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "fb9fbd27-f12f-4460-b169-d8a022e69d05",
+                    "length": 50,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ca37be3b-7f3b-420d-a4e6-6d687f987a82"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Branch",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Branch Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a6c626c9-889f-4371-87f8-2bc32143386d",
+                    "childRelationships": [
+                        "dcbd75bf-f092-422d-ad06-507def455d69"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Branch Manager First Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "fa5d1e04-9bde-416b-a3a1-bff1b9536bea",
+                    "length": 50,
+                    "error": {}
+                },
+                {
+                    "name": "Branch Manager Last Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "0f1cc071-8cbf-44d9-93a0-2caaaf320838",
+                    "length": 50,
+                    "error": {}
+                },
+                {
+                    "name": "Region Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "e8934423-f453-4121-b890-9fdf03f16e74",
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+                    "foreignField": [
+                        "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+                        "6b49fd33-206f-4767-89a5-aa385248bdb8"
+                    ],
+                    "parentRelationship": "62f11cac-ddd1-4c14-83f2-9995ab661d3f",
+                    "length": 10,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b71db821-3b32-4485-ad61-61fb48530f35"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Region",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Region Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "6b49fd33-206f-4767-89a5-aa385248bdb8",
+                    "childRelationships": [
+                        "62f11cac-ddd1-4c14-83f2-9995ab661d3f"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Region Manager First Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "28ed9b7b-42b0-4fb3-bc19-fc01054acd6e",
+                    "length": 50,
+                    "error": {}
+                },
+                {
+                    "name": "Region Manager Last Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "ab9e648d-9d75-43fe-9a08-66676e17efa7",
+                    "length": 50,
+                    "error": {}
+                },
+                {
+                    "name": "District Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "c02b69db-ce19-4e8b-8c42-0b34ef0d74c8",
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+                    "foreignField": [
+                        "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+                        "dbed755b-1755-4c1f-90b2-2a935222d962"
+                    ],
+                    "parentRelationship": "4dfd92bd-e552-4384-ada0-160ced333c0c",
+                    "length": 10,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b7415aa6-6d63-4f6a-b8d6-ef15a10e751d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "District",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "District Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "dbed755b-1755-4c1f-90b2-2a935222d962",
+                    "childRelationships": [
+                        "4dfd92bd-e552-4384-ada0-160ced333c0c"
+                    ],
+                    "length": 10,
+                    "error": {}
+                },
+                {
+                    "name": "Disctrict Manager First Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "97f2c823-2f0b-42ee-a89e-135c941a8f43",
+                    "length": 50,
+                    "error": {}
+                },
+                {
+                    "name": "District Manager Last Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "96757c2e-15d2-4235-85eb-302f4036e290",
+                    "length": 50,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "7960fba5-00b0-45c0-8def-63035626ff0d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "fk Fee Generation.Customer Category Code to Customer Category.Customer Category Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+                    "5992d7ae-fb8d-4513-802f-0ce7c14bb5de"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                    "d437a866-e746-46b1-97fb-4564ffa9c4df"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+            "childCollection": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+            "GUID": "fe3dd4a8-aa4b-4ffe-9a1a-3c35f7b9f268",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "70cc4c32-ff89-47b6-81f5-f60765d7bd3a",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1487.5579064587973,
+                        "y": 1293
+                    },
+                    {
+                        "x": 1487.5579064587973,
+                        "y": 1254
+                    },
+                    {
+                        "x": 1488.0579064587973,
+                        "y": 1254
+                    },
+                    {
+                        "x": 1488.0579064587973,
+                        "y": 1215
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
+            "name": "fk Fee Generation.Month Code to Month.Month Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "c22c5a7c-df21-4db6-9b66-966311822c20",
+                    "b026e69b-ba3d-4c7e-9a23-3a1ee7897791"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                    "3f2f497b-b3b4-4596-8613-5407e243c673"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "c22c5a7c-df21-4db6-9b66-966311822c20",
+            "childCollection": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+            "GUID": "2ae17997-680f-484d-b5c3-b51ce447d63f",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "642a5d63-c075-466d-92d6-9ba05319d49c",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1605.0579064587973,
+                        "y": 1372.5
+                    },
+                    {
+                        "x": 1668.0289532293987,
+                        "y": 1372.5
+                    },
+                    {
+                        "x": 1668.0289532293987,
+                        "y": 1372.5
+                    },
+                    {
+                        "x": 1731,
+                        "y": 1372.5
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "fk Month.Year Code to Year.Year Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+                    "61afd825-914f-4eee-95d3-6d05de9d6f47"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "c22c5a7c-df21-4db6-9b66-966311822c20",
+                    "4a125966-24e0-4cec-a9bf-a210c43c4b6b"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "parentCollection": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+            "childCollection": "c22c5a7c-df21-4db6-9b66-966311822c20",
+            "GUID": "9b9e24e1-a555-4477-b797-a0fc578e7386",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "ec3e0c9a-90fe-4ec9-8f06-e3b2e7af8021",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1844,
+                        "y": 1329
+                    },
+                    {
+                        "x": 1844,
+                        "y": 1272
+                    },
+                    {
+                        "x": 1844.5,
+                        "y": 1272
+                    },
+                    {
+                        "x": 1844.5,
+                        "y": 1215
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
+            "name": "fk Fee Generation.Account Type Code to Account Type.Account Type Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+                    "aedb930e-a5fa-4f0b-916e-d00531c98636"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                    "fd072fdf-296d-402a-a76f-abad2e7f5c63"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+            "childCollection": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+            "GUID": "1bbc9aeb-98ec-4384-b5c3-a09424cc5fb9",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "be8bfd6e-442e-4b9b-a75a-d001b286159a",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1487.5579064587973,
+                        "y": 1452
+                    },
+                    {
+                        "x": 1487.5579064587973,
+                        "y": 1480.6828508748772
+                    },
+                    {
+                        "x": 1487.5579064587973,
+                        "y": 1480.6828508748772
+                    },
+                    {
+                        "x": 1487.5579064587973,
+                        "y": 1509.3657017497544
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ]
+            }
+        },
+        {
+            "name": "fk Fee Generation.Branch Code to Branch.Branch Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                    "a6c626c9-889f-4371-87f8-2bc32143386d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                    "29919c0f-e1b1-4620-af00-dc409b693ad3"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+            "childCollection": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+            "GUID": "dcbd75bf-f092-422d-ad06-507def455d69",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "fca2e875-570c-46e9-8f6b-60fcf65e3963",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1370.0579064587973,
+                        "y": 1372.5
+                    },
+                    {
+                        "x": 1308.0289532293987,
+                        "y": 1372.5
+                    },
+                    {
+                        "x": 1308.0289532293987,
+                        "y": 1372.5
+                    },
+                    {
+                        "x": 1246,
+                        "y": 1372.5
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            }
+        },
+        {
+            "name": "fk Branch.Region Code to Region.Region Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+                    "6b49fd33-206f-4767-89a5-aa385248bdb8"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                    "e8934423-f453-4121-b890-9fdf03f16e74"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "parentCollection": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+            "childCollection": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+            "GUID": "62f11cac-ddd1-4c14-83f2-9995ab661d3f",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "57a8ce90-79eb-4013-ba4d-c420e5350733",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1120,
+                        "y": 1320
+                    },
+                    {
+                        "x": 1120,
+                        "y": 1285.5
+                    },
+                    {
+                        "x": 1120.5,
+                        "y": 1285.5
+                    },
+                    {
+                        "x": 1120.5,
+                        "y": 1251
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
+            "name": "fk Region.District Code to District.District Code",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+                    "dbed755b-1755-4c1f-90b2-2a935222d962"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+                    "c02b69db-ce19-4e8b-8c42-0b34ef0d74c8"
+                ]
+            ],
+            "childCardinality": "1..n",
+            "parentCollection": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+            "childCollection": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+            "GUID": "4dfd92bd-e552-4384-ada0-160ced333c0c",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "34f01e18-6a41-4c10-844e-f23db441f123",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1120.5,
+                        "y": 1146
+                    },
+                    {
+                        "x": 1120.5,
+                        "y": 1116.5
+                    },
+                    {
+                        "x": 1120,
+                        "y": 1116.5
+                    },
+                    {
+                        "x": 1120,
+                        "y": 1087
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "ba12c864-559f-46d3-99a4-30d610bcbc22": "Fee Generation",
+        "d437a866-e746-46b1-97fb-4564ffa9c4df": "Customer Category Code",
+        "29919c0f-e1b1-4620-af00-dc409b693ad3": "Branch Code",
+        "3f2f497b-b3b4-4596-8613-5407e243c673": "Month Code",
+        "fa6cacf0-ff29-4c24-b9ba-3c753887c6d8": "Year Code",
+        "fd072fdf-296d-402a-a76f-abad2e7f5c63": "Account Type Code",
+        "2232a001-5a64-420a-8a3c-a51a29e9196d": "Fee Generation Count",
+        "4d644249-2394-4e89-96ab-2d471c2adce8": "Fee Generation Amount",
+        "4e67ca6d-9654-49ba-ae7b-faf6645fb505": "Customer Category",
+        "5992d7ae-fb8d-4513-802f-0ce7c14bb5de": "Customer Category Code",
+        "7ac0abaa-cd5b-432f-9f07-8fd3a9c419cc": "Customer Category Name",
+        "fe3dd4a8-aa4b-4ffe-9a1a-3c35f7b9f268": "fk Fee Generation.Customer Category Code to Customer Category.Customer Category Code",
+        "c22c5a7c-df21-4db6-9b66-966311822c20": "Month",
+        "b026e69b-ba3d-4c7e-9a23-3a1ee7897791": "Month Code",
+        "4a125966-24e0-4cec-a9bf-a210c43c4b6b": "Year Code",
+        "68617fce-5b2a-48e4-8b65-3233e3c9fb0e": "Month Description Text",
+        "60bc89bb-f4b3-4c6b-946f-9928c4819c62": "Year",
+        "61afd825-914f-4eee-95d3-6d05de9d6f47": "Year Code",
+        "d6b2176e-46f8-4fd8-b57f-4a4d8d36e012": "Year Description Text",
+        "2ae17997-680f-484d-b5c3-b51ce447d63f": "fk Fee Generation.Month Code to Month.Month Code",
+        "9b9e24e1-a555-4477-b797-a0fc578e7386": "fk Month.Year Code to Year.Year Code",
+        "e179f3d2-ebfc-4278-8f94-7af2aaa1f767": "Account Type",
+        "aedb930e-a5fa-4f0b-916e-d00531c98636": "Account Type Code",
+        "fb9fbd27-f12f-4460-b169-d8a022e69d05": "Account Type Name",
+        "1bbc9aeb-98ec-4384-b5c3-a09424cc5fb9": "fk Fee Generation.Account Type Code to Account Type.Account Type Code",
+        "ea44b9b2-b2e7-41a8-8774-19ceb64495dd": "Branch",
+        "a6c626c9-889f-4371-87f8-2bc32143386d": "Branch Code",
+        "fa5d1e04-9bde-416b-a3a1-bff1b9536bea": "Branch Manager First Name",
+        "0f1cc071-8cbf-44d9-93a0-2caaaf320838": "Branch Manager Last Name",
+        "e8934423-f453-4121-b890-9fdf03f16e74": "Region Code",
+        "dcbd75bf-f092-422d-ad06-507def455d69": "fk Fee Generation.Branch Code to Branch.Branch Code",
+        "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27": "Region",
+        "6b49fd33-206f-4767-89a5-aa385248bdb8": "Region Code",
+        "28ed9b7b-42b0-4fb3-bc19-fc01054acd6e": "Region Manager First Name",
+        "ab9e648d-9d75-43fe-9a08-66676e17efa7": "Region Manager Last Name",
+        "c02b69db-ce19-4e8b-8c42-0b34ef0d74c8": "District Code",
+        "8af51072-a5c8-4071-8dc8-17e92f67d9a8": "District",
+        "dbed755b-1755-4c1f-90b2-2a935222d962": "District Code",
+        "97f2c823-2f0b-42ee-a89e-135c941a8f43": "Disctrict Manager First Name",
+        "96757c2e-15d2-4235-85eb-302f4036e290": "District Manager Last Name",
+        "62f11cac-ddd1-4c14-83f2-9995ab661d3f": "fk Branch.Region Code to Region.Region Code",
+        "4dfd92bd-e552-4384-ada0-160ced333c0c": "fk Region.District Code to District.District Code"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ead3cb4d-dcbd-44bd-8dee-d7fa173b3b34"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "aa1a79d7-a04c-4a13-9098-2953e0f85a41"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "12c809a0-d2f1-4b30-87f5-2ddf18632a58"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-03-19T10:11:02.727Z",
+    "GUID": "8f2fbc8f-3f81-48e6-a8ef-22f8ee18d06f",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T14:28:53.156Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                        "x": 1370.0579064587973,
+                        "y": 1293,
+                        "width": 235,
+                        "height": 159,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+                        "x": 1368.0579064587973,
+                        "y": 1146,
+                        "width": 240,
+                        "height": 69,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
+                        "x": 1731,
+                        "y": 1329,
+                        "width": 226,
+                        "height": 87,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+                        "x": 1737,
+                        "y": 1146,
+                        "width": 215,
+                        "height": 69,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+                        "x": 1384.0579064587973,
+                        "y": 1509.3657017497544,
+                        "width": 207,
+                        "height": 69,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                        "x": 994,
+                        "y": 1320,
+                        "width": 252,
+                        "height": 105,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+                        "x": 995,
+                        "y": 1146,
+                        "width": 251,
+                        "height": 105,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+                        "x": 991,
+                        "y": 1000,
+                        "width": 258,
+                        "height": 87,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                            "size": 100,
+                            "x": 1197,
+                            "y": 1302.797326162254
+                        },
+                        {
+                            "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+                            "size": 100,
+                            "x": 1197,
+                            "y": 1149.797326162254
+                        },
+                        {
+                            "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
+                            "size": 100,
+                            "x": 1394,
+                            "y": 1302.797326162254
+                        },
+                        {
+                            "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+                            "size": 100,
+                            "x": 1394,
+                            "y": 1149.797326162254
+                        },
+                        {
+                            "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+                            "size": 100,
+                            "x": 1197,
+                            "y": 1455.797326162254
+                        },
+                        {
+                            "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1302.797326162254
+                        },
+                        {
+                            "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1149.797326162254
+                        },
+                        {
+                            "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1000
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideDataTypes": true,
+                    "hideRelationshipName": true
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

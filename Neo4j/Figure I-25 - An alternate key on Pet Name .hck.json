@@ -1,0 +1,198 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": true,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "705a4340-18d6-4bda-bcc6-f669c6ba22be",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "alternateKey": true,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": true,
+                    "GUID": "50364502-7fb4-46ca-992c-ef2f0d5eeb6a",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Age",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar",
+                    "length": 10,
+                    "subtype": "string",
+                    "alternateKey": false,
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "4c021629-8b7b-41b0-9a33-f017746f308b",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1af545e6-f9e9-4ea9-8558-0963f59ea071"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "memory_optimized": false,
+            "collectionUsers": [],
+            "temporal": false,
+            "ledger": false,
+            "append_only": false,
+            "GUID": "54d43e7f-d160-4a86-828d-20b285822eae",
+            "uniqueKey": [
+                {
+                    "GUID": "29c5b3a3-9921-4219-a4ee-087b90ccc710",
+                    "compositeUniqueKey": [
+                        {
+                            "keyId": "50364502-7fb4-46ca-992c-ef2f0d5eeb6a",
+                            "type": "ascending"
+                        }
+                    ],
+                    "alternateKey": true
+                }
+            ]
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "54d43e7f-d160-4a86-828d-20b285822eae": "Pet",
+        "705a4340-18d6-4bda-bcc6-f669c6ba22be": "Pet Number",
+        "50364502-7fb4-46ca-992c-ef2f0d5eeb6a": "Pet Name",
+        "4c021629-8b7b-41b0-9a33-f017746f308b": "Pet Age"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "d9591da6-5970-48c7-989f-f821ada7bcef"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "d4909e61-7943-4147-914e-33791dc0b5fd"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "15c563f0-0d7c-401c-9d58-9866e7d25433"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "2019",
+    "dbVendor": "MSSQLServer",
+    "appTarget": "MSSQLServer",
+    "creationTS": "2023-05-06T15:48:07.822Z",
+    "GUID": "1134d908-9115-4760-a6d4-f051899ac403",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-06T15:50:26.389Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "SQLServer",
+        "pluginVersion": "0.1.57",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "54d43e7f-d160-4a86-828d-20b285822eae",
+                        "x": 1189,
+                        "y": 1147,
+                        "width": 207,
+                        "height": 87,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideDataTypes": true,
+                    "hideForeignMaster": true
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
