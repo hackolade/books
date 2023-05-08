@@ -305,9 +305,9 @@
     "dbVendor": "Neo4j",
     "appTarget": "NEO4J",
     "creationTS": "2023-04-27T14:16:08.618Z",
-    "GUID": "7cea1540-fb6e-436d-a71f-0fd94bee41e4",
+    "GUID": "f7445bd3-65d0-4129-b1dd-5411fed9f358",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T17:43:37.019Z",
+    "lastModifTS": "2023-05-08T20:50:41.064Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -325,60 +325,60 @@
                 "erd": [
                     {
                         "GUID": "f597e8c4-fb77-4022-b498-1c5c5a6926ee",
-                        "x": 1449,
-                        "y": 1184,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1250,
+                        "y": 1250,
+                        "width": 198,
+                        "height": 101,
                         "color": {
                             "hex": "#2196F3"
                         }
                     },
                     {
                         "GUID": "46b363a2-78a6-4f3b-9fed-adc25690235d",
-                        "x": 60,
-                        "y": 60,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1300,
+                        "y": 1150,
+                        "width": 229,
+                        "height": 45,
                         "color": {
                             "hex": "#333333"
                         }
                     },
                     {
                         "GUID": "579d7551-9c5a-49ff-979a-77cbb395fd52",
-                        "x": 1509,
-                        "y": 1209,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1529,
+                        "y": 1250,
+                        "width": 198,
+                        "height": 101,
                         "color": {
                             "hex": "#2196F3"
                         }
                     },
                     {
                         "GUID": "48a38872-471d-484f-b892-ad356765a589",
-                        "x": 120,
-                        "y": 120,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1050,
+                        "y": 1100,
+                        "width": 172,
+                        "height": 45,
                         "color": {
                             "hex": "#333333"
                         }
                     },
                     {
                         "GUID": "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca",
-                        "x": 1023,
-                        "y": 1347,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1250,
+                        "y": 1401,
+                        "width": 178,
+                        "height": 47,
                         "color": {
                             "hex": "#2196F3"
                         }
                     },
                     {
                         "GUID": "568340a6-8229-48c2-9615-1435c18e14a7",
-                        "x": 1356,
-                        "y": 1315.5,
-                        "width": 240,
-                        "height": 100,
+                        "x": 1400,
+                        "y": 1050,
+                        "width": 229,
+                        "height": 30,
                         "color": {
                             "hex": "#333333"
                         }
@@ -397,9 +397,7 @@
                     "childField": [],
                     "parentField": []
                 },
-                "selectedCollections": [
-                    "f597e8c4-fb77-4022-b498-1c5c5a6926ee"
-                ],
+                "selectedCollections": [],
                 "displayColorPicker": false,
                 "graphView": {
                     "erd": [
@@ -413,13 +411,13 @@
                             "GUID": "579d7551-9c5a-49ff-979a-77cbb395fd52",
                             "size": 100,
                             "x": 1652.160556463116,
-                            "y": 1339
+                            "y": 1341
                         },
                         {
                             "GUID": "d8ce1faa-2cb1-4fe8-a5e8-59cd05cdc1ca",
                             "size": 100,
-                            "x": 1006,
-                            "y": 1344
+                            "x": 1047,
+                            "y": 1341
                         }
                     ],
                     "buckets": [],

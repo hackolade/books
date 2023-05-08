@@ -1,0 +1,280 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Customer",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "5364fcdf-b16d-4e95-b4f4-3580ec1aaad2"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "c60add4c-5553-4574-8789-e6ea76a81890",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Account",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "31f47912-986e-4a6c-b7ac-43760c39f835"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "95407fae-978d-4053-a9cb-465eb3edf8c4",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Account Balance",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "059ab096-c1e5-4e16-8155-9a516e465687"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "d565012b-2ad4-44b4-8576-393ca3e7a261",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Own",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1..n",
+            "childField": [],
+            "childCardinality": "0..n",
+            "GUID": "d49064e5-58ec-48f4-b9c8-72b7e917a54a",
+            "level": "field",
+            "lineSize": 2,
+            "parentCollection": "c60add4c-5553-4574-8789-e6ea76a81890",
+            "childCollection": "95407fae-978d-4053-a9cb-465eb3edf8c4",
+            "hackoladeStyles": {
+                "GUID": "ac6cae9f-c7ae-4e95-9dfb-82a1e44bdde6",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1124,
+                        "y": 1087.2926008968607
+                    },
+                    {
+                        "x": 1124,
+                        "y": 1060.1463004484303
+                    },
+                    {
+                        "x": 1061.5,
+                        "y": 1060.1463004484303
+                    },
+                    {
+                        "x": 1061.5,
+                        "y": 1033
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
+            "name": "Contain",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "0..n",
+            "GUID": "b1bfa8e0-186b-4866-a9eb-dddc7ca01bba",
+            "level": "field",
+            "lineSize": 2,
+            "parentCollection": "95407fae-978d-4053-a9cb-465eb3edf8c4",
+            "childCollection": "d565012b-2ad4-44b4-8576-393ca3e7a261",
+            "hackoladeStyles": {
+                "GUID": "871c37c2-f048-4da6-852f-18d9d9c2f763",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1117.5,
+                        "y": 1205.682735426009
+                    },
+                    {
+                        "x": 1117.5,
+                        "y": 1162.9876681614348
+                    },
+                    {
+                        "x": 1058,
+                        "y": 1162.9876681614348
+                    },
+                    {
+                        "x": 1058,
+                        "y": 1120.2926008968607
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "c60add4c-5553-4574-8789-e6ea76a81890": "Customer",
+        "95407fae-978d-4053-a9cb-465eb3edf8c4": "Account",
+        "d565012b-2ad4-44b4-8576-393ca3e7a261": "Account Balance",
+        "d49064e5-58ec-48f4-b9c8-72b7e917a54a": "Own",
+        "b1bfa8e0-186b-4866-a9eb-dddc7ca01bba": "Contain"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "f94ffc9d-d76d-4352-ba37-9cda1ea7a874"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "4c229711-958b-4649-901d-a7e6e5a52b78"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "27ee62da-2e33-4007-a7cf-ab20f00d9582"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-02-25T10:44:55.855Z",
+    "GUID": "a06088b0-b541-4d85-a2c4-bc1cc102ee58",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-08T16:11:10.543Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "c60add4c-5553-4574-8789-e6ea76a81890",
+                        "x": 1000,
+                        "y": 1000,
+                        "width": 177,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "95407fae-978d-4053-a9cb-465eb3edf8c4",
+                        "x": 1005,
+                        "y": 1087.2926008968607,
+                        "width": 168,
+                        "height": 33,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "d565012b-2ad4-44b4-8576-393ca3e7a261",
+                        "x": 978,
+                        "y": 1205.682735426009,
+                        "width": 221,
+                        "height": 30,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "c60add4c-5553-4574-8789-e6ea76a81890",
+                            "size": 120,
+                            "x": 1943.9757108822555,
+                            "y": 1735.6490217071414
+                        },
+                        {
+                            "GUID": "95407fae-978d-4053-a9cb-465eb3edf8c4",
+                            "size": 120,
+                            "x": 2180.187854440834,
+                            "y": 1832.6216747473675
+                        },
+                        {
+                            "GUID": "d565012b-2ad4-44b4-8576-393ca3e7a261",
+                            "size": 120,
+                            "x": 1932.401439252669,
+                            "y": 1915.7714785017852
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

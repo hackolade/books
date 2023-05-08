@@ -134,7 +134,36 @@
             "level": "entity",
             "GUID": "7f8cda92-970d-47b0-81e9-37736a50d02c",
             "lineSize": 2,
-            "properties": []
+            "properties": [
+                {
+                    "name": "Vaccination Date",
+                    "type": "multiple",
+                    "properties": [],
+                    "multipleTypes": [
+                        {
+                            "type": "string",
+                            "GUID": "4984b5b3-c20c-4c11-99d8-ad884c1e2b1f",
+                            "error": {}
+                        },
+                        {
+                            "exclusiveMinimum": false,
+                            "exclusiveMaximum": false,
+                            "childType": "number",
+                            "type": "numeric",
+                            "GUID": "4560922f-a5e3-47b9-a047-6b42773e041c"
+                        }
+                    ],
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "GUID": "cb5e93c0-4931-4511-87a9-124ea348de10",
+                    "hackoladeMeta": {},
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "unique": false,
+                    "compositeNodeKey": false
+                }
+            ]
         }
     ],
     "users": [],
@@ -148,7 +177,8 @@
         "7f8cda92-970d-47b0-81e9-37736a50d02c": ":GIVEN_TO",
         "91107f13-cfdf-4008-b612-0b199433c229": "Vaccination Code",
         "cada8148-8942-4240-8223-4be8acfe69e1": "Vaccination Name",
-        "91ea81fe-274a-4df5-a136-ae4db337840f": "Gender"
+        "91ea81fe-274a-4df5-a136-ae4db337840f": "Gender",
+        "cb5e93c0-4931-4511-87a9-124ea348de10": "Vaccination Date"
     },
     "definitions": {
         "type": "definitions",
@@ -178,7 +208,7 @@
             "modelName": false
         }
     },
-    "lastModifTS": "2023-05-08T17:31:44.211Z",
+    "lastModifTS": "2023-05-08T21:19:58.287Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -250,8 +280,8 @@
                         {
                             "GUID": "6bc2295f-6e50-4cf2-8349-21ee0b21dab0",
                             "size": 100,
-                            "x": 1543.7495902390804,
-                            "y": 1421.534365552085
+                            "x": 1567.7495902390804,
+                            "y": 1422.534365552085
                         }
                     ],
                     "buckets": [],
