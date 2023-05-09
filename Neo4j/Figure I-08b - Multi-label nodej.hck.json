@@ -109,13 +109,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "4.3",
+    "dbVersion": "5.x",
     "dbVendor": "Neo4j",
     "appTarget": "NEO4J",
     "creationTS": "2023-05-08T21:56:33.822Z",
     "GUID": "1cf0eacb-db15-428d-a6ba-5682c5c5ad15",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T22:00:09.651Z",
+    "lastModifTS": "2023-05-09T17:07:35.722Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -125,6 +125,11 @@
     },
     "applicationInformation": {
         "version": "6.10.0"
+    },
+    "hackoladeMeta": {
+        "validationErrors": {
+            "dbVersion": false
+        }
     },
     "settings": {
         "centralPane": {

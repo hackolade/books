@@ -1,0 +1,421 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Customer",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "883cd77a-a584-4590-8f38-bf869689e285"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "75a180c2-2950-426a-a261-dd5fbc55bcf6"
+        },
+        {
+            "collectionName": "Review",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "77c4ca09-4504-4106-ab58-eef0c4dcbf06"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "6b736e9b-d5a9-44ff-b645-b362c6e07a8d"
+        },
+        {
+            "collectionName": "Product",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "07b0b1c1-7e20-4fd6-a4fd-459de4617163"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "7338d0ef-c831-4510-aa5f-c283359be815"
+        },
+        {
+            "collectionName": "Store",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "707f3ba0-c02f-41ad-b1dc-a9325316f869"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "4ad17ca4-28bd-44f1-8568-ed128d723aed"
+        },
+        {
+            "collectionName": "Location",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "44db455e-735b-4f86-8517-31afd89dac03"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "27dbb3f1-2799-492a-b280-b9a36ca5e679"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "SIMILAR_TO",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+            "childCollection": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+            "level": "entity",
+            "GUID": "f7532db6-367b-4d7f-941f-6f929490010c",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "LEFT_REVIEW",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+            "childCollection": "6b736e9b-d5a9-44ff-b645-b362c6e07a8d",
+            "level": "entity",
+            "GUID": "f2337b4a-22a2-4b7a-8657-cc21f9d55bfd",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "PURCHASED",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+            "childCollection": "7338d0ef-c831-4510-aa5f-c283359be815",
+            "level": "entity",
+            "GUID": "7b8d142d-4cbb-40d3-85b4-ae1316d3306f",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "HAS_REVIEW",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "7338d0ef-c831-4510-aa5f-c283359be815",
+            "childCollection": "6b736e9b-d5a9-44ff-b645-b362c6e07a8d",
+            "level": "entity",
+            "GUID": "86e37d1d-4c52-4aaf-b464-22b555885cc8",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "IN_STOCK",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "7338d0ef-c831-4510-aa5f-c283359be815",
+            "childCollection": "4ad17ca4-28bd-44f1-8568-ed128d723aed",
+            "level": "entity",
+            "GUID": "9a6712d9-3f42-4522-8554-790326e7c15e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "4ad17ca4-28bd-44f1-8568-ed128d723aed",
+            "childCollection": "27dbb3f1-2799-492a-b280-b9a36ca5e679",
+            "level": "entity",
+            "GUID": "9088a7b0-3843-498b-8887-3f0c0ab5cf11",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "75a180c2-2950-426a-a261-dd5fbc55bcf6": "Customer",
+        "6b736e9b-d5a9-44ff-b645-b362c6e07a8d": "Review",
+        "f7532db6-367b-4d7f-941f-6f929490010c": "SIMILAR_TO",
+        "f2337b4a-22a2-4b7a-8657-cc21f9d55bfd": "LEFT_REVIEW",
+        "7338d0ef-c831-4510-aa5f-c283359be815": "Product",
+        "7b8d142d-4cbb-40d3-85b4-ae1316d3306f": "PURCHASED",
+        "86e37d1d-4c52-4aaf-b464-22b555885cc8": "HAS_REVIEW",
+        "4ad17ca4-28bd-44f1-8568-ed128d723aed": "Store",
+        "9a6712d9-3f42-4522-8554-790326e7c15e": "IN_STOCK",
+        "27dbb3f1-2799-492a-b280-b9a36ca5e679": "Location",
+        "9088a7b0-3843-498b-8887-3f0c0ab5cf11": ""
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "2be77abe-cb9b-4ad5-942a-b0ceb1d2eb45"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "967b555e-5efc-4cd9-88a7-18efd5cbd90c"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "147047e6-cb64-49bd-a2a4-f8497f1f9347"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-09T13:36:41.448Z",
+    "GUID": "bbb741f5-3ff5-4a6a-bc7e-4573706db92e",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-09T17:05:45.384Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {
+        "validationErrors": {
+            "dbVersion": false
+        }
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "6b736e9b-d5a9-44ff-b645-b362c6e07a8d",
+                        "x": 1130,
+                        "y": 1130,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "f7532db6-367b-4d7f-941f-6f929490010c",
+                        "x": 1210,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "868956d5-7c52-4083-a30c-89ec1c3c2284",
+                        "x": 947.5736275206759,
+                        "y": 1314.7883824450523,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "f2337b4a-22a2-4b7a-8657-cc21f9d55bfd",
+                        "x": 1230,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7338d0ef-c831-4510-aa5f-c283359be815",
+                        "x": 816.4000244140625,
+                        "y": 1130,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "7b8d142d-4cbb-40d3-85b4-ae1316d3306f",
+                        "x": 1073.2000122070312,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "86e37d1d-4c52-4aaf-b464-22b555885cc8",
+                        "x": 1093.2000122070312,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "4ad17ca4-28bd-44f1-8568-ed128d723aed",
+                        "x": 816.4000244140625,
+                        "y": 1130,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "9a6712d9-3f42-4522-8554-790326e7c15e",
+                        "x": 936.4000244140625,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "27dbb3f1-2799-492a-b280-b9a36ca5e679",
+                        "x": 816.4000244140625,
+                        "y": 1130,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "9088a7b0-3843-498b-8887-3f0c0ab5cf11",
+                        "x": 956.4000244140625,
+                        "y": 1200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+                            "size": 100,
+                            "x": 823.0628986818906,
+                            "y": 1409
+                        },
+                        {
+                            "GUID": "6b736e9b-d5a9-44ff-b645-b362c6e07a8d",
+                            "size": 100,
+                            "x": 1037,
+                            "y": 1196.039301490916
+                        },
+                        {
+                            "GUID": "868956d5-7c52-4083-a30c-89ec1c3c2284",
+                            "size": 100,
+                            "originId": "75a180c2-2950-426a-a261-dd5fbc55bcf6",
+                            "relationshipId": "f7532db6-367b-4d7f-941f-6f929490010c",
+                            "x": 826.7771150989014,
+                            "y": 1190.1524882184485
+                        },
+                        {
+                            "GUID": "7338d0ef-c831-4510-aa5f-c283359be815",
+                            "size": 100,
+                            "x": 1037,
+                            "y": 1409
+                        },
+                        {
+                            "GUID": "4ad17ca4-28bd-44f1-8568-ed128d723aed",
+                            "size": 100,
+                            "x": 1229.4000244140625,
+                            "y": 1409
+                        },
+                        {
+                            "GUID": "27dbb3f1-2799-492a-b280-b9a36ca5e679",
+                            "size": 100,
+                            "x": 1414.4000244140625,
+                            "y": 1409
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

@@ -1,0 +1,410 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Customer",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "36f5e1d0-22e5-4b30-b934-a03fe1f2c872"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "bdcee70c-027e-4a74-ab8c-983d3645029e"
+        },
+        {
+            "collectionName": "Identifier",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "6630ba14-efdb-4960-ae72-b008eb34e0d3"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "b7344752-8e46-4e77-bac1-ccb660fb5c66"
+        },
+        {
+            "collectionName": "Account",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c1324d6e-437c-4e08-8e8a-c0a6c066e34b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "15c86d3e-8760-468e-b9a7-6f904f8b2bf1"
+        },
+        {
+            "collectionName": "Email",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ee860cae-ab38-47c7-845f-e316b87f330f"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "8e302adc-c42d-4cd5-9479-c53923edd5e4"
+        },
+        {
+            "collectionName": "Phone",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "0eef9fb2-6104-4239-9cb3-22d7a9548443"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "a1210b3c-5318-4348-b4da-443ce619cecf"
+        },
+        {
+            "collectionName": "Address",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "0e47161a-93d0-44e0-94b3-0677531bb06d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "89f15e84-ab14-4691-826b-0fe89fab4799"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Customer to Identifier",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+            "childCollection": "b7344752-8e46-4e77-bac1-ccb660fb5c66",
+            "level": "entity",
+            "GUID": "faf59747-67f5-4f2f-ace0-107548c9f208",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Customer to Email",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+            "childCollection": "8e302adc-c42d-4cd5-9479-c53923edd5e4",
+            "level": "entity",
+            "GUID": "1d88aa8f-5f39-4e4a-935c-1c0774064e45",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Customer to Phone",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+            "childCollection": "a1210b3c-5318-4348-b4da-443ce619cecf",
+            "level": "entity",
+            "GUID": "67d1ea48-993b-43fc-a50a-435cd798ca0a",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Customer to Account",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+            "childCollection": "15c86d3e-8760-468e-b9a7-6f904f8b2bf1",
+            "level": "entity",
+            "GUID": "441cba33-8fec-44a9-9167-00cf9892076b",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Customer to Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+            "childCollection": "89f15e84-ab14-4691-826b-0fe89fab4799",
+            "level": "entity",
+            "GUID": "b7d8f317-8a08-45a2-9335-8c33d9ef520a",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "bdcee70c-027e-4a74-ab8c-983d3645029e": "Customer",
+        "b7344752-8e46-4e77-bac1-ccb660fb5c66": "Identifier",
+        "15c86d3e-8760-468e-b9a7-6f904f8b2bf1": "Account",
+        "8e302adc-c42d-4cd5-9479-c53923edd5e4": "Email",
+        "a1210b3c-5318-4348-b4da-443ce619cecf": "Phone",
+        "89f15e84-ab14-4691-826b-0fe89fab4799": "Address",
+        "faf59747-67f5-4f2f-ace0-107548c9f208": "Customer to Identifier",
+        "1d88aa8f-5f39-4e4a-935c-1c0774064e45": "Customer to Email",
+        "67d1ea48-993b-43fc-a50a-435cd798ca0a": "Customer to Phone",
+        "441cba33-8fec-44a9-9167-00cf9892076b": "Customer to Account",
+        "b7d8f317-8a08-45a2-9335-8c33d9ef520a": "Customer to Address"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "236e704f-c04d-4e45-8c6b-d291d1557c44"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "711e5edc-a7c8-4fc5-8344-fd3096bfb41f"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b2069741-fdd9-4f2f-80a9-5beea05816f9"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-09T13:25:21.236Z",
+    "GUID": "49ebee83-1041-4fef-8935-1ea872545681",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-09T17:05:35.237Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "hackoladeMeta": {
+        "validationErrors": {
+            "dbVersion": false
+        }
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "b7344752-8e46-4e77-bac1-ccb660fb5c66",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "15c86d3e-8760-468e-b9a7-6f904f8b2bf1",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "8e302adc-c42d-4cd5-9479-c53923edd5e4",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "a1210b3c-5318-4348-b4da-443ce619cecf",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "89f15e84-ab14-4691-826b-0fe89fab4799",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "faf59747-67f5-4f2f-ace0-107548c9f208",
+                        "x": 1210,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "1d88aa8f-5f39-4e4a-935c-1c0774064e45",
+                        "x": 1230,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "67d1ea48-993b-43fc-a50a-435cd798ca0a",
+                        "x": 1250,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "441cba33-8fec-44a9-9167-00cf9892076b",
+                        "x": 1270,
+                        "y": 1200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b7d8f317-8a08-45a2-9335-8c33d9ef520a",
+                        "x": 1290,
+                        "y": 1220,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "bdcee70c-027e-4a74-ab8c-983d3645029e",
+                            "size": 100,
+                            "x": 1388,
+                            "y": 1363
+                        },
+                        {
+                            "GUID": "b7344752-8e46-4e77-bac1-ccb660fb5c66",
+                            "size": 100,
+                            "x": 1267,
+                            "y": 1279
+                        },
+                        {
+                            "GUID": "15c86d3e-8760-468e-b9a7-6f904f8b2bf1",
+                            "size": 100,
+                            "x": 1267,
+                            "y": 1463
+                        },
+                        {
+                            "GUID": "8e302adc-c42d-4cd5-9479-c53923edd5e4",
+                            "size": 100,
+                            "x": 1388,
+                            "y": 1213
+                        },
+                        {
+                            "GUID": "a1210b3c-5318-4348-b4da-443ce619cecf",
+                            "size": 100,
+                            "x": 1522,
+                            "y": 1279
+                        },
+                        {
+                            "GUID": "89f15e84-ab14-4691-826b-0fe89fab4799",
+                            "size": 100,
+                            "x": 1522,
+                            "y": 1452
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 165
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideRelationshipName": true,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

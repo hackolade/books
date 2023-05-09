@@ -1,96 +1,99 @@
 {
-    "modelName": "Breed To Dog",
+    "modelName": "New model",
     "collections": [
         {
-            "collectionName": "Breed",
+            "collectionName": "Application",
             "type": "object",
             "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "98bd6e15-9df9-4bb5-aeb0-c49c40a89555"
+                "GUID": "06c43b51-5ed7-4397-934f-7d592bc73e08"
             },
             "isActivated": true,
             "additionalProperties": false,
             "collectionUsers": [],
-            "GUID": "22a364d5-f62d-4ff7-8f3b-fb59f979cb24",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "GUID": "15dfde1b-dba6-42eb-b9db-a0105a417182"
         },
         {
-            "collectionName": "Dog",
+            "collectionName": "Attribute",
             "type": "object",
             "properties": [],
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "576e2dc6-ddb6-49cd-bdfc-4a77786636d6"
+                "GUID": "bc6fcce1-dd5d-4f71-b01a-8fec1f994010"
             },
             "isActivated": true,
             "additionalProperties": false,
             "collectionUsers": [],
-            "GUID": "c7f780ed-305d-4285-8bc7-5bfd79602256",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
+            "GUID": "9a596687-f1bd-46da-b1dc-7cbf6b533923"
         }
     ],
     "buckets": [],
     "views": [],
     "relationships": [
         {
-            "name": "Characterize",
+            "name": "FEEDS",
             "relationshipType": "",
             "parentField": [],
             "parentCardinality": "1",
             "childField": [],
             "childCardinality": "1",
-            "parentCollection": "22a364d5-f62d-4ff7-8f3b-fb59f979cb24",
-            "childCollection": "c7f780ed-305d-4285-8bc7-5bfd79602256",
+            "parentCollection": "15dfde1b-dba6-42eb-b9db-a0105a417182",
+            "childCollection": "15dfde1b-dba6-42eb-b9db-a0105a417182",
             "level": "entity",
-            "GUID": "7ffd1473-5a1b-468d-9c7a-479b749e696e",
+            "GUID": "5b70187f-7a3c-43bc-a646-f281aa0e891f",
             "lineSize": 2,
-            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "9a596687-f1bd-46da-b1dc-7cbf6b533923",
+            "childCollection": "15dfde1b-dba6-42eb-b9db-a0105a417182",
+            "level": "entity",
+            "GUID": "50d31b48-176d-4e6f-8792-fd20c5c3fb81",
+            "lineSize": 2,
             "properties": []
         }
     ],
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "22a364d5-f62d-4ff7-8f3b-fb59f979cb24": "Breed",
-        "c7f780ed-305d-4285-8bc7-5bfd79602256": "Dog",
-        "7ffd1473-5a1b-468d-9c7a-479b749e696e": "Characterize"
+        "15dfde1b-dba6-42eb-b9db-a0105a417182": "Application",
+        "5b70187f-7a3c-43bc-a646-f281aa0e891f": "FEEDS",
+        "9a596687-f1bd-46da-b1dc-7cbf6b533923": "Attribute",
+        "50d31b48-176d-4e6f-8792-fd20c5c3fb81": ""
     },
     "definitions": {
         "type": "definitions",
         "properties": [],
-        "GUID": "06254c80-fa20-4ebf-ae2d-a595e4b80be2"
+        "GUID": "f78c8dd7-44ea-4218-9a4a-28efe1757610"
     },
     "polyglotDefinitions": {
         "type": "polyglotDefinitions",
         "properties": [],
-        "GUID": "45103362-f95a-4f1a-a6a4-5592d46ed361"
+        "GUID": "c442dae0-2675-4195-b97d-e7613ea1d659"
     },
     "externalDefinitions": {
         "type": "externalDefinitions",
         "properties": [],
-        "GUID": "3b9e0830-e809-404c-98b5-c52223550eb1"
+        "GUID": "21334dfd-5165-4de4-8cea-84c5bb3a25ac"
     },
     "sources": [],
     "decorativeSymbols": [],
     "dbVersion": "5.x",
     "dbVendor": "Neo4j",
     "appTarget": "NEO4J",
-    "creationTS": "2023-01-12T18:34:16.627Z",
-    "GUID": "9e9137fc-4de1-4e6f-9795-d98a3a84d69b",
+    "creationTS": "2023-05-09T15:51:13.968Z",
+    "GUID": "3f296b82-f57f-49dc-a8f5-859578e69cc4",
     "isLineageEnabled": false,
-    "hackoladeMeta": {
-        "validationErrors": {
-            "dbVersion": false
-        }
-    },
-    "lastModifTS": "2023-05-09T17:07:53.261Z",
+    "lastModifTS": "2023-05-09T16:40:48.966Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -106,29 +109,49 @@
             "dbLevel": {
                 "erd": [
                     {
-                        "GUID": "22a364d5-f62d-4ff7-8f3b-fb59f979cb24",
-                        "x": 1263,
-                        "y": 1129,
+                        "GUID": "15dfde1b-dba6-42eb-b9db-a0105a417182",
+                        "x": 1090,
+                        "y": 1090,
                         "width": 240,
                         "height": 100,
                         "color": {
-                            "hex": "#2196F3"
+                            "hex": "#2196f3"
                         }
                     },
                     {
-                        "GUID": "c7f780ed-305d-4285-8bc7-5bfd79602256",
-                        "x": 1350,
-                        "y": 1139,
+                        "GUID": "5b70187f-7a3c-43bc-a646-f281aa0e891f",
+                        "x": 1210,
+                        "y": 1140,
                         "width": 240,
                         "height": 100,
                         "color": {
-                            "hex": "#2196F3"
+                            "hex": "#333333"
                         }
                     },
                     {
-                        "GUID": "7ffd1473-5a1b-468d-9c7a-479b749e696e",
-                        "x": 1000,
-                        "y": 1000,
+                        "GUID": "3a4a235d-2e60-4607-b7e6-a920bc2e9318",
+                        "x": 1118,
+                        "y": 1227,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "9a596687-f1bd-46da-b1dc-7cbf6b533923",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "50d31b48-176d-4e6f-8792-fd20c5c3fb81",
+                        "x": 1230,
+                        "y": 1160,
                         "width": 240,
                         "height": 100,
                         "color": {
@@ -154,16 +177,24 @@
                 "graphView": {
                     "erd": [
                         {
-                            "GUID": "22a364d5-f62d-4ff7-8f3b-fb59f979cb24",
+                            "GUID": "15dfde1b-dba6-42eb-b9db-a0105a417182",
                             "size": 100,
-                            "x": 1028,
-                            "y": 1002
+                            "x": 1308,
+                            "y": 1241
                         },
                         {
-                            "GUID": "c7f780ed-305d-4285-8bc7-5bfd79602256",
+                            "GUID": "3a4a235d-2e60-4607-b7e6-a920bc2e9318",
                             "size": 100,
-                            "x": 1299.5900811530948,
-                            "y": 1000
+                            "originId": "15dfde1b-dba6-42eb-b9db-a0105a417182",
+                            "relationshipId": "5b70187f-7a3c-43bc-a646-f281aa0e891f",
+                            "x": 1521.2314948162223,
+                            "y": 1241.557832811438
+                        },
+                        {
+                            "GUID": "9a596687-f1bd-46da-b1dc-7cbf6b533923",
+                            "size": 100,
+                            "x": 1127,
+                            "y": 1241
                         }
                     ],
                     "buckets": [],

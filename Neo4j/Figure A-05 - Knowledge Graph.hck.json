@@ -1,0 +1,704 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Geo_Address",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "7f9ef1ee-fa1b-49c6-bb6a-0736976c4a9a"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "bb5893d8-be91-40ac-9459-0348aeb16550"
+        },
+        {
+            "collectionName": "County",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c7070171-2f7c-4f29-9154-8ba0cf9815f9"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "f6421780-eb43-4f28-8feb-d784ae1735bd"
+        },
+        {
+            "collectionName": "State",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c228d74b-94f3-47cc-b813-1f85ba644750"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "8afc256a-8610-4615-b960-bf90208bb715"
+        },
+        {
+            "collectionName": "City",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "89bf04b2-bfbb-4530-aee4-7a4812f11f95"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "4fbb71fb-c995-45fc-9375-5d3f2496906a"
+        },
+        {
+            "collectionName": "Borough",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "abe4e396-9436-4456-a95a-5b1b74614a79"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "5ecdf52b-3020-4e93-abe9-2193edc9616e"
+        },
+        {
+            "collectionName": "Neighborhood",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "6dee5ae6-0da9-4bf8-b2f0-a935c2db2ec8"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "11f06798-ab29-4946-aee7-882b850d78ac"
+        },
+        {
+            "collectionName": "Building",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4f398be2-2d55-4714-84bf-754d6b21cc68"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "e8de26a4-52f5-4d10-ab18-1599a129228b"
+        },
+        {
+            "collectionName": "Road",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "46a809c7-81ff-4583-bd34-aa6d93068544"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "362eb842-081f-4519-b1e9-de9b1d7920a8"
+        },
+        {
+            "collectionName": "Point_of_Interest",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "eb1ec277-c651-4840-889a-40049d489bc7"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "8ef81128-5a87-4a8f-a4e3-95d8afdfa485"
+        },
+        {
+            "collectionName": "TaxiZone",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "215c2064-5484-40f7-9a7d-9677b52783cc"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "6083e4bd-5d37-4a8d-ad57-d6aba6ad8ef7"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "State to County",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "8afc256a-8610-4615-b960-bf90208bb715",
+            "childCollection": "f6421780-eb43-4f28-8feb-d784ae1735bd",
+            "level": "entity",
+            "GUID": "57fae9a2-483d-41f0-8e4d-37a1cbd21c2f",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "County to City",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "f6421780-eb43-4f28-8feb-d784ae1735bd",
+            "childCollection": "4fbb71fb-c995-45fc-9375-5d3f2496906a",
+            "level": "entity",
+            "GUID": "56b47b8f-3d42-42ab-b7f7-d40fdbc37a7a",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "City to Borough",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "4fbb71fb-c995-45fc-9375-5d3f2496906a",
+            "childCollection": "5ecdf52b-3020-4e93-abe9-2193edc9616e",
+            "level": "entity",
+            "GUID": "d927a4ae-880a-482c-b50d-fb5730fa8f36",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Borough to Neighborhood",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "5ecdf52b-3020-4e93-abe9-2193edc9616e",
+            "childCollection": "11f06798-ab29-4946-aee7-882b850d78ac",
+            "level": "entity",
+            "GUID": "be1160c2-8a7a-487e-80f4-a1d269a5fcb2",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "County to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "f6421780-eb43-4f28-8feb-d784ae1735bd",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "580e7ed6-7662-403d-8163-371b9e34f345",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "City to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "4fbb71fb-c995-45fc-9375-5d3f2496906a",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "f294c85b-b144-4c09-ae87-875e75740397",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Borough to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "5ecdf52b-3020-4e93-abe9-2193edc9616e",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "29886935-0527-49c8-b405-cc1ea167e847",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Neighborhood to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "11f06798-ab29-4946-aee7-882b850d78ac",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "f357d032-340f-4023-af25-89a2b3c642e7",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Building to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "e8de26a4-52f5-4d10-ab18-1599a129228b",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "11b4ec57-92c6-4eed-af58-f53e220fedc1",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Road to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "362eb842-081f-4519-b1e9-de9b1d7920a8",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "6269bf5e-2b40-40e4-acf7-f5b9702514da",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Point_of_Interest to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "8ef81128-5a87-4a8f-a4e3-95d8afdfa485",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "84ceac0b-7ce9-4cd6-9213-5636806a2228",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "TaxiZone to Geo_Address",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "6083e4bd-5d37-4a8d-ad57-d6aba6ad8ef7",
+            "childCollection": "bb5893d8-be91-40ac-9459-0348aeb16550",
+            "level": "entity",
+            "GUID": "9a74fc69-c01a-473d-92a9-b341db59a589",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "bb5893d8-be91-40ac-9459-0348aeb16550": "Geo_Address",
+        "f6421780-eb43-4f28-8feb-d784ae1735bd": "County",
+        "8afc256a-8610-4615-b960-bf90208bb715": "State",
+        "57fae9a2-483d-41f0-8e4d-37a1cbd21c2f": "State to County",
+        "4fbb71fb-c995-45fc-9375-5d3f2496906a": "City",
+        "5ecdf52b-3020-4e93-abe9-2193edc9616e": "Borough",
+        "11f06798-ab29-4946-aee7-882b850d78ac": "Neighborhood",
+        "56b47b8f-3d42-42ab-b7f7-d40fdbc37a7a": "County to City",
+        "d927a4ae-880a-482c-b50d-fb5730fa8f36": "City to Borough",
+        "be1160c2-8a7a-487e-80f4-a1d269a5fcb2": "Borough to Neighborhood",
+        "580e7ed6-7662-403d-8163-371b9e34f345": "County to Geo_Address",
+        "f294c85b-b144-4c09-ae87-875e75740397": "City to Geo_Address",
+        "29886935-0527-49c8-b405-cc1ea167e847": "Borough to Geo_Address",
+        "f357d032-340f-4023-af25-89a2b3c642e7": "Neighborhood to Geo_Address",
+        "e8de26a4-52f5-4d10-ab18-1599a129228b": "Building",
+        "11b4ec57-92c6-4eed-af58-f53e220fedc1": "Building to Geo_Address",
+        "362eb842-081f-4519-b1e9-de9b1d7920a8": "Road",
+        "6269bf5e-2b40-40e4-acf7-f5b9702514da": "Road to Geo_Address",
+        "8ef81128-5a87-4a8f-a4e3-95d8afdfa485": "Point_of_Interest",
+        "84ceac0b-7ce9-4cd6-9213-5636806a2228": "Point_of_Interest to Geo_Address",
+        "6083e4bd-5d37-4a8d-ad57-d6aba6ad8ef7": "TaxiZone",
+        "9a74fc69-c01a-473d-92a9-b341db59a589": "TaxiZone to Geo_Address"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "6d17857d-dee7-4176-969f-5877ca747754"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "f3b712e7-f2a4-4a63-8a48-2149df80e900"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "8e48567c-61a8-45d2-bedb-9b8302687d26"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-09T13:47:03.580Z",
+    "GUID": "49d9084c-3391-4c7e-ada6-da83742124f1",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-09T13:59:43.858Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "bb5893d8-be91-40ac-9459-0348aeb16550",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "f6421780-eb43-4f28-8feb-d784ae1735bd",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "8afc256a-8610-4615-b960-bf90208bb715",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "57fae9a2-483d-41f0-8e4d-37a1cbd21c2f",
+                        "x": 1210,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "4fbb71fb-c995-45fc-9375-5d3f2496906a",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "5ecdf52b-3020-4e93-abe9-2193edc9616e",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "11f06798-ab29-4946-aee7-882b850d78ac",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "56b47b8f-3d42-42ab-b7f7-d40fdbc37a7a",
+                        "x": 1230,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "d927a4ae-880a-482c-b50d-fb5730fa8f36",
+                        "x": 1250,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "be1160c2-8a7a-487e-80f4-a1d269a5fcb2",
+                        "x": 1270,
+                        "y": 1200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "580e7ed6-7662-403d-8163-371b9e34f345",
+                        "x": 1290,
+                        "y": 1220,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f294c85b-b144-4c09-ae87-875e75740397",
+                        "x": 1310,
+                        "y": 1240,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "29886935-0527-49c8-b405-cc1ea167e847",
+                        "x": 1330,
+                        "y": 1260,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f357d032-340f-4023-af25-89a2b3c642e7",
+                        "x": 1350,
+                        "y": 1280,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "e8de26a4-52f5-4d10-ab18-1599a129228b",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "11b4ec57-92c6-4eed-af58-f53e220fedc1",
+                        "x": 1370,
+                        "y": 1300,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "362eb842-081f-4519-b1e9-de9b1d7920a8",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "6269bf5e-2b40-40e4-acf7-f5b9702514da",
+                        "x": 1390,
+                        "y": 1320,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "8ef81128-5a87-4a8f-a4e3-95d8afdfa485",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "84ceac0b-7ce9-4cd6-9213-5636806a2228",
+                        "x": 1410,
+                        "y": 1340,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "6083e4bd-5d37-4a8d-ad57-d6aba6ad8ef7",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "9a74fc69-c01a-473d-92a9-b341db59a589",
+                        "x": 1430,
+                        "y": 1360,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "bb5893d8-be91-40ac-9459-0348aeb16550",
+                            "size": 100,
+                            "x": 1437,
+                            "y": 1466
+                        },
+                        {
+                            "GUID": "f6421780-eb43-4f28-8feb-d784ae1735bd",
+                            "size": 100,
+                            "x": 1177,
+                            "y": 1312
+                        },
+                        {
+                            "GUID": "8afc256a-8610-4615-b960-bf90208bb715",
+                            "size": 100,
+                            "x": 1176,
+                            "y": 1167.8641357030738
+                        },
+                        {
+                            "GUID": "4fbb71fb-c995-45fc-9375-5d3f2496906a",
+                            "size": 100,
+                            "x": 1355,
+                            "y": 1312
+                        },
+                        {
+                            "GUID": "5ecdf52b-3020-4e93-abe9-2193edc9616e",
+                            "size": 100,
+                            "x": 1537,
+                            "y": 1311
+                        },
+                        {
+                            "GUID": "11f06798-ab29-4946-aee7-882b850d78ac",
+                            "size": 100,
+                            "x": 1705,
+                            "y": 1310
+                        },
+                        {
+                            "GUID": "e8de26a4-52f5-4d10-ab18-1599a129228b",
+                            "size": 100,
+                            "x": 1620,
+                            "y": 1466
+                        },
+                        {
+                            "GUID": "362eb842-081f-4519-b1e9-de9b1d7920a8",
+                            "size": 100,
+                            "x": 1620,
+                            "y": 1596
+                        },
+                        {
+                            "GUID": "8ef81128-5a87-4a8f-a4e3-95d8afdfa485",
+                            "size": 100,
+                            "x": 1437,
+                            "y": 1596
+                        },
+                        {
+                            "GUID": "6083e4bd-5d37-4a8d-ad57-d6aba6ad8ef7",
+                            "size": 100,
+                            "x": 1259,
+                            "y": 1596
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideRelationshipName": true,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

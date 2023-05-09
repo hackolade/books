@@ -1,0 +1,425 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Company",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f9f9bc00-deca-4412-9118-9bb0a5bafe01"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922"
+        },
+        {
+            "collectionName": "Owner",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "54d940b2-f412-46ba-b4fc-6d29c0ee4db4"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "5ab410da-c06a-43bb-a450-2127e493fa32"
+        },
+        {
+            "collectionName": "Location",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ec2a4096-6d1d-45b4-b8f9-41886904bd10"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "4f3bb852-2219-481f-8ff4-b812c06552f3"
+        },
+        {
+            "collectionName": "Transaction",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4d262603-679b-4457-a07f-47f9f317d1b9"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "c18f9de9-05a3-452c-a2ff-267221e15910"
+        },
+        {
+            "collectionName": "Customer",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "1374d33f-fd1e-4d7a-b355-62ccebc9d997"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "c1f4d58d-ec64-497a-9d38-201425e52f34"
+        },
+        {
+            "collectionName": "Creditor",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "35eeae2f-be05-42e0-8baa-19c9b5b88f44"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "bcfb7619-ef54-41be-91af-ab5f10ba4a50"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Company to Transaction",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922",
+            "childCollection": "c18f9de9-05a3-452c-a2ff-267221e15910",
+            "level": "entity",
+            "GUID": "1ce3fd73-f95d-48cb-a761-14d49717cada",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Company to Location",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922",
+            "childCollection": "4f3bb852-2219-481f-8ff4-b812c06552f3",
+            "level": "entity",
+            "GUID": "4e2a4740-0ebd-440b-9e46-9fad5e1f1330",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Company to Owner",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922",
+            "childCollection": "5ab410da-c06a-43bb-a450-2127e493fa32",
+            "level": "entity",
+            "GUID": "0aadca28-9c5e-4245-9370-a2bbc9f8b5db",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Customer to Company",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c1f4d58d-ec64-497a-9d38-201425e52f34",
+            "childCollection": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922",
+            "level": "entity",
+            "GUID": "9472ad50-b525-4ebc-886a-c12519855b6d",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Customer to Creditor",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "c1f4d58d-ec64-497a-9d38-201425e52f34",
+            "childCollection": "bcfb7619-ef54-41be-91af-ab5f10ba4a50",
+            "level": "entity",
+            "GUID": "89afceb3-3e8c-4025-b939-8ca3c6bd1b3d",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "Creditor to Location",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "bcfb7619-ef54-41be-91af-ab5f10ba4a50",
+            "childCollection": "4f3bb852-2219-481f-8ff4-b812c06552f3",
+            "level": "entity",
+            "GUID": "7b1c5e55-b83a-4892-aacd-18559e5b5c22",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "fcd5f2f6-e735-44d5-be5b-7ef054ba2922": "Company",
+        "5ab410da-c06a-43bb-a450-2127e493fa32": "Owner",
+        "4f3bb852-2219-481f-8ff4-b812c06552f3": "Location",
+        "c18f9de9-05a3-452c-a2ff-267221e15910": "Transaction",
+        "1ce3fd73-f95d-48cb-a761-14d49717cada": "Company to Transaction",
+        "4e2a4740-0ebd-440b-9e46-9fad5e1f1330": "Company to Location",
+        "0aadca28-9c5e-4245-9370-a2bbc9f8b5db": "Company to Owner",
+        "c1f4d58d-ec64-497a-9d38-201425e52f34": "Customer",
+        "9472ad50-b525-4ebc-886a-c12519855b6d": "Customer to Company",
+        "bcfb7619-ef54-41be-91af-ab5f10ba4a50": "Creditor",
+        "89afceb3-3e8c-4025-b939-8ca3c6bd1b3d": "Customer to Creditor",
+        "7b1c5e55-b83a-4892-aacd-18559e5b5c22": "Creditor to Location"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "219a0882-7a3d-4922-97fc-b19a4f18883a"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "f4e86640-384c-45d3-9fc9-162402b3dbfe"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "235682ab-8e5b-40d4-8056-c0da2c194dec"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-09T14:02:05.952Z",
+    "GUID": "8034b913-f36d-43ca-ab2a-96d82d8fa5fe",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-09T14:07:09.722Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "5ab410da-c06a-43bb-a450-2127e493fa32",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "4f3bb852-2219-481f-8ff4-b812c06552f3",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "c18f9de9-05a3-452c-a2ff-267221e15910",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "1ce3fd73-f95d-48cb-a761-14d49717cada",
+                        "x": 1210,
+                        "y": 1140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "4e2a4740-0ebd-440b-9e46-9fad5e1f1330",
+                        "x": 1230,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "0aadca28-9c5e-4245-9370-a2bbc9f8b5db",
+                        "x": 1250,
+                        "y": 1180,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "c1f4d58d-ec64-497a-9d38-201425e52f34",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "9472ad50-b525-4ebc-886a-c12519855b6d",
+                        "x": 1270,
+                        "y": 1200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "bcfb7619-ef54-41be-91af-ab5f10ba4a50",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "89afceb3-3e8c-4025-b939-8ca3c6bd1b3d",
+                        "x": 1290,
+                        "y": 1220,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7b1c5e55-b83a-4892-aacd-18559e5b5c22",
+                        "x": 1310,
+                        "y": 1240,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "fcd5f2f6-e735-44d5-be5b-7ef054ba2922",
+                            "size": 100,
+                            "x": 1351,
+                            "y": 1255
+                        },
+                        {
+                            "GUID": "5ab410da-c06a-43bb-a450-2127e493fa32",
+                            "size": 100,
+                            "x": 1178,
+                            "y": 1255
+                        },
+                        {
+                            "GUID": "4f3bb852-2219-481f-8ff4-b812c06552f3",
+                            "size": 100,
+                            "x": 1351,
+                            "y": 1096
+                        },
+                        {
+                            "GUID": "c18f9de9-05a3-452c-a2ff-267221e15910",
+                            "size": 100,
+                            "x": 1351,
+                            "y": 1414
+                        },
+                        {
+                            "GUID": "c1f4d58d-ec64-497a-9d38-201425e52f34",
+                            "size": 100,
+                            "x": 1524,
+                            "y": 1255
+                        },
+                        {
+                            "GUID": "bcfb7619-ef54-41be-91af-ab5f10ba4a50",
+                            "size": 100,
+                            "x": 1524,
+                            "y": 1096
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

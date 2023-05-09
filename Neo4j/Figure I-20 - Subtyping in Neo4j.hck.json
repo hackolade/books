@@ -113,13 +113,13 @@
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "4.3",
+    "dbVersion": "5.x",
     "dbVendor": "Neo4j",
     "appTarget": "NEO4J",
     "creationTS": "2023-01-12T18:37:49.536Z",
     "GUID": "a7c1bda4-d60a-4c9d-a65c-dd358d4f980b",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T16:51:51.908Z",
+    "lastModifTS": "2023-05-09T17:08:04.872Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -130,7 +130,11 @@
     "applicationInformation": {
         "version": "6.10.0"
     },
-    "hackoladeMeta": {},
+    "hackoladeMeta": {
+        "validationErrors": {
+            "dbVersion": false
+        }
+    },
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -199,9 +203,7 @@
                     "childField": [],
                     "parentField": []
                 },
-                "selectedCollections": [
-                    "1347d492-b5b1-4b87-a69b-429389a88f8d"
-                ],
+                "selectedCollections": [],
                 "displayColorPicker": false,
                 "graphView": {
                     "erd": [

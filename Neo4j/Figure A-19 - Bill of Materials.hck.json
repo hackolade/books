@@ -1,0 +1,394 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Product",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "043b70f8-3896-4e13-82ca-390eed722cce"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "59135db8-0c94-493b-a343-f5da233e5cd0"
+        },
+        {
+            "collectionName": "Version",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "337a5df0-a355-4b74-a072-8241c7abceaf"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "16b2ef67-9c40-4cff-b474-a534bcb7ba21"
+        },
+        {
+            "collectionName": "Component",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ee654a07-119c-43b0-bf77-38b5f5311744"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "25e9b23d-5179-43e1-873a-abe006aa1d06"
+        },
+        {
+            "collectionName": "Asssembly",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "5638b5c4-438b-4de3-b7bc-34118ec7c714"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "554919a5-d8de-455c-a352-2dba58fb8ba7"
+        },
+        {
+            "collectionName": "Subassembly",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f1a7b645-065b-463c-9287-4cdb10e5c611"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "GUID": "6a20e71d-c7a3-449c-8cc1-607e0a89d003"
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "59135db8-0c94-493b-a343-f5da233e5cd0",
+            "childCollection": "16b2ef67-9c40-4cff-b474-a534bcb7ba21",
+            "level": "entity",
+            "GUID": "a75eb61c-6113-4f74-878f-f3b557accbc3",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "16b2ef67-9c40-4cff-b474-a534bcb7ba21",
+            "childCollection": "25e9b23d-5179-43e1-873a-abe006aa1d06",
+            "level": "entity",
+            "GUID": "0f8d6f96-90a4-4a28-b2a1-e90a3a7faaa3",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "16b2ef67-9c40-4cff-b474-a534bcb7ba21",
+            "childCollection": "554919a5-d8de-455c-a352-2dba58fb8ba7",
+            "level": "entity",
+            "GUID": "87348dd7-d065-4cb3-b965-4ce7730654b9",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "25e9b23d-5179-43e1-873a-abe006aa1d06",
+            "childCollection": "16b2ef67-9c40-4cff-b474-a534bcb7ba21",
+            "level": "entity",
+            "GUID": "92054537-30ac-4450-94ae-2177bd42da7c",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "554919a5-d8de-455c-a352-2dba58fb8ba7",
+            "childCollection": "6a20e71d-c7a3-449c-8cc1-607e0a89d003",
+            "level": "entity",
+            "GUID": "366ad0b4-7424-4f67-8366-0267652d5148",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "6a20e71d-c7a3-449c-8cc1-607e0a89d003",
+            "childCollection": "25e9b23d-5179-43e1-873a-abe006aa1d06",
+            "level": "entity",
+            "GUID": "b94a3f01-fd68-418a-8f40-9a725681e74c",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "59135db8-0c94-493b-a343-f5da233e5cd0": "Product",
+        "16b2ef67-9c40-4cff-b474-a534bcb7ba21": "Version",
+        "a75eb61c-6113-4f74-878f-f3b557accbc3": "",
+        "25e9b23d-5179-43e1-873a-abe006aa1d06": "Component",
+        "0f8d6f96-90a4-4a28-b2a1-e90a3a7faaa3": "",
+        "554919a5-d8de-455c-a352-2dba58fb8ba7": "Asssembly",
+        "87348dd7-d065-4cb3-b965-4ce7730654b9": "",
+        "92054537-30ac-4450-94ae-2177bd42da7c": "",
+        "6a20e71d-c7a3-449c-8cc1-607e0a89d003": "Subassembly",
+        "366ad0b4-7424-4f67-8366-0267652d5148": "",
+        "b94a3f01-fd68-418a-8f40-9a725681e74c": ""
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "c7592863-4dd9-4586-857e-9123c0e30856"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "6a056e6e-0e38-407f-90d0-bd8a66d9c56e"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "2d6db9e6-4df2-4924-81f8-0b32e158e389"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-05-09T16:50:26.542Z",
+    "GUID": "d5400923-7c91-4c98-adf3-2f9c5832f1d0",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-05-09T17:01:22.040Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.10.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "59135db8-0c94-493b-a343-f5da233e5cd0",
+                        "x": 1090,
+                        "y": 1090,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "16b2ef67-9c40-4cff-b474-a534bcb7ba21",
+                        "x": 1197,
+                        "y": 1348,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "a75eb61c-6113-4f74-878f-f3b557accbc3",
+                        "x": 1263.5,
+                        "y": 1269,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "25e9b23d-5179-43e1-873a-abe006aa1d06",
+                        "x": 1216,
+                        "y": 1414,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "0f8d6f96-90a4-4a28-b2a1-e90a3a7faaa3",
+                        "x": 1326.5,
+                        "y": 1431,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "554919a5-d8de-455c-a352-2dba58fb8ba7",
+                        "x": 1536,
+                        "y": 1456,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "87348dd7-d065-4cb3-b965-4ce7730654b9",
+                        "x": 1486.5,
+                        "y": 1452,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "92054537-30ac-4450-94ae-2177bd42da7c",
+                        "x": 1346.5,
+                        "y": 1451,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "6a20e71d-c7a3-449c-8cc1-607e0a89d003",
+                        "x": 1710,
+                        "y": 1440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "366ad0b4-7424-4f67-8366-0267652d5148",
+                        "x": 1743,
+                        "y": 1498,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "b94a3f01-fd68-418a-8f40-9a725681e74c",
+                        "x": 1583,
+                        "y": 1477,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "59135db8-0c94-493b-a343-f5da233e5cd0",
+                            "size": 100,
+                            "x": 1204.9988977938497,
+                            "y": 1160
+                        },
+                        {
+                            "GUID": "16b2ef67-9c40-4cff-b474-a534bcb7ba21",
+                            "size": 100,
+                            "x": 1370,
+                            "y": 1160
+                        },
+                        {
+                            "GUID": "25e9b23d-5179-43e1-873a-abe006aa1d06",
+                            "size": 100,
+                            "x": 1555,
+                            "y": 1160
+                        },
+                        {
+                            "GUID": "554919a5-d8de-455c-a352-2dba58fb8ba7",
+                            "size": 100,
+                            "x": 1370,
+                            "y": 1347
+                        },
+                        {
+                            "GUID": "6a20e71d-c7a3-449c-8cc1-607e0a89d003",
+                            "size": 100,
+                            "x": 1555,
+                            "y": 1347
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
