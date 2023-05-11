@@ -34,23 +34,6 @@
                     "error": {}
                 },
                 {
-                    "name": "Pet Age",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
-                    "primaryKey": false,
-                    "unique": false,
-                    "childType": "number",
-                    "type": "numeric",
-                    "compositeKey": [
-                        "compositeNodeKey"
-                    ],
-                    "compositeNodeKey": false,
-                    "GUID": "8108e8df-9aa5-439d-8889-8fc64a49e9fe",
-                    "error": {}
-                },
-                {
                     "name": "Gender",
                     "hackoladeMeta": {},
                     "isActivated": true,
@@ -172,7 +155,6 @@
         "efa6c185-c818-479e-a0e2-9dea4777874a": "Pet",
         "5021ffae-86fd-4b3c-93cd-478a225277cc": "Pet Number",
         "05504227-3411-4a41-9144-1517e50d34a1": "Pet Name",
-        "8108e8df-9aa5-439d-8889-8fc64a49e9fe": "Pet Age",
         "6bc2295f-6e50-4cf2-8349-21ee0b21dab0": "Vaccination",
         "7f8cda92-970d-47b0-81e9-37736a50d02c": ":GIVEN_TO",
         "91107f13-cfdf-4008-b612-0b199433c229": "Vaccination Code",
@@ -208,7 +190,7 @@
             "modelName": false
         }
     },
-    "lastModifTS": "2023-05-08T21:19:58.287Z",
+    "lastModifTS": "2023-05-11T19:26:51.669Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -280,8 +262,8 @@
                         {
                             "GUID": "6bc2295f-6e50-4cf2-8349-21ee0b21dab0",
                             "size": 100,
-                            "x": 1567.7495902390804,
-                            "y": 1422.534365552085
+                            "x": 1581.7495902390804,
+                            "y": 1424.534365552085
                         }
                     ],
                     "buckets": [],

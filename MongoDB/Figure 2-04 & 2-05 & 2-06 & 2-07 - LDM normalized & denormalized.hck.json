@@ -565,7 +565,7 @@
             }
         },
         {
-            "collectionName": "Pet denormalized full",
+            "collectionName": "Pet denormalized",
             "type": "object",
             "properties": [
                 {
@@ -1049,7 +1049,7 @@
             }
         },
         {
-            "collectionName": "Pet denormalized full",
+            "collectionName": "Pet denormalized",
             "type": "object",
             "properties": [
                 {
@@ -1960,7 +1960,7 @@
         "31e320f4-edca-42a5-8140-60730286a0f5": "Vaccinations",
         "e94d910e-31ed-4823-8b9b-0e07c3c0a7db": "Vaccination Code",
         "27a3cb81-6b0b-439e-a4b4-0ae23e8e2746": "Vaccination Name",
-        "4ecc73a2-b663-43db-b38d-690d48899683": "Pet denormalized full",
+        "4ecc73a2-b663-43db-b38d-690d48899683": "Pet denormalized",
         "356fef60-def3-456b-893d-17f515d6205d": "New Relationship",
         "f7b27e7e-6220-41f6-b40a-f6b62eb34f19": "New Relationship(1)",
         "6763e491-1f72-498d-a49a-7f07d3d1d848": "New Relationship(1)",
@@ -1972,7 +1972,7 @@
         "4afbcd43-b918-42cd-8187-3e75e38c186e": "Image Number",
         "a54bb0ed-12c7-4d72-8516-b6864357fc36": "Image Path Name",
         "b4ab8dea-9349-4934-9141-c4a4c55a350d": "Pet Feature Image Indicator",
-        "609a797a-8fa9-4037-95f4-e47aaefe5f4e": "Pet denormalized full",
+        "609a797a-8fa9-4037-95f4-e47aaefe5f4e": "Pet denormalized",
         "1813baae-e23d-441e-a492-e8111b06c74b": "Pet Number",
         "bfe0bf9d-4350-4d6a-a614-026decd57448": "Pet Name",
         "c965a4de-13a2-4e4d-a967-00898bb2436b": "Pet Age Quantity",
@@ -2022,7 +2022,7 @@
     "creationTS": "2023-03-23T14:06:17.827Z",
     "GUID": "8d862900-2c12-4962-acc2-990841a5187a",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T16:55:44.679Z",
+    "lastModifTS": "2023-05-11T19:18:20.269Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {

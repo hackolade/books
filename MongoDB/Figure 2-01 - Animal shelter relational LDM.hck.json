@@ -1136,7 +1136,7 @@
     "views": [],
     "relationships": [
         {
-            "name": "Contain",
+            "name": "Describe",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
@@ -1181,7 +1181,7 @@
             }
         },
         {
-            "name": "Describe",
+            "name": "Contain",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
@@ -1283,7 +1283,7 @@
             }
         },
         {
-            "name": "Receive",
+            "name": "Be Given",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
@@ -1336,7 +1336,7 @@
             }
         },
         {
-            "name": "Categorize",
+            "name": "Belong To",
             "relationshipType": "Foreign Key",
             "parentField": [
                 [
@@ -1593,7 +1593,7 @@
             }
         },
         {
-            "name": "Categorize",
+            "name": "Group",
             "relationshipType": "Foreign Master",
             "parentField": [
                 [
@@ -1661,8 +1661,8 @@
         "ad13fa6c-5015-4af6-9e39-c9fe3ec27bd9": "Color Name",
         "09b478d9-3451-49ec-976a-002707fc0e3c": "Pet Number",
         "b211a42a-7ed4-4396-b2d6-956e7ae4a3c3": "Color Code",
-        "d87e5037-34e7-4c0e-acd5-497aaafe5f71": "Contain",
-        "9b3e3bbd-4502-438b-8e2f-b46ca57d57a1": "Describe",
+        "d87e5037-34e7-4c0e-acd5-497aaafe5f71": "Describe",
+        "9b3e3bbd-4502-438b-8e2f-b46ca57d57a1": "Contain",
         "3e17eab6-4154-4fbb-b578-79f2e1682424": "Pet Vaccination",
         "b8976aee-cd7c-4654-b8f9-b341080fc8fd": "Pet Number",
         "284d330f-ea3b-4ab2-a168-42f7af0a8af9": "Vaccination Code",
@@ -1670,12 +1670,12 @@
         "3a7cabec-047d-4131-a36a-3e24a7bee35b": "Vaccination Code",
         "f05bfe26-15fb-4d1e-a2be-80c69e6dd032": "Vaccination Name",
         "51a48b01-7814-47b3-ae7c-a1b5bce36ad9": "Given to",
-        "fd8a2fa5-d714-4860-90d5-a4414b82f692": "Receive",
+        "fd8a2fa5-d714-4860-90d5-a4414b82f692": "Be Given",
         "04ca3b52-d659-4023-98a5-07604a575912": "Pet Breed",
         "cbad8f3d-c735-46f5-a190-e429d6aa5a3c": "Breed",
         "2d013816-9b17-475a-b9dd-3ebfa9d784c6": "Pet Number",
         "d89d0b20-94cc-4aa9-9ab4-b706ded0b482": "Breed Code",
-        "549bcd14-f540-4d9d-98ad-9d70f0c67dee": "Categorize",
+        "549bcd14-f540-4d9d-98ad-9d70f0c67dee": "Belong To",
         "c4d125e1-f49e-435c-9df9-4fb998e5aa65": "Pet Breed Primary Indicator",
         "33eb655e-fe24-4cf6-9351-15fbdbca5369": "Breed Code",
         "3955662e-8cf9-47a0-8308-09264727d935": "Describe",
@@ -1696,7 +1696,7 @@
         "dd75d462-900c-439b-930e-1a2c935f3ccf": "Size",
         "c79e54ba-ddee-43b0-b4d0-9cd22ba6f4c9": "Size Code",
         "0d64fcd8-43b5-4851-a22d-a7e44fef196a": "Size Name",
-        "ce0cef06-7b01-4b66-bcc4-794bf880cab1": "Categorize",
+        "ce0cef06-7b01-4b66-bcc4-794bf880cab1": "Group",
         "1052d5b5-fcf0-4b0a-92b3-07654b13869c": "Dog",
         "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be": "Cat",
         "b2c22c59-6032-4d54-ad91-3fdfc883c915": "Bird",
@@ -1731,7 +1731,7 @@
     "creationTS": "2023-02-19T16:27:51.290Z",
     "GUID": "1563daf6-0907-47b0-b9bc-2841058bf6ba",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T17:04:16.110Z",
+    "lastModifTS": "2023-05-11T14:25:56.988Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
