@@ -1,0 +1,1326 @@
+{
+    "modelName": "Women World Cup",
+    "collections": [
+        {
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "code": "",
+            "properties": [
+                {
+                    "code": "",
+                    "type": "document",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "code": "",
+                            "type": "numeric",
+                            "primaryKey": false,
+                            "mode": "integer",
+                            "sample": 2015,
+                            "name": "year",
+                            "GUID": "7a083903-f0ef-11e9-8d4e-e709a3c016c7",
+                            "childType": "number",
+                            "required": true,
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "isActivated": true
+                        },
+                        {
+                            "code": "",
+                            "type": "numeric",
+                            "primaryKey": false,
+                            "mode": "integer",
+                            "sample": 6,
+                            "name": "month",
+                            "GUID": "7a083902-f0ef-11e9-8d4e-e709a3c016c7",
+                            "childType": "number",
+                            "required": true,
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "isActivated": true
+                        },
+                        {
+                            "code": "",
+                            "type": "numeric",
+                            "primaryKey": false,
+                            "mode": "integer",
+                            "sample": 12,
+                            "name": "day",
+                            "GUID": "7a083901-f0ef-11e9-8d4e-e709a3c016c7",
+                            "childType": "number",
+                            "required": true,
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "isActivated": true
+                        }
+                    ],
+                    "name": "date",
+                    "GUID": "7a083900-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "map",
+                    "required": true,
+                    "additionalProperties": false,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "stage",
+                    "GUID": "7a083905-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "First Stage",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "unique": true,
+                    "name": "id",
+                    "GUID": "7a083904-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "required": true,
+                    "sample": 300269474,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "type": "object",
+            "collectionName": "Match",
+            "GUID": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+            "definitions": {
+                "GUID": "7a0b6d50-f0ef-11e9-8d4e-e709a3c016c7",
+                "properties": [],
+                "type": "definitions"
+            },
+            "collation": {},
+            "isActivated": true,
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "code": "",
+            "properties": [
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "unique": true,
+                    "name": "id",
+                    "GUID": "7a092360-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "Jamaica in 2019",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "type": "object",
+            "collectionName": "Squad",
+            "GUID": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+            "definitions": {
+                "GUID": "7a0bbb71-f0ef-11e9-8d4e-e709a3c016c7",
+                "properties": [],
+                "type": "definitions"
+            },
+            "collation": {},
+            "isActivated": true,
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "code": "",
+            "properties": [
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "unique": true,
+                    "name": "id",
+                    "GUID": "7a092361-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "sample": 1885022,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "name",
+                    "GUID": "7a092362-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "Ecuador",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "type": "object",
+            "collectionName": "Team",
+            "GUID": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+            "definitions": {
+                "GUID": "7a0bbb73-f0ef-11e9-8d4e-e709a3c016c7",
+                "properties": [],
+                "type": "definitions"
+            },
+            "collation": {},
+            "isActivated": true,
+            "index": [
+                {
+                    "GUID": "1a0ae130-12c5-11eb-aedc-71a1aa6b3c0e",
+                    "name": "name_idx",
+                    "key": [
+                        {
+                            "keyId": "7a092362-f0ef-11e9-8d4e-e709a3c016c7",
+                            "type": ""
+                        }
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "code": "",
+            "properties": [
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "name",
+                    "GUID": "7a094a71-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "Canada 2015",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "unique": true,
+                    "name": "id",
+                    "GUID": "7a094a70-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "required": true,
+                    "sample": 266030,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "shortName",
+                    "GUID": "7a094a72-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "canada2015",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "mode": "integer",
+                    "sample": 2015,
+                    "name": "year",
+                    "GUID": "7a094a73-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "required": true,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "type": "object",
+            "collectionName": "Tournament",
+            "GUID": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+            "definitions": {
+                "GUID": "7a0be280-f0ef-11e9-8d4e-e709a3c016c7",
+                "properties": [],
+                "type": "definitions"
+            },
+            "collation": {},
+            "isActivated": true,
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "code": "",
+            "properties": [
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "unique": true,
+                    "name": "id",
+                    "GUID": "7a094a78-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "required": true,
+                    "sample": 181244,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "name",
+                    "GUID": "7a094a79-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "Yara",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true,
+                    "fakerFunction": "faker.name.findName(undefined, undefined, 'female')",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "type": "document",
+                    "primaryKey": false,
+                    "properties": [
+                        {
+                            "code": "",
+                            "type": "numeric",
+                            "primaryKey": false,
+                            "mode": "integer",
+                            "sample": 1964,
+                            "name": "year",
+                            "GUID": "7a094a77-f0ef-11e9-8d4e-e709a3c016c7",
+                            "childType": "number",
+                            "required": true,
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "isActivated": true,
+                            "fakerFunction": "faker.datatype.number({ min: 1961, max: 2000, precision: 1 })",
+                            "error": {}
+                        },
+                        {
+                            "code": "",
+                            "type": "numeric",
+                            "primaryKey": false,
+                            "mode": "integer",
+                            "sample": 2,
+                            "name": "month",
+                            "GUID": "7a094a76-f0ef-11e9-8d4e-e709a3c016c7",
+                            "childType": "number",
+                            "required": true,
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "isActivated": true,
+                            "fakerFunction": "faker.datatype.number({ min: 1, max: 12, precision: 1 })",
+                            "error": {}
+                        },
+                        {
+                            "code": "",
+                            "type": "numeric",
+                            "primaryKey": false,
+                            "mode": "integer",
+                            "sample": 13,
+                            "name": "day",
+                            "GUID": "7a094a75-f0ef-11e9-8d4e-e709a3c016c7",
+                            "childType": "number",
+                            "required": true,
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "isActivated": true,
+                            "fakerFunction": "faker.datatype.number({ min: 1, max: 28, precision: 1 })",
+                            "error": {}
+                        }
+                    ],
+                    "name": "dob",
+                    "GUID": "7a094a74-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "map",
+                    "additionalProperties": false,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "type": "object",
+            "collectionName": "Person",
+            "GUID": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "definitions": {
+                "GUID": "7a0c0990-f0ef-11e9-8d4e-e709a3c016c7",
+                "properties": [],
+                "type": "definitions"
+            },
+            "collation": {},
+            "isActivated": true,
+            "index": [
+                {
+                    "GUID": "e256ee50-12c4-11eb-aedc-71a1aa6b3c0e",
+                    "name": "name_idx",
+                    "key": [
+                        {
+                            "keyId": "7a094a79-f0ef-11e9-8d4e-e709a3c016c7",
+                            "type": ""
+                        }
+                    ],
+                    "isActivated": true
+                }
+            ],
+            "additionalProperties": true,
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "Women World Cup",
+            "code": "",
+            "type": "bucket",
+            "collectionIds": [
+                "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0be281-f0ef-11e9-8d4e-e709a3c016c7"
+            ],
+            "backgroundColor": {
+                "r": 187,
+                "g": 187,
+                "b": 187,
+                "a": 1
+            },
+            "show": true,
+            "indexes": [],
+            "addFieldsToBucket": true,
+            "isPlugin": true,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            },
+            "isActivated": true
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "7a0c30a0-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "SCORED_GOAL",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": [
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "minute",
+                    "GUID": "7a09bfa0-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "63'",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ]
+        },
+        {
+            "GUID": "7a0c57b1-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "COACH_FOR",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "7a0c57b4-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "NAMED",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "7a0c57b7-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "PLAYED_IN",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": [
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "mode": "integer",
+                    "sample": 0,
+                    "name": "score",
+                    "GUID": "7a09e6b1-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "required": true,
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "numeric",
+                    "primaryKey": false,
+                    "mode": "integer",
+                    "sample": 0,
+                    "name": "penaltyScore",
+                    "GUID": "7a09e6b0-f0ef-11e9-8d4e-e709a3c016c7",
+                    "childType": "number",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ]
+        },
+        {
+            "GUID": "7a0c57ba-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "IN_TOURNAMENT",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "7a0c7ec0-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "FOR",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "7a0c7ec3-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "IN_SQUAD",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "7a0c7ec6-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "PLAYED_IN",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": [
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "type",
+                    "GUID": "7a09e6b3-f0ef-11e9-8d4e-e709a3c016c7",
+                    "required": true,
+                    "sample": "Started",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                },
+                {
+                    "code": "",
+                    "type": "string",
+                    "primaryKey": false,
+                    "name": "minuteOn",
+                    "GUID": "7a09e6b2-f0ef-11e9-8d4e-e709a3c016c7",
+                    "sample": "57'",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "isActivated": true
+                }
+            ]
+        },
+        {
+            "GUID": "7a0c7ec9-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "REPRESENTS",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "7a0c7ecc-f0ef-11e9-8d4e-e709a3c016c7",
+            "name": "PARTICIPATED_IN",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCardinality": "1",
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "hackoladeStyles": {},
+            "properties": []
+        },
+        {
+            "GUID": "c837a7c0-12c5-11eb-aedc-71a1aa6b3c0e",
+            "name": "New node label to Tournament",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "hackoladeStyles": {},
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "GUID": "cfcda430-12c5-11eb-aedc-71a1aa6b3c0e",
+                    "name": "New property key",
+                    "code": "",
+                    "hackoladeMeta": {},
+                    "isActivated": true
+                },
+                {
+                    "primaryKey": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "GUID": "d26ba7a0-12c5-11eb-aedc-71a1aa6b3c0e",
+                    "name": "New property key(1)",
+                    "code": "",
+                    "hackoladeMeta": {},
+                    "isActivated": true
+                }
+            ]
+        },
+        {
+            "name": "Team to Person",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "parentCollection": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+            "childCollection": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+            "level": "entity",
+            "GUID": "9cbed6e9-b89f-4a22-b6a4-15e7529eda44",
+            "lineSize": 1,
+            "bucketId": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7",
+            "hackoladeStyles": {},
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [
+        {
+            "GUID": "53ac4820-38ad-11ec-ad55-0703f40be5d5",
+            "name": "New Diagram View",
+            "buckets": [
+                "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7"
+            ],
+            "entities": [
+                "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0c57b1-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0c57b4-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0c7ec3-f0ef-11e9-8d4e-e709a3c016c7",
+                "7a0c7ec9-f0ef-11e9-8d4e-e709a3c016c7"
+            ]
+        }
+    ],
+    "idToNameHashTable": {
+        "7a083900-f0ef-11e9-8d4e-e709a3c016c7": "date",
+        "7a083903-f0ef-11e9-8d4e-e709a3c016c7": "year",
+        "7a083902-f0ef-11e9-8d4e-e709a3c016c7": "month",
+        "7a083901-f0ef-11e9-8d4e-e709a3c016c7": "day",
+        "7a083905-f0ef-11e9-8d4e-e709a3c016c7": "stage",
+        "7a083904-f0ef-11e9-8d4e-e709a3c016c7": "id",
+        "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7": "Match",
+        "7a092360-f0ef-11e9-8d4e-e709a3c016c7": "id",
+        "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7": "Squad",
+        "7a092362-f0ef-11e9-8d4e-e709a3c016c7": "name",
+        "7a092361-f0ef-11e9-8d4e-e709a3c016c7": "id",
+        "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7": "Team",
+        "7a094a71-f0ef-11e9-8d4e-e709a3c016c7": "name",
+        "7a094a70-f0ef-11e9-8d4e-e709a3c016c7": "id",
+        "7a094a72-f0ef-11e9-8d4e-e709a3c016c7": "shortName",
+        "7a094a73-f0ef-11e9-8d4e-e709a3c016c7": "year",
+        "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7": "Tournament",
+        "7a094a79-f0ef-11e9-8d4e-e709a3c016c7": "name",
+        "7a094a74-f0ef-11e9-8d4e-e709a3c016c7": "dob",
+        "7a094a77-f0ef-11e9-8d4e-e709a3c016c7": "year",
+        "7a094a76-f0ef-11e9-8d4e-e709a3c016c7": "month",
+        "7a094a75-f0ef-11e9-8d4e-e709a3c016c7": "day",
+        "7a094a78-f0ef-11e9-8d4e-e709a3c016c7": "id",
+        "7a0be281-f0ef-11e9-8d4e-e709a3c016c7": "Person",
+        "7a0c30a0-f0ef-11e9-8d4e-e709a3c016c7": "SCORED_GOAL",
+        "7a0c57b1-f0ef-11e9-8d4e-e709a3c016c7": "COACH_FOR",
+        "7a0c57b4-f0ef-11e9-8d4e-e709a3c016c7": "NAMED",
+        "7a0c57b7-f0ef-11e9-8d4e-e709a3c016c7": "PLAYED_IN",
+        "7a0c57ba-f0ef-11e9-8d4e-e709a3c016c7": "IN_TOURNAMENT",
+        "7a0c7ec0-f0ef-11e9-8d4e-e709a3c016c7": "FOR",
+        "7a0c7ec3-f0ef-11e9-8d4e-e709a3c016c7": "IN_SQUAD",
+        "7a0c7ec6-f0ef-11e9-8d4e-e709a3c016c7": "PLAYED_IN",
+        "7a0c7ec9-f0ef-11e9-8d4e-e709a3c016c7": "REPRESENTS",
+        "7a0c7ecc-f0ef-11e9-8d4e-e709a3c016c7": "PARTICIPATED_IN",
+        "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7": "Women World Cup",
+        "c837a7c0-12c5-11eb-aedc-71a1aa6b3c0e": "New node label to Tournament",
+        "cfcda430-12c5-11eb-aedc-71a1aa6b3c0e": "New property key",
+        "d26ba7a0-12c5-11eb-aedc-71a1aa6b3c0e": "New property key(1)",
+        "7e840ae0-137b-11eb-82a3-c942e1f19d5b": "address",
+        "8695c700-137b-11eb-82a3-c942e1f19d5b": "house",
+        "89529d10-137b-11eb-82a3-c942e1f19d5b": "street",
+        "8b026ff0-137b-11eb-82a3-c942e1f19d5b": "city",
+        "8cb290f0-137b-11eb-82a3-c942e1f19d5b": "state",
+        "8e4bce90-137b-11eb-82a3-c942e1f19d5b": "zip",
+        "7a09bfa0-f0ef-11e9-8d4e-e709a3c016c7": "minute",
+        "7a09e6b1-f0ef-11e9-8d4e-e709a3c016c7": "score",
+        "7a09e6b0-f0ef-11e9-8d4e-e709a3c016c7": "penaltyScore",
+        "7a09e6b3-f0ef-11e9-8d4e-e709a3c016c7": "type",
+        "7a09e6b2-f0ef-11e9-8d4e-e709a3c016c7": "minuteOn",
+        "53ac4820-38ad-11ec-ad55-0703f40be5d5": "New Diagram View",
+        "9cbed6e9-b89f-4a22-b6a4-15e7529eda44": "Team to Person"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [
+            {
+                "primaryKey": false,
+                "properties": [
+                    {
+                        "primaryKey": false,
+                        "type": "string",
+                        "compositeKey": [
+                            "compositeNodeKey"
+                        ],
+                        "GUID": "8695c700-137b-11eb-82a3-c942e1f19d5b",
+                        "name": "house",
+                        "code": "",
+                        "hackoladeMeta": {},
+                        "isActivated": true
+                    },
+                    {
+                        "primaryKey": false,
+                        "type": "string",
+                        "compositeKey": [
+                            "compositeNodeKey"
+                        ],
+                        "GUID": "89529d10-137b-11eb-82a3-c942e1f19d5b",
+                        "name": "street",
+                        "code": "",
+                        "hackoladeMeta": {},
+                        "isActivated": true
+                    },
+                    {
+                        "primaryKey": false,
+                        "type": "string",
+                        "compositeKey": [
+                            "compositeNodeKey"
+                        ],
+                        "GUID": "8b026ff0-137b-11eb-82a3-c942e1f19d5b",
+                        "name": "city",
+                        "code": "",
+                        "hackoladeMeta": {},
+                        "isActivated": true
+                    },
+                    {
+                        "primaryKey": false,
+                        "type": "string",
+                        "compositeKey": [
+                            "compositeNodeKey"
+                        ],
+                        "GUID": "8cb290f0-137b-11eb-82a3-c942e1f19d5b",
+                        "name": "state",
+                        "code": "",
+                        "hackoladeMeta": {},
+                        "isActivated": true
+                    },
+                    {
+                        "primaryKey": false,
+                        "type": "string",
+                        "compositeKey": [
+                            "compositeNodeKey"
+                        ],
+                        "GUID": "8e4bce90-137b-11eb-82a3-c942e1f19d5b",
+                        "name": "zip",
+                        "code": "",
+                        "hackoladeMeta": {},
+                        "isActivated": true
+                    }
+                ],
+                "additionalProperties": false,
+                "childType": "map",
+                "type": "document",
+                "compositeKey": [
+                    "compositeNodeKey"
+                ],
+                "GUID": "7e840ae0-137b-11eb-82a3-c942e1f19d5b",
+                "name": "address",
+                "code": "",
+                "hackoladeMeta": {},
+                "isActivated": true
+            }
+        ],
+        "GUID": "6be0dee1-f0ef-11e9-8d4e-e709a3c016c7"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "cf27df33-2db5-11ec-aecc-ef78b59913d4"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "6be0dee2-f0ef-11e9-8d4e-e709a3c016c7"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "4.0-4.2",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2019-10-17T15:04:30.926Z",
+    "GUID": "6be0dee0-f0ef-11e9-8d4e-e709a3c016c7",
+    "code": "",
+    "lastModifTS": "2023-02-10T13:02:38.241Z",
+    "persistenceSchemaVersion": "6",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.8.6"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 971.6008621959434,
+                        "y": 363.66935779044354,
+                        "width": 216,
+                        "height": 137,
+                        "color": {},
+                        "size": 100
+                    },
+                    {
+                        "GUID": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 806.0137062326403,
+                        "y": 303.6945871482417,
+                        "width": 161,
+                        "height": 47,
+                        "color": {},
+                        "size": 100
+                    },
+                    {
+                        "GUID": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 958.2293025629147,
+                        "y": 735.2473394418198,
+                        "width": 209,
+                        "height": 65,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0.8974358974358974,
+                                "l": 0.5411764705882353,
+                                "a": 1
+                            },
+                            "hex": "#2196f3",
+                            "rgb": {
+                                "r": 33,
+                                "g": 150,
+                                "b": 243,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0.8641975308641976,
+                                "v": 0.9529411764705882,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        },
+                        "size": 100
+                    },
+                    {
+                        "GUID": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 1561.4167999326653,
+                        "y": 406.737549651398,
+                        "width": 222,
+                        "height": 101,
+                        "color": {},
+                        "size": 100
+                    },
+                    {
+                        "GUID": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 80.00000000000011,
+                        "y": 476.6040933977156,
+                        "width": 248,
+                        "height": 137,
+                        "color": {},
+                        "size": 100
+                    },
+                    {
+                        "GUID": "7a0c30a0-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 459.0776686516288,
+                        "y": 574.1105059471646,
+                        "width": 205,
+                        "height": 45,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c57b1-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 491.01370623264035,
+                        "y": 303.6945871482417,
+                        "width": 191,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c57b4-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 805.0137062326403,
+                        "y": 560.6945871482417,
+                        "width": 164,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c57b7-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 1001.4632475170438,
+                        "y": 568.4835779739298,
+                        "width": 230,
+                        "height": 63,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c57ba-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 1243.6352185211674,
+                        "y": 443.2960621924301,
+                        "width": 221,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c7ec0-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 1110.0137062326403,
+                        "y": 303.6945871482417,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c7ec3-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 458.82358124316175,
+                        "y": 390.3280434019239,
+                        "width": 179,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c7ec6-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 459.8089412717796,
+                        "y": 458.6301249817574,
+                        "width": 189,
+                        "height": 63,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c7ec9-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 477.647162486323,
+                        "y": 690.8261995966886,
+                        "width": 192,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "7a0c7ecc-f0ef-11e9-8d4e-e709a3c016c7",
+                        "x": 1312.4974854810173,
+                        "y": 556.1488076473576,
+                        "width": 219,
+                        "height": 30,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "c837a7c0-12c5-11eb-aedc-71a1aa6b3c0e",
+                        "x": 1512.639383316898,
+                        "y": 618.6439357728672,
+                        "width": 295,
+                        "height": 63,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "9cbed6e9-b89f-4a22-b6a4-15e7529eda44",
+                        "x": 40,
+                        "y": 40,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 40.000000000000114,
+                        "y": 263.6945871482417,
+                        "GUID": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "7a0ad110-f0ef-11e9-8d4e-e709a3c016c7",
+                            "x": 148.0359282587155,
+                            "y": 504.48708303301555,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+                            "x": 517.0344383172691,
+                            "y": 129,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+                            "x": 371.06357769986175,
+                            "y": 351.5649169736923,
+                            "size": 100,
+                            "isPined": false
+                        },
+                        {
+                            "GUID": "7a0bbb74-f0ef-11e9-8d4e-e709a3c016c7",
+                            "x": 556.3907026863468,
+                            "y": 538.5316658114104,
+                            "size": 100
+                        },
+                        {
+                            "GUID": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+                            "x": 146.40000915527344,
+                            "y": 134,
+                            "size": 100,
+                            "isPined": true
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 106.40000915527344,
+                            "y": 89,
+                            "GUID": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 347
+                },
+                "diagramViews": [
+                    {
+                        "GUID": "53ac4820-38ad-11ec-ad55-0703f40be5d5",
+                        "entities": [
+                            {
+                                "GUID": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 90,
+                                "y": 148.5,
+                                "width": 263,
+                                "height": 113,
+                                "color": {},
+                                "size": 100
+                            },
+                            {
+                                "GUID": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 675,
+                                "y": 303,
+                                "width": 243,
+                                "height": 57,
+                                "color": {
+                                    "hsl": {
+                                        "h": 206.57142857142858,
+                                        "s": 0.8974358974358974,
+                                        "l": 0.5411764705882353,
+                                        "a": 1
+                                    },
+                                    "hex": "#2196f3",
+                                    "rgb": {
+                                        "r": 33,
+                                        "g": 150,
+                                        "b": 243,
+                                        "a": 1
+                                    },
+                                    "hsv": {
+                                        "h": 206.57142857142858,
+                                        "s": 0.8641975308641976,
+                                        "v": 0.9529411764705882,
+                                        "a": 1
+                                    },
+                                    "oldHue": 206.57142857142858,
+                                    "source": "hex"
+                                },
+                                "size": 100
+                            },
+                            {
+                                "GUID": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 675,
+                                "y": 90,
+                                "width": 243,
+                                "height": 43,
+                                "color": {},
+                                "size": 100
+                            },
+                            {
+                                "GUID": "7a0c57b1-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 439,
+                                "y": 90,
+                                "width": 151,
+                                "height": 30,
+                                "color": {
+                                    "hex": "#333333"
+                                }
+                            },
+                            {
+                                "GUID": "7a0c57b4-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 721,
+                                "y": 203,
+                                "width": 151,
+                                "height": 30,
+                                "color": {
+                                    "hex": "#333333"
+                                }
+                            },
+                            {
+                                "GUID": "7a0c7ec3-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 439,
+                                "y": 190,
+                                "width": 151,
+                                "height": 30,
+                                "color": {
+                                    "hex": "#333333"
+                                }
+                            },
+                            {
+                                "GUID": "7a0c7ec9-f0ef-11e9-8d4e-e709a3c016c7",
+                                "x": 438,
+                                "y": 290,
+                                "width": 152,
+                                "height": 30,
+                                "color": {
+                                    "hex": "#333333"
+                                }
+                            }
+                        ],
+                        "buckets": [
+                            {
+                                "x": 40,
+                                "y": 40,
+                                "GUID": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7"
+                            }
+                        ],
+                        "graphView": {
+                            "erd": [
+                                {
+                                    "GUID": "7a0be281-f0ef-11e9-8d4e-e709a3c016c7",
+                                    "x": 121.8119295621621,
+                                    "y": 148.2782291161369,
+                                    "size": 100,
+                                    "isPined": true
+                                },
+                                {
+                                    "GUID": "7a0bbb72-f0ef-11e9-8d4e-e709a3c016c7",
+                                    "x": 307.71897290185035,
+                                    "y": 384.10353810936675,
+                                    "size": 100,
+                                    "isPined": false
+                                },
+                                {
+                                    "GUID": "7a0bbb70-f0ef-11e9-8d4e-e709a3c016c7",
+                                    "x": 419.00939010907143,
+                                    "y": 105.08290007819976,
+                                    "size": 100
+                                }
+                            ],
+                            "buckets": [
+                                {
+                                    "x": 81.8119295621621,
+                                    "y": 87.17766595383529,
+                                    "GUID": "7af4e2f0-f0ef-11e9-8d4e-e709a3c016c7"
+                                }
+                            ],
+                            "decorativeSymbols": [],
+                            "forceLayout": true,
+                            "defaultLinkLength": 300
+                        }
+                    }
+                ],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

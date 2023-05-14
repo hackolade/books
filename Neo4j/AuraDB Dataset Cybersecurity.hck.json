@@ -1,0 +1,3803 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Domain",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "highvalue",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "1f503f69-635a-449a-b25c-20dbf6813831",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 8,
+                    "GUID": "2eff3e49-3b1d-44ce-977e-8a7199411a00",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f6473293-3915-4882-85b8-fde4c9758653",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "226712b2-4d81-486a-b847-7829f93ba504",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "efdbe7ea-b6a3-4a5d-875c-0be682cbce2a",
+                    "required": false,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "befedd97-3a17-492a-8b14-79262f41f299",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "1b71ea5a-9f38-4791-a327-54745cf0ee92",
+                    "name": "domain_name",
+                    "key": [
+                        {
+                            "keyId": "226712b2-4d81-486a-b847-7829f93ba504",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "b4bcd043-af92-41e5-8031-2cce992ef37b",
+                    "name": "domain_object_id",
+                    "key": [
+                        {
+                            "keyId": "efdbe7ea-b6a3-4a5d-875c-0be682cbce2a",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Computer",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 313,
+                    "GUID": "94c7e50c-c35b-4f70-bd79-9344511b2cff",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "owned",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e57338ff-c6ab-4306-a3a2-98d938076e4f",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ea27c316-f259-4243-9563-4bd2108c6002",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "operatingsystem",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8e1b8d40-c73f-4f23-9a5e-b45613d228a8",
+                    "required": false,
+                    "sample": "Windows Server 2012",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6c136845-33dc-4a54-8363-0c87856da6d4",
+                    "required": true,
+                    "sample": "FLLABDC@TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ea98bf90-1b66-42d6-8fbb-1da5bf2739bf",
+                    "required": true,
+                    "sample": "S-1-5-21-883232822-274137685-4173207997-1300",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "enabled",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4095f53c-7074-46b3-828b-4dd63d9b97a2",
+                    "required": false,
+                    "sample": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "9031badf-faf6-40f9-ab4e-7020efe94afe",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "3d7cfc47-e49b-4320-a503-0e8203563b65",
+                    "name": "computer_name",
+                    "key": [
+                        {
+                            "keyId": "6c136845-33dc-4a54-8363-0c87856da6d4",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "f768be28-3b8f-4967-99a7-7c648c0d3f66",
+                    "name": "computer_objectid",
+                    "key": [
+                        {
+                            "keyId": "ea98bf90-1b66-42d6-8fbb-1da5bf2739bf",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "OU",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "blocksInheritance",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f2c14802-b501-4db5-b05f-98e71bf7b48e",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 933,
+                    "GUID": "0d121795-6657-41f6-b574-0b930ddbb8c9",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "fbd1285e-654c-4f8b-83f0-63c96d69874a",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b3867f92-eb2a-42a3-b801-89bb88600603",
+                    "required": true,
+                    "sample": "FL_USERS@TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f38d0fc4-07c5-4011-a06f-37a7a5baf5ce",
+                    "required": true,
+                    "sample": "be086801-e582-4ca6-afc0-4fc175607378",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "55341b23-88ad-4d93-823c-bd23781168d7",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "9350297b-f696-45e2-98c7-fdb8c5903448",
+                    "name": "ou_name",
+                    "key": [
+                        {
+                            "keyId": "b3867f92-eb2a-42a3-b801-89bb88600603",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "4cd163bd-b1f8-417a-a130-96ea3ffb3465",
+                    "name": "ou_object_id",
+                    "key": [
+                        {
+                            "keyId": "f38d0fc4-07c5-4011-a06f-37a7a5baf5ce",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "GPO",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 952,
+                    "GUID": "56671803-f001-463c-a8f3-bd535c8554a9",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5941d3ab-5217-4daf-9083-32ca9941eb4b",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "bf806b18-2940-4a01-b6f5-dcc70de51535",
+                    "required": true,
+                    "sample": "GPO_19@TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "da6b0bfc-4566-4dac-9247-5be4d0a02d44",
+                    "required": false,
+                    "sample": "bdebe639-e61d-4792-9f06-5bf43f508100",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "45d65203-c8fd-48af-a12b-d1f2f062cc8c",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "d91adf4f-7217-4574-899f-583c1777f65c",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "702534e4-e3bc-46bb-8281-5d9aab229233",
+                    "name": "gpo_name",
+                    "key": [
+                        {
+                            "keyId": "bf806b18-2940-4a01-b6f5-dcc70de51535",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "HighValue",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "highvalue",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "dda6d381-125b-47bf-a681-8a327eeee06e",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 8,
+                    "GUID": "78e154c5-571c-40c1-8d56-2865f02191fe",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "0b75d7d9-15a5-44d0-9014-7d5ac8d973de",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "43c196cf-cd9a-4ba8-8ecf-148812a51ec4",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c8b19a10-4211-49bd-9681-a95cf8bdc4d7",
+                    "required": false,
+                    "sample": "S-1-5-21-883232822-274137685-4173207997-519",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "72254ca7-7238-4e70-9ad1-b5369c992680",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "User",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 913,
+                    "GUID": "54110d31-3fb0-442f-8be3-c8836e9e1991",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "owned",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "879a387f-139d-4ba7-9f75-759302b8f6e6",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "displayname",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "23fa7bf8-ef55-4bc5-8a9d-884512d98a3b",
+                    "required": false,
+                    "sample": "Marcie Maxie",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "pwdlastset",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1640433792,
+                    "GUID": "82288d5c-26e5-4c59-bd28-c5a5e0aaf759",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8be7ab77-dcad-4f86-850b-62c9e26d1a6b",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "lastlogon",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1639751774,
+                    "GUID": "1a2310c1-c7eb-4ec6-b527-c2c13fbfdaf2",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6fedfeb4-6973-480c-a4ea-b9919c7a0a2b",
+                    "required": true,
+                    "sample": "SeritaPolhill300@TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "enabled",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4f2e63bf-4a6b-4e10-b419-3a5220f770b1",
+                    "required": false,
+                    "sample": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "20c331cd-e971-4ad5-8e9b-d17a126f64e1",
+                    "required": false,
+                    "sample": "S-1-5-21-883232822-274137685-4173207997-1599",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "hasspn",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "49e7d821-8942-4c19-adc4-e81db9cb6f84",
+                    "required": false,
+                    "sample": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "eeb3bf2a-5223-4acd-8365-cbcddeed9927",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "9fda833c-21c5-434f-95de-931809fef642",
+                    "name": "user_name",
+                    "key": [
+                        {
+                            "keyId": "6fedfeb4-6973-480c-a4ea-b9919c7a0a2b",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "a6860646-9563-4f23-8d34-f592767531df",
+                    "name": "user_objectid",
+                    "key": [
+                        {
+                            "keyId": "20c331cd-e971-4ad5-8e9b-d17a126f64e1",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Group",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "highvalue",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7ed10b79-e33c-4b58-89c1-d50de6ba5e62",
+                    "required": false,
+                    "sample": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "neo4jImportId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 912,
+                    "GUID": "0c101ecc-934d-4697-93e3-b154f337cc72",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "domain",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "2b0b4995-1082-4862-a666-02222ff866cd",
+                    "required": true,
+                    "sample": "TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d2e50475-55b3-41f5-81e0-e9517b7d0bcc",
+                    "required": true,
+                    "sample": "BIDNESS00300@TestCompany.Local",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "objectid",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b46575d8-b098-4c9b-9c0b-ca1f4632ec1a",
+                    "required": true,
+                    "sample": "S-1-5-21-883232822-274137685-4173207997-1899",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "owned",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c24578b7-b8f9-4b1f-b70f-41f6c132ba59",
+                    "required": false,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "pwdlastset",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1615724497,
+                    "GUID": "b5cad848-69da-4e96-92b2-337ccac086b0",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "displayname",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e11154a1-f5b7-43d2-b175-6567aa5a74df",
+                    "required": false,
+                    "sample": "Serita Polhill",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "lastlogon",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1633054333,
+                    "GUID": "80f30fdc-435b-483f-8c9c-6367022f43e6",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "enabled",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4f964671-85d9-4f50-b324-a836a6f23714",
+                    "required": false,
+                    "sample": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "1e4368a7-4e65-4bb6-99a0-30ad82021823",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "22064aa6-e71f-4488-bf26-befc47c35b0f",
+                    "name": "group_name",
+                    "key": [
+                        {
+                            "keyId": "d2e50475-55b3-41f5-81e0-e9517b7d0bcc",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "4e97e183-66a8-4974-82ab-e8f267eb7b32",
+                    "name": "group_object_id",
+                    "key": [
+                        {
+                            "keyId": "b46575d8-b098-4c9b-9c0b-ca1f4632ec1a",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "neo4j",
+            "type": "bucket",
+            "collectionIds": [
+                "56b166c5-7861-447a-916a-71ab8da315cd",
+                "c5983d06-ba4e-4517-b513-221865539a38",
+                "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+                "d91adf4f-7217-4574-899f-583c1777f65c",
+                "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+                "ec61bf03-8295-4935-9397-ade193af5d3e",
+                "5738c011-4d62-4fe2-9d6b-57c1d4d596f6"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "hackoladeMeta": {},
+            "code": "",
+            "addFieldsToBucket": true,
+            "isPlugin": true
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "WRITE_OWNER",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "8389f01b-a0ca-4f73-9bb9-789452f6dd06",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f30a1259-a8ca-4da8-970b-d35c26367905",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "WRITE_OWNER",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ed5bba79-8b62-40ae-a5d2-81b0ebe3ac6a",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b606626f-fe3c-4ef9-8b90-784ebdf0c5c1",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "WRITE_OWNER",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "04bfd0d5-de6d-4a1d-b96d-f4e278a12eaf",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e2b313c8-00f2-4c0d-add7-8bb01292ae68",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "WRITE_OWNER",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "8b6c2f6e-0a95-4dda-a20a-9d8028012b34",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "677283f6-8db0-48c2-9778-84953d619d5d",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "HAS_SESSION",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "c076e41c-0b8f-44fe-8eba-6d42a08cefce",
+            "level": "entity",
+            "parentCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "DC_SYNC",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "8e73fd2e-5823-4043-9a14-380bc6da336c",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "220f98c8-2959-472c-b9c8-48fff3469a5d",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "DC_SYNC",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "e900c0b2-9917-4e0c-a558-e8e26194b7c1",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c781d349-9521-4ff9-bd82-708c2475c673",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "DC_SYNC",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "e99aa4d3-672b-43df-87e1-83c15b51bacb",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8c168a20-5219-43cc-a72a-4348fd1468ac",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "DC_SYNC",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "9bdcd1d7-63c2-44a7-a5ee-f8fe68ce088c",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5ca6973d-6eac-4bfd-8859-65a1c206fd23",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "MEMBER_OF",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "37bac269-bd8e-4d97-b1d9-379415c3ae72",
+            "level": "entity",
+            "parentCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "MEMBER_OF",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "6c0c7ef1-620a-490e-b1f7-e8d8e9c5ca9e",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "MEMBER_OF",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "23d05abe-f31d-45c5-a89d-224773a90e3a",
+            "level": "entity",
+            "parentCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "childCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "MEMBER_OF",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "beb7090d-9e88-46aa-b1db-6342e4262d07",
+            "level": "entity",
+            "parentCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "MEMBER_OF",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "18f53ee6-8faa-49de-b24e-566731cf44e0",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "MEMBER_OF",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "9a8c21be-9b42-4761-89e6-eecc3b7c4abe",
+            "level": "entity",
+            "parentCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "childCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "f1925e68-ce04-4df8-8405-fd0bd58710a2",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "311a66c8-59e3-42f0-a1a0-d5367e0d1873",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "9cb62210-7f36-4c4c-9421-d3f5f473b24a",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9e25c67e-b5ac-4c0e-bb35-16906c67db54",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "c5613e32-eaea-4ef1-a37a-0893fec9b24a",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5aed20f2-2442-46ea-b57a-c47c9041b444",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ade1beb3-c851-4b49-8ac9-7393d42d759f",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ef9ca27e-923a-4ee5-9a71-27d409b1f614",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "f6a234b6-be65-40f9-a7dd-1eb7c2ba9b23",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "9a8130eb-8201-40c1-a157-713ea2ea6093",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ebede6e9-f6df-4d92-9eb1-786497460cc1",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e1cce75e-03a5-4280-bd3c-5a945dc91010",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "77599073-f57b-4e89-a881-4d75ea68c72b",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "0a985f73-a0cb-4f65-a95d-bc6a7df5f246",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "52bc7954-bae4-47fb-8f34-725a0bdb9cca",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "78ed4062-b31e-47c6-91cc-d99953292dcf",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "9280f8f2-7837-42a0-ab14-a1785f1bab5b",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7e98d4d8-2986-4fee-a2ea-b8af107fc411",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "eaff48af-5b0b-407a-8072-fd5dd447c982",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c9eb9960-ff85-4472-b81c-48833807b7c4",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "OWNS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "167d3b70-231a-42eb-9b27-125a9f75e32b",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "cf9ecda2-306a-47d8-afb0-f86b48f1505e",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "OWNS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "88ac779e-58ca-48a9-9226-20f7c1bf4346",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f0e573b3-1269-4e1f-b064-345a0bc150f1",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "OWNS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "9c4b64b2-3d72-43e7-9a7b-32d020c9c3cb",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4f4a8267-a9b2-460d-9ef1-da73c462450c",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "OWNS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "1be1aa57-563b-44da-b676-8a06c07535a0",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7111b311-164f-4f61-8aff-5f83a0cab91c",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "ADMIN_TO",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "418e049e-2835-463f-8118-5ad9482d8328",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "ADMIN_TO",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "b1e1d2c6-f82f-4a5c-8e35-051d04f8972d",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CAN_RDP",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "f3bf531c-5c47-4ca1-a9f3-52f071a5bfcb",
+            "level": "entity",
+            "parentCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CAN_RDP",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "29492b8e-fc80-4af1-b09a-cd0881b022d9",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "4b7ce927-cb31-4875-adcf-61c486ecbc2c",
+            "level": "entity",
+            "parentCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "7372b105-f149-40d2-9130-f50ba5462483",
+            "level": "entity",
+            "parentCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "9a0862d2-62e2-44f6-8cb5-c6a5e546c5d8",
+            "level": "entity",
+            "parentCollection": "d91adf4f-7217-4574-899f-583c1777f65c",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "enforced",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6b4b4438-bfa9-4041-b2be-f722f154543d",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "4fe7953a-b74a-4164-bd85-747013f22953",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "b625da3a-c8e9-4650-ad17-d335f0607272",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "4f07305c-378f-49c5-b803-6fb6c3e9e0a3",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "49afbec0-8d00-44f9-8917-b2e192cbb4de",
+            "level": "entity",
+            "parentCollection": "d91adf4f-7217-4574-899f-583c1777f65c",
+            "childCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "enforced",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a89394b5-3784-40ae-93b1-c0cb16ab40a6",
+                    "required": false,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "facbf297-47ec-43fb-8611-47087db1079e",
+                    "required": false,
+                    "sample": false,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "2ceaa4ba-bb8f-40e6-83dd-6e699e964bc9",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ad5e7823-abfe-4317-a78c-03270e6f2d94",
+            "level": "entity",
+            "parentCollection": "d91adf4f-7217-4574-899f-583c1777f65c",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "enforced",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b948e33f-5167-4834-ba2f-11171ad29b16",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d2bac67d-dd33-460d-9a3b-f432cf4a64e0",
+                    "required": true,
+                    "sample": false,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GP_LINK",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "dabb4578-7eab-43d2-84c7-36f90e871e7e",
+            "level": "entity",
+            "parentCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "childCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "13048f5d-bb8d-404c-9c20-b45fedf8b66e",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "2990fbdc-cb5e-49fb-81b5-34fba38421b6",
+            "level": "entity",
+            "parentCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "childCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "0c0b290e-1f65-4f49-adc2-89f2b05c0f2b",
+                    "required": false,
+                    "sample": false,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "45d1b2a9-7d3e-4fd3-92e9-8698b0265fde",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "f4ee74f8-1d6d-46ee-a96f-d00f9904c841",
+            "level": "entity",
+            "parentCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "83441f8f-3eb3-4ddf-a4cb-a49dc3739fad",
+            "level": "entity",
+            "parentCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "childCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "4716a742-970a-47d3-8ceb-36b634da7375",
+            "level": "entity",
+            "parentCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "6267aa52-0dc8-4791-8b67-689857a885cf",
+            "level": "entity",
+            "parentCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "5d49bbce-b162-4319-a5c5-1a51dc31b6b7",
+            "level": "entity",
+            "parentCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "CONTAINS",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "0cd6d146-caff-487d-b4e8-edf468d4375a",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e11b9c63-4771-4f91-b934-b6d6a88f0969",
+                    "required": false,
+                    "sample": false,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "7222e61c-5be5-49ff-a039-dce00d35b08c",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b89b2920-0434-4b2e-b887-71e536d2e5e3",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "15e4c61b-d91a-4b1a-bbb1-ed19f539c7eb",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ad432e70-e1c0-4a7d-908a-c005b9b969e4",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "b20b78d3-6848-4db1-8093-275fe1e18a39",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "58a35e05-4f6b-4343-a138-b7237204b0a8",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "dc51afb9-2cce-4471-a3d8-786cbd0f03fb",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b9caa083-e0f2-433f-b143-0442c3d3aec2",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_WRITE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "35ca356b-7df6-4d5c-8df0-099e363b174c",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "41c3ec6d-6209-436a-abf7-34bde1ba8e0b",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GENERIC_WRITE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ac70eefe-ab43-429b-96d0-e1d658206ed6",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "d91adf4f-7217-4574-899f-583c1777f65c",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b0ec088b-ef9b-4a54-a190-c9dbc4089fe5",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "ALLOWED_TO_DELEGATE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "299cbc9e-0cf2-4609-9b9e-138d90da0d25",
+            "level": "entity",
+            "parentCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "EXECUTE_DCOM",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "7a6882c0-38a8-4ee4-bedf-9716b4b84dda",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "EXECUTE_DCOM",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "902c062e-b441-4e94-a968-d7ac268c36d8",
+            "level": "entity",
+            "parentCollection": "ec61bf03-8295-4935-9397-ade193af5d3e",
+            "childCollection": "c5983d06-ba4e-4517-b513-221865539a38",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "WRITE_DACL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "afd99e70-36a4-4adc-80a6-f4b31f5e414c",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "3f350aa4-81c4-479a-80f6-a92cd790cea2",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "WRITE_DACL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "4ec50e99-1e7a-4bf0-b7ef-0803632dc062",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "30ead64c-6323-4a08-83df-6be61c2a1d40",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "WRITE_DACL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "079534a8-9864-46b6-9443-34f806f05065",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "1afb3506-b741-4ce8-9d2b-ea6ccf3ea632",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "WRITE_DACL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "1ea18d2b-7fbe-4114-aa54-ec5258cde33d",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "177f3703-b665-453e-8f2d-4d55b8e4acca",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "80ca98bb-283e-417e-bfc5-748bb72d96be",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c8b2b814-f4fe-4c90-bd7f-7ee8d5ec0592",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "70ebd025-4dd7-4cad-81c0-da90397f7cf8",
+            "level": "entity",
+            "parentCollection": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "08f5becc-5c44-4155-a3bc-2098c80a477d",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "5f82540c-e4ae-430b-b650-10f68dfbe2cc",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "367e2ff0-f5ac-4999-932e-9734e75081de",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "GET_CHANGES_ALL",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "872a9a5e-6636-4121-a224-0553f4a9ea2d",
+            "level": "entity",
+            "parentCollection": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+            "childCollection": "56b166c5-7861-447a-916a-71ab8da315cd",
+            "bucketId": "b47fefb7-bb99-4ef1-8683-171788d92c99",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "isacl",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "03159710-d05a-43b2-855f-3455a4b18909",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                }
+            ]
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "b47fefb7-bb99-4ef1-8683-171788d92c99": "neo4j",
+        "1f503f69-635a-449a-b25c-20dbf6813831": "highvalue",
+        "2eff3e49-3b1d-44ce-977e-8a7199411a00": "neo4jImportId",
+        "f6473293-3915-4882-85b8-fde4c9758653": "domain",
+        "226712b2-4d81-486a-b847-7829f93ba504": "name",
+        "efdbe7ea-b6a3-4a5d-875c-0be682cbce2a": "objectid",
+        "56b166c5-7861-447a-916a-71ab8da315cd": "Domain",
+        "94c7e50c-c35b-4f70-bd79-9344511b2cff": "neo4jImportId",
+        "e57338ff-c6ab-4306-a3a2-98d938076e4f": "owned",
+        "ea27c316-f259-4243-9563-4bd2108c6002": "domain",
+        "8e1b8d40-c73f-4f23-9a5e-b45613d228a8": "operatingsystem",
+        "6c136845-33dc-4a54-8363-0c87856da6d4": "name",
+        "ea98bf90-1b66-42d6-8fbb-1da5bf2739bf": "objectid",
+        "4095f53c-7074-46b3-828b-4dd63d9b97a2": "enabled",
+        "c5983d06-ba4e-4517-b513-221865539a38": "Computer",
+        "f2c14802-b501-4db5-b05f-98e71bf7b48e": "blocksInheritance",
+        "0d121795-6657-41f6-b574-0b930ddbb8c9": "neo4jImportId",
+        "fbd1285e-654c-4f8b-83f0-63c96d69874a": "domain",
+        "b3867f92-eb2a-42a3-b801-89bb88600603": "name",
+        "f38d0fc4-07c5-4011-a06f-37a7a5baf5ce": "objectid",
+        "476a3362-62e5-46a8-b239-5356e4ac9f2f": "OU",
+        "56671803-f001-463c-a8f3-bd535c8554a9": "neo4jImportId",
+        "5941d3ab-5217-4daf-9083-32ca9941eb4b": "domain",
+        "bf806b18-2940-4a01-b6f5-dcc70de51535": "name",
+        "da6b0bfc-4566-4dac-9247-5be4d0a02d44": "objectid",
+        "d91adf4f-7217-4574-899f-583c1777f65c": "GPO",
+        "dda6d381-125b-47bf-a681-8a327eeee06e": "highvalue",
+        "78e154c5-571c-40c1-8d56-2865f02191fe": "neo4jImportId",
+        "0b75d7d9-15a5-44d0-9014-7d5ac8d973de": "domain",
+        "43c196cf-cd9a-4ba8-8ecf-148812a51ec4": "name",
+        "c8b19a10-4211-49bd-9681-a95cf8bdc4d7": "objectid",
+        "17d69cab-e4e1-4ca9-8928-ba2630c48106": "HighValue",
+        "54110d31-3fb0-442f-8be3-c8836e9e1991": "neo4jImportId",
+        "879a387f-139d-4ba7-9f75-759302b8f6e6": "owned",
+        "23fa7bf8-ef55-4bc5-8a9d-884512d98a3b": "displayname",
+        "82288d5c-26e5-4c59-bd28-c5a5e0aaf759": "pwdlastset",
+        "8be7ab77-dcad-4f86-850b-62c9e26d1a6b": "domain",
+        "1a2310c1-c7eb-4ec6-b527-c2c13fbfdaf2": "lastlogon",
+        "6fedfeb4-6973-480c-a4ea-b9919c7a0a2b": "name",
+        "4f2e63bf-4a6b-4e10-b419-3a5220f770b1": "enabled",
+        "20c331cd-e971-4ad5-8e9b-d17a126f64e1": "objectid",
+        "49e7d821-8942-4c19-adc4-e81db9cb6f84": "hasspn",
+        "ec61bf03-8295-4935-9397-ade193af5d3e": "User",
+        "7ed10b79-e33c-4b58-89c1-d50de6ba5e62": "highvalue",
+        "0c101ecc-934d-4697-93e3-b154f337cc72": "neo4jImportId",
+        "2b0b4995-1082-4862-a666-02222ff866cd": "domain",
+        "d2e50475-55b3-41f5-81e0-e9517b7d0bcc": "name",
+        "b46575d8-b098-4c9b-9c0b-ca1f4632ec1a": "objectid",
+        "c24578b7-b8f9-4b1f-b70f-41f6c132ba59": "owned",
+        "b5cad848-69da-4e96-92b2-337ccac086b0": "pwdlastset",
+        "e11154a1-f5b7-43d2-b175-6567aa5a74df": "displayname",
+        "80f30fdc-435b-483f-8c9c-6367022f43e6": "lastlogon",
+        "4f964671-85d9-4f50-b324-a836a6f23714": "enabled",
+        "5738c011-4d62-4fe2-9d6b-57c1d4d596f6": "Group",
+        "8389f01b-a0ca-4f73-9bb9-789452f6dd06": "WRITE_OWNER",
+        "ed5bba79-8b62-40ae-a5d2-81b0ebe3ac6a": "WRITE_OWNER",
+        "04bfd0d5-de6d-4a1d-b96d-f4e278a12eaf": "WRITE_OWNER",
+        "8b6c2f6e-0a95-4dda-a20a-9d8028012b34": "WRITE_OWNER",
+        "c076e41c-0b8f-44fe-8eba-6d42a08cefce": "HAS_SESSION",
+        "8e73fd2e-5823-4043-9a14-380bc6da336c": "DC_SYNC",
+        "e900c0b2-9917-4e0c-a558-e8e26194b7c1": "DC_SYNC",
+        "e99aa4d3-672b-43df-87e1-83c15b51bacb": "DC_SYNC",
+        "9bdcd1d7-63c2-44a7-a5ee-f8fe68ce088c": "DC_SYNC",
+        "37bac269-bd8e-4d97-b1d9-379415c3ae72": "MEMBER_OF",
+        "6c0c7ef1-620a-490e-b1f7-e8d8e9c5ca9e": "MEMBER_OF",
+        "23d05abe-f31d-45c5-a89d-224773a90e3a": "MEMBER_OF",
+        "beb7090d-9e88-46aa-b1db-6342e4262d07": "MEMBER_OF",
+        "18f53ee6-8faa-49de-b24e-566731cf44e0": "MEMBER_OF",
+        "9a8c21be-9b42-4761-89e6-eecc3b7c4abe": "MEMBER_OF",
+        "f1925e68-ce04-4df8-8405-fd0bd58710a2": "GENERIC_ALL",
+        "9cb62210-7f36-4c4c-9421-d3f5f473b24a": "GENERIC_ALL",
+        "c5613e32-eaea-4ef1-a37a-0893fec9b24a": "GENERIC_ALL",
+        "ade1beb3-c851-4b49-8ac9-7393d42d759f": "GENERIC_ALL",
+        "f6a234b6-be65-40f9-a7dd-1eb7c2ba9b23": "GENERIC_ALL",
+        "ebede6e9-f6df-4d92-9eb1-786497460cc1": "GENERIC_ALL",
+        "77599073-f57b-4e89-a881-4d75ea68c72b": "GENERIC_ALL",
+        "52bc7954-bae4-47fb-8f34-725a0bdb9cca": "GENERIC_ALL",
+        "9280f8f2-7837-42a0-ab14-a1785f1bab5b": "GENERIC_ALL",
+        "eaff48af-5b0b-407a-8072-fd5dd447c982": "GENERIC_ALL",
+        "167d3b70-231a-42eb-9b27-125a9f75e32b": "OWNS",
+        "88ac779e-58ca-48a9-9226-20f7c1bf4346": "OWNS",
+        "9c4b64b2-3d72-43e7-9a7b-32d020c9c3cb": "OWNS",
+        "1be1aa57-563b-44da-b676-8a06c07535a0": "OWNS",
+        "418e049e-2835-463f-8118-5ad9482d8328": "ADMIN_TO",
+        "b1e1d2c6-f82f-4a5c-8e35-051d04f8972d": "ADMIN_TO",
+        "f3bf531c-5c47-4ca1-a9f3-52f071a5bfcb": "CAN_RDP",
+        "29492b8e-fc80-4af1-b09a-cd0881b022d9": "CAN_RDP",
+        "4b7ce927-cb31-4875-adcf-61c486ecbc2c": "GP_LINK",
+        "7372b105-f149-40d2-9130-f50ba5462483": "GP_LINK",
+        "9a0862d2-62e2-44f6-8cb5-c6a5e546c5d8": "GP_LINK",
+        "b625da3a-c8e9-4650-ad17-d335f0607272": "GP_LINK",
+        "4f07305c-378f-49c5-b803-6fb6c3e9e0a3": "GP_LINK",
+        "49afbec0-8d00-44f9-8917-b2e192cbb4de": "GP_LINK",
+        "2ceaa4ba-bb8f-40e6-83dd-6e699e964bc9": "GP_LINK",
+        "ad5e7823-abfe-4317-a78c-03270e6f2d94": "GP_LINK",
+        "dabb4578-7eab-43d2-84c7-36f90e871e7e": "GP_LINK",
+        "13048f5d-bb8d-404c-9c20-b45fedf8b66e": "CONTAINS",
+        "2990fbdc-cb5e-49fb-81b5-34fba38421b6": "CONTAINS",
+        "45d1b2a9-7d3e-4fd3-92e9-8698b0265fde": "CONTAINS",
+        "f4ee74f8-1d6d-46ee-a96f-d00f9904c841": "CONTAINS",
+        "83441f8f-3eb3-4ddf-a4cb-a49dc3739fad": "CONTAINS",
+        "4716a742-970a-47d3-8ceb-36b634da7375": "CONTAINS",
+        "6267aa52-0dc8-4791-8b67-689857a885cf": "CONTAINS",
+        "5d49bbce-b162-4319-a5c5-1a51dc31b6b7": "CONTAINS",
+        "0cd6d146-caff-487d-b4e8-edf468d4375a": "CONTAINS",
+        "7222e61c-5be5-49ff-a039-dce00d35b08c": "GET_CHANGES",
+        "15e4c61b-d91a-4b1a-bbb1-ed19f539c7eb": "GET_CHANGES",
+        "b20b78d3-6848-4db1-8093-275fe1e18a39": "GET_CHANGES",
+        "dc51afb9-2cce-4471-a3d8-786cbd0f03fb": "GET_CHANGES",
+        "35ca356b-7df6-4d5c-8df0-099e363b174c": "GENERIC_WRITE",
+        "ac70eefe-ab43-429b-96d0-e1d658206ed6": "GENERIC_WRITE",
+        "299cbc9e-0cf2-4609-9b9e-138d90da0d25": "ALLOWED_TO_DELEGATE",
+        "7a6882c0-38a8-4ee4-bedf-9716b4b84dda": "EXECUTE_DCOM",
+        "902c062e-b441-4e94-a968-d7ac268c36d8": "EXECUTE_DCOM",
+        "afd99e70-36a4-4adc-80a6-f4b31f5e414c": "WRITE_DACL",
+        "4ec50e99-1e7a-4bf0-b7ef-0803632dc062": "WRITE_DACL",
+        "079534a8-9864-46b6-9443-34f806f05065": "WRITE_DACL",
+        "1ea18d2b-7fbe-4114-aa54-ec5258cde33d": "WRITE_DACL",
+        "80ca98bb-283e-417e-bfc5-748bb72d96be": "GET_CHANGES_ALL",
+        "70ebd025-4dd7-4cad-81c0-da90397f7cf8": "GET_CHANGES_ALL",
+        "5f82540c-e4ae-430b-b650-10f68dfbe2cc": "GET_CHANGES_ALL",
+        "872a9a5e-6636-4121-a224-0553f4a9ea2d": "GET_CHANGES_ALL",
+        "f30a1259-a8ca-4da8-970b-d35c26367905": "isacl",
+        "b606626f-fe3c-4ef9-8b90-784ebdf0c5c1": "isacl",
+        "e2b313c8-00f2-4c0d-add7-8bb01292ae68": "isacl",
+        "677283f6-8db0-48c2-9778-84953d619d5d": "isacl",
+        "220f98c8-2959-472c-b9c8-48fff3469a5d": "isacl",
+        "c781d349-9521-4ff9-bd82-708c2475c673": "isacl",
+        "8c168a20-5219-43cc-a72a-4348fd1468ac": "isacl",
+        "5ca6973d-6eac-4bfd-8859-65a1c206fd23": "isacl",
+        "311a66c8-59e3-42f0-a1a0-d5367e0d1873": "isacl",
+        "9e25c67e-b5ac-4c0e-bb35-16906c67db54": "isacl",
+        "5aed20f2-2442-46ea-b57a-c47c9041b444": "isacl",
+        "ef9ca27e-923a-4ee5-9a71-27d409b1f614": "isacl",
+        "9a8130eb-8201-40c1-a157-713ea2ea6093": "isacl",
+        "e1cce75e-03a5-4280-bd3c-5a945dc91010": "isacl",
+        "0a985f73-a0cb-4f65-a95d-bc6a7df5f246": "isacl",
+        "78ed4062-b31e-47c6-91cc-d99953292dcf": "isacl",
+        "7e98d4d8-2986-4fee-a2ea-b8af107fc411": "isacl",
+        "c9eb9960-ff85-4472-b81c-48833807b7c4": "isacl",
+        "cf9ecda2-306a-47d8-afb0-f86b48f1505e": "isacl",
+        "f0e573b3-1269-4e1f-b064-345a0bc150f1": "isacl",
+        "4f4a8267-a9b2-460d-9ef1-da73c462450c": "isacl",
+        "7111b311-164f-4f61-8aff-5f83a0cab91c": "isacl",
+        "6b4b4438-bfa9-4041-b2be-f722f154543d": "enforced",
+        "4fe7953a-b74a-4164-bd85-747013f22953": "isacl",
+        "a89394b5-3784-40ae-93b1-c0cb16ab40a6": "enforced",
+        "facbf297-47ec-43fb-8611-47087db1079e": "isacl",
+        "b948e33f-5167-4834-ba2f-11171ad29b16": "enforced",
+        "d2bac67d-dd33-460d-9a3b-f432cf4a64e0": "isacl",
+        "0c0b290e-1f65-4f49-adc2-89f2b05c0f2b": "isacl",
+        "e11b9c63-4771-4f91-b934-b6d6a88f0969": "isacl",
+        "b89b2920-0434-4b2e-b887-71e536d2e5e3": "isacl",
+        "ad432e70-e1c0-4a7d-908a-c005b9b969e4": "isacl",
+        "58a35e05-4f6b-4343-a138-b7237204b0a8": "isacl",
+        "b9caa083-e0f2-433f-b143-0442c3d3aec2": "isacl",
+        "41c3ec6d-6209-436a-abf7-34bde1ba8e0b": "isacl",
+        "b0ec088b-ef9b-4a54-a190-c9dbc4089fe5": "isacl",
+        "3f350aa4-81c4-479a-80f6-a92cd790cea2": "isacl",
+        "30ead64c-6323-4a08-83df-6be61c2a1d40": "isacl",
+        "1afb3506-b741-4ce8-9d2b-ea6ccf3ea632": "isacl",
+        "177f3703-b665-453e-8f2d-4d55b8e4acca": "isacl",
+        "c8b2b814-f4fe-4c90-bd7f-7ee8d5ec0592": "isacl",
+        "08f5becc-5c44-4155-a3bc-2098c80a477d": "isacl",
+        "367e2ff0-f5ac-4999-932e-9734e75081de": "isacl",
+        "03159710-d05a-43b2-855f-3455a4b18909": "isacl"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ce6d2ff7-35de-4a91-a848-5e248eb05ca4"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "47df581f-eea2-4554-b9b9-448a87ab80b0"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "593fefcb-4583-4c9b-987a-f925f69b7ac8"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-04-24T15:32:10.798Z",
+    "GUID": "338dab89-ba89-4f8b-8ad0-d07cfbe45808",
+    "isLineageEnabled": false,
+    "description": "AuraDB Dataset Cybersecurity",
+    "lastModifTS": "2023-04-25T09:59:52.528Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.12"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "56b166c5-7861-447a-916a-71ab8da315cd",
+                        "x": 2395,
+                        "y": 270,
+                        "width": 250,
+                        "height": 101,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "c5983d06-ba4e-4517-b513-221865539a38",
+                        "x": 100,
+                        "y": 790,
+                        "width": 250,
+                        "height": 129,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+                        "x": 100,
+                        "y": 1159,
+                        "width": 250,
+                        "height": 101,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "d91adf4f-7217-4574-899f-583c1777f65c",
+                        "x": 5665,
+                        "y": 917,
+                        "width": 250,
+                        "height": 87,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+                        "x": 1410,
+                        "y": 550,
+                        "width": 250,
+                        "height": 101,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "ec61bf03-8295-4935-9397-ade193af5d3e",
+                        "x": 3705,
+                        "y": 1271,
+                        "width": 250,
+                        "height": 171,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+                        "x": 3705,
+                        "y": 790,
+                        "width": 250,
+                        "height": 171,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "8389f01b-a0ca-4f73-9bb9-789452f6dd06",
+                        "x": 2070,
+                        "y": 1120,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ed5bba79-8b62-40ae-a5d2-81b0ebe3ac6a",
+                        "x": 5015,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "04bfd0d5-de6d-4a1d-b96d-f4e278a12eaf",
+                        "x": 2070,
+                        "y": 1800,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "8b6c2f6e-0a95-4dda-a20a-9d8028012b34",
+                        "x": 1085,
+                        "y": 650,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "c076e41c-0b8f-44fe-8eba-6d42a08cefce",
+                        "x": 2730,
+                        "y": 1400,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "8e73fd2e-5823-4043-9a14-380bc6da336c",
+                        "x": 2070,
+                        "y": 3160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e900c0b2-9917-4e0c-a558-e8e26194b7c1",
+                        "x": 2070,
+                        "y": 270,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e99aa4d3-672b-43df-87e1-83c15b51bacb",
+                        "x": 3055,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "9bdcd1d7-63c2-44a7-a5ee-f8fe68ce088c",
+                        "x": 760,
+                        "y": 480,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "37bac269-bd8e-4d97-b1d9-379415c3ae72",
+                        "x": 2400,
+                        "y": 1711,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "6c0c7ef1-620a-490e-b1f7-e8d8e9c5ca9e",
+                        "x": 2070,
+                        "y": 2310,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "23d05abe-f31d-45c5-a89d-224773a90e3a",
+                        "x": 4365,
+                        "y": 930,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "beb7090d-9e88-46aa-b1db-6342e4262d07",
+                        "x": 1745,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "18f53ee6-8faa-49de-b24e-566731cf44e0",
+                        "x": 4040,
+                        "y": 790,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "9a8c21be-9b42-4761-89e6-eecc3b7c4abe",
+                        "x": 2730,
+                        "y": 1230,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f1925e68-ce04-4df8-8405-fd0bd58710a2",
+                        "x": 1085,
+                        "y": 1060,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "9cb62210-7f36-4c4c-9421-d3f5f473b24a",
+                        "x": 2070,
+                        "y": 1290,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "c5613e32-eaea-4ef1-a37a-0893fec9b24a",
+                        "x": 2070,
+                        "y": 2820,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ade1beb3-c851-4b49-8ac9-7393d42d759f",
+                        "x": 3710,
+                        "y": 1101,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f6a234b6-be65-40f9-a7dd-1eb7c2ba9b23",
+                        "x": 3380,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ebede6e9-f6df-4d92-9eb1-786497460cc1",
+                        "x": 2070,
+                        "y": 2990,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "77599073-f57b-4e89-a881-4d75ea68c72b",
+                        "x": 2730,
+                        "y": 1060,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "52bc7954-bae4-47fb-8f34-725a0bdb9cca",
+                        "x": 2400,
+                        "y": 441,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "9280f8f2-7837-42a0-ab14-a1785f1bab5b",
+                        "x": 760,
+                        "y": 1160,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "eaff48af-5b0b-407a-8072-fd5dd447c982",
+                        "x": 4040,
+                        "y": 960,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "167d3b70-231a-42eb-9b27-125a9f75e32b",
+                        "x": 2070,
+                        "y": 780,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "88ac779e-58ca-48a9-9226-20f7c1bf4346",
+                        "x": 2070,
+                        "y": 2140,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "9c4b64b2-3d72-43e7-9a7b-32d020c9c3cb",
+                        "x": 4365,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1be1aa57-563b-44da-b676-8a06c07535a0",
+                        "x": 1085,
+                        "y": 480,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "418e049e-2835-463f-8118-5ad9482d8328",
+                        "x": 105,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b1e1d2c6-f82f-4a5c-8e35-051d04f8972d",
+                        "x": 2730,
+                        "y": 550,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f3bf531c-5c47-4ca1-a9f3-52f071a5bfcb",
+                        "x": 2730,
+                        "y": 1740,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "29492b8e-fc80-4af1-b09a-cd0881b022d9",
+                        "x": 2730,
+                        "y": 720,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "4b7ce927-cb31-4875-adcf-61c486ecbc2c",
+                        "x": 2070,
+                        "y": 100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "7372b105-f149-40d2-9130-f50ba5462483",
+                        "x": 2400,
+                        "y": 100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "9a0862d2-62e2-44f6-8cb5-c6a5e546c5d8",
+                        "x": 2400,
+                        "y": 1201,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b625da3a-c8e9-4650-ad17-d335f0607272",
+                        "x": 2070,
+                        "y": 610,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "4f07305c-378f-49c5-b803-6fb6c3e9e0a3",
+                        "x": 760,
+                        "y": 820,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "49afbec0-8d00-44f9-8917-b2e192cbb4de",
+                        "x": 5340,
+                        "y": 1030,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "2ceaa4ba-bb8f-40e6-83dd-6e699e964bc9",
+                        "x": 1415,
+                        "y": 791,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ad5e7823-abfe-4317-a78c-03270e6f2d94",
+                        "x": 5340,
+                        "y": 690,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "dabb4578-7eab-43d2-84c7-36f90e871e7e",
+                        "x": 2400,
+                        "y": 1371,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "13048f5d-bb8d-404c-9c20-b45fedf8b66e",
+                        "x": 435,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "2990fbdc-cb5e-49fb-81b5-34fba38421b6",
+                        "x": 2400,
+                        "y": 1541,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "45d1b2a9-7d3e-4fd3-92e9-8698b0265fde",
+                        "x": 2070,
+                        "y": 1460,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "f4ee74f8-1d6d-46ee-a96f-d00f9904c841",
+                        "x": 105,
+                        "y": 989,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "83441f8f-3eb3-4ddf-a4cb-a49dc3739fad",
+                        "x": 105,
+                        "y": 1330,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "4716a742-970a-47d3-8ceb-36b634da7375",
+                        "x": 3380,
+                        "y": 1100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "6267aa52-0dc8-4791-8b67-689857a885cf",
+                        "x": 3380,
+                        "y": 930,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "5d49bbce-b162-4319-a5c5-1a51dc31b6b7",
+                        "x": 2070,
+                        "y": 1630,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "0cd6d146-caff-487d-b4e8-edf468d4375a",
+                        "x": 760,
+                        "y": 1330,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "7222e61c-5be5-49ff-a039-dce00d35b08c",
+                        "x": 2070,
+                        "y": 440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "15e4c61b-d91a-4b1a-bbb1-ed19f539c7eb",
+                        "x": 2070,
+                        "y": 2650,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b20b78d3-6848-4db1-8093-275fe1e18a39",
+                        "x": 3710,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "dc51afb9-2cce-4471-a3d8-786cbd0f03fb",
+                        "x": 760,
+                        "y": 650,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "35ca356b-7df6-4d5c-8df0-099e363b174c",
+                        "x": 4040,
+                        "y": 1200,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ac70eefe-ab43-429b-96d0-e1d658206ed6",
+                        "x": 5340,
+                        "y": 860,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "299cbc9e-0cf2-4609-9b9e-138d90da0d25",
+                        "x": 2730,
+                        "y": 1910,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "7a6882c0-38a8-4ee4-bedf-9716b4b84dda",
+                        "x": 2730,
+                        "y": 890,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "902c062e-b441-4e94-a968-d7ac268c36d8",
+                        "x": 2730,
+                        "y": 1570,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "afd99e70-36a4-4adc-80a6-f4b31f5e414c",
+                        "x": 2070,
+                        "y": 1970,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "4ec50e99-1e7a-4bf0-b7ef-0803632dc062",
+                        "x": 4690,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "079534a8-9864-46b6-9443-34f806f05065",
+                        "x": 1085,
+                        "y": 820,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1ea18d2b-7fbe-4114-aa54-ec5258cde33d",
+                        "x": 2070,
+                        "y": 950,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "80ca98bb-283e-417e-bfc5-748bb72d96be",
+                        "x": 4040,
+                        "y": 620,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "70ebd025-4dd7-4cad-81c0-da90397f7cf8",
+                        "x": 2070,
+                        "y": 2480,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "5f82540c-e4ae-430b-b650-10f68dfbe2cc",
+                        "x": 760,
+                        "y": 990,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "872a9a5e-6636-4121-a224-0553f4a9ea2d",
+                        "x": 2400,
+                        "y": 611,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 50,
+                        "y": 50,
+                        "GUID": "b47fefb7-bb99-4ef1-8683-171788d92c99"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "56b166c5-7861-447a-916a-71ab8da315cd",
+                            "size": 100,
+                            "x": 1161.1861659018853,
+                            "y": 1149.5730598721716
+                        },
+                        {
+                            "GUID": "c5983d06-ba4e-4517-b513-221865539a38",
+                            "size": 100,
+                            "x": 2038.0229124854163,
+                            "y": 1851.569467109509,
+                            "isPined": true
+                        },
+                        {
+                            "GUID": "476a3362-62e5-46a8-b239-5356e4ac9f2f",
+                            "size": 100,
+                            "x": 529.459133087727,
+                            "y": 1828.5380468878132
+                        },
+                        {
+                            "GUID": "d91adf4f-7217-4574-899f-583c1777f65c",
+                            "size": 100,
+                            "x": 681.4883440943197,
+                            "y": 1220.7189061634353,
+                            "isPined": true
+                        },
+                        {
+                            "GUID": "17d69cab-e4e1-4ca9-8928-ba2630c48106",
+                            "size": 100,
+                            "x": 755.1242893515928,
+                            "y": 2132.860018529853
+                        },
+                        {
+                            "GUID": "ec61bf03-8295-4935-9397-ade193af5d3e",
+                            "size": 100,
+                            "x": 1483.540198056639,
+                            "y": 2266.9140872324742
+                        },
+                        {
+                            "GUID": "5738c011-4d62-4fe2-9d6b-57c1d4d596f6",
+                            "size": 100,
+                            "x": 1781.592799078417,
+                            "y": 1220.2391605169523
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 489.45913308772697,
+                            "y": 1109.5730598721716,
+                            "GUID": "b47fefb7-bb99-4ef1-8683-171788d92c99"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 800
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

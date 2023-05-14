@@ -1,0 +1,981 @@
+{
+    "modelName": "AuraDB Dataset StackOverflow",
+    "collections": [
+        {
+            "collectionName": "Tag",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "type": "multiple",
+                    "primaryKey": false,
+                    "unique": true,
+                    "multipleTypes": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": true,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "31b62fe7-580d-4efd-9782-cf2fa79be3c4"
+                        },
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "null",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "baf07c64-415f-4007-a6a4-f1ca4eabbe25"
+                        }
+                    ],
+                    "GUID": "8045442e-b35b-40af-aab6-e4c3457e37d9",
+                    "required": false,
+                    "sample": "stream",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "link",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c719ea7e-d583-4fd0-bc81-f66fc64e321f",
+                    "required": true,
+                    "sample": "https://stackoverflow.com/questions/tagged/stream",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "716d22c5-4c27-443b-a549-913f03d1e823",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "265ff2ff-bba4-4575-8b4c-c135d2c05d9e",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "3ac07ff1-1134-4773-8ae2-097aa512ec8e",
+                    "name": "constraint_64b1b1cf",
+                    "key": [
+                        {
+                            "keyId": "8045442e-b35b-40af-aab6-e4c3457e37d9",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "User",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "display_name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6d245665-a220-410a-8a1d-72f262480ea3",
+                    "required": true,
+                    "sample": "ObsoleteATM",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "uuid",
+                    "isActivated": true,
+                    "type": "multiple",
+                    "primaryKey": false,
+                    "unique": true,
+                    "multipleTypes": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "exclusiveMinimum": false,
+                            "exclusiveMaximum": false,
+                            "primaryKey": false,
+                            "unique": true,
+                            "childType": "number",
+                            "type": "numeric",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "5859e086-9281-48b5-8498-e846397704be"
+                        },
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": true,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "da2b7a1f-91c8-4627-b33f-68dae5830bb9"
+                        }
+                    ],
+                    "GUID": "fd1de351-50c0-4404-87ef-605a6b17e5bb",
+                    "required": true,
+                    "sample": 14315048,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "a72ced28-bd65-4a74-b5bd-abafbf303fc9",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "67c494f5-0e63-48e1-a2b4-14ed1532c41f",
+                    "name": "constraint_b13a3b7d",
+                    "key": [
+                        {
+                            "keyId": "fd1de351-50c0-4404-87ef-605a6b17e5bb",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Comment",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "score",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 3,
+                    "GUID": "2f59692f-6b82-485b-aba0-73f70afb362e",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "link",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d790cc56-a688-453f-a855-71c5acdbfef7",
+                    "required": true,
+                    "sample": "https://stackoverflow.com/questions/65582926/neo4j-how-to-return-nodes-which-have-a-specific-node-in-common#comment115953502_65582926",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "uuid",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c2c9fa40-76b9-4710-a946-620c1b6fa1d4",
+                    "required": true,
+                    "sample": 122427099,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "617fc783-4c42-4375-9dc3-85f3034d1765",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "5ecda816-aa1f-47ca-8f15-c14061d73be0",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "4696c8b1-fe95-477f-a745-1f264a65bfa2",
+                    "name": "constraint_32ea8862",
+                    "key": [
+                        {
+                            "keyId": "c2c9fa40-76b9-4710-a946-620c1b6fa1d4",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Answer",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "score",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 4,
+                    "GUID": "0ab7333c-2814-47f5-9d10-db7bd7f9a7fa",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "is_accepted",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "0c65ca47-2682-436f-90d8-e5872d475cfb",
+                    "required": true,
+                    "sample": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "body_markdown",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c65bcc04-1332-4b17-9fd2-5dab1886519b",
+                    "required": true,
+                    "sample": "If you pass a non-integer to the `TOINTEGER()` function, it will return `NULL`.\r\n\r\nIn your data file, neither `product_id` nor `product_category` has an integer value, so do not use the `TOINTEGER()` function in your last 2 `MERGE` clauses.\r\n\r\n\r\n\r\n",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "link",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d5d7a5ae-6f7b-4ecf-acb1-22fa27868d0b",
+                    "required": true,
+                    "sample": "https://stackoverflow.com/a/63961113",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "title",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "979a72f5-f128-4e1a-9f03-5ed1841fc80c",
+                    "required": true,
+                    "sample": "Neo4j Cannot merge node using null property value",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "uuid",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "950eb7cf-eba5-4ede-805e-d8134cadfafb",
+                    "required": true,
+                    "sample": 69273049,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "e245ee50-8a69-41fd-8f61-11dd2b69e41c",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "a8ac2cdb-f4cb-4493-937d-cd2b1b713b7c",
+                    "name": "constraint_7e29bbac",
+                    "key": [
+                        {
+                            "keyId": "950eb7cf-eba5-4ede-805e-d8134cadfafb",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Question",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "accepted_answer_id",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 69272967,
+                    "GUID": "9df529a6-ad3d-440d-a2f7-159faa9abef6",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "body_markdown",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a3977993-a0fd-4e2f-8806-c1f2d572ffde",
+                    "required": true,
+                    "sample": "I am testing the use of Neo4j for social-like graph, but I also have many use-cases that require 1st level depth queries (e.g. get my likes / views). Consequently, I wish to decide whether I need another SQL/NoSQL to support (in terms of performance) this type of queries.\r\nUp until now, I was only able to find benchmarks and quantitive data concerning &gt; 1st level searches (i.e. friends of my friends ...)\r\nIs it common knowledge that SQL/NoSQL db will have better performance for such queries? are there any research/benchmarks about this?",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "link",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "3d1ccd25-ffbc-493a-bd0d-49595875f8ef",
+                    "required": true,
+                    "sample": "https://stackoverflow.com/q/67805670",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "creation_date",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1632249176,
+                    "GUID": "28129075-5bce-47fc-a6f8-f7427acb8f62",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "answer_count",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 4,
+                    "GUID": "ba95c6bc-f256-42f3-bac7-2170ac180f39",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "title",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "e243a035-bebc-4e5a-9cb9-7fcc9f5b4df7",
+                    "required": true,
+                    "sample": "Is there a definite answer for the performance of 1st level depth query search in Neo4j (or any other graph db) vs. SQL/NoSQL?",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "uuid",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b60b46d2-0362-4c69-88e0-ff94835fea0e",
+                    "required": true,
+                    "sample": 69273945,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "view_count",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1851,
+                    "GUID": "fba92181-1213-4f3c-a3e0-5df17b309a9c",
+                    "required": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "57caf6f2-a4f9-47c8-a694-e05b05526ce8",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "ca0634b5-53e6-4409-bb5e-3fe55189d108",
+                    "name": "constraint_401df8db",
+                    "key": [
+                        {
+                            "keyId": "b60b46d2-0362-4c69-88e0-ff94835fea0e",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "neo4j",
+            "type": "bucket",
+            "collectionIds": [
+                "265ff2ff-bba4-4575-8b4c-c135d2c05d9e",
+                "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+                "5ecda816-aa1f-47ca-8f15-c14061d73be0",
+                "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d",
+                "eb5f5b27-29ac-4ab6-b78a-a572d734d54a"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "hackoladeMeta": {},
+            "code": "",
+            "addFieldsToBucket": true,
+            "isPlugin": true
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "TAGGED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "7595bb61-2794-4f68-bc99-be4494ef7d4c",
+            "level": "entity",
+            "parentCollection": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+            "childCollection": "265ff2ff-bba4-4575-8b4c-c135d2c05d9e",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "ASKED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ac590402-972a-4cf8-9dcf-4a883b74ad99",
+            "level": "entity",
+            "parentCollection": "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+            "childCollection": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "ANSWERED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "83ec73e9-eece-4da9-946e-3676adefcf8f",
+            "level": "entity",
+            "parentCollection": "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d",
+            "childCollection": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "COMMENTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "63283fcc-1a46-490b-a092-e5bbc896be1c",
+            "level": "entity",
+            "parentCollection": "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+            "childCollection": "5ecda816-aa1f-47ca-8f15-c14061d73be0",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "COMMENTED_ON",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "d71a0c04-f3e7-439b-9d10-3df55c4e398c",
+            "level": "entity",
+            "parentCollection": "5ecda816-aa1f-47ca-8f15-c14061d73be0",
+            "childCollection": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "PROVIDED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "e280b0d0-6dbe-411e-903f-c60f2cead53b",
+            "level": "entity",
+            "parentCollection": "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+            "childCollection": "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d",
+            "bucketId": "bdc237be-846f-405a-ba71-4665565ab39e",
+            "lineSize": 2,
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "bdc237be-846f-405a-ba71-4665565ab39e": "neo4j",
+        "8045442e-b35b-40af-aab6-e4c3457e37d9": "name",
+        "c719ea7e-d583-4fd0-bc81-f66fc64e321f": "link",
+        "265ff2ff-bba4-4575-8b4c-c135d2c05d9e": "Tag",
+        "6d245665-a220-410a-8a1d-72f262480ea3": "display_name",
+        "fd1de351-50c0-4404-87ef-605a6b17e5bb": "uuid",
+        "7d98c68d-51f7-45c9-8441-fd8f2e815df4": "User",
+        "2f59692f-6b82-485b-aba0-73f70afb362e": "score",
+        "d790cc56-a688-453f-a855-71c5acdbfef7": "link",
+        "c2c9fa40-76b9-4710-a946-620c1b6fa1d4": "uuid",
+        "5ecda816-aa1f-47ca-8f15-c14061d73be0": "Comment",
+        "0ab7333c-2814-47f5-9d10-db7bd7f9a7fa": "score",
+        "0c65ca47-2682-436f-90d8-e5872d475cfb": "is_accepted",
+        "c65bcc04-1332-4b17-9fd2-5dab1886519b": "body_markdown",
+        "d5d7a5ae-6f7b-4ecf-acb1-22fa27868d0b": "link",
+        "979a72f5-f128-4e1a-9f03-5ed1841fc80c": "title",
+        "950eb7cf-eba5-4ede-805e-d8134cadfafb": "uuid",
+        "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d": "Answer",
+        "9df529a6-ad3d-440d-a2f7-159faa9abef6": "accepted_answer_id",
+        "a3977993-a0fd-4e2f-8806-c1f2d572ffde": "body_markdown",
+        "3d1ccd25-ffbc-493a-bd0d-49595875f8ef": "link",
+        "28129075-5bce-47fc-a6f8-f7427acb8f62": "creation_date",
+        "ba95c6bc-f256-42f3-bac7-2170ac180f39": "answer_count",
+        "e243a035-bebc-4e5a-9cb9-7fcc9f5b4df7": "title",
+        "b60b46d2-0362-4c69-88e0-ff94835fea0e": "uuid",
+        "fba92181-1213-4f3c-a3e0-5df17b309a9c": "view_count",
+        "eb5f5b27-29ac-4ab6-b78a-a572d734d54a": "Question",
+        "7595bb61-2794-4f68-bc99-be4494ef7d4c": "TAGGED",
+        "ac590402-972a-4cf8-9dcf-4a883b74ad99": "ASKED",
+        "83ec73e9-eece-4da9-946e-3676adefcf8f": "ANSWERED",
+        "63283fcc-1a46-490b-a092-e5bbc896be1c": "COMMENTED",
+        "d71a0c04-f3e7-439b-9d10-3df55c4e398c": "COMMENTED_ON",
+        "e280b0d0-6dbe-411e-903f-c60f2cead53b": "PROVIDED"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "0968bab2-956d-490e-865e-f4ebeb567010"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "7b0a792f-9464-4662-a262-d6dfd875f37b"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "a7874fec-1442-4813-9722-20916c58dffb"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-04-25T05:38:40.312Z",
+    "GUID": "f1f83d46-a3b2-40bb-b2b0-0337a100afa7",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "lastModifTS": "2023-04-25T05:50:58.309Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.12"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "265ff2ff-bba4-4575-8b4c-c135d2c05d9e",
+                        "x": 760,
+                        "y": 100,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+                        "x": 760,
+                        "y": 385,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "5ecda816-aa1f-47ca-8f15-c14061d73be0",
+                        "x": 100,
+                        "y": 723,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d",
+                        "x": 1420,
+                        "y": 347.5,
+                        "width": 250,
+                        "height": 115,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+                        "x": 100,
+                        "y": 270,
+                        "width": 250,
+                        "height": 143,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "7595bb61-2794-4f68-bc99-be4494ef7d4c",
+                        "x": 435,
+                        "y": 100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ac590402-972a-4cf8-9dcf-4a883b74ad99",
+                        "x": 435,
+                        "y": 270,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "83ec73e9-eece-4da9-946e-3676adefcf8f",
+                        "x": 435,
+                        "y": 440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "63283fcc-1a46-490b-a092-e5bbc896be1c",
+                        "x": 435,
+                        "y": 680,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "d71a0c04-f3e7-439b-9d10-3df55c4e398c",
+                        "x": 105,
+                        "y": 553,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e280b0d0-6dbe-411e-903f-c60f2cead53b",
+                        "x": 1095,
+                        "y": 340,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 50,
+                        "y": 50,
+                        "GUID": "bdc237be-846f-405a-ba71-4665565ab39e"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "265ff2ff-bba4-4575-8b4c-c135d2c05d9e",
+                            "size": 100,
+                            "x": 1713.4866726209896,
+                            "y": 1543.3666184671677
+                        },
+                        {
+                            "GUID": "7d98c68d-51f7-45c9-8441-fd8f2e815df4",
+                            "size": 100,
+                            "x": 1301.097205814292,
+                            "y": 1155.8396863737216
+                        },
+                        {
+                            "GUID": "5ecda816-aa1f-47ca-8f15-c14061d73be0",
+                            "size": 100,
+                            "x": 960.859379409535,
+                            "y": 1366.6076202601944
+                        },
+                        {
+                            "GUID": "ff9cff06-a17e-4317-9759-4d9e0ce7fd9d",
+                            "size": 100,
+                            "x": 1653.6597792173236,
+                            "y": 1344.984084843586
+                        },
+                        {
+                            "GUID": "eb5f5b27-29ac-4ab6-b78a-a572d734d54a",
+                            "size": 100,
+                            "x": 1313.4545326742766,
+                            "y": 1556.322976871658
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 919.7430337536656,
+                            "y": 1115.139466662069,
+                            "GUID": "bdc237be-846f-405a-ba71-4665565ab39e"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 400
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

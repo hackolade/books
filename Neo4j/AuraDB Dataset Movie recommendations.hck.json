@@ -1,0 +1,2504 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Genre",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": true,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "7dad3abc-5f48-436c-b8d0-2949748424e7",
+                    "required": true,
+                    "sample": "(no genres listed)",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "5d3e2163-1410-4cd3-a534-c9ab767bea17",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "9ebcf26a-dcc3-4211-98d4-aeb006ae1d4c",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "ce87a0fa-28f2-4a14-a1cb-6ae1fb926bc4",
+                    "name": "constraint_f8689281",
+                    "key": [
+                        {
+                            "keyId": "7dad3abc-5f48-436c-b8d0-2949748424e7",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "User",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c5884b7d-720b-4403-b00b-cbd3c0617de8",
+                    "required": true,
+                    "sample": "Michelle Taylor",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "userId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b5060b74-ab83-40e6-8429-760608ae6633",
+                    "required": true,
+                    "sample": 671,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "14478728-a7c6-4826-aeb0-3157e9d19bb3",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "533d024d-2f83-44fe-92a7-8638fe6970ff",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "c3b17c1f-e230-474e-9361-4a56a935a2ae",
+                    "name": "constraint_3b27b0",
+                    "key": [
+                        {
+                            "keyId": "b5060b74-ab83-40e6-8429-760608ae6633",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "59546597-6a7f-425e-9733-e7b717ae908d",
+                    "name": "index_a908f819",
+                    "key": [
+                        {
+                            "keyId": "c5884b7d-720b-4403-b00b-cbd3c0617de8",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Director",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "bornIn",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "1c4508d8-e6f4-404e-897b-d61aabe3885b",
+                    "required": false,
+                    "sample": "Mount Vernon, New York, USA",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "tmdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 2648917,
+                    "GUID": "eeae60cc-058d-4002-a09d-1352ea73c3d6",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "imdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": "0434571",
+                    "GUID": "0c412576-9b69-457b-94c0-5b03f29d2344",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "born",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "date",
+                    "GUID": "ee626a8b-ed9d-4aa4-883d-9807e7bcb7a0",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6956e82f-6ad8-4322-8e88-ffc58b8a0960",
+                    "required": true,
+                    "sample": "Jeremy Kagan",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "bio",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "18439123-c5da-46ff-91a6-1146734d22c6",
+                    "required": false,
+                    "sample": "From Wikipedia, the free encyclopedia. \n\nJeremy Paul Kagan (born December 14, 1945) is an American film and television director, screenwriter and television producer. \n\nDescription above from the Wikipedia article Jeremy Kagan, licensed under CC-BY-SA, full list of contributors on Wikipedia...",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "died",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "date",
+                    "GUID": "42b3cb81-73ce-483d-a1cc-7cc3c37e0a69",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "poster",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "82f6497e-0aef-4c74-9372-68fed91c6718",
+                    "required": false,
+                    "sample": "https://image.tmdb.org/t/p/w440_and_h660_face/pv6A0SVgY3AiRC12wKa1BwPtnWy.jpg",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "url",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "2e4e437b-00bc-4aee-a13e-49345c70f6a7",
+                    "required": true,
+                    "sample": "https://themoviedb.org/person/128947",
+                    "error": {}
+                },
+                {
+                    "type": "choice",
+                    "properties": [
+                        {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "65e4638f-da50-470f-b4a0-28cba67c59d1",
+                            "childType": "map",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "born",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "properties": [
+                                        {
+                                            "code": "",
+                                            "name": "year",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "339a038f-6841-4aa9-8994-c95715ac1173",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "month",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "59269ac2-e40c-48fd-b0c2-6b820dadd24b",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "day",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "881710c0-35f1-4e10-8931-4641a5973730",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "toString",
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "b470e094-d614-40d5-a06a-eae52af32780",
+                                            "required": true,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": true,
+                                    "unique": false,
+                                    "childType": "map",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "631c694b-6d6e-4a33-bd7f-de31b5da5c3c",
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "died",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "properties": [
+                                        {
+                                            "code": "",
+                                            "name": "year",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "a924b932-5d13-4498-9877-c356982ab543",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "month",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "48870dfb-5847-4156-87df-1a268e6c5ad4",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "day",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "247bb872-ad0d-47a0-ac58-052b8aec1ce8",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "toString",
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "ad63e2d4-30c9-42a0-ae82-c8cf9a425ce8",
+                                            "required": true,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": true,
+                                    "unique": false,
+                                    "childType": "map",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "d08b159a-2cb2-4087-a58b-ac72b0590083",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "error": {}
+                        },
+                        {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "fd0f153b-6f55-4132-a617-d9a77eebffef",
+                            "childType": "map",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "born",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "unique": false,
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "6bb27a88-3722-4ea7-a75b-2b9e52981641",
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "died",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "unique": false,
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "31347789-9bf7-4b3f-a1b2-882f8d028acc",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "error": {}
+                        }
+                    ],
+                    "isActivated": true,
+                    "choice": "oneOf",
+                    "GUID": "225e1be4-4b78-4a52-92e8-779dd8d4b46f",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "7b4c50a4-36de-49b3-b789-9c111c12ab6b",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Person",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "bornIn",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "60ce4d7d-ad7c-4e6c-acd2-0fd3c9665529",
+                    "required": false,
+                    "sample": "Hunt City, Illinois, USA",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "tmdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b06d8a79-fd10-442e-a2a7-924f0a5040a2",
+                    "required": true,
+                    "sample": 2617002,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "imdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": "0149027",
+                    "GUID": "2a66ae99-9b10-4b23-a69e-38f0edbfe915",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "born",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "date",
+                    "GUID": "0c0412e2-7cc0-4c5f-be96-64fad2bb9a21",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "cffb2470-c7bb-4267-827b-bbada7a8751c",
+                    "required": true,
+                    "sample": "Renzo Cesana",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "died",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "date",
+                    "GUID": "5de7f711-27bf-4fba-8db7-ffb160df4e80",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "url",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "bdbc3de6-6939-4d9e-9074-67d9c60447da",
+                    "required": true,
+                    "sample": "https://themoviedb.org/person/110205",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "bio",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d6c8910c-4af3-4a34-9946-1faa04dfb332",
+                    "required": false,
+                    "sample": "From Wikipedia, the free encyclopedia\n\nBurl Icle Ivanhoe Ives (June 14, 1909 – April 14, 1995) was an American singer and actor of stage, screen, radio and television. \n\nIves began as an itinerant singer and banjoist, and launched his own radio show, The Wayfaring Stranger, which popularized traditional folk songs.  In 1942 he appeared in Irving Berlin's This Is the Army, and then became a major star of CBS radio...",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "poster",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "72b5667b-828f-4c29-a221-d4eefc98aa12",
+                    "required": false,
+                    "sample": "https://image.tmdb.org/t/p/w440_and_h660_face/2YtSiM0f3rgFcexWLud5fX3ViJ7.jpg",
+                    "error": {}
+                },
+                {
+                    "type": "choice",
+                    "properties": [
+                        {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "96be0d37-163d-404a-aef3-699e2661f473",
+                            "childType": "map",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "born",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "properties": [
+                                        {
+                                            "code": "",
+                                            "name": "year",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "af4e2a5c-dae6-4ee5-a4cf-5af935a4d163",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "month",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "d8ba6ab6-87d8-4b25-938f-e6b5f349bc72",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "day",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "9da1f53f-48e0-42d6-94cf-b59f84c6c97f",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "toString",
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "798eb6ab-e141-4ebe-b3c3-68e274bffa1a",
+                                            "required": true,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": true,
+                                    "unique": false,
+                                    "childType": "map",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "b5dd2ce8-1493-4593-86e8-c2c24c6c6e44",
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "died",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "properties": [
+                                        {
+                                            "code": "",
+                                            "name": "year",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "c5941d00-054a-4924-8256-ec23475c75ad",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "month",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "7b6b760e-224f-4751-99ee-38f89d400b53",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "day",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "0034c3b2-f2e7-4028-b073-fe8c1fb0f3dc",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "toString",
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "0e9b35f6-fc0c-4873-bf83-8d7fc990ed2a",
+                                            "required": true,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": true,
+                                    "unique": false,
+                                    "childType": "map",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "1d65a96d-8679-4a9d-b401-133ab4ebd22b",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "error": {}
+                        },
+                        {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "d7e2e415-7856-47d2-926e-3bb8293cbdde",
+                            "childType": "map",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "born",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "unique": false,
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "1895ac48-d33d-4af4-9e1e-e07040b44647",
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "died",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "unique": false,
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "2b73bbbd-130e-4ceb-8876-2b2930f8770b",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "error": {}
+                        }
+                    ],
+                    "isActivated": true,
+                    "choice": "oneOf",
+                    "GUID": "aa12b9b3-3418-4350-992c-8190c6ae8939",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "5fa129ef-6a79-4d11-a591-dcc2afa64011",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "534c4bd6-564b-4bc6-9911-4c68419020b0",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "d882aa7d-72e9-45ee-acdf-a262e3da7794",
+                    "name": "constraint_4499eae9",
+                    "key": [
+                        {
+                            "keyId": "b06d8a79-fd10-442e-a2a7-924f0a5040a2",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "f93b0d4c-ad6d-4cc2-b526-531752b4a239",
+                    "name": "index_5c0607ad",
+                    "key": [
+                        {
+                            "keyId": "cffb2470-c7bb-4267-827b-bbada7a8751c",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Movie",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "languages",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": false,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "285e4afc-5dcc-4d06-a063-cb3e1ee333cb",
+                            "arrayItem": true,
+                            "arrayParentType": "list",
+                            "sample": "English",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "unique": false,
+                    "childType": "list",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "fe8b7a78-fb12-425a-91b3-fc14516d7c01",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "year",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1997,
+                    "GUID": "98177f4d-7915-4b72-b8a4-a3e129ecc4de",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "imdbId",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8a59a70f-edc2-479a-ba89-b12406c5fb96",
+                    "required": true,
+                    "sample": "0100150",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "runtime",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 238,
+                    "GUID": "d4ac2436-e908-446c-911d-b59c56830eab",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "imdbRating",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "float",
+                    "sample": 8.3,
+                    "GUID": "7164dc0a-9266-444b-b09c-002a8b37a8a7",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "movieId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ce6836fe-d767-4bd3-bb7a-34ef64fbe6ee",
+                    "required": true,
+                    "sample": 1245,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "countries",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": false,
+                            "type": "string",
+                            "compositeKey": [
+                                "compositeNodeKey"
+                            ],
+                            "compositeNodeKey": false,
+                            "GUID": "6aa489ac-7f5e-4c17-9bd5-f309fa3e6463",
+                            "arrayItem": true,
+                            "arrayParentType": "list",
+                            "sample": "USA",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "unique": false,
+                    "childType": "list",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "f8536cf0-5984-49e1-a787-3e20b7808064",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "imdbVotes",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1626900,
+                    "GUID": "cc753322-8833-42e5-b791-3eb0f34b7ed8",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "title",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "22c96f05-2a95-4be5-a3af-952d60061858",
+                    "required": true,
+                    "sample": "Miller's Crossing",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "url",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "42294db4-9100-4b46-92b9-f03551336cbd",
+                    "required": false,
+                    "sample": "https://themoviedb.org/movie/379",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "revenue",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 920100000,
+                    "GUID": "e79b4c6e-3067-4961-917e-bca44b5c6e2e",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "tmdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": true,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "24462939-f43d-4ca2-93a1-d34f518452f4",
+                    "required": true,
+                    "sample": 581579,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "plot",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "36c5fbc6-25bb-411f-b0bb-5dee8e3be7fe",
+                    "required": false,
+                    "sample": "Tom Regan, an advisor to a Prohibition-era crime boss, tries to keep the peace between warring mobs but gets caught in divided loyalties.",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "poster",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "34458a46-528f-4f8e-b0a6-9adce74a16e1",
+                    "required": false,
+                    "sample": "https://image.tmdb.org/t/p/w440_and_h660_face/ab3pnsTKp3BgcAFy0FgWBFBg9FL.jpg",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "released",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "dff9cc5e-0352-4360-8b4e-fc2ba35232be",
+                    "required": false,
+                    "sample": "1990-10-05",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "budget",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 175000000,
+                    "GUID": "3f66e8ed-3fac-4936-8d4b-d0d9db46919a",
+                    "required": false,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "1e4ecee6-cf6f-4b18-8d00-d3548e8b7142",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "code": "",
+            "constraint": [],
+            "index": [
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "65004a94-64ce-4654-b9fa-e55e6bf1674d",
+                    "name": "constraint_3d5fcb7f",
+                    "key": [
+                        {
+                            "keyId": "ce6836fe-d767-4bd3-bb7a-34ef64fbe6ee",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "31881b0c-806e-40aa-abfd-2e6d74e76378",
+                    "name": "constraint_737d9c1d",
+                    "key": [
+                        {
+                            "keyId": "24462939-f43d-4ca2-93a1-d34f518452f4",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "91f7de15-602e-4687-8654-5b3aff1d0dbc",
+                    "name": "index_531180b4",
+                    "key": [],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "c757f290-c8ff-4f80-8ac3-91989b441781",
+                    "name": "index_58c92700",
+                    "key": [
+                        {
+                            "keyId": "dff9cc5e-0352-4360-8b4e-fc2ba35232be",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "ad8378e3-6ecd-431f-84b5-a156697a9955",
+                    "name": "index_824aad20",
+                    "key": [
+                        {
+                            "keyId": "7164dc0a-9266-444b-b09c-002a8b37a8a7",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "35ee6266-9edf-4e58-959b-6ae7e44ad524",
+                    "name": "index_ea29e173",
+                    "key": [
+                        {
+                            "keyId": "22c96f05-2a95-4be5-a3af-952d60061858",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "5db7f098-45b0-4421-8cb0-8fa1dff67379",
+                    "name": "index_fc5f831e",
+                    "key": [
+                        {
+                            "keyId": "98177f4d-7915-4b72-b8a4-a3e129ecc4de",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                },
+                {
+                    "isActivated": true,
+                    "type": "RANGE",
+                    "GUID": "9a65dd81-1075-4298-be17-a1c4339074a1",
+                    "name": "index_fd2dc3fc",
+                    "key": [
+                        {
+                            "keyId": "8a59a70f-edc2-479a-ba89-b12406c5fb96",
+                            "type": ""
+                        }
+                    ],
+                    "state": "ONLINE",
+                    "provider": "range-1.0"
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Actor",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "bornIn",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "5ec35d8b-8791-4aa5-b3b5-1ae2706b01c5",
+                    "required": false,
+                    "sample": "Hunt City, Illinois, USA",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "tmdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 2617002,
+                    "GUID": "4255a9de-65e7-48a5-9f33-75c7889bb630",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "imdbId",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": "0149027",
+                    "GUID": "422e5019-6f3a-4742-9386-446df812089f",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "born",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "date",
+                    "GUID": "02fb6285-5407-4407-8b8f-fe4fdea72fb7",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a0988bb6-5533-4e4c-afe3-97e46323703f",
+                    "required": true,
+                    "sample": "Renzo Cesana",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "died",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "date",
+                    "GUID": "a10b6348-0795-4d51-92fc-5527954ee2d3",
+                    "required": false,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "url",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "895487e2-62a7-419d-b075-0ba536b8f69d",
+                    "required": true,
+                    "sample": "https://themoviedb.org/person/110205",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "bio",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "3485de9f-fd45-42bf-8826-d364a2766f3f",
+                    "required": false,
+                    "sample": "From Wikipedia, the free encyclopedia\n\nBurl Icle Ivanhoe Ives (June 14, 1909 – April 14, 1995) was an American singer and actor of stage, screen, radio and television. \n\nIves began as an itinerant singer and banjoist, and launched his own radio show, The Wayfaring Stranger, which popularized traditional folk songs.  In 1942 he appeared in Irving Berlin's This Is the Army, and then became a major star of CBS radio...",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "poster",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "adf3162a-cfad-49b4-95d3-d1f8681a5130",
+                    "required": false,
+                    "sample": "https://image.tmdb.org/t/p/w440_and_h660_face/2YtSiM0f3rgFcexWLud5fX3ViJ7.jpg",
+                    "error": {}
+                },
+                {
+                    "type": "choice",
+                    "properties": [
+                        {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "112da098-769e-4507-be8d-c63b68b64439",
+                            "childType": "map",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "born",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "properties": [
+                                        {
+                                            "code": "",
+                                            "name": "year",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "0208c8d9-8efa-41d3-a2dc-06e8d5e269f3",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "month",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "0adc05eb-573a-4cd5-9313-8b2fe4b1831f",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "day",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "8c3d17bc-a01e-4923-9ce8-b63274ae0c56",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "toString",
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "e1a766fe-1ff8-4cb4-a7c9-b0556f1f4175",
+                                            "required": true,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": true,
+                                    "unique": false,
+                                    "childType": "map",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "dcba6550-7742-480c-bd78-250c22bdc534",
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "died",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "properties": [
+                                        {
+                                            "code": "",
+                                            "name": "year",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "f55bcf99-b76b-4290-9b18-953946086c93",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "month",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "64939fb8-f58d-41d5-9853-b5da3531aa80",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "day",
+                                            "isActivated": true,
+                                            "exclusiveMinimum": false,
+                                            "exclusiveMaximum": false,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "childType": "number",
+                                            "type": "numeric",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "24efd8fa-ea32-4575-8014-43f471962624",
+                                            "required": true,
+                                            "error": {}
+                                        },
+                                        {
+                                            "code": "",
+                                            "name": "toString",
+                                            "isActivated": true,
+                                            "primaryKey": false,
+                                            "unique": false,
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositeNodeKey"
+                                            ],
+                                            "compositeNodeKey": false,
+                                            "GUID": "b5da44ac-6fd1-4b10-8fb9-957c192c5e7f",
+                                            "required": true,
+                                            "error": {}
+                                        }
+                                    ],
+                                    "additionalProperties": true,
+                                    "unique": false,
+                                    "childType": "map",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "54b932bc-c593-467f-99a9-1c0f642b719c",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "error": {}
+                        },
+                        {
+                            "subschema": true,
+                            "isActivated": true,
+                            "type": "document",
+                            "GUID": "d53a5b2a-142c-4ab6-b600-147d68e16010",
+                            "childType": "map",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "born",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "unique": false,
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "188a3d24-9fc0-459f-82f0-7d9773fd5461",
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "died",
+                                    "isActivated": true,
+                                    "primaryKey": false,
+                                    "unique": false,
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositeNodeKey"
+                                    ],
+                                    "compositeNodeKey": false,
+                                    "GUID": "8bc34f8a-fc23-41d0-919e-90c099abe3e4",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "error": {}
+                        }
+                    ],
+                    "isActivated": true,
+                    "choice": "oneOf",
+                    "GUID": "1e232995-d241-4ac2-b3cd-098aeedccb2a",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "6513be71-79b4-4dbb-8c64-b90b374209de",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "collectionUsers": [],
+            "GUID": "76adf49a-3af4-4bb7-85ca-d2d73ce74419",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "code": "",
+            "constraint": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "neo4j",
+            "type": "bucket",
+            "collectionIds": [
+                "9ebcf26a-dcc3-4211-98d4-aeb006ae1d4c",
+                "533d024d-2f83-44fe-92a7-8638fe6970ff",
+                "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e",
+                "534c4bd6-564b-4bc6-9911-4c68419020b0",
+                "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+                "76adf49a-3af4-4bb7-85ca-d2d73ce74419"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "hackoladeMeta": {},
+            "code": "",
+            "addFieldsToBucket": true,
+            "isPlugin": true
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "ACTED_IN",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "99771823-7d66-4009-8655-1a595ecf2c03",
+            "level": "entity",
+            "parentCollection": "76adf49a-3af4-4bb7-85ca-d2d73ce74419",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "role",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "a1b304cf-bd40-442f-873f-cff160f406d1",
+                    "required": false,
+                    "sample": "Matt",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "ACTED_IN",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "1f07f148-9a89-49ab-9827-7c473a692456",
+            "level": "entity",
+            "parentCollection": "534c4bd6-564b-4bc6-9911-4c68419020b0",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "role",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b60aeaea-b8aa-4ae8-8a32-4f85c6736323",
+                    "required": false,
+                    "sample": "Matt",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "ACTED_IN",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "cc7f347b-2ce3-41ab-818d-5e73a7b7860b",
+            "level": "entity",
+            "parentCollection": "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "role",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "65e8e0c0-b15f-4c8b-aae7-9670a6f6053b",
+                    "required": false,
+                    "sample": "Jerry Kwan",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "RATED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "db4120be-3d00-4623-a6d6-dc30536403ad",
+            "level": "entity",
+            "parentCollection": "533d024d-2f83-44fe-92a7-8638fe6970ff",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "rating",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 2.5,
+                    "GUID": "587bfc8d-42f8-40fd-8b8f-df9f0806d49b",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "timestamp",
+                    "isActivated": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "mode": "integer",
+                    "sample": 1469330481,
+                    "GUID": "0f4da38b-0745-42dc-8908-cbf6ed12d2a0",
+                    "required": true,
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "IN_GENRE",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "1ca71755-aec0-45cb-bba9-9bc4319d7d91",
+            "level": "entity",
+            "parentCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "childCollection": "9ebcf26a-dcc3-4211-98d4-aeb006ae1d4c",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": []
+        },
+        {
+            "name": "DIRECTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "35ec4895-dd63-461b-839a-a7af0c39cff3",
+            "level": "entity",
+            "parentCollection": "76adf49a-3af4-4bb7-85ca-d2d73ce74419",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "role",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "14cf87a9-4366-4271-b3a1-e010b5478846",
+                    "required": false,
+                    "sample": "Himself - Interviewer/Narrator (voice)(uncredited)",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "DIRECTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "59b50ea5-e988-4faf-8a7a-f87f118687e1",
+            "level": "entity",
+            "parentCollection": "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "role",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8fb91d6a-9ea2-4af6-8b8f-251abbeeea89",
+                    "required": false,
+                    "sample": "Photographer (uncredited)",
+                    "error": {}
+                }
+            ]
+        },
+        {
+            "name": "DIRECTED",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "childCardinality": "1",
+            "GUID": "ddbf192d-61e4-454c-b2db-c1d7499e2d4f",
+            "level": "entity",
+            "parentCollection": "534c4bd6-564b-4bc6-9911-4c68419020b0",
+            "childCollection": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+            "bucketId": "da539948-a8bf-4397-84ac-7adab8d62426",
+            "lineSize": 2,
+            "properties": [
+                {
+                    "code": "",
+                    "name": "role",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "6f466a37-29f3-4bfc-82bb-5ab472707adc",
+                    "required": false,
+                    "sample": "Preston Sweeney, Postmaster",
+                    "error": {}
+                }
+            ]
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "da539948-a8bf-4397-84ac-7adab8d62426": "neo4j",
+        "7dad3abc-5f48-436c-b8d0-2949748424e7": "name",
+        "9ebcf26a-dcc3-4211-98d4-aeb006ae1d4c": "Genre",
+        "c5884b7d-720b-4403-b00b-cbd3c0617de8": "name",
+        "b5060b74-ab83-40e6-8429-760608ae6633": "userId",
+        "533d024d-2f83-44fe-92a7-8638fe6970ff": "User",
+        "1c4508d8-e6f4-404e-897b-d61aabe3885b": "bornIn",
+        "eeae60cc-058d-4002-a09d-1352ea73c3d6": "tmdbId",
+        "0c412576-9b69-457b-94c0-5b03f29d2344": "imdbId",
+        "ee626a8b-ed9d-4aa4-883d-9807e7bcb7a0": "born",
+        "6956e82f-6ad8-4322-8e88-ffc58b8a0960": "name",
+        "18439123-c5da-46ff-91a6-1146734d22c6": "bio",
+        "42b3cb81-73ce-483d-a1cc-7cc3c37e0a69": "died",
+        "82f6497e-0aef-4c74-9372-68fed91c6718": "poster",
+        "2e4e437b-00bc-4aee-a13e-49345c70f6a7": "url",
+        "631c694b-6d6e-4a33-bd7f-de31b5da5c3c": "born",
+        "339a038f-6841-4aa9-8994-c95715ac1173": "year",
+        "59269ac2-e40c-48fd-b0c2-6b820dadd24b": "month",
+        "881710c0-35f1-4e10-8931-4641a5973730": "day",
+        "b470e094-d614-40d5-a06a-eae52af32780": "toString",
+        "d08b159a-2cb2-4087-a58b-ac72b0590083": "died",
+        "a924b932-5d13-4498-9877-c356982ab543": "year",
+        "48870dfb-5847-4156-87df-1a268e6c5ad4": "month",
+        "247bb872-ad0d-47a0-ac58-052b8aec1ce8": "day",
+        "ad63e2d4-30c9-42a0-ae82-c8cf9a425ce8": "toString",
+        "6bb27a88-3722-4ea7-a75b-2b9e52981641": "born",
+        "31347789-9bf7-4b3f-a1b2-882f8d028acc": "died",
+        "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e": "Director",
+        "60ce4d7d-ad7c-4e6c-acd2-0fd3c9665529": "bornIn",
+        "b06d8a79-fd10-442e-a2a7-924f0a5040a2": "tmdbId",
+        "2a66ae99-9b10-4b23-a69e-38f0edbfe915": "imdbId",
+        "0c0412e2-7cc0-4c5f-be96-64fad2bb9a21": "born",
+        "cffb2470-c7bb-4267-827b-bbada7a8751c": "name",
+        "5de7f711-27bf-4fba-8db7-ffb160df4e80": "died",
+        "bdbc3de6-6939-4d9e-9074-67d9c60447da": "url",
+        "d6c8910c-4af3-4a34-9946-1faa04dfb332": "bio",
+        "72b5667b-828f-4c29-a221-d4eefc98aa12": "poster",
+        "b5dd2ce8-1493-4593-86e8-c2c24c6c6e44": "born",
+        "af4e2a5c-dae6-4ee5-a4cf-5af935a4d163": "year",
+        "d8ba6ab6-87d8-4b25-938f-e6b5f349bc72": "month",
+        "9da1f53f-48e0-42d6-94cf-b59f84c6c97f": "day",
+        "798eb6ab-e141-4ebe-b3c3-68e274bffa1a": "toString",
+        "1d65a96d-8679-4a9d-b401-133ab4ebd22b": "died",
+        "c5941d00-054a-4924-8256-ec23475c75ad": "year",
+        "7b6b760e-224f-4751-99ee-38f89d400b53": "month",
+        "0034c3b2-f2e7-4028-b073-fe8c1fb0f3dc": "day",
+        "0e9b35f6-fc0c-4873-bf83-8d7fc990ed2a": "toString",
+        "1895ac48-d33d-4af4-9e1e-e07040b44647": "born",
+        "2b73bbbd-130e-4ceb-8876-2b2930f8770b": "died",
+        "534c4bd6-564b-4bc6-9911-4c68419020b0": "Person",
+        "fe8b7a78-fb12-425a-91b3-fc14516d7c01": "languages",
+        "98177f4d-7915-4b72-b8a4-a3e129ecc4de": "year",
+        "8a59a70f-edc2-479a-ba89-b12406c5fb96": "imdbId",
+        "d4ac2436-e908-446c-911d-b59c56830eab": "runtime",
+        "7164dc0a-9266-444b-b09c-002a8b37a8a7": "imdbRating",
+        "ce6836fe-d767-4bd3-bb7a-34ef64fbe6ee": "movieId",
+        "f8536cf0-5984-49e1-a787-3e20b7808064": "countries",
+        "cc753322-8833-42e5-b791-3eb0f34b7ed8": "imdbVotes",
+        "22c96f05-2a95-4be5-a3af-952d60061858": "title",
+        "42294db4-9100-4b46-92b9-f03551336cbd": "url",
+        "e79b4c6e-3067-4961-917e-bca44b5c6e2e": "revenue",
+        "24462939-f43d-4ca2-93a1-d34f518452f4": "tmdbId",
+        "36c5fbc6-25bb-411f-b0bb-5dee8e3be7fe": "plot",
+        "34458a46-528f-4f8e-b0a6-9adce74a16e1": "poster",
+        "dff9cc5e-0352-4360-8b4e-fc2ba35232be": "released",
+        "3f66e8ed-3fac-4936-8d4b-d0d9db46919a": "budget",
+        "64119cd1-a947-4a05-a19f-671d57c6bc4e": "Movie",
+        "5ec35d8b-8791-4aa5-b3b5-1ae2706b01c5": "bornIn",
+        "4255a9de-65e7-48a5-9f33-75c7889bb630": "tmdbId",
+        "422e5019-6f3a-4742-9386-446df812089f": "imdbId",
+        "02fb6285-5407-4407-8b8f-fe4fdea72fb7": "born",
+        "a0988bb6-5533-4e4c-afe3-97e46323703f": "name",
+        "a10b6348-0795-4d51-92fc-5527954ee2d3": "died",
+        "895487e2-62a7-419d-b075-0ba536b8f69d": "url",
+        "3485de9f-fd45-42bf-8826-d364a2766f3f": "bio",
+        "adf3162a-cfad-49b4-95d3-d1f8681a5130": "poster",
+        "dcba6550-7742-480c-bd78-250c22bdc534": "born",
+        "0208c8d9-8efa-41d3-a2dc-06e8d5e269f3": "year",
+        "0adc05eb-573a-4cd5-9313-8b2fe4b1831f": "month",
+        "8c3d17bc-a01e-4923-9ce8-b63274ae0c56": "day",
+        "e1a766fe-1ff8-4cb4-a7c9-b0556f1f4175": "toString",
+        "54b932bc-c593-467f-99a9-1c0f642b719c": "died",
+        "f55bcf99-b76b-4290-9b18-953946086c93": "year",
+        "64939fb8-f58d-41d5-9853-b5da3531aa80": "month",
+        "24efd8fa-ea32-4575-8014-43f471962624": "day",
+        "b5da44ac-6fd1-4b10-8fb9-957c192c5e7f": "toString",
+        "188a3d24-9fc0-459f-82f0-7d9773fd5461": "born",
+        "8bc34f8a-fc23-41d0-919e-90c099abe3e4": "died",
+        "76adf49a-3af4-4bb7-85ca-d2d73ce74419": "Actor",
+        "99771823-7d66-4009-8655-1a595ecf2c03": "ACTED_IN",
+        "1f07f148-9a89-49ab-9827-7c473a692456": "ACTED_IN",
+        "cc7f347b-2ce3-41ab-818d-5e73a7b7860b": "ACTED_IN",
+        "db4120be-3d00-4623-a6d6-dc30536403ad": "RATED",
+        "1ca71755-aec0-45cb-bba9-9bc4319d7d91": "IN_GENRE",
+        "35ec4895-dd63-461b-839a-a7af0c39cff3": "DIRECTED",
+        "59b50ea5-e988-4faf-8a7a-f87f118687e1": "DIRECTED",
+        "ddbf192d-61e4-454c-b2db-c1d7499e2d4f": "DIRECTED",
+        "a1b304cf-bd40-442f-873f-cff160f406d1": "role",
+        "b60aeaea-b8aa-4ae8-8a32-4f85c6736323": "role",
+        "65e8e0c0-b15f-4c8b-aae7-9670a6f6053b": "role",
+        "587bfc8d-42f8-40fd-8b8f-df9f0806d49b": "rating",
+        "0f4da38b-0745-42dc-8908-cbf6ed12d2a0": "timestamp",
+        "14cf87a9-4366-4271-b3a1-e010b5478846": "role",
+        "8fb91d6a-9ea2-4af6-8b8f-251abbeeea89": "role",
+        "6f466a37-29f3-4bfc-82bb-5ab472707adc": "role"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "31b8d966-fb67-4908-a481-e6d8fec06232"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "482bddcb-663e-4f45-be30-c2704ccd5d40"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "fff7c40e-c177-4f61-a919-4392661acf74"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "5.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2023-04-24T08:49:10.050Z",
+    "GUID": "56008ed2-5aa0-4e99-bf6c-40b32dfbdd00",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-04-25T10:00:52.804Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.49",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.9.12"
+    },
+    "hackoladeMeta": {},
+    "description": "AuraDB Dataset Movie recommendations",
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "9ebcf26a-dcc3-4211-98d4-aeb006ae1d4c",
+                        "x": 100,
+                        "y": 100,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "533d024d-2f83-44fe-92a7-8638fe6970ff",
+                        "x": 1745,
+                        "y": 777,
+                        "width": 250,
+                        "height": 75,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e",
+                        "x": 1085,
+                        "y": 933,
+                        "width": 250,
+                        "height": 367,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "534c4bd6-564b-4bc6-9911-4c68419020b0",
+                        "x": 1745,
+                        "y": 186.5,
+                        "width": 250,
+                        "height": 367,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+                        "x": 1085,
+                        "y": 340,
+                        "width": 250,
+                        "height": 283,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "76adf49a-3af4-4bb7-85ca-d2d73ce74419",
+                        "x": 100,
+                        "y": 186.5,
+                        "width": 250,
+                        "height": 367,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    },
+                    {
+                        "GUID": "99771823-7d66-4009-8655-1a595ecf2c03",
+                        "x": 435,
+                        "y": 270,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1f07f148-9a89-49ab-9827-7c473a692456",
+                        "x": 1420,
+                        "y": 270,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "cc7f347b-2ce3-41ab-818d-5e73a7b7860b",
+                        "x": 760,
+                        "y": 340,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "db4120be-3d00-4623-a6d6-dc30536403ad",
+                        "x": 1420,
+                        "y": 610,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "1ca71755-aec0-45cb-bba9-9bc4319d7d91",
+                        "x": 1090,
+                        "y": 100,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "35ec4895-dd63-461b-839a-a7af0c39cff3",
+                        "x": 435,
+                        "y": 440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "59b50ea5-e988-4faf-8a7a-f87f118687e1",
+                        "x": 1090,
+                        "y": 763,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "ddbf192d-61e4-454c-b2db-c1d7499e2d4f",
+                        "x": 1420,
+                        "y": 440,
+                        "width": 240,
+                        "height": 100,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 50,
+                        "y": 50,
+                        "GUID": "da539948-a8bf-4397-84ac-7adab8d62426"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [
+                    "64119cd1-a947-4a05-a19f-671d57c6bc4e"
+                ],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "9ebcf26a-dcc3-4211-98d4-aeb006ae1d4c",
+                            "size": 100,
+                            "x": 1376.4721972628672,
+                            "y": 1171.0779723830274
+                        },
+                        {
+                            "GUID": "533d024d-2f83-44fe-92a7-8638fe6970ff",
+                            "size": 100,
+                            "x": 1165.2098901973334,
+                            "y": 1247.858116412146
+                        },
+                        {
+                            "GUID": "6a0f787d-245e-4ab6-bf6c-361c04ae2c0e",
+                            "size": 100,
+                            "x": 1040.3726217737703,
+                            "y": 1432.668492240034
+                        },
+                        {
+                            "GUID": "534c4bd6-564b-4bc6-9911-4c68419020b0",
+                            "size": 100,
+                            "x": 1617.6824395734263,
+                            "y": 1252.5527733792708
+                        },
+                        {
+                            "GUID": "64119cd1-a947-4a05-a19f-671d57c6bc4e",
+                            "size": 100,
+                            "x": 1388.4881393216313,
+                            "y": 1533.2412485716661
+                        },
+                        {
+                            "GUID": "76adf49a-3af4-4bb7-85ca-d2d73ce74419",
+                            "size": 100,
+                            "x": 1741.2080109656151,
+                            "y": 1615.893853035177
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 999.4542699517958,
+                            "y": 1133.5579986988187,
+                            "GUID": "da539948-a8bf-4397-84ac-7adab8d62426"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 362
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
