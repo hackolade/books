@@ -12,7 +12,6 @@ Read Neo4j Data Modeling if you are a data architect or modeler who needs to exp
 
 Most of the principles in this book are applicable to other NoSQL property graph databases, such as Cosmos DB with Gremlin API, Amazon Neptune with Gremlin API, JanusGraph, and TinkerPop.
 
-The data models are under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
 
 ## Co-Authors
 
