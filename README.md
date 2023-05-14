@@ -18,4 +18,5 @@ Using the terms Align, Refine, and Design instead of Conceptual, Logical, and Ph
 
 Greater purpose means that by rebranding into Align, Refine, and Design, we include what the level does in the name.   Broader context means there is more than just the models. We distinguish the model from its broader phase. If you are working with a group of stakeholders who may not warm up to the traditional names of conceptual, logical, and physical, you can call the conceptual the *alignment model*, the logical the *refinement model*, and the physical the *design model*. Use the terms that would have the largest positive impact on your audience.
 
-The data models are under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
+The data models are licensed under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
+The book is Copyright © 2023 by Technics Publications
