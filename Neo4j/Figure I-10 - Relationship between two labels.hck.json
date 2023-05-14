@@ -34,7 +34,7 @@
     "views": [],
     "relationships": [
         {
-            "name": ":BELONGS_TO",
+            "name": "BELONG_TO",
             "relationshipType": "",
             "parentField": [],
             "parentCardinality": "1",
@@ -53,7 +53,7 @@
     "idToNameHashTable": {
         "e1dbd100-ba72-452c-90e1-1b781a79664b": "Pet",
         "351744bb-83e7-413a-a9b1-403b0f2064be": "Breed",
-        "d59e1954-2241-43ee-83e7-5e09495915b8": ":BELONGS_TO"
+        "d59e1954-2241-43ee-83e7-5e09495915b8": "BELONG_TO"
     },
     "definitions": {
         "type": "definitions",
@@ -78,7 +78,7 @@
     "creationTS": "2023-05-08T16:45:44.766Z",
     "GUID": "452337f0-5097-4770-b059-cc84f1a9a446",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T16:49:43.944Z",
+    "lastModifTS": "2023-05-14T06:51:28.694Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -87,8 +87,9 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.0"
+        "version": "6.10.1"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -150,7 +151,7 @@
                         {
                             "GUID": "351744bb-83e7-413a-a9b1-403b0f2064be",
                             "size": 100,
-                            "x": 1580.102166963625,
+                            "x": 1426.102166963625,
                             "y": 1254
                         }
                     ],
