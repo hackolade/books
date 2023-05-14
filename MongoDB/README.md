@@ -34,4 +34,5 @@ Steve is the author of nine books on data modeling. He is the founder of the Des
 
 
 
-The data models are under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
+The data models are licensed under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
+The book is Copyright © 2023 by Technics Publications

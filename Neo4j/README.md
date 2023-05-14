@@ -22,4 +22,5 @@ Steve Hoberman has trained more than 10,000 people in data modeling since 1992. 
 
 Steve is the author of nine books on data modeling. He is the founder of the Design Challenges group, creator of the Data Modeling Institute’s Data Modeling Certification exam, Conference Chair of the Data Modeling Zone conferences, director of Technics Publications, lecturer at Columbia University, and recipient of the Data Administration Management Association (DAMA) International Professional Achievement Award.
 
-The data models are under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
+The data models are licensed under [Apache 2.0 license](https://github.com/hackolade/books/blob/main/LICENSE).
+The book is Copyright © 2023 by Technics Publications
