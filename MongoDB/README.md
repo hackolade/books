@@ -14,11 +14,13 @@ Learn how to properly design your data model with MongoDB to avoid problems late
 
 Our role with this book is to make you aware of all of the possibilities, cover the pros and cons, and share use cases. This should inspire readers as they design their schemas. The book includes a recipe for a proven approach to data modeling. It is a toolbox in which we describe no less than 16 different schema design patterns for MongoDB documents.
 
+The book’s introduction and three chapters cover the Align, Refine, and Design approach.  By rebranding Conceptual, Logical, and Physical into Align, Refine, and Design, we include what the level does in the name. Align is about agreeing on the common business vocabulary so everyone is *aligned* on terminology and general initiative scope. Refine is about capturing the business requirements. That is, refining our knowledge of the initiative to focus on what is important. Design is about the technical requirements. That is, making sure we accommodate the unique needs of software and hardware on our model.
+
 MongoDB design patterns are reusable solutions for many of the commonly occurring use cases encountered when designing applications that leverage persistence in MongoDB.
 
 Read *MongoDB Data Modeling and Schema Design* if you are a data architect or modeler who needs to expand your modeling skills to include MongoDB, or if you are a database administrator or developer who knows MongoDB but needs to expand your schema design skills.
 
-Most of the principles in this book are applicable to other NoSQL document databases, such as Couchbase and Amazon DocumentDB.
+Most of the principles in this book are applicable to other NoSQL document databases, such as [Couchbase](https://hackolade.com/help/Couchbase.html), Azure [Cosmos DB](https://hackolade.com/help/CosmosDB.html), Amazon [DocumentDB](https://hackolade.com/help/DocumentDB.html), [MarkLogic](https://hackolade.com/help/MarkLogic.html).
 
 
 
