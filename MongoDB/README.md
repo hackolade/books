@@ -2,9 +2,7 @@
 
 This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621980).
 
-![MongoDB Data Modeling and Schema Design](https://m.media-amazon.com/images/I/41wVtEFjYcL._SY300_.jpg)
-
-
+![img](https://m.media-amazon.com/images/I/41WPMUKRTiL._SX331_BO1,204,203,200_.jpg)
 
 MongoDB has become increasingly popular as a leading NoSQL database. Its flexibility, scalability, and ease of use have made it a popular choice for many developers and businesses. MongoDB's document-based model allows for flexible storage of complex data and easy evolution of the schema.
 

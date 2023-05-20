@@ -2,9 +2,7 @@
 
 This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/Elasticsearch-Data-Modeling-Schema-Design/dp/1634622952).
 
-![img](https://m.media-amazon.com/images/I/51uThsjCIrL._SX331_BO1,204,203,200_.jpg)
-
-
+![img](https://m.media-amazon.com/images/I/51vy8neOThL._SX331_BO1,204,203,200_.jpg)
 
 Elasticsearch, although primarily known as a search and analytics engine, can also be considered as a NoSQL database. It is designed to store and retrieve large volumes of structured and unstructured data in a distributed and scalable manner. Elasticsearch stores data in a schema-less JSON format, allowing for flexible and dynamic data modeling. It provides powerful indexing and querying capabilities, allowing you to search and retrieve data based on various criteria and perform aggregations for analytics purposes. With its distributed architecture and built-in replication, Elasticsearch ensures high availability and fault tolerance. It's a popular choice for applications that require fast and efficient data retrieval, real-time analytics, and horizontal scalability.
 

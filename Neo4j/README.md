@@ -2,9 +2,7 @@
 
 This repository contains the data models used to illustrate the book "Neo4j Data Modeling" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621913).
 
-![img](https://m.media-amazon.com/images/I/51P4Ssg6KPL._SX331_BO1,204,203,200_.jpg)
-
-
+![img](https://m.media-amazon.com/images/I/51oIOpnFmzL._SX331_BO1,204,203,200_.jpg)
 
 Neo4j is a popular graph database that has gained popularity in recent years. Its strength lies in its ability to store and query highly connected data, making it a popular choice for applications such as social networks, recommendation engines, and fraud detection. Neo4j's unique property graph model enables developers to store data as nodes and relationships, providing a rich and expressive way to model complex domains.
 

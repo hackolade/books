@@ -2,11 +2,7 @@
 
 This repository contains the data models used to illustrate books of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/dp/B0C1CWGGRQ?binding=paperback&qid=1680599358&sr=8-1&ref=dbs_dp_rwt_sb_pc_tpbk).
 
-
-
-![Align Refine Design](https://m.media-amazon.com/images/I/8185Y5rCPoL._CLa%7C3129,2560%7C71z73+fewCL.jpg,71a0cnrFg3L.jpg%7C0,0,1422,2560+1707,0,1422,2560+711,0,1707,2560_._SY300_.jpg)
-
-
+![Align Refine Design](https://m.media-amazon.com/images/I/81wnC2sTxpL._CLa%7C3129,2560%7C81e5oFJKv4L.jpg,71duStgtvqL.jpg%7C0,0,1422,2560+1707,0,1422,2560+711,0,1707,2560_._SY300_.jpg)
 
 **Each book in the Align > Refine > Design series covers conceptual, logical, and physical data modeling (schema design) for a specific database product, combining the best of data modeling practices with solution-specific considerations, which lead to effective communication tools and extensible datastore foundations.**
 
