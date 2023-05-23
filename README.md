@@ -1,6 +1,6 @@
 # Books
 
-This repository contains the data models used to illustrate books of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/dp/B0C1CWGGRQ?binding=paperback&qid=1680599358&sr=8-1&ref=dbs_dp_rwt_sb_pc_tpbk).
+This repository contains the data models used to illustrate books of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/dp/B0C1CWGGRQ?binding=paperback&qid=1680599358&sr=8-1&ref=dbs_dp_rwt_sb_pc_tpbk&tag=hackolade02-20).
 
 ![Align Refine Design](https://m.media-amazon.com/images/I/81wnC2sTxpL._CLa%7C3129,2560%7C81e5oFJKv4L.jpg,71duStgtvqL.jpg%7C0,0,1422,2560+1707,0,1422,2560+711,0,1707,2560_._SY300_.jpg)
 

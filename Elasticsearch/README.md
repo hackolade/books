@@ -1,6 +1,6 @@
 # Elasticsearch Data Modeling and Schema Design
 
-This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/Elasticsearch-Data-Modeling-Schema-Design/dp/1634622952).
+This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/Elasticsearch-Data-Modeling-Schema-Design/dp/1634622952?tag=hackolade02-20).
 
 ![img](https://m.media-amazon.com/images/I/51vy8neOThL._SX331_BO1,204,203,200_.jpg)
 

@@ -1,6 +1,6 @@
 # MongoDB Data Modeling and Schema Design
 
-This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621980).
+This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621980?tag=hackolade02-20).
 
 ![img](https://m.media-amazon.com/images/I/41WPMUKRTiL._SX331_BO1,204,203,200_.jpg)
 

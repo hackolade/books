@@ -1,6 +1,6 @@
 # Neo4j Data Modeling
 
-This repository contains the data models used to illustrate the book "Neo4j Data Modeling" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621913).
+This repository contains the data models used to illustrate the book "Neo4j Data Modeling" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621913?tag=hackolade02-20).
 
 ![img](https://m.media-amazon.com/images/I/51oIOpnFmzL._SX331_BO1,204,203,200_.jpg)
 
