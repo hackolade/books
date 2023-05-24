@@ -1,6 +1,15 @@
 # Neo4j Data Modeling
 
-This repository contains the data models used to illustrate the book "Neo4j Data Modeling" of the series Align > Design > Refine available for [purchase on Amazon](https://www.amazon.com/gp/product/1634621913?tag=hackolade02-20).
+This repository contains the data models used to illustrate the book "Neo4j Data Modeling" of the series Align > Design > Refine 
+
+Purchase your copy of the book on: 
+
+- [Amazon United States](https://www.amazon.com/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913?tag=hackolade02-20)
+- [Amazon Canada](https://www.amazon.ca/Neo4j-Data-Modeling-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
+- [Amazon United Kingdom](https://www.amazon.co.uk/Neo4j-Data-Modeling-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
+- [Amazon France](https://www.amazon.fr/Neo4j-Modeling-English-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
+- [Amazon Germany](https://www.amazon.de/Neo4j-Modeling-English-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
+- [Amazon Italy](https://www.amazon.it/Neo4j-Modeling-English-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
 
 ![img](https://m.media-amazon.com/images/I/51oIOpnFmzL._SX331_BO1,204,203,200_.jpg)
 
