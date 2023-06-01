@@ -5,11 +5,15 @@ This repository contains the data models used to illustrate the book "Neo4j Data
 Purchase your copy of the book on: 
 
 - [Amazon United States](https://www.amazon.com/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913?tag=hackolade02-20)
-- [Amazon Canada](https://www.amazon.ca/Neo4j-Data-Modeling-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
-- [Amazon United Kingdom](https://www.amazon.co.uk/Neo4j-Data-Modeling-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
-- [Amazon France](https://www.amazon.fr/Neo4j-Modeling-English-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
-- [Amazon Germany](https://www.amazon.de/Neo4j-Modeling-English-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
-- [Amazon Italy](https://www.amazon.it/Neo4j-Modeling-English-Steve-Hoberman-ebook/dp/B0C5XVGC4J?tag=hackolade02-20)
+- [Amazon Canada](https://www.amazon.ca/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon United Kingdom](https://www.amazon.co.uk/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon Belgium](https://www.amazon.com.be/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon France](https://www.amazon.fr/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon Germany](https://www.amazon.cde/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon Italy](https://www.amazon.it/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon Netherlands](https://www.amazon.nl/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon Spain](https://www.amazon.es/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
+- [Amazon Sweden](https://www.amazon.se/Neo4j-Data-Modeling-Steve-Hoberman/dp/1634621913)
 
 ![img](https://m.media-amazon.com/images/I/51oIOpnFmzL._SX331_BO1,204,203,200_.jpg)
 

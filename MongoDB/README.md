@@ -5,11 +5,15 @@ This repository contains the data models used to illustrate the book "MongoDB Da
 Purchase your copy of the book on: 
 
 - [Amazon United States](https://www.amazon.com/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
-- [Amazon Canada](https://www.amazon.ca/MongoDB-Data-Modeling-Schema-Design-ebook/dp/B0C5XWVHNC?tag=hackolade02-20)
-- [Amazon United Kingdom](https://www.amazon.co.uk/MongoDB-Data-Modeling-Schema-Design-ebook/dp/B0C5XWVHNC?tag=hackolade02-20)
-- [Amazon France](https://www.amazon.fr/MongoDB-Modeling-Schema-Design-English-ebook/dp/B0C5XWVHNC?tag=hackolade02-20)
-- [Amazon Germany](https://www.amazon.de/MongoDB-Modeling-Schema-Design-English-ebook/dp/B0C5XWVHNC?tag=hackolade02-20)
-- [Amazon Italy](https://www.amazon.it/MongoDB-Modeling-Schema-Design-English-ebook/dp/B0C5XWVHNC?tag=hackolade02-20)
+- [Amazon Canada](https://www.amazon.ca/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon United Kingdom](https://www.amazon.co.uk/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon Belgium](https://www.amazon.com.be/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon France](https://www.amazon.fr/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon Germany](https://www.amazon.de/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon Italy](https://www.amazon.it/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon Netherlands](https://www.amazon.nl/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon Spain](https://www.amazon.es/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
+- [Amazon Sweden](https://www.amazon.se/MongoDB-Data-Modeling-Schema-Design/dp/1634621980?tag=hackolade02-20)
 
 ![img](https://m.media-amazon.com/images/I/41WPMUKRTiL._SX331_BO1,204,203,200_.jpg)
 
