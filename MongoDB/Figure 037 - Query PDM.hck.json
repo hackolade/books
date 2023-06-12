@@ -393,7 +393,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "7136cfa4-386b-48f3-8ab9-5387d2af3fbb"
+            "GUID": "7136cfa4-386b-48f3-8ab9-5387d2af3fbb",
+            "isActivated": true
         },
         {
             "name": "has",
@@ -442,7 +443,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "c2dca33a-dd25-4baa-b5aa-77e2da83177d"
+            "GUID": "c2dca33a-dd25-4baa-b5aa-77e2da83177d",
+            "isActivated": true
         },
         {
             "name": "Customer..._id to Order2..._id",
@@ -462,7 +464,7 @@
             "lineSize": 2,
             "hackoladeStyles": {
                 "GUID": "2cef5809-3734-4f1c-898b-526f3afeadd6",
-                "autoPositioning": true,
+                "autoPositioning": false,
                 "type": "Orthogonal",
                 "thickness": 2,
                 "color": "#79c4ff",
@@ -470,19 +472,11 @@
                 "shape": [
                     {
                         "x": 1258,
-                        "y": 1460
+                        "y": 1440
                     },
                     {
-                        "x": 1308,
-                        "y": 1460
-                    },
-                    {
-                        "x": 1308,
-                        "y": 1420.4500122070312
-                    },
-                    {
-                        "x": 1358,
-                        "y": 1420.4500122070312
+                        "x": 1430,
+                        "y": 1440
                     }
                 ],
                 "sides": [
@@ -491,7 +485,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "e9eab310-73f2-44e1-9aab-8e7547ababb0"
+            "GUID": "e9eab310-73f2-44e1-9aab-8e7547ababb0",
+            "isActivated": true
         },
         {
             "name": "Customer...address to Order2...address",
@@ -505,7 +500,7 @@
                     "79d332cf-9b5f-4864-a72a-c9c09ea599c3"
                 ]
             ],
-            "childCardinality": "1",
+            "childCardinality": "0..n",
             "parentCollection": "030bac64-3d86-4353-b5a9-7714810c5b78",
             "childCollection": "aa90e29b-e624-416d-9ca1-1ef8dc2e7415",
             "lineSize": 2,
@@ -518,20 +513,12 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1224,
+                        "x": 1258,
                         "y": 1480.7999999999988
                     },
                     {
-                        "x": 1291,
+                        "x": 1430,
                         "y": 1480.7999999999988
-                    },
-                    {
-                        "x": 1291,
-                        "y": 1446.1500122070306
-                    },
-                    {
-                        "x": 1358,
-                        "y": 1446.1500122070306
                     }
                 ],
                 "sides": [
@@ -540,7 +527,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "e644e3d5-0be7-4026-b740-50aeaac435d7"
+            "GUID": "e644e3d5-0be7-4026-b740-50aeaac435d7",
+            "isActivated": true
         },
         {
             "name": "fk Order2.Customer.name to Customer copy.name",
@@ -559,7 +547,7 @@
                     "d9b272ce-8046-41e1-afc6-f9f74766b2bf"
                 ]
             ],
-            "childCardinality": "1",
+            "childCardinality": "0..n",
             "parentCollection": "030bac64-3d86-4353-b5a9-7714810c5b78",
             "childCollection": "aa90e29b-e624-416d-9ca1-1ef8dc2e7415",
             "lineSize": 2,
@@ -572,20 +560,12 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1224,
+                        "x": 1258,
                         "y": 1463.0999999999992
                     },
                     {
-                        "y": 1463.0999999999992,
-                        "x": 1278.1999999999996
-                    },
-                    {
-                        "y": 1427.2999999999995,
-                        "x": 1278.1999999999996
-                    },
-                    {
-                        "x": 1358,
-                        "y": 1427.2999999999995
+                        "x": 1430,
+                        "y": 1463.0999999999992
                     }
                 ],
                 "sides": [
@@ -594,7 +574,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "bea09f97-caf6-4173-bb89-721c2942c07d"
+            "GUID": "bea09f97-caf6-4173-bb89-721c2942c07d",
+            "isActivated": true
         },
         {
             "name": "has",
@@ -637,7 +618,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "aad4ccc8-4477-4dac-b3e0-423bc656c292"
+            "GUID": "aad4ccc8-4477-4dac-b3e0-423bc656c292",
+            "isActivated": true
         },
         {
             "name": "Product copy..._id to Order2..._id",
@@ -664,7 +646,7 @@
             "lineSize": 2,
             "hackoladeStyles": {
                 "GUID": "c9fe2a7b-a8c5-47e2-b0f4-368f32f0e059",
-                "autoPositioning": true,
+                "autoPositioning": false,
                 "type": "Orthogonal",
                 "thickness": 2,
                 "color": "#79c4ff",
@@ -672,19 +654,11 @@
                 "shape": [
                     {
                         "x": 1258,
-                        "y": 1561
+                        "y": 1591
                     },
                     {
-                        "x": 1307,
-                        "y": 1561
-                    },
-                    {
-                        "x": 1307,
-                        "y": 1583.75
-                    },
-                    {
-                        "x": 1356,
-                        "y": 1583.75
+                        "x": 1424,
+                        "y": 1591
                     }
                 ],
                 "sides": [
@@ -693,7 +667,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "fd331876-29c4-415f-bf38-6ba351991492"
+            "GUID": "fd331876-29c4-415f-bf38-6ba351991492",
+            "isActivated": true
         },
         {
             "name": "Product copy...SKU_nbr to Order2...SKU_nbr",
@@ -714,7 +689,7 @@
                     "a05d1367-90e9-441e-93b4-295b9e304e9e"
                 ]
             ],
-            "childCardinality": "1",
+            "childCardinality": "0..n",
             "parentCollection": "a701c858-ee3f-4459-9f03-034c952de7f5",
             "childCollection": "aa90e29b-e624-416d-9ca1-1ef8dc2e7415",
             "lineSize": 2,
@@ -727,20 +702,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1224,
+                        "x": 1258,
                         "y": 1608.9
                     },
                     {
-                        "x": 1275.6000000000006,
+                        "x": 1343.6000000000006,
                         "y": 1608.9
                     },
                     {
-                        "x": 1275.6000000000006,
-                        "y": 1583.0999999999988
+                        "x": 1343.6000000000006,
+                        "y": 1580.0999999999988
                     },
                     {
-                        "x": 1356,
-                        "y": 1583.0999999999988
+                        "x": 1424,
+                        "y": 1580.0999999999988
                     }
                 ],
                 "sides": [
@@ -749,7 +724,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "1dc279a8-7c9b-49db-b93f-264dc9c2b40d"
+            "GUID": "1dc279a8-7c9b-49db-b93f-264dc9c2b40d",
+            "isActivated": true
         },
         {
             "name": "Product copy...description to Order2...description",
@@ -770,7 +746,7 @@
                     "5563b484-1a43-46c9-8395-05a8785b254c"
                 ]
             ],
-            "childCardinality": "1",
+            "childCardinality": "0..n",
             "parentCollection": "a701c858-ee3f-4459-9f03-034c952de7f5",
             "childCollection": "aa90e29b-e624-416d-9ca1-1ef8dc2e7415",
             "lineSize": 2,
@@ -783,20 +759,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1224,
+                        "x": 1258,
                         "y": 1626.6000000000008
                     },
                     {
-                        "x": 1282.0000000000005,
+                        "x": 1350.0000000000005,
                         "y": 1626.6000000000008
                     },
                     {
-                        "x": 1282.0000000000005,
-                        "y": 1600.549999999999
+                        "x": 1350.0000000000005,
+                        "y": 1612.549999999999
                     },
                     {
-                        "x": 1356,
-                        "y": 1600.549999999999
+                        "x": 1424,
+                        "y": 1612.549999999999
                     }
                 ],
                 "sides": [
@@ -805,7 +781,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "6bfc6cb1-1538-4115-afca-aa2128bf7c1c"
+            "GUID": "6bfc6cb1-1538-4115-afca-aa2128bf7c1c",
+            "isActivated": true
         },
         {
             "name": "Product copy...unit_price to Order2...unit_price",
@@ -826,7 +803,7 @@
                     "5b00a807-eb6b-404b-a61c-8b25305116d5"
                 ]
             ],
-            "childCardinality": "1",
+            "childCardinality": "0..n",
             "parentCollection": "a701c858-ee3f-4459-9f03-034c952de7f5",
             "childCollection": "aa90e29b-e624-416d-9ca1-1ef8dc2e7415",
             "lineSize": 2,
@@ -839,20 +816,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1224,
+                        "x": 1258,
                         "y": 1644.2999999999986
                     },
                     {
-                        "x": 1290,
+                        "x": 1358,
                         "y": 1644.2999999999986
                     },
                     {
-                        "x": 1290,
-                        "y": 1617.9999999999995
+                        "x": 1358,
+                        "y": 1629.9999999999995
                     },
                     {
-                        "x": 1356,
-                        "y": 1617.9999999999995
+                        "x": 1424,
+                        "y": 1629.9999999999995
                     }
                 ],
                 "sides": [
@@ -861,7 +838,8 @@
                 ]
             },
             "hackoladeMeta": {},
-            "GUID": "7b60f79b-e401-4d41-b14a-eba2836f38ce"
+            "GUID": "7b60f79b-e401-4d41-b14a-eba2836f38ce",
+            "isActivated": true
         }
     ],
     "users": [],
@@ -926,14 +904,17 @@
     "GUID": "0414afb7-179e-4106-b51c-ee8593f30c47",
     "isLineageEnabled": false,
     "polyglotModelPaths": [],
-    "lastModifTS": "2023-05-08T16:28:13.358Z",
+    "lastModifTS": "2023-06-12T09:57:48.090Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.0"
+        "version": "6.10.7"
+    },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
     },
     "settings": {
         "centralPane": {
@@ -951,8 +932,8 @@
                     },
                     {
                         "GUID": "030bac64-3d86-4353-b5a9-7714810c5b78",
-                        "x": 1358,
-                        "y": 1376.9500122070312,
+                        "x": 1430,
+                        "y": 1396.9500122070312,
                         "width": 190,
                         "height": 87,
                         "color": {
@@ -961,8 +942,8 @@
                     },
                     {
                         "GUID": "a701c858-ee3f-4459-9f03-034c952de7f5",
-                        "x": 1356,
-                        "y": 1531.25,
+                        "x": 1424,
+                        "y": 1543.25,
                         "width": 209,
                         "height": 105,
                         "color": {
@@ -996,7 +977,10 @@
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
                 "options": [],
-                "relationshipUpdateDisabled": false
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false
+                }
             },
             "collectionLevel": {},
             "changed": false
@@ -1005,8 +989,5 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
-    },
-    "hackoladeMeta": {
-        "customPropertiesUpdated": true
     }
 }
