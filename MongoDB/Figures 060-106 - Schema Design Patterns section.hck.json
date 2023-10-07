@@ -71,6 +71,9 @@
                     "durability": "majority",
                     "frequency": "per second"
                 }
+            },
+            "hackoladeMeta": {
+                "validationErrors": {}
             }
         },
         {
@@ -149,8 +152,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "3ede4ca2-dedf-4de1-a830-237d44d6b026",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -192,7 +194,10 @@
                     "frequency": "per second"
                 }
             },
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Archive + ext ref",
@@ -269,8 +274,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "96faae40-77f4-44d3-89b5-e14e17f5f0cd",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -374,6 +378,9 @@
             "bucketId": "",
             "error": {
                 "indexes[0].key": true
+            },
+            "hackoladeMeta": {
+                "validationErrors": {}
             }
         },
         {
@@ -440,7 +447,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "306cfe03-b70f-40c6-b529-fe8b247e73e0"
+            "GUID": "306cfe03-b70f-40c6-b529-fe8b247e73e0",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Attribute2",
@@ -514,8 +524,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "0b734572-75a2-4bcf-81dd-6fa360c58dd1",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -542,7 +551,9 @@
                 "collation": "null"
             },
             "GUID": "9a7fdc28-091a-44b1-8850-fc3adca22219",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Attribute3",
@@ -619,8 +630,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "b373b098-6cd3-497e-a139-eaa3f0f32cea",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -696,7 +706,10 @@
                 }
             },
             "bucketId": "",
-            "error": {}
+            "error": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Bucket",
@@ -774,8 +787,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "0ccbdd9b-0e4b-4395-8116-56e4e8ef2d09",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -817,7 +829,10 @@
                     "frequency": "per second"
                 }
             },
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Computed",
@@ -889,6 +904,9 @@
                     "durability": "majority",
                     "frequency": "per second"
                 }
+            },
+            "hackoladeMeta": {
+                "validationErrors": {}
             }
         },
         {
@@ -977,7 +995,6 @@
                             "color": "#555555",
                             "GUID": "30532765-e15e-4efc-838d-a6aff663588c",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "displayName": "home",
                             "error": {}
                         },
@@ -1001,7 +1018,6 @@
                             "color": "#555555",
                             "GUID": "b8fe9d3d-ebef-4c5c-8f74-c9628a505878",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "error": {},
                             "displayName": "life"
                         }
@@ -1029,7 +1045,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "811e24e6-71f6-46ac-93b9-f30a372266d4"
+            "GUID": "811e24e6-71f6-46ac-93b9-f30a372266d4",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "DocVersioningRev",
@@ -1117,7 +1136,6 @@
                             "color": "#555555",
                             "GUID": "fcb777c6-32a3-49ad-a4da-c9434c9fdc7b",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "displayName": "home",
                             "error": {}
                         },
@@ -1141,7 +1159,6 @@
                             "color": "#555555",
                             "GUID": "ad559e2d-12a9-4875-8c3a-5089c855dd61",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "error": {},
                             "displayName": "life"
                         },
@@ -1176,7 +1193,6 @@
                             "color": "#555555",
                             "GUID": "fa7eec8c-9d1c-4d3d-ad10-4ccdce84af22",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "error": {},
                             "displayName": "jewelry"
                         }
@@ -1204,7 +1220,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "cbcc5d28-065b-4263-8db2-0a47527b9f94"
+            "GUID": "cbcc5d28-065b-4263-8db2-0a47527b9f94",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "DocVersioningRevVarB",
@@ -1307,7 +1326,6 @@
                             "color": "#555555",
                             "GUID": "88781597-135b-421a-ab03-ccb0163a97cb",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "displayName": "home",
                             "error": {}
                         },
@@ -1331,7 +1349,6 @@
                             "color": "#555555",
                             "GUID": "c8e277ea-d27b-40b2-be98-50ae1e24182d",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "error": {},
                             "displayName": "life"
                         },
@@ -1365,7 +1382,6 @@
                             "color": "#555555",
                             "GUID": "0b64c889-3db4-46db-8a3e-4aef21cd3866",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "error": {},
                             "displayName": "jewelry"
                         }
@@ -1478,8 +1494,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "55f0fab1-ffc4-4a9a-9c49-b158f2b1092e",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -1506,7 +1521,9 @@
                 "collation": "null"
             },
             "GUID": "1bda93a9-6e7d-4f4f-b924-4de5144a7a2b",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "DocVersioningLatestVarB",
@@ -1606,7 +1623,6 @@
                             "color": "#555555",
                             "GUID": "2b8cc45a-e04e-43b7-aa6f-35178ed8fbd9",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "displayName": "home",
                             "error": {}
                         },
@@ -1630,7 +1646,6 @@
                             "color": "#555555",
                             "GUID": "3db18bab-8dcf-4413-b647-37d17c01a57e",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "error": {},
                             "displayName": "life"
                         }
@@ -1659,7 +1674,9 @@
                 "collation": "null"
             },
             "GUID": "fc994cbc-9dec-464a-b526-eee38494c1d4",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "DocVersioningPet",
@@ -1742,7 +1759,6 @@
                             "color": "#555555",
                             "GUID": "c3f41d6f-b081-4946-bfc9-12954c184468",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "sample": "Steve King",
                             "error": {}
                         }
@@ -1796,7 +1812,10 @@
                     "frequency": "per second"
                 }
             },
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Breed",
@@ -1854,7 +1873,6 @@
                             "color": "#555555",
                             "GUID": "834139e1-6770-4d36-abea-3f62bfc57f26",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "sample": "loyal to the family",
                             "error": {}
                         }
@@ -1882,7 +1900,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "8e9ca583-402c-4670-bbe8-df2e5086daab"
+            "GUID": "8e9ca583-402c-4670-bbe8-df2e5086daab",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Pet",
@@ -1961,8 +1982,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "5184faef-331b-4944-952d-9025d796e355",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -1988,7 +2008,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "17695e62-966c-4541-b1ad-3b670307807b"
+            "GUID": "17695e62-966c-4541-b1ad-3b670307807b",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Graph-children",
@@ -2003,8 +2026,7 @@
                     "GUID": "ffdad2a9-6651-4c9b-abc4-d932e0e17c9a",
                     "sample": "A",
                     "childRelationships": [
-                        "78d6e0aa-c570-4424-b474-7270225a0640",
-                        "b4a8dc88-8c4d-47ce-b610-66ac44a7f028"
+                        "78d6e0aa-c570-4424-b474-7270225a0640"
                     ],
                     "required": true,
                     "primaryKey": true,
@@ -2023,7 +2045,6 @@
                             "color": "#555555",
                             "GUID": "74530457-2c32-42ce-bb44-7fc9ac2089b0",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "relationshipType": "Foreign Key",
                             "foreignCollection": "f8e5aab9-0c3b-4f17-afaa-a853b0b65fe0",
                             "foreignField": [
@@ -2056,7 +2077,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "f8e5aab9-0c3b-4f17-afaa-a853b0b65fe0"
+            "GUID": "f8e5aab9-0c3b-4f17-afaa-a853b0b65fe0",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Graph-parents",
@@ -2071,8 +2095,7 @@
                     "GUID": "6f96da9d-d60c-46e2-8e27-4ce68badfc03",
                     "sample": "A",
                     "childRelationships": [
-                        "97b10f4c-b39c-41a0-8e9b-cc7a7a153caf",
-                        "4cc8f59f-fc29-4ccd-a085-dcd0fe40c520"
+                        "b4a8dc88-8c4d-47ce-b610-66ac44a7f028"
                     ],
                     "required": true,
                     "primaryKey": true,
@@ -2091,7 +2114,6 @@
                             "color": "#555555",
                             "GUID": "81720b15-c08a-40bb-a196-86ae88593e55",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "relationshipType": "Foreign Key",
                             "foreignCollection": "e0c226ff-34c0-43df-9a55-45c65f6ecb2e",
                             "parentRelationship": "b4a8dc88-8c4d-47ce-b610-66ac44a7f028",
@@ -2125,7 +2147,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "e0c226ff-34c0-43df-9a55-45c65f6ecb2e"
+            "GUID": "e0c226ff-34c0-43df-9a55-45c65f6ecb2e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Graph-allEdges",
@@ -2140,6 +2165,7 @@
                     "GUID": "3f84b46b-1ddd-4851-9f6c-04c0375eea9c",
                     "sample": "A",
                     "childRelationships": [
+                        "97b10f4c-b39c-41a0-8e9b-cc7a7a153caf",
                         "f73cc8ce-5016-495f-a9f1-507f0d7050dc"
                     ],
                     "required": true,
@@ -2159,7 +2185,6 @@
                             "color": "#555555",
                             "GUID": "f3e78c26-9926-41d0-9048-ebe74e5da61d",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "relationshipType": "Foreign Key",
                             "foreignCollection": "5dd32939-3f0b-4a96-9310-efa87ac6c45c",
                             "parentRelationship": "97b10f4c-b39c-41a0-8e9b-cc7a7a153caf",
@@ -2188,8 +2213,14 @@
                             "color": "#555555",
                             "GUID": "2a318606-c06f-4a35-a675-3de5630c9837",
                             "arrayItem": true,
-                            "arrayParentType": "array",
-                            "error": {}
+                            "error": {},
+                            "relationshipType": "Foreign Key",
+                            "parentRelationship": "f73cc8ce-5016-495f-a9f1-507f0d7050dc",
+                            "foreignCollection": "5dd32939-3f0b-4a96-9310-efa87ac6c45c",
+                            "foreignField": [
+                                "5dd32939-3f0b-4a96-9310-efa87ac6c45c",
+                                "3f84b46b-1ddd-4851-9f6c-04c0375eea9c"
+                            ]
                         }
                     ],
                     "additionalItems": true,
@@ -2220,7 +2251,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "5dd32939-3f0b-4a96-9310-efa87ac6c45c"
+            "GUID": "5dd32939-3f0b-4a96-9310-efa87ac6c45c",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Graph-unoriented",
@@ -2235,7 +2269,7 @@
                     "GUID": "47c02ad2-bc29-4a84-9e41-7c97921a91ff",
                     "sample": "A",
                     "childRelationships": [
-                        "4c815351-3164-4b5f-94fd-55970283d22c"
+                        "4cc8f59f-fc29-4ccd-a085-dcd0fe40c520"
                     ],
                     "required": true,
                     "primaryKey": true,
@@ -2254,7 +2288,6 @@
                             "color": "#555555",
                             "GUID": "78df7019-bf4e-4be8-a281-5fb49ec1136d",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "relationshipType": "Foreign Key",
                             "foreignCollection": "e4d2a715-a5bf-4d66-a151-a8fa8cec65b5",
                             "parentRelationship": "4cc8f59f-fc29-4ccd-a085-dcd0fe40c520",
@@ -2288,7 +2321,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "e4d2a715-a5bf-4d66-a151-a8fa8cec65b5"
+            "GUID": "e4d2a715-a5bf-4d66-a151-a8fa8cec65b5",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Graph-pet",
@@ -2304,9 +2340,7 @@
                     "sample": "dog19370824",
                     "childRelationships": [
                         "0fb469af-9a30-4092-b357-25336c7054fb",
-                        "c9afe580-f37e-43d9-84af-d7bce38add82",
-                        "81397ace-114d-4a11-9403-6bc8ffed7d66",
-                        "0254b3b2-befd-4695-8a96-dd7acfde15e7"
+                        "c9afe580-f37e-43d9-84af-d7bce38add82"
                     ],
                     "required": true,
                     "primaryKey": true,
@@ -2397,7 +2431,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "f7f8fc76-10ff-492d-af07-9276dcc76c2e"
+            "GUID": "f7f8fc76-10ff-492d-af07-9276dcc76c2e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Graph-pet copy",
@@ -2412,6 +2449,8 @@
                     "GUID": "b729f399-7db3-4e45-8d50-19e45af47a69",
                     "sample": "dog19370824",
                     "childRelationships": [
+                        "81397ace-114d-4a11-9403-6bc8ffed7d66",
+                        "0254b3b2-befd-4695-8a96-dd7acfde15e7",
                         "0ccffef4-f9c5-48d4-9cfa-7e58b44efadb"
                     ],
                     "required": true,
@@ -2492,7 +2531,6 @@
                                     "color": "#555555",
                                     "GUID": "ae49e641-c596-477f-b2fc-6e6fcaeaa515",
                                     "arrayItem": true,
-                                    "arrayParentType": "array",
                                     "relationshipType": "Foreign Key",
                                     "foreignCollection": "d5f7a753-7e4d-4c17-a60a-d83589d7ff6c",
                                     "foreignField": [
@@ -2531,7 +2569,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "d5f7a753-7e4d-4c17-a60a-d83589d7ff6c"
+            "GUID": "d5f7a753-7e4d-4c17-a60a-d83589d7ff6c",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "inheritance-Product",
@@ -2719,7 +2760,10 @@
                 "collation": "null"
             },
             "GUID": "9749683f-ce8e-49ed-b148-1845bd33fd4f",
-            "error": {}
+            "error": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Inheritance-Pet",
@@ -2875,7 +2919,10 @@
                 "collation": "null"
             },
             "GUID": "aab541ff-e094-4544-89cc-86dcc1aeb804",
-            "error": {}
+            "error": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Outlier-Typical",
@@ -2956,7 +3003,6 @@
                             "color": "#555555",
                             "GUID": "d2d6dc55-dac4-42eb-8360-26735e409ca3",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "foreignCollection": "",
                             "foreignField": []
                         }
@@ -2989,7 +3035,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "c5ed47be-b134-483b-91a9-f112b9537456"
+            "GUID": "c5ed47be-b134-483b-91a9-f112b9537456",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Outlier-Disproportionate",
@@ -3079,7 +3128,6 @@
                             "color": "#555555",
                             "GUID": "98f51128-6627-4b25-8ae9-3e5c80810783",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "foreignCollection": "",
                             "foreignField": []
                         }
@@ -3112,7 +3160,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "a2535537-42c8-4a5d-bff4-5b67cf36eca5"
+            "GUID": "a2535537-42c8-4a5d-bff4-5b67cf36eca5",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Outlier-Addtnl-Interactions",
@@ -3211,7 +3262,6 @@
                             "color": "#555555",
                             "GUID": "366ebf4e-01f9-4be3-bca2-2aa77d725473",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "foreignCollection": "",
                             "foreignField": []
                         }
@@ -3244,7 +3294,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "9d865ef5-4662-4b3d-a8cc-c3fc09a3f449"
+            "GUID": "9d865ef5-4662-4b3d-a8cc-c3fc09a3f449",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Preallocated",
@@ -3317,8 +3370,7 @@
                                             "type": "string",
                                             "color": "#555555",
                                             "GUID": "f4c96b2a-8984-42f0-a903-7e16cdfa4a89",
-                                            "arrayItem": true,
-                                            "arrayParentType": "array"
+                                            "arrayItem": true
                                         },
                                         {
                                             "hackoladeMeta": {},
@@ -3326,8 +3378,7 @@
                                             "type": "string",
                                             "color": "#555555",
                                             "GUID": "3ebdee18-3c2d-4d31-954f-619d8c6b50b2",
-                                            "arrayItem": true,
-                                            "arrayParentType": "array"
+                                            "arrayItem": true
                                         }
                                     ],
                                     "additionalItems": true,
@@ -3341,7 +3392,6 @@
                             "color": "#555555",
                             "GUID": "d4b8ff7d-5500-4511-b074-5fa1e4968dd4",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "primaryKey": false,
                             "error": {}
                         }
@@ -3370,7 +3420,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "85c54d9c-df7f-454e-92b4-0950b3d7629f"
+            "GUID": "85c54d9c-df7f-454e-92b4-0950b3d7629f",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Versioning-Before",
@@ -3451,7 +3504,6 @@
                             "color": "#555555",
                             "GUID": "6df64ffd-34e5-49ce-853a-f25eaf737146",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "foreignCollection": "",
                             "foreignField": []
                         }
@@ -3475,8 +3527,7 @@
                             "type": "string",
                             "color": "#555555",
                             "GUID": "30217389-1712-48e0-92a2-ec76bc0b7ac7",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -3496,8 +3547,7 @@
                             "type": "string",
                             "color": "#555555",
                             "GUID": "efe7f315-bafa-46a6-9893-28708bdb1ebf",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -3524,7 +3574,10 @@
                 "collation": "null"
             },
             "GUID": "73a0cf94-d31f-4149-a2b1-3e41acee1dd8",
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Versioning-After",
@@ -3611,7 +3664,6 @@
                                     "color": "#555555",
                                     "GUID": "c7129762-6f70-46af-8418-1d788e6c1997",
                                     "arrayItem": true,
-                                    "arrayParentType": "array",
                                     "foreignCollection": "",
                                     "foreignField": []
                                 }
@@ -3635,8 +3687,7 @@
                                     "type": "string",
                                     "color": "#555555",
                                     "GUID": "700aaa3e-01f0-485f-86a9-203029b8a071",
-                                    "arrayItem": true,
-                                    "arrayParentType": "array"
+                                    "arrayItem": true
                                 }
                             ],
                             "additionalItems": true,
@@ -3656,8 +3707,7 @@
                                     "type": "string",
                                     "color": "#555555",
                                     "GUID": "bae9ba4e-d3e1-4832-85d6-566b88fbe15a",
-                                    "arrayItem": true,
-                                    "arrayParentType": "array"
+                                    "arrayItem": true
                                 }
                             ],
                             "additionalItems": true,
@@ -3690,7 +3740,10 @@
                 "collation": "null"
             },
             "GUID": "4d119058-d9f8-41c1-8f90-4dcab99c2fdd",
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "carts",
@@ -3744,7 +3797,9 @@
             "GUID": "5e5c9978-d550-4862-bc84-e75ba5ac74b8",
             "code": "",
             "bucketId": "f209af49-967e-4fdd-87aa-188d39fbb754",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "items",
@@ -3841,7 +3896,9 @@
             "GUID": "b3a57e70-758a-4124-9b35-1aa789770b8c",
             "code": "",
             "bucketId": "f209af49-967e-4fdd-87aa-188d39fbb754",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "shopping_docs",
@@ -3977,7 +4034,6 @@
                             "type": "string",
                             "GUID": "52c48be2-fc36-43b8-bb24-b0388c4f38d9",
                             "arrayItem": true,
-                            "arrayParentType": "array",
                             "foreignCollection": "",
                             "foreignField": []
                         }
@@ -4009,7 +4065,9 @@
             "GUID": "6d3934e0-bd3f-4a5d-8029-82d72489e1b6",
             "code": "",
             "bucketId": "e6c7a192-c6fe-4e8b-b5c7-2bbd5676a9b2",
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "error": {}
         },
         {
@@ -4155,7 +4213,9 @@
             "GUID": "890174f5-e2fe-4aa0-b1d8-81847325b575",
             "code": "",
             "bucketId": "b2076a49-b754-41e0-9a2f-0da50cacc2e7",
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "error": {}
         },
         {
@@ -4366,7 +4426,10 @@
                 "collation": "null"
             },
             "GUID": "743c8cf1-0689-4668-a301-6e8edc453685",
-            "error": {}
+            "error": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Subset-Breed",
@@ -4438,7 +4501,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "69132694-aa01-4d28-a30a-2f2e2aebb570"
+            "GUID": "69132694-aa01-4d28-a30a-2f2e2aebb570",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Subset-Pet",
@@ -4509,8 +4575,7 @@
                                             "type": "string",
                                             "color": "#555555",
                                             "GUID": "be3d9be0-a303-4372-9949-39a642204785",
-                                            "arrayItem": true,
-                                            "arrayParentType": "array"
+                                            "arrayItem": true
                                         }
                                     ],
                                     "additionalItems": true,
@@ -4522,8 +4587,7 @@
                             "additionalProperties": false,
                             "color": "#555555",
                             "GUID": "a0e81fc0-c3df-47bd-b4c6-5f16d0d2664f",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -4549,7 +4613,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "73ac07cf-454c-40c0-a6a5-e14cc69f1bb6"
+            "GUID": "73ac07cf-454c-40c0-a6a5-e14cc69f1bb6",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Tree-Ref2parent",
@@ -4605,7 +4672,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "cf01b85b-7b00-477f-b1c6-a82fc290fa6a"
+            "GUID": "cf01b85b-7b00-477f-b1c6-a82fc290fa6a",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Tree-Ref2children",
@@ -4645,8 +4715,7 @@
                             "type": "string",
                             "color": "#555555",
                             "GUID": "ab922a8f-6964-4812-b9dc-821da586edac",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -4672,7 +4741,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "da63654c-64fd-4831-ac05-5f365e38c77e"
+            "GUID": "da63654c-64fd-4831-ac05-5f365e38c77e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Tree-Ref2ancestors",
@@ -4722,8 +4794,7 @@
                             "type": "string",
                             "color": "#555555",
                             "GUID": "8aa5014a-d21e-4e47-a215-80c71e081cdc",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -4749,7 +4820,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "377c2ac6-3f59-4408-8e60-0d86629a2128"
+            "GUID": "377c2ac6-3f59-4408-8e60-0d86629a2128",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Tree-Ref2hybrid",
@@ -4799,8 +4873,7 @@
                             "type": "string",
                             "color": "#555555",
                             "GUID": "5c0da332-c14d-4fb0-941d-2c66e0837032",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -4820,8 +4893,7 @@
                             "type": "string",
                             "color": "#555555",
                             "GUID": "09fe067f-6f61-4f5f-9e21-75e19dac6bee",
-                            "arrayItem": true,
-                            "arrayParentType": "array"
+                            "arrayItem": true
                         }
                     ],
                     "additionalItems": true,
@@ -4852,7 +4924,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "66c8fc14-8cd1-4fb7-8a82-6f52c7fea8ae"
+            "GUID": "66c8fc14-8cd1-4fb7-8a82-6f52c7fea8ae",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Tree-Dog",
@@ -4928,7 +5003,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "693eb9ab-f80c-4627-bee2-5ee4e2fa06d3"
+            "GUID": "693eb9ab-f80c-4627-bee2-5ee4e2fa06d3",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Tree-Dog w/children",
@@ -5001,8 +5079,7 @@
                                     "type": "string",
                                     "color": "#555555",
                                     "GUID": "889464ad-2137-4197-8d77-3c3e66a5ca21",
-                                    "arrayItem": true,
-                                    "arrayParentType": "array"
+                                    "arrayItem": true
                                 }
                             ],
                             "additionalItems": true,
@@ -5036,7 +5113,9 @@
                 "collation": "null"
             },
             "GUID": "7e390aa1-a211-4dd6-900f-b6242a45d3e6",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Envelope",
@@ -5178,8 +5257,7 @@
                                     "type": "string",
                                     "color": "#555555",
                                     "GUID": "be8ab4c3-3d3c-4f73-bcc2-afe455cbe9b2",
-                                    "arrayItem": true,
-                                    "arrayParentType": "array"
+                                    "arrayItem": true
                                 }
                             ],
                             "additionalItems": true,
@@ -5232,7 +5310,10 @@
                 "unique": true,
                 "collation": "null"
             },
-            "GUID": "e2db443d-5e42-4754-bd65-8c2a1c4a4ea5"
+            "GUID": "e2db443d-5e42-4754-bd65-8c2a1c4a4ea5",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Envelope-pet",
@@ -5399,7 +5480,6 @@
                                     "color": "#555555",
                                     "GUID": "863c5020-1d74-4dd6-a454-5965ef72551d",
                                     "arrayItem": true,
-                                    "arrayParentType": "array",
                                     "foreignCollection": "",
                                     "foreignField": []
                                 }
@@ -5631,7 +5711,10 @@
             },
             "GUID": "96fe7cca-996d-4d41-85eb-4cee3508d492",
             "bucketId": "",
-            "error": {}
+            "error": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -5737,7 +5820,7 @@
                         "y": 2463.2000122070312
                     },
                     {
-                        "x": 1209,
+                        "x": 1210,
                         "y": 2463.2000122070312
                     }
                 ],
@@ -5745,7 +5828,8 @@
                     "left",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fm_Pet.breed.name_Breed.name",
@@ -5782,7 +5866,7 @@
                         "y": 2522.2000122070312
                     },
                     {
-                        "x": 1209,
+                        "x": 1210,
                         "y": 2522.2000122070312
                     }
                 ],
@@ -5790,7 +5874,8 @@
                     "left",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph.children.[0] to Graph._id",
@@ -5846,7 +5931,8 @@
                     "right",
                     "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph.children.[0] to Graph._id",
@@ -5878,7 +5964,7 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1485.6984748864493,
+                        "x": 1487.75,
                         "y": 2680.9500122070312
                     },
                     {
@@ -5899,10 +5985,11 @@
                     }
                 ],
                 "sides": [
-                    "top",
-                    "right"
+                    "right",
+                    "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph.children.[0] to Graph._id",
@@ -5934,31 +6021,24 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1573.75,
-                        "y": 2675.7000122070312
-                    },
-                    {
-                        "x": 1545.75,
-                        "y": 2675.7000122070312
-                    },
-                    {
-                        "x": 1545.75,
-                        "y": 2585.7000122070312
-                    },
-                    {
-                        "y": 2585.7000122070312,
-                        "x": 1650.75
-                    },
-                    {
-                        "x": 1650.75,
+                        "x": 1678.25,
                         "y": 2606.7000122070312
+                    },
+                    {
+                        "x": 1678.25,
+                        "y": 2675.7000122070312
+                    },
+                    {
+                        "x": 1574.75,
+                        "y": 2675.7000122070312
                     }
                 ],
                 "sides": [
                     "top",
-                    "right"
+                    "left"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph-allEdges.children.[0] to Graph-allEdges._id",
@@ -5990,7 +6070,7 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1780.75,
+                        "x": 1781.75,
                         "y": 2712.7000122070312
                     },
                     {
@@ -6011,10 +6091,11 @@
                     }
                 ],
                 "sides": [
-                    "top",
-                    "right"
+                    "right",
+                    "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph.children.[0] to Graph._id",
@@ -6070,7 +6151,8 @@
                     "top",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph-pet.relatives.mother to Graph-pet._id",
@@ -6102,31 +6184,24 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 2255.75,
-                        "y": 2711.4500122070312
-                    },
-                    {
-                        "x": 2218.75,
-                        "y": 2711.4500122070312
-                    },
-                    {
-                        "x": 2218.75,
-                        "y": 2561.4500122070312
-                    },
-                    {
-                        "y": 2561.4500122070312,
-                        "x": 2349.75
-                    },
-                    {
-                        "x": 2349.75,
+                        "x": 2362.25,
                         "y": 2586.4500122070312
+                    },
+                    {
+                        "x": 2362.25,
+                        "y": 2711.4500122070312
+                    },
+                    {
+                        "x": 2256.75,
+                        "y": 2711.4500122070312
                     }
                 ],
                 "sides": [
                     "top",
-                    "right"
+                    "left"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph-pet.relatives.father to Graph-pet._id",
@@ -6158,7 +6233,7 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 2466.75,
+                        "x": 2467.75,
                         "y": 2693.4500122070312
                     },
                     {
@@ -6179,10 +6254,11 @@
                     }
                 ],
                 "sides": [
-                    "top",
-                    "right"
+                    "right",
+                    "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph-pet.relatives.mother to Graph-pet._id",
@@ -6238,7 +6314,8 @@
                     "right",
                     "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph-pet.relatives.father to Graph-pet._id",
@@ -6294,7 +6371,8 @@
                     "left",
                     "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Graph-pet copy.relatives.children.[0] to Graph-pet copy._id",
@@ -6351,7 +6429,8 @@
                     "right",
                     "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "cart_id_fkey",
@@ -6387,14 +6466,6 @@
                     },
                     {
                         "x": 1157,
-                        "y": 4070.800048828125
-                    },
-                    {
-                        "x": 1157,
-                        "y": 4070.800048828125
-                    },
-                    {
-                        "x": 1157,
                         "y": 4027.800048828125
                     }
                 ],
@@ -6402,7 +6473,8 @@
                     "top",
                     "bottom"
                 ]
-            }
+            },
+            "isActivated": true
         }
     ],
     "users": [],
@@ -6831,14 +6903,14 @@
     "creationTS": "2023-03-27T12:43:39.047Z",
     "GUID": "ae46f8db-c15c-49b8-bf57-d88a72a08deb",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-01T14:16:41.976Z",
+    "lastModifTS": "2023-10-07T15:31:18.903Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.13"
+        "version": "6.11.4"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true,
@@ -7259,7 +7331,228 @@
                     }
                 ],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "GUID": "1056c571-cc08-45b3-9983-6ed692cdbf13",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "c9692c6c-9805-4651-a81d-1a8bac3042fc",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "b6f12f49-5f4d-425d-98d4-2a4c6c6ccefa",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "306cfe03-b70f-40c6-b529-fe8b247e73e0",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "9a7fdc28-091a-44b1-8850-fc3adca22219",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "14d9a4a7-4242-42c5-acbf-cdc55e94bc93",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "4408d0c2-03f3-4e9b-80ec-37136d4d74ea",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "a88ad5b7-ff2b-452d-a270-53b2a64825b0",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "811e24e6-71f6-46ac-93b9-f30a372266d4",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "cbcc5d28-065b-4263-8db2-0a47527b9f94",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "1bda93a9-6e7d-4f4f-b924-4de5144a7a2b",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "fc994cbc-9dec-464a-b526-eee38494c1d4",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "e6fecb2e-de58-4416-ae51-9616076f37c0",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "8e9ca583-402c-4670-bbe8-df2e5086daab",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "17695e62-966c-4541-b1ad-3b670307807b",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "f8e5aab9-0c3b-4f17-afaa-a853b0b65fe0",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "e0c226ff-34c0-43df-9a55-45c65f6ecb2e",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "5dd32939-3f0b-4a96-9310-efa87ac6c45c",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "e4d2a715-a5bf-4d66-a151-a8fa8cec65b5",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "f7f8fc76-10ff-492d-af07-9276dcc76c2e",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "d5f7a753-7e4d-4c17-a60a-d83589d7ff6c",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "9749683f-ce8e-49ed-b148-1845bd33fd4f",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "aab541ff-e094-4544-89cc-86dcc1aeb804",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "c5ed47be-b134-483b-91a9-f112b9537456",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "a2535537-42c8-4a5d-bff4-5b67cf36eca5",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "9d865ef5-4662-4b3d-a8cc-c3fc09a3f449",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "85c54d9c-df7f-454e-92b4-0950b3d7629f",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "73a0cf94-d31f-4149-a2b1-3e41acee1dd8",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "4d119058-d9f8-41c1-8f90-4dcab99c2fdd",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "5e5c9978-d550-4862-bc84-e75ba5ac74b8",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "b3a57e70-758a-4124-9b35-1aa789770b8c",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "6d3934e0-bd3f-4a5d-8029-82d72489e1b6",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "890174f5-e2fe-4aa0-b1d8-81847325b575",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "743c8cf1-0689-4668-a301-6e8edc453685",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "69132694-aa01-4d28-a30a-2f2e2aebb570",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "73ac07cf-454c-40c0-a6a5-e14cc69f1bb6",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "cf01b85b-7b00-477f-b1c6-a82fc290fa6a",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "da63654c-64fd-4831-ac05-5f365e38c77e",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "377c2ac6-3f59-4408-8e60-0d86629a2128",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "66c8fc14-8cd1-4fb7-8a82-6f52c7fea8ae",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "693eb9ab-f80c-4627-bee2-5ee4e2fa06d3",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "7e390aa1-a211-4dd6-900f-b6242a45d3e6",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "e2db443d-5e42-4754-bd65-8c2a1c4a4ea5",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "96fe7cca-996d-4d41-85eb-4cee3508d492",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {
                     "dndHandles": false

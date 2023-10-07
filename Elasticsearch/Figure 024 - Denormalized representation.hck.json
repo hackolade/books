@@ -317,7 +317,7 @@
     "creationTS": "2023-05-08T15:38:26.277Z",
     "GUID": "84e9d667-33c0-4c1d-aa0e-12ea519a1a2c",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:28:04.876Z",
+    "lastModifTS": "2023-10-07T15:22:26.916Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -337,7 +337,7 @@
                         "GUID": "d324d139-b7d9-40f8-a631-c4e59e5db977",
                         "x": 1106.2930629400767,
                         "y": 1148.6092474764826,
-                        "width": 255,
+                        "width": 294,
                         "height": 231,
                         "color": {
                             "hex": "#2196f3"
@@ -379,8 +379,8 @@
                 "options": [
                     {
                         "GUID": "d324d139-b7d9-40f8-a631-c4e59e5db977",
-                        "autoWidth": false,
-                        "autoHeight": false
+                        "autoWidth": true,
+                        "autoHeight": true
                     }
                 ],
                 "relationshipUpdateDisabled": false

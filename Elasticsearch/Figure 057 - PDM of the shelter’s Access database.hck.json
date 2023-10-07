@@ -569,26 +569,26 @@
             "lineSize": 2,
             "hackoladeStyles": {
                 "GUID": "3b145493-e054-4882-b6f5-68081f8e8a64",
-                "autoPositioning": false,
+                "autoPositioning": true,
                 "type": "Orthogonal",
                 "thickness": 2,
                 "color": "#79c4ff",
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1510,
+                        "x": 1503.5,
                         "y": 1088.229488606999
                     },
                     {
-                        "x": 1510,
-                        "y": 1143.3941153695262
+                        "x": 1503.5,
+                        "y": 1137.3941153695262
                     },
                     {
-                        "x": 1400.3503033841198,
-                        "y": 1143.3941153695262
+                        "x": 1246.6666666666667,
+                        "y": 1137.3941153695262
                     },
                     {
-                        "x": 1400.3503033841198,
+                        "x": 1246.6666666666667,
                         "y": 1186.5587421320533
                     }
                 ],
@@ -623,26 +623,26 @@
             "lineSize": 2,
             "hackoladeStyles": {
                 "GUID": "8f1c23e5-72b4-4a2c-b732-24cb051facd6",
-                "autoPositioning": false,
+                "autoPositioning": true,
                 "type": "Orthogonal",
                 "thickness": 2,
                 "color": "#79c4ff",
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1166,
+                        "x": 1165.5,
                         "y": 1105
                     },
                     {
-                        "x": 1166,
-                        "y": 1144.7793710660267
+                        "x": 1165.5,
+                        "y": 1145.7793710660267
                     },
                     {
-                        "x": 1257.4457803490066,
-                        "y": 1144.7793710660267
+                        "x": 1125.3333333333333,
+                        "y": 1145.7793710660267
                     },
                     {
-                        "x": 1257.4457803490066,
+                        "x": 1125.3333333333333,
                         "y": 1186.5587421320533
                     }
                 ],
@@ -705,7 +705,7 @@
     "creationTS": "2023-02-19T16:27:51.290Z",
     "GUID": "68dd5c98-459c-464b-937c-a1697eadd46c",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:31:00.452Z",
+    "lastModifTS": "2023-10-07T15:25:01.704Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -725,8 +725,8 @@
                         "GUID": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
                         "x": 1004,
                         "y": 1186.5587421320533,
-                        "width": 643,
-                        "height": 263,
+                        "width": 364,
+                        "height": 267,
                         "color": {
                             "hex": "#2196f3"
                         }
@@ -735,7 +735,7 @@
                         "GUID": "3e17eab6-4154-4fbb-b578-79f2e1682424",
                         "x": 1365,
                         "y": 1001.2294886069989,
-                        "width": 278,
+                        "width": 277,
                         "height": 87,
                         "color": {
                             "hex": "#2196f3"
@@ -745,7 +745,7 @@
                         "GUID": "04ca3b52-d659-4023-98a5-07604a575912",
                         "x": 1000,
                         "y": 1000,
-                        "width": 332,
+                        "width": 331,
                         "height": 105,
                         "color": {
                             "hex": "#2196f3"
@@ -799,18 +799,18 @@
                 "options": [
                     {
                         "GUID": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
-                        "autoHeight": false,
-                        "autoWidth": false
+                        "autoHeight": true,
+                        "autoWidth": true
                     },
                     {
                         "GUID": "3e17eab6-4154-4fbb-b578-79f2e1682424",
-                        "autoWidth": false,
-                        "autoHeight": false
+                        "autoWidth": true,
+                        "autoHeight": true
                     },
                     {
                         "GUID": "04ca3b52-d659-4023-98a5-07604a575912",
-                        "autoWidth": false,
-                        "autoHeight": false
+                        "autoWidth": true,
+                        "autoHeight": true
                     }
                 ],
                 "relationshipUpdateDisabled": false,

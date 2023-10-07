@@ -147,10 +147,6 @@
                     "name": "Fee Generation Count",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "autoincrement": {
-                        "step_num": 1,
-                        "GUID": "e3c9fcde-e779-405b-baca-be6ebbd0432e"
-                    },
                     "tPrecision": 9,
                     "index": true,
                     "exclusiveMinimum": false,
@@ -172,10 +168,6 @@
                     "name": "Fee Generation Amount",
                     "hackoladeMeta": {},
                     "isActivated": true,
-                    "autoincrement": {
-                        "step_num": 1,
-                        "GUID": "cb1d7227-5972-4d08-b017-304e5b83f5d0"
-                    },
                     "tPrecision": 9,
                     "index": true,
                     "exclusiveMinimum": false,
@@ -207,24 +199,19 @@
                     "GUID": "d528384f-6ca3-4b17-9b9a-7d4972e71b30",
                     "compositePrimaryKey": [
                         {
-                            "keyId": "d437a866-e746-46b1-97fb-4564ffa9c4df",
-                            "type": ""
+                            "keyId": "d437a866-e746-46b1-97fb-4564ffa9c4df"
                         },
                         {
-                            "keyId": "29919c0f-e1b1-4620-af00-dc409b693ad3",
-                            "type": ""
+                            "keyId": "29919c0f-e1b1-4620-af00-dc409b693ad3"
                         },
                         {
-                            "keyId": "3f2f497b-b3b4-4596-8613-5407e243c673",
-                            "type": ""
+                            "keyId": "3f2f497b-b3b4-4596-8613-5407e243c673"
                         },
                         {
-                            "keyId": "fa6cacf0-ff29-4c24-b9ba-3c753887c6d8",
-                            "type": ""
+                            "keyId": "fa6cacf0-ff29-4c24-b9ba-3c753887c6d8"
                         },
                         {
-                            "keyId": "fd072fdf-296d-402a-a76f-abad2e7f5c63",
-                            "type": ""
+                            "keyId": "fd072fdf-296d-402a-a76f-abad2e7f5c63"
                         }
                     ]
                 }
@@ -718,19 +705,19 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1518.0579064587973,
+                        "x": 1517.5579064587973,
                         "y": 1147
                     },
                     {
+                        "x": 1517.5579064587973,
+                        "y": 1108
+                    },
+                    {
                         "x": 1518.0579064587973,
                         "y": 1108
                     },
                     {
-                        "x": 1518.5579064587973,
-                        "y": 1108
-                    },
-                    {
-                        "x": 1518.5579064587973,
+                        "x": 1518.0579064587973,
                         "y": 1069
                     }
                 ],
@@ -738,7 +725,8 @@
                     "top",
                     "bottom"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Fee Generation.Month Code to Month.Month Code",
@@ -771,15 +759,7 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1666.0579064587973,
-                        "y": 1226.5
-                    },
-                    {
-                        "x": 1692.0391670857584,
-                        "y": 1226.5
-                    },
-                    {
-                        "x": 1692.0391670857584,
+                        "x": 1665.0579064587973,
                         "y": 1226.5
                     },
                     {
@@ -791,7 +771,8 @@
                     "right",
                     "left"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Fee Generation.Account Type Code to Account Type.Account Type Code",
@@ -824,19 +805,11 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1518.0579064587973,
+                        "x": 1517.5579064587973,
                         "y": 1306
                     },
                     {
-                        "x": 1518.0579064587973,
-                        "y": 1334.6828508748772
-                    },
-                    {
-                        "x": 1518.0579064587973,
-                        "y": 1334.6828508748772
-                    },
-                    {
-                        "x": 1518.0579064587973,
+                        "x": 1517.5579064587973,
                         "y": 1363.3657017497544
                     }
                 ],
@@ -844,7 +817,8 @@
                     "bottom",
                     "top"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "fk Fee Generation.Branch Code to Branch.Branch Code",
@@ -881,15 +855,7 @@
                         "y": 1226.5
                     },
                     {
-                        "x": 1344.5289532293987,
-                        "y": 1226.5
-                    },
-                    {
-                        "x": 1344.5289532293987,
-                        "y": 1226.5
-                    },
-                    {
-                        "x": 1319,
+                        "x": 1318,
                         "y": 1226.5
                     }
                 ],
@@ -897,7 +863,8 @@
                     "left",
                     "right"
                 ]
-            }
+            },
+            "isActivated": true
         }
     ],
     "users": [],
@@ -959,7 +926,7 @@
     "creationTS": "2023-03-19T10:11:02.727Z",
     "GUID": "43a01dee-f880-4543-aa3d-3d80101ed191",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T14:28:21.609Z",
+    "lastModifTS": "2023-10-07T15:29:13.728Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -968,7 +935,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.0"
+        "version": "6.11.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -979,7 +946,7 @@
                         "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
                         "x": 1370.0579064587973,
                         "y": 1147,
-                        "width": 296,
+                        "width": 295,
                         "height": 159,
                         "color": {
                             "hex": "#2196f3"
@@ -989,7 +956,7 @@
                         "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
                         "x": 1368.0579064587973,
                         "y": 1000,
-                        "width": 301,
+                        "width": 300,
                         "height": 69,
                         "color": {
                             "hex": "#2196f3"
@@ -999,7 +966,7 @@
                         "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
                         "x": 1718.0204277127198,
                         "y": 1174,
-                        "width": 288,
+                        "width": 287,
                         "height": 105,
                         "color": {
                             "hex": "#2196f3"
@@ -1009,7 +976,7 @@
                         "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
                         "x": 1384.0579064587973,
                         "y": 1363.3657017497544,
-                        "width": 268,
+                        "width": 267,
                         "height": 69,
                         "color": {
                             "hex": "#2196f3"
@@ -1019,7 +986,7 @@
                         "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
                         "x": 1000,
                         "y": 1129,
-                        "width": 319,
+                        "width": 318,
                         "height": 195,
                         "color": {
                             "hex": "#2196f3"
@@ -1082,7 +1049,33 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
+                        "autoWidth": true,
+                        "autoHeight": true
+                    },
+                    {
+                        "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
+                        "autoWidth": true,
+                        "autoHeight": true
+                    },
+                    {
+                        "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
+                        "autoWidth": true,
+                        "autoHeight": true
+                    },
+                    {
+                        "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
+                        "autoWidth": true,
+                        "autoHeight": true
+                    },
+                    {
+                        "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
+                        "autoWidth": true,
+                        "autoHeight": true
+                    }
+                ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {
                     "dndHandles": false,

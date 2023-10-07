@@ -152,7 +152,7 @@
                     "exclusiveMinimum": false,
                     "exclusiveMaximum": false,
                     "primaryKey": false,
-                    "mode": "int32",
+                    "mode": "int",
                     "childType": "integer",
                     "type": "numeric",
                     "compositeKey": [
@@ -301,42 +301,13 @@
                         "compositePrimaryKey",
                         "compositeUniqueKey"
                     ],
-                    "compositePrimaryKey": true,
+                    "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "b026e69b-ba3d-4c7e-9a23-3a1ee7897791",
                     "required": false,
                     "childRelationships": [
                         "2ae17997-680f-484d-b5c3-b51ce447d63f"
                     ],
-                    "length": 10,
-                    "error": {}
-                },
-                {
-                    "name": "Year Code",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "autoincrement": {
-                        "step_num": 1
-                    },
-                    "tPrecision": 9,
-                    "primaryKey": true,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": true,
-                    "compositeUniqueKey": false,
-                    "GUID": "4a125966-24e0-4cec-a9bf-a210c43c4b6b",
-                    "required": false,
-                    "relationshipType": "Foreign Key",
-                    "foreignCollection": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-                    "foreignField": [
-                        "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-                        "61afd825-914f-4eee-95d3-6d05de9d6f47"
-                    ],
-                    "parentRelationship": "9b9e24e1-a555-4477-b797-a0fc578e7386",
                     "length": 10,
                     "error": {}
                 },
@@ -360,37 +331,7 @@
                     "GUID": "68617fce-5b2a-48e4-8b65-3233e3c9fb0e",
                     "length": 50,
                     "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "bb73eeb9-67cb-4792-abc9-110950f51bf8"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
-            "primaryKey": [
-                {
-                    "GUID": "99073836-6e1e-47fd-a0f0-d754e7aca9aa",
-                    "compositePrimaryKey": [
-                        {
-                            "keyId": "b026e69b-ba3d-4c7e-9a23-3a1ee7897791"
-                        },
-                        {
-                            "keyId": "4a125966-24e0-4cec-a9bf-a210c43c4b6b"
-                        }
-                    ]
-                }
-            ],
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
-        },
-        {
-            "collectionName": "Year",
-            "type": "object",
-            "properties": [
+                },
                 {
                     "name": "Year Code",
                     "hackoladeMeta": {},
@@ -399,7 +340,7 @@
                         "step_num": 1
                     },
                     "tPrecision": 9,
-                    "primaryKey": true,
+                    "primaryKey": false,
                     "childType": "varchar",
                     "type": "string",
                     "compositeKey": [
@@ -408,10 +349,8 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "61afd825-914f-4eee-95d3-6d05de9d6f47",
-                    "childRelationships": [
-                        "9b9e24e1-a555-4477-b797-a0fc578e7386"
-                    ],
+                    "GUID": "4a125966-24e0-4cec-a9bf-a210c43c4b6b",
+                    "required": false,
                     "length": 10,
                     "error": {}
                 },
@@ -432,7 +371,9 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "d6b2176e-46f8-4fd8-b57f-4a4d8d36e012",
+                    "GUID": "cd32c97b-1d64-45a7-a644-c816a25b9abd",
+                    "foreignCollection": "",
+                    "foreignField": [],
                     "length": 50,
                     "error": {}
                 }
@@ -440,11 +381,12 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "61f880aa-b5d1-482d-9e21-e57873501afc"
+                "GUID": "bb73eeb9-67cb-4792-abc9-110950f51bf8"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
+            "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
+            "primaryKey": [],
             "hackoladeMeta": {
                 "validationErrors": {}
             }
@@ -599,54 +541,6 @@
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "e8934423-f453-4121-b890-9fdf03f16e74",
-                    "relationshipType": "Foreign Key",
-                    "foreignCollection": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                    "foreignField": [
-                        "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                        "6b49fd33-206f-4767-89a5-aa385248bdb8"
-                    ],
-                    "parentRelationship": "62f11cac-ddd1-4c14-83f2-9995ab661d3f",
-                    "length": 10,
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "b71db821-3b32-4485-ad61-61fb48530f35"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
-        },
-        {
-            "collectionName": "Region",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "Region Code",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "autoincrement": {
-                        "step_num": 1
-                    },
-                    "tPrecision": 9,
-                    "primaryKey": true,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "6b49fd33-206f-4767-89a5-aa385248bdb8",
-                    "childRelationships": [
-                        "62f11cac-ddd1-4c14-83f2-9995ab661d3f"
-                    ],
                     "length": 10,
                     "error": {}
                 },
@@ -667,7 +561,9 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "28ed9b7b-42b0-4fb3-bc19-fc01054acd6e",
+                    "GUID": "4ebc542c-d5c4-4802-b391-a5026773dcce",
+                    "foreignCollection": "",
+                    "foreignField": [],
                     "length": 50,
                     "error": {}
                 },
@@ -688,7 +584,9 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "ab9e648d-9d75-43fe-9a08-66676e17efa7",
+                    "GUID": "11798506-3aad-492e-914f-12df2a41c54b",
+                    "foreignCollection": "",
+                    "foreignField": [],
                     "length": 50,
                     "error": {}
                 },
@@ -709,55 +607,7 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "c02b69db-ce19-4e8b-8c42-0b34ef0d74c8",
-                    "relationshipType": "Foreign Key",
-                    "foreignCollection": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-                    "foreignField": [
-                        "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-                        "dbed755b-1755-4c1f-90b2-2a935222d962"
-                    ],
-                    "parentRelationship": "4dfd92bd-e552-4384-ada0-160ced333c0c",
-                    "length": 10,
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "b7415aa6-6d63-4f6a-b8d6-ef15a10e751d"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-            "hackoladeMeta": {
-                "validationErrors": {}
-            }
-        },
-        {
-            "collectionName": "District",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "District Code",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "autoincrement": {
-                        "step_num": 1
-                    },
-                    "tPrecision": 9,
-                    "primaryKey": true,
-                    "childType": "varchar",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePrimaryKey",
-                        "compositeUniqueKey"
-                    ],
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
-                    "GUID": "dbed755b-1755-4c1f-90b2-2a935222d962",
-                    "childRelationships": [
-                        "4dfd92bd-e552-4384-ada0-160ced333c0c"
-                    ],
+                    "GUID": "b2e72e53-e6dc-49af-9742-aa033470a56e",
                     "length": 10,
                     "error": {}
                 },
@@ -778,7 +628,9 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "97f2c823-2f0b-42ee-a89e-135c941a8f43",
+                    "GUID": "443ab1ae-7ed1-4f0c-a69b-4afd475aadd6",
+                    "foreignCollection": "",
+                    "foreignField": [],
                     "length": 50,
                     "error": {}
                 },
@@ -799,7 +651,9 @@
                     ],
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
-                    "GUID": "96757c2e-15d2-4235-85eb-302f4036e290",
+                    "GUID": "734b223f-9500-48d0-8ad2-f02b3a9be375",
+                    "foreignCollection": "",
+                    "foreignField": [],
                     "length": 50,
                     "error": {}
                 }
@@ -807,11 +661,11 @@
             "definitions": {
                 "type": "definitions",
                 "properties": [],
-                "GUID": "7960fba5-00b0-45c0-8def-63035626ff0d"
+                "GUID": "b71db821-3b32-4485-ad61-61fb48530f35"
             },
             "isActivated": true,
             "additionalProperties": false,
-            "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
+            "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
             "hackoladeMeta": {
                 "validationErrors": {}
             }
@@ -851,20 +705,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1487.0579064587973,
-                        "y": 1293
+                        "x": 1518.0579064587973,
+                        "y": 1147
                     },
                     {
-                        "x": 1487.0579064587973,
-                        "y": 1254
+                        "x": 1518.0579064587973,
+                        "y": 1108
                     },
                     {
-                        "x": 1487.5579064587973,
-                        "y": 1254
+                        "x": 1518.5579064587973,
+                        "y": 1108
                     },
                     {
-                        "x": 1487.5579064587973,
-                        "y": 1215
+                        "x": 1518.5579064587973,
+                        "y": 1069
                     }
                 ],
                 "sides": [
@@ -905,71 +759,17 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1604.0579064587973,
-                        "y": 1372.5
+                        "x": 1666.0579064587973,
+                        "y": 1226.5
                     },
                     {
-                        "x": 1731,
-                        "y": 1372.5
+                        "x": 1718.0204277127198,
+                        "y": 1226.5
                     }
                 ],
                 "sides": [
                     "right",
                     "left"
-                ]
-            },
-            "isActivated": true
-        },
-        {
-            "name": "fk Month.Year Code to Year.Year Code",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-                    "61afd825-914f-4eee-95d3-6d05de9d6f47"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "c22c5a7c-df21-4db6-9b66-966311822c20",
-                    "4a125966-24e0-4cec-a9bf-a210c43c4b6b"
-                ]
-            ],
-            "childCardinality": "1..n",
-            "parentCollection": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-            "childCollection": "c22c5a7c-df21-4db6-9b66-966311822c20",
-            "GUID": "9b9e24e1-a555-4477-b797-a0fc578e7386",
-            "level": "field",
-            "lineSize": 2,
-            "hackoladeStyles": {
-                "GUID": "ec3e0c9a-90fe-4ec9-8f06-e3b2e7af8021",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1843.5,
-                        "y": 1329
-                    },
-                    {
-                        "x": 1843.5,
-                        "y": 1272
-                    },
-                    {
-                        "x": 1844,
-                        "y": 1272
-                    },
-                    {
-                        "x": 1844,
-                        "y": 1215
-                    }
-                ],
-                "sides": [
-                    "top",
-                    "bottom"
                 ]
             },
             "isActivated": true
@@ -1005,12 +805,12 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1487.0579064587973,
-                        "y": 1452
+                        "x": 1518.0579064587973,
+                        "y": 1306
                     },
                     {
-                        "x": 1487.0579064587973,
-                        "y": 1509.3657017497544
+                        "x": 1518.0579064587973,
+                        "y": 1363.3657017497544
                     }
                 ],
                 "sides": [
@@ -1052,124 +852,16 @@
                 "shape": [
                     {
                         "x": 1370.0579064587973,
-                        "y": 1372.5
+                        "y": 1226.5
                     },
                     {
-                        "x": 1245,
-                        "y": 1372.5
+                        "x": 1319,
+                        "y": 1226.5
                     }
                 ],
                 "sides": [
                     "left",
                     "right"
-                ]
-            },
-            "isActivated": true
-        },
-        {
-            "name": "fk Branch.Region Code to Region.Region Code",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                    "6b49fd33-206f-4767-89a5-aa385248bdb8"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
-                    "e8934423-f453-4121-b890-9fdf03f16e74"
-                ]
-            ],
-            "childCardinality": "1..n",
-            "parentCollection": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-            "childCollection": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
-            "GUID": "62f11cac-ddd1-4c14-83f2-9995ab661d3f",
-            "level": "field",
-            "lineSize": 2,
-            "hackoladeStyles": {
-                "GUID": "57a8ce90-79eb-4013-ba4d-c420e5350733",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1119.5,
-                        "y": 1320
-                    },
-                    {
-                        "x": 1119.5,
-                        "y": 1285.5
-                    },
-                    {
-                        "x": 1120,
-                        "y": 1285.5
-                    },
-                    {
-                        "x": 1120,
-                        "y": 1251
-                    }
-                ],
-                "sides": [
-                    "top",
-                    "bottom"
-                ]
-            },
-            "isActivated": true
-        },
-        {
-            "name": "fk Region.District Code to District.District Code",
-            "relationshipType": "Foreign Key",
-            "parentField": [
-                [
-                    "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-                    "dbed755b-1755-4c1f-90b2-2a935222d962"
-                ]
-            ],
-            "parentCardinality": "1",
-            "childField": [
-                [
-                    "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                    "c02b69db-ce19-4e8b-8c42-0b34ef0d74c8"
-                ]
-            ],
-            "childCardinality": "1..n",
-            "parentCollection": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-            "childCollection": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-            "GUID": "4dfd92bd-e552-4384-ada0-160ced333c0c",
-            "level": "field",
-            "lineSize": 2,
-            "hackoladeStyles": {
-                "GUID": "34f01e18-6a41-4c10-844e-f23db441f123",
-                "autoPositioning": true,
-                "type": "Orthogonal",
-                "thickness": 2,
-                "color": "#79c4ff",
-                "dataType": "",
-                "shape": [
-                    {
-                        "x": 1120,
-                        "y": 1146
-                    },
-                    {
-                        "x": 1120,
-                        "y": 1116.5
-                    },
-                    {
-                        "x": 1119.5,
-                        "y": 1116.5
-                    },
-                    {
-                        "x": 1119.5,
-                        "y": 1087
-                    }
-                ],
-                "sides": [
-                    "top",
-                    "bottom"
                 ]
             },
             "isActivated": true
@@ -1194,11 +886,7 @@
         "b026e69b-ba3d-4c7e-9a23-3a1ee7897791": "Month Code",
         "4a125966-24e0-4cec-a9bf-a210c43c4b6b": "Year Code",
         "68617fce-5b2a-48e4-8b65-3233e3c9fb0e": "Month Description Text",
-        "60bc89bb-f4b3-4c6b-946f-9928c4819c62": "Year",
-        "61afd825-914f-4eee-95d3-6d05de9d6f47": "Year Code",
-        "d6b2176e-46f8-4fd8-b57f-4a4d8d36e012": "Year Description Text",
         "2ae17997-680f-484d-b5c3-b51ce447d63f": "fk Fee Generation.Month Code to Month.Month Code",
-        "9b9e24e1-a555-4477-b797-a0fc578e7386": "fk Month.Year Code to Year.Year Code",
         "e179f3d2-ebfc-4278-8f94-7af2aaa1f767": "Account Type",
         "aedb930e-a5fa-4f0b-916e-d00531c98636": "Account Type Code",
         "fb9fbd27-f12f-4460-b169-d8a022e69d05": "Account Type Name",
@@ -1209,17 +897,12 @@
         "0f1cc071-8cbf-44d9-93a0-2caaaf320838": "Branch Manager Last Name",
         "e8934423-f453-4121-b890-9fdf03f16e74": "Region Code",
         "dcbd75bf-f092-422d-ad06-507def455d69": "fk Fee Generation.Branch Code to Branch.Branch Code",
-        "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27": "Region",
-        "6b49fd33-206f-4767-89a5-aa385248bdb8": "Region Code",
-        "28ed9b7b-42b0-4fb3-bc19-fc01054acd6e": "Region Manager First Name",
-        "ab9e648d-9d75-43fe-9a08-66676e17efa7": "Region Manager Last Name",
-        "c02b69db-ce19-4e8b-8c42-0b34ef0d74c8": "District Code",
-        "8af51072-a5c8-4071-8dc8-17e92f67d9a8": "District",
-        "dbed755b-1755-4c1f-90b2-2a935222d962": "District Code",
-        "97f2c823-2f0b-42ee-a89e-135c941a8f43": "Disctrict Manager First Name",
-        "96757c2e-15d2-4235-85eb-302f4036e290": "District Manager Last Name",
-        "62f11cac-ddd1-4c14-83f2-9995ab661d3f": "fk Branch.Region Code to Region.Region Code",
-        "4dfd92bd-e552-4384-ada0-160ced333c0c": "fk Region.District Code to District.District Code"
+        "4ebc542c-d5c4-4802-b391-a5026773dcce": "Region Manager First Name",
+        "11798506-3aad-492e-914f-12df2a41c54b": "Region Manager Last Name",
+        "b2e72e53-e6dc-49af-9742-aa033470a56e": "District Code",
+        "443ab1ae-7ed1-4f0c-a69b-4afd475aadd6": "Disctrict Manager First Name",
+        "734b223f-9500-48d0-8ad2-f02b3a9be375": "District Manager Last Name",
+        "cd32c97b-1d64-45a7-a644-c816a25b9abd": "Year Description Text"
     },
     "definitions": {
         "type": "definitions",
@@ -1241,9 +924,9 @@
     "dbVendor": "Polyglot",
     "appTarget": "Polyglot",
     "creationTS": "2023-03-19T10:11:02.727Z",
-    "GUID": "8f2fbc8f-3f81-48e6-a8ef-22f8ee18d06f",
+    "GUID": "43a01dee-f880-4543-aa3d-3d80101ed191",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:29:01.851Z",
+    "lastModifTS": "2023-10-07T15:23:19.946Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -1262,8 +945,8 @@
                     {
                         "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
                         "x": 1370.0579064587973,
-                        "y": 1293,
-                        "width": 234,
+                        "y": 1147,
+                        "width": 296,
                         "height": 159,
                         "color": {
                             "hex": "#2196f3"
@@ -1272,8 +955,8 @@
                     {
                         "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
                         "x": 1368.0579064587973,
-                        "y": 1146,
-                        "width": 239,
+                        "y": 1000,
+                        "width": 301,
                         "height": 69,
                         "color": {
                             "hex": "#2196f3"
@@ -1281,20 +964,10 @@
                     },
                     {
                         "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
-                        "x": 1731,
-                        "y": 1329,
-                        "width": 225,
-                        "height": 87,
-                        "color": {
-                            "hex": "#2196f3"
-                        }
-                    },
-                    {
-                        "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-                        "x": 1737,
-                        "y": 1146,
-                        "width": 214,
-                        "height": 69,
+                        "x": 1718.0204277127198,
+                        "y": 1174,
+                        "width": 288,
+                        "height": 105,
                         "color": {
                             "hex": "#2196f3"
                         }
@@ -1302,8 +975,8 @@
                     {
                         "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
                         "x": 1384.0579064587973,
-                        "y": 1509.3657017497544,
-                        "width": 206,
+                        "y": 1363.3657017497544,
+                        "width": 268,
                         "height": 69,
                         "color": {
                             "hex": "#2196f3"
@@ -1311,30 +984,10 @@
                     },
                     {
                         "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
-                        "x": 994,
-                        "y": 1320,
-                        "width": 251,
-                        "height": 105,
-                        "color": {
-                            "hex": "#2196f3"
-                        }
-                    },
-                    {
-                        "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                        "x": 995,
-                        "y": 1146,
-                        "width": 250,
-                        "height": 105,
-                        "color": {
-                            "hex": "#2196f3"
-                        }
-                    },
-                    {
-                        "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-                        "x": 991,
-                        "y": 1000,
-                        "width": 257,
-                        "height": 87,
+                        "x": 1000,
+                        "y": 1129,
+                        "width": 319,
+                        "height": 195,
                         "color": {
                             "hex": "#2196f3"
                         }
@@ -1361,49 +1014,31 @@
                             "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
                             "size": 100,
                             "x": 1197,
-                            "y": 1302.797326162254
+                            "y": 1153
                         },
                         {
                             "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
                             "size": 100,
                             "x": 1197,
-                            "y": 1149.797326162254
+                            "y": 1000
                         },
                         {
                             "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
                             "size": 100,
                             "x": 1394,
-                            "y": 1302.797326162254
-                        },
-                        {
-                            "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-                            "size": 100,
-                            "x": 1394,
-                            "y": 1149.797326162254
+                            "y": 1153
                         },
                         {
                             "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
                             "size": 100,
                             "x": 1197,
-                            "y": 1455.797326162254
+                            "y": 1306
                         },
                         {
                             "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
                             "size": 100,
                             "x": 1000,
-                            "y": 1302.797326162254
-                        },
-                        {
-                            "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                            "size": 100,
-                            "x": 1000,
-                            "y": 1149.797326162254
-                        },
-                        {
-                            "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-                            "size": 100,
-                            "x": 1000,
-                            "y": 1000
+                            "y": 1153
                         }
                     ],
                     "buckets": [],
@@ -1417,49 +1052,33 @@
                 "options": [
                     {
                         "GUID": "ba12c864-559f-46d3-99a4-30d610bcbc22",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "4e67ca6d-9654-49ba-ae7b-faf6645fb505",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "c22c5a7c-df21-4db6-9b66-966311822c20",
-                        "autoWidth": true,
-                        "autoHeight": true
-                    },
-                    {
-                        "GUID": "60bc89bb-f4b3-4c6b-946f-9928c4819c62",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "e179f3d2-ebfc-4278-8f94-7af2aaa1f767",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "ea44b9b2-b2e7-41a8-8774-19ceb64495dd",
-                        "autoWidth": true,
-                        "autoHeight": true
-                    },
-                    {
-                        "GUID": "e45cfaf6-3f9d-4e48-9d2b-83bae30ebe27",
-                        "autoWidth": true,
-                        "autoHeight": true
-                    },
-                    {
-                        "GUID": "8af51072-a5c8-4071-8dc8-17e92f67d9a8",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     }
                 ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {
                     "dndHandles": false,
-                    "hideDataTypes": true,
                     "hideRelationshipName": true
                 }
             },

@@ -94,7 +94,8 @@
                     "top",
                     "bottom"
                 ]
-            }
+            },
+            "isActivated": true
         },
         {
             "name": "Contain",
@@ -137,7 +138,8 @@
                     "top",
                     "bottom"
                 ]
-            }
+            },
+            "isActivated": true
         }
     ],
     "users": [],
@@ -171,7 +173,7 @@
     "creationTS": "2023-02-25T10:44:55.855Z",
     "GUID": "a06088b0-b541-4d85-a2c4-bc1cc102ee58",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-08T16:11:10.543Z",
+    "lastModifTS": "2023-10-07T15:28:34.811Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -180,7 +182,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.0"
+        "version": "6.11.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -262,7 +264,23 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "GUID": "c60add4c-5553-4574-8789-e6ea76a81890",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "95407fae-978d-4053-a9cb-465eb3edf8c4",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "d565012b-2ad4-44b4-8576-393ca3e7a261",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {
                     "dndHandles": false,

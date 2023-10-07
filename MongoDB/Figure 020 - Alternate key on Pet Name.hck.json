@@ -24,7 +24,8 @@
                     "compositePrimaryKey": false,
                     "compositeUniqueKey": false,
                     "GUID": "705a4340-18d6-4bda-bcc6-f669c6ba22be",
-                    "error": {}
+                    "error": {},
+                    "required": true
                 },
                 {
                     "name": "Pet Name",
@@ -93,7 +94,10 @@
                     ],
                     "alternateKey": true
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [],
@@ -130,17 +134,18 @@
     "creationTS": "2023-05-06T15:48:07.822Z",
     "GUID": "1134d908-9115-4760-a6d4-f051899ac403",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-05-06T15:50:26.389Z",
+    "lastModifTS": "2023-10-07T15:27:31.826Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "SQLServer",
-        "pluginVersion": "0.1.57",
+        "pluginVersion": "0.1.71",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.10.0"
+        "version": "6.11.4"
     },
+    "hackoladeMeta": {},
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -149,7 +154,7 @@
                         "GUID": "54d43e7f-d160-4a86-828d-20b285822eae",
                         "x": 1189,
                         "y": 1147,
-                        "width": 207,
+                        "width": 230,
                         "height": 87,
                         "color": {}
                     }
@@ -179,7 +184,13 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "GUID": "54d43e7f-d160-4a86-828d-20b285822eae",
+                        "autoWidth": true,
+                        "autoHeight": true
+                    }
+                ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {
                     "dndHandles": false,

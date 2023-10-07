@@ -214,7 +214,7 @@
     "GUID": "100f3f11-1975-49e1-ac16-7d85e4226adf",
     "isLineageEnabled": false,
     "polyglotModelPaths": [],
-    "lastModifTS": "2023-10-07T15:31:09.911Z",
+    "lastModifTS": "2023-10-07T15:22:46.663Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -273,11 +273,7 @@
                         "autoHeight": false
                     }
                 ],
-                "relationshipUpdateDisabled": false,
-                "displayOptions": {
-                    "dndHandles": false,
-                    "hideErdRelationshipsNames": false
-                }
+                "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
             "changed": false

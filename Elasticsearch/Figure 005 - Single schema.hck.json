@@ -1,0 +1,364 @@
+{
+    "modelName": "bank account subtypes-denormalized (Polyglot)",
+    "collections": [
+        {
+            "collectionName": "Account",
+            "code": "",
+            "isActivated": true,
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "accountNumber",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": true,
+                    "GUID": "718969a6-0685-4b2d-af5b-8ea109dc59d2",
+                    "type": "string",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "name": "dateOpened",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "date",
+                    "primaryKey": false,
+                    "GUID": "61de7caa-4a55-4034-8b5a-c9e696b4f555",
+                    "type": "string",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "name": "balance",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "double",
+                    "mode": "",
+                    "primaryKey": false,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "GUID": "4724628a-6c25-4217-9eee-aaece7a2e561",
+                    "type": "numeric",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "name": "accountType",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "enum": [
+                        "checking",
+                        "savings",
+                        "loan"
+                    ],
+                    "GUID": "912e95ab-52f7-4150-ad88-f29f2d1e07a2",
+                    "type": "string",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "choice": "anyOf",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "isActivated": true,
+                            "childType": "object",
+                            "properties": [
+                                {
+                                    "name": "minimumBalanace",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "tPrecision": 9,
+                                    "index": true,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "primaryKey": false,
+                                    "childType": "number",
+                                    "type": "numeric",
+                                    "compositeKey": [
+                                        "compositePrimaryKey",
+                                        "compositeUniqueKey"
+                                    ],
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "GUID": "d6bf5c5b-5eff-42d5-a709-8b2bfb9e606d",
+                                    "mode": "dec",
+                                    "error": {}
+                                },
+                                {
+                                    "name": "overdraftLimit",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "integer",
+                                    "mode": "int",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "5af70e1a-9f01-44d7-af13-96963786e8ca",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                }
+                            ],
+                            "GUID": "79f3cfad-0632-4dea-b38b-9a6e31fc3089",
+                            "type": "document",
+                            "hackoladeMeta": {},
+                            "subschema": true,
+                            "displayName": "checking",
+                            "error": {}
+                        },
+                        {
+                            "isActivated": true,
+                            "childType": "object",
+                            "properties": [
+                                {
+                                    "name": "interestRate",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "number",
+                                    "mode": "dec",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "4b182448-e34a-411b-a2eb-9c9584e6716c",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                },
+                                {
+                                    "name": "interestEarned",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "double",
+                                    "mode": "",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "631c437c-f919-4e34-afb6-46ed85a34390",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                }
+                            ],
+                            "GUID": "1e1ec006-511c-40de-8596-bad4ffc1f6c1",
+                            "type": "document",
+                            "hackoladeMeta": {},
+                            "subschema": true,
+                            "displayName": "savings",
+                            "error": {}
+                        },
+                        {
+                            "isActivated": true,
+                            "childType": "object",
+                            "properties": [
+                                {
+                                    "name": "loanAmount",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "double",
+                                    "mode": "",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "1ec94779-a58d-4172-a2db-f1102a5b1dd3",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                },
+                                {
+                                    "name": "term",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "integer",
+                                    "mode": "int",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "ef6c4c4c-4c9e-447a-993a-76e11200a52f",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                },
+                                {
+                                    "name": "interestRate",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "number",
+                                    "mode": "dec",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "2e2bf8ee-9fde-40b8-bb70-37b50303188c",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                },
+                                {
+                                    "name": "monthlyPmt",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "double",
+                                    "mode": "",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "a108b0d3-fc0c-4cf2-8a99-6840316ee7ff",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {}
+                                }
+                            ],
+                            "GUID": "00b66317-8612-4bd4-8f8d-6cffcc6ac946",
+                            "type": "document",
+                            "hackoladeMeta": {},
+                            "subschema": true,
+                            "displayName": "loan",
+                            "error": {}
+                        }
+                    ],
+                    "GUID": "7a1d65a3-32b2-46a0-b8c8-9d676cb7bcba",
+                    "type": "choice",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8fd24ba0-8906-4c04-91a9-c00e61ae7dda"
+            },
+            "GUID": "bc3fab5d-8ea7-4c58-bd2e-35a76a565b06",
+            "type": "object",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
+            "error": {}
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "bc3fab5d-8ea7-4c58-bd2e-35a76a565b06": "Account",
+        "718969a6-0685-4b2d-af5b-8ea109dc59d2": "accountNumber",
+        "61de7caa-4a55-4034-8b5a-c9e696b4f555": "dateOpened",
+        "4724628a-6c25-4217-9eee-aaece7a2e561": "balance",
+        "912e95ab-52f7-4150-ad88-f29f2d1e07a2": "accountType",
+        "5af70e1a-9f01-44d7-af13-96963786e8ca": "overdraftLimit",
+        "4b182448-e34a-411b-a2eb-9c9584e6716c": "interestRate",
+        "631c437c-f919-4e34-afb6-46ed85a34390": "interestEarned",
+        "a108b0d3-fc0c-4cf2-8a99-6840316ee7ff": "monthlyPmt",
+        "2e2bf8ee-9fde-40b8-bb70-37b50303188c": "interestRate",
+        "ef6c4c4c-4c9e-447a-993a-76e11200a52f": "term",
+        "1ec94779-a58d-4172-a2db-f1102a5b1dd3": "loanAmount",
+        "d6bf5c5b-5eff-42d5-a709-8b2bfb9e606d": "minimumBalanace"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "e6a575f9-3d20-45a6-8a7f-a1513857b0e1"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "6ce519b4-f6dc-4fec-a204-8032ed2b81b4"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "50abd8ed-a3db-4108-bcd0-eb84263eeb37"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-04-14T12:12:54.054Z",
+    "GUID": "1442ea08-587e-4153-bd16-8bce90693c84",
+    "code": "",
+    "isLineageEnabled": false,
+    "dbVersion": "v5.0",
+    "hackoladeMeta": {
+        "validationErrors": {}
+    },
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "lastModifTS": "2023-10-07T15:06:03.131Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "applicationInformation": {
+        "version": "6.11.4"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "bc3fab5d-8ea7-4c58-bd2e-35a76a565b06",
+                        "x": 1258,
+                        "y": 1000,
+                        "width": 280,
+                        "height": 321,
+                        "color": {
+                            "hex": "#2196f3"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "bc3fab5d-8ea7-4c58-bd2e-35a76a565b06",
+                            "x": 1258,
+                            "y": 1000,
+                            "width": 287,
+                            "height": 357,
+                            "color": {
+                                "hex": "#2196f3"
+                            }
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "bc3fab5d-8ea7-4c58-bd2e-35a76a565b06",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

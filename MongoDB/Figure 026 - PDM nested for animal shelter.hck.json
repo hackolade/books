@@ -214,14 +214,17 @@
     "GUID": "100f3f11-1975-49e1-ac16-7d85e4226adf",
     "isLineageEnabled": false,
     "polyglotModelPaths": [],
-    "lastModifTS": "2023-04-21T10:22:25.208Z",
+    "lastModifTS": "2023-10-07T15:28:24.929Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.9.11"
+        "version": "6.11.4"
+    },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true
     },
     "settings": {
         "centralPane": {
@@ -263,7 +266,13 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "GUID": "b7ef8e7e-3245-45f0-9940-aab5a024b882",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
                 "relationshipUpdateDisabled": false
             },
             "collectionLevel": {},
@@ -273,8 +282,5 @@
             "collapsedNodes": [],
             "shouldDistributeCollections": false
         }
-    },
-    "hackoladeMeta": {
-        "customPropertiesUpdated": true
     }
 }

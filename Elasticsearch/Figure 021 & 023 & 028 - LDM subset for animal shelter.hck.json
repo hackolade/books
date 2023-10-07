@@ -389,11 +389,11 @@
                         "y": 1171.0387231563313
                     },
                     {
-                        "x": 1121.2331147092495,
+                        "x": 1121.4960979343034,
                         "y": 1171.0387231563313
                     },
                     {
-                        "x": 1121.2331147092495,
+                        "x": 1121.4960979343034,
                         "y": 1139.077446312663
                     }
                 ],
@@ -471,16 +471,8 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1550.4681743948966,
+                        "x": 1551.4681743948966,
                         "y": 1246.4999999999998
-                    },
-                    {
-                        "x": 1585.391794217691,
-                        "y": 1246.4999999999998
-                    },
-                    {
-                        "x": 1585.391794217691,
-                        "y": 1246.5000000000002
                     },
                     {
                         "x": 1620.3154140404856,
@@ -529,15 +521,7 @@
                         "y": 1246.4999999999998
                     },
                     {
-                        "x": 1281.7340871974484,
-                        "y": 1246.4999999999998
-                    },
-                    {
-                        "x": 1281.7340871974484,
-                        "y": 1246.5
-                    },
-                    {
-                        "x": 1246,
+                        "x": 1247,
                         "y": 1246.5
                     }
                 ],
@@ -594,7 +578,7 @@
     "creationTS": "2023-05-06T16:08:29.300Z",
     "GUID": "d4c2bef0-d009-4ec1-9fef-03b13ba8d15a",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:27:54.122Z",
+    "lastModifTS": "2023-10-07T15:22:14.108Z",
     "persistenceSchemaVersion": "6",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -614,7 +598,7 @@
                         "GUID": "23226463-8b6e-46d2-b07f-89d4a0a31fb3",
                         "x": 1078,
                         "y": 1203,
-                        "width": 168,
+                        "width": 169,
                         "height": 87,
                         "color": {
                             "hex": "#2196f3"
@@ -624,7 +608,7 @@
                         "GUID": "3dc5da75-5e52-4ffd-b19f-7ce7eb0aadb9",
                         "x": 1076,
                         "y": 1070.077446312663,
-                        "width": 173,
+                        "width": 174,
                         "height": 69,
                         "color": {
                             "hex": "#2196f3"
@@ -634,7 +618,7 @@
                         "GUID": "c4cbb439-c246-43a5-904a-01c3a3ebbf45",
                         "x": 1317.4681743948966,
                         "y": 1202.9999999999998,
-                        "width": 233,
+                        "width": 234,
                         "height": 87,
                         "color": {
                             "hex": "#2196f3"
@@ -644,7 +628,7 @@
                         "GUID": "950a4eff-08b0-4048-b5a3-cabbdcffcfea",
                         "x": 1620.3154140404856,
                         "y": 1212.0000000000002,
-                        "width": 195,
+                        "width": 196,
                         "height": 69,
                         "color": {
                             "hex": "#2196f3"
@@ -704,23 +688,23 @@
                 "options": [
                     {
                         "GUID": "23226463-8b6e-46d2-b07f-89d4a0a31fb3",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "3dc5da75-5e52-4ffd-b19f-7ce7eb0aadb9",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "c4cbb439-c246-43a5-904a-01c3a3ebbf45",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     },
                     {
                         "GUID": "950a4eff-08b0-4048-b5a3-cabbdcffcfea",
-                        "autoWidth": true,
-                        "autoHeight": true
+                        "autoWidth": false,
+                        "autoHeight": false
                     }
                 ],
                 "relationshipUpdateDisabled": false,
