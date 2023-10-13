@@ -1,0 +1,567 @@
+{
+    "modelName": "Pet",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "_index",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": true,
+                    "mode": "text",
+                    "index_options": "docs",
+                    "index": true,
+                    "type": "string",
+                    "_index": true,
+                    "containerLevelKey": true,
+                    "hasERDDivider": true,
+                    "docType": false,
+                    "docID": false,
+                    "GUID": "0b415cda-f39a-4193-9fe5-6a83af38f687",
+                    "required": true
+                },
+                {
+                    "name": "_type",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": true,
+                    "mode": "text",
+                    "index_options": "docs",
+                    "index": true,
+                    "type": "string",
+                    "_index": false,
+                    "containerLevelKey": true,
+                    "hasERDDivider": true,
+                    "docType": true,
+                    "docID": false,
+                    "GUID": "85e36077-08b8-4a0a-93ae-590e4c238303",
+                    "required": true
+                },
+                {
+                    "name": "_id",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": true,
+                    "mode": "text",
+                    "index_options": "docs",
+                    "index": true,
+                    "type": "string",
+                    "_index": false,
+                    "containerLevelKey": true,
+                    "hasERDDivider": true,
+                    "docType": false,
+                    "docID": true,
+                    "GUID": "f07bd7bb-dae4-4f34-acbb-93e0b7d9b003",
+                    "required": true
+                },
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": false,
+                    "mode": "text",
+                    "index_options": "docs",
+                    "index": true,
+                    "type": "string",
+                    "_index": false,
+                    "containerLevelKey": false,
+                    "hasERDDivider": false,
+                    "docType": false,
+                    "docID": false,
+                    "GUID": "6508afd6-bd70-4b40-bc54-061f019679f2",
+                    "error": {},
+                    "childRelationships": [
+                        "75ae36c2-ae6c-4995-aef3-68765d5a80ef"
+                    ]
+                },
+                {
+                    "name": "_source",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": false,
+                    "enabled": true,
+                    "properties": [],
+                    "additionalProperties": false,
+                    "childType": "object",
+                    "type": "document",
+                    "source": true,
+                    "containerLevelKey": true,
+                    "hasERDDivider": false,
+                    "GUID": "cf4058d0-6ed1-42b2-942d-833553e14a33",
+                    "required": true
+                },
+                {
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": false,
+                    "mode": "text",
+                    "index_options": "docs",
+                    "index": true,
+                    "type": "string",
+                    "_index": false,
+                    "containerLevelKey": false,
+                    "hasERDDivider": false,
+                    "docType": false,
+                    "docID": false,
+                    "GUID": "94922372-38cb-4130-9262-46db85c0779f",
+                    "error": {},
+                    "childRelationships": [
+                        "bceb03ce-bc7c-41f0-be65-dbbeb14f97e9"
+                    ]
+                },
+                {
+                    "name": "Pet Age Quantity",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "integer",
+                    "childType": "number",
+                    "type": "numeric",
+                    "GUID": "fa57f19a-2f63-4ae0-af67-45146b98ecf1",
+                    "error": {}
+                },
+                {
+                    "name": "Dog Good with Children Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "index": true,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "error": {},
+                    "primaryKey": false,
+                    "GUID": "c04b63ab-3fa9-46e2-b5e7-e379ee2a7f46"
+                },
+                {
+                    "name": "Gender Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "index": true,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "error": {},
+                    "primaryKey": false,
+                    "GUID": "7735503c-aa2c-4be8-a1e9-4788ca1d7c0e"
+                },
+                {
+                    "name": "Size Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "primaryKey": false,
+                    "mode": "text",
+                    "index_options": "docs",
+                    "index": true,
+                    "type": "string",
+                    "_index": false,
+                    "containerLevelKey": false,
+                    "hasERDDivider": false,
+                    "docType": false,
+                    "docID": false,
+                    "GUID": "7d5ed05a-86d8-45dd-bea2-0d197dc49084",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Primary Color Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "index": true,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "error": {},
+                    "primaryKey": false,
+                    "GUID": "0d25494f-b8c2-4e0e-aba1-a44b4815bbf6"
+                },
+                {
+                    "name": "Pet Secondary Color Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "index": true,
+                    "childType": "boolean",
+                    "type": "boolean",
+                    "error": {},
+                    "primaryKey": false,
+                    "GUID": "0a9719b3-8466-47db-ba4f-d452ad57109d"
+                },
+                {
+                    "name": "Breed",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "childValueType": "object",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "dynamic": "true",
+                            "primaryKey": false,
+                            "enabled": true,
+                            "properties": [],
+                            "additionalProperties": false,
+                            "childType": "object",
+                            "type": "document",
+                            "source": false,
+                            "containerLevelKey": false,
+                            "hasERDDivider": false,
+                            "GUID": "1f9eeeda-3df6-4abf-ae51-e7fff3e1839c",
+                            "arrayItem": true,
+                            "displayName": "Breed",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "childType": "nested",
+                    "type": "array",
+                    "error": {},
+                    "GUID": "16dc7e61-9e6f-4673-b20c-fad226badeee"
+                },
+                {
+                    "name": "Vaccination",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "dynamic": "true",
+                    "childValueType": "object",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "dynamic": "true",
+                            "primaryKey": false,
+                            "enabled": true,
+                            "properties": [],
+                            "additionalProperties": false,
+                            "childType": "object",
+                            "type": "document",
+                            "source": false,
+                            "containerLevelKey": false,
+                            "hasERDDivider": false,
+                            "GUID": "5d6d5ef5-9e7c-4f85-b804-d4fd63d65038",
+                            "arrayItem": true,
+                            "displayName": "Vaccination",
+                            "error": {}
+                        }
+                    ],
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "childType": "nested",
+                    "type": "array",
+                    "error": {},
+                    "GUID": "a97acc94-85cd-4845-a6ee-e7c5c5ab33dd"
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "add70a2d-5ef2-40ff-b8d6-153d95763e99"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "collectionUsers": [],
+            "dynamic": "true",
+            "GUID": "2315470f-be11-4e62-9734-47415d07c080",
+            "bucketId": "4a2ec63d-8b21-4585-ba5e-58b16986a1d5",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Pet",
+            "type": "bucket",
+            "collectionIds": [
+                "2315470f-be11-4e62-9734-47415d07c080"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "number_of_shards": 5,
+            "number_of_replicas": 1,
+            "GUID": "4a2ec63d-8b21-4585-ba5e-58b16986a1d5",
+            "_indexName": "_index",
+            "_indexType": "string",
+            "docTypeName": "_type",
+            "docTypeType": "string",
+            "docIDName": "_id",
+            "docIDType": "string",
+            "sourceName": "_source",
+            "sourceType": "object",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "New Relationship",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "2315470f-be11-4e62-9734-47415d07c080",
+                    "6508afd6-bd70-4b40-bc54-061f019679f2"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "0..n",
+            "GUID": "75ae36c2-ae6c-4995-aef3-68765d5a80ef",
+            "parentCollection": "2315470f-be11-4e62-9734-47415d07c080",
+            "childCollection": "",
+            "hackoladeStyles": {
+                "GUID": "d82b93d0-20c4-48e6-aa84-b8c9358eaa48",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": ""
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [
+        {
+            "GUID": "0abf5f82-f0cf-4eea-876c-eec2241930a2",
+            "name": "New Diagram View",
+            "buckets": [
+                "4a2ec63d-8b21-4585-ba5e-58b16986a1d5"
+            ],
+            "entities": [
+                "2315470f-be11-4e62-9734-47415d07c080"
+            ]
+        }
+    ],
+    "idToNameHashTable": {
+        "0abf5f82-f0cf-4eea-876c-eec2241930a2": "New Diagram View",
+        "4a2ec63d-8b21-4585-ba5e-58b16986a1d5": "Pet",
+        "0b415cda-f39a-4193-9fe5-6a83af38f687": "_index",
+        "85e36077-08b8-4a0a-93ae-590e4c238303": "_type",
+        "f07bd7bb-dae4-4f34-acbb-93e0b7d9b003": "_id",
+        "cf4058d0-6ed1-42b2-942d-833553e14a33": "_source",
+        "2315470f-be11-4e62-9734-47415d07c080": "Pet",
+        "94922372-38cb-4130-9262-46db85c0779f": "Pet Name",
+        "fa57f19a-2f63-4ae0-af67-45146b98ecf1": "Pet Age Quantity",
+        "c04b63ab-3fa9-46e2-b5e7-e379ee2a7f46": "Dog Good with Children Indicator",
+        "7735503c-aa2c-4be8-a1e9-4788ca1d7c0e": "Gender Code",
+        "7d5ed05a-86d8-45dd-bea2-0d197dc49084": "Size Name",
+        "0d25494f-b8c2-4e0e-aba1-a44b4815bbf6": "Pet Primary Color Indicator",
+        "0a9719b3-8466-47db-ba4f-d452ad57109d": "Pet Secondary Color Indicator",
+        "6508afd6-bd70-4b40-bc54-061f019679f2": "Pet Number",
+        "75ae36c2-ae6c-4995-aef3-68765d5a80ef": "New Relationship",
+        "16dc7e61-9e6f-4673-b20c-fad226badeee": "Breed",
+        "a97acc94-85cd-4845-a6ee-e7c5c5ab33dd": "Vaccination"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "9d3b8b1e-d9b3-4af8-aa19-9c4e4b966dc9"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "2d5940cb-df66-4eb0-bea2-19e76e863aeb"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "14112c95-6ea0-4e4e-a05e-d54783f60ebd"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "6.x",
+    "dbVendor": "Elasticsearch",
+    "port": 9200,
+    "appTarget": "ELASTICSEARCH",
+    "creationTS": "2023-06-20T19:39:12.468Z",
+    "GUID": "7367469b-8052-402b-97ce-d6fe43954d52",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "lastModifTS": "2023-10-13T05:43:37.362Z",
+    "persistenceSchemaVersion": "6",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Elasticsearch",
+        "pluginVersion": "0.1.28",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "6.11.4"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "2315470f-be11-4e62-9734-47415d07c080",
+                        "x": 341,
+                        "y": 181,
+                        "width": 354,
+                        "height": 285,
+                        "color": {}
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 301,
+                        "y": 141,
+                        "GUID": "4a2ec63d-8b21-4585-ba5e-58b16986a1d5"
+                    }
+                ],
+                "collapsedNodes": [
+                    "2315470f-be11-4e62-9734-47415d07c080a97acc94-85cd-4845-a6ee-e7c5c5ab33dd",
+                    "2315470f-be11-4e62-9734-47415d07c08016dc7e61-9e6f-4673-b20c-fad226badeee"
+                ],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [
+                    {
+                        "GUID": "0abf5f82-f0cf-4eea-876c-eec2241930a2",
+                        "entities": [
+                            {
+                                "GUID": "2315470f-be11-4e62-9734-47415d07c080",
+                                "x": 762.6666666666652,
+                                "y": 1540.1999511718755,
+                                "width": 354,
+                                "height": 285,
+                                "color": {}
+                            }
+                        ],
+                        "buckets": [
+                            {
+                                "x": 722.6666666666652,
+                                "y": 1500.1999511718755,
+                                "GUID": "4a2ec63d-8b21-4585-ba5e-58b16986a1d5"
+                            }
+                        ],
+                        "graphView": {
+                            "erd": [],
+                            "buckets": [],
+                            "decorativeSymbols": [],
+                            "forceLayout": true,
+                            "defaultLinkLength": 300
+                        },
+                        "displayOptions": {},
+                        "relationships": [
+                            {
+                                "GUID": "bceb03ce-bc7c-41f0-be65-dbbeb14f97e9",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "top",
+                                    "bottom"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 916.8333333333329,
+                                        "y": 749.5332845052085
+                                    },
+                                    {
+                                        "x": 916.8333333333329,
+                                        "y": 634.6999511718753
+                                    },
+                                    {
+                                        "x": 1221.666666666666,
+                                        "y": 634.6999511718753
+                                    },
+                                    {
+                                        "x": 1221.666666666666,
+                                        "y": 519.8666178385422
+                                    }
+                                ]
+                            },
+                            {
+                                "GUID": "75ae36c2-ae6c-4995-aef3-68765d5a80ef",
+                                "autoPositioning": true,
+                                "sides": [
+                                    "top",
+                                    "bottom"
+                                ],
+                                "shape": [
+                                    {
+                                        "x": 1324.0666910807295,
+                                        "y": 2194.666666666666
+                                    },
+                                    {
+                                        "x": 1324.0666910807295,
+                                        "y": 1357.266642252604
+                                    },
+                                    {
+                                        "x": 1280.9999999999993,
+                                        "y": 1357.266642252604
+                                    },
+                                    {
+                                        "x": 1280.9999999999993,
+                                        "y": 519.8666178385422
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "2315470f-be11-4e62-9734-47415d07c080",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
