@@ -1,0 +1,2098 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "2508e610-a87f-42c4-8a97-fb86e779b70e",
+                    "error": {},
+                    "childRelationships": [
+                        "d87e5037-34e7-4c0e-acd5-497aaafe5f71",
+                        "fd8a2fa5-d714-4860-90d5-a4414b82f692",
+                        "549bcd14-f540-4d9d-98ad-9d70f0c67dee",
+                        "089c5b2f-c617-4342-af95-912cdab0059c"
+                    ]
+                },
+                {
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "b3a92843-97b2-40ed-bfd6-9edcabeb2016",
+                    "error": {}
+                },
+                {
+                    "name": "Gender Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "5b120280-3d62-4dd7-be04-dd00ace55aad",
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+                    "foreignField": [
+                        "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+                        "6f9afcdf-5db3-4875-80bf-3af13a3b9b31"
+                    ],
+                    "parentRelationship": "5f5c08a2-6a8a-4baa-834b-18fae5e7ab33",
+                    "error": {}
+                },
+                {
+                    "name": "Pet Age ",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "063ec1b6-adcc-4289-877d-78666522a74f",
+                    "error": {}
+                },
+                {
+                    "name": "Size Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "ac4a590b-2202-4129-a5cf-fe3ae04a4938",
+                    "relationshipType": "Foreign Master",
+                    "foreignCollection": "dd75d462-900c-439b-930e-1a2c935f3ccf",
+                    "foreignField": [
+                        "dd75d462-900c-439b-930e-1a2c935f3ccf",
+                        "c79e54ba-ddee-43b0-b4d0-9cd22ba6f4c9"
+                    ],
+                    "parentRelationship": "ce0cef06-7b01-4b66-bcc4-794bf880cab1",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d8a99216-e600-450c-98ed-dc684848e3e5"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "childCollection": [
+                "1052d5b5-fcf0-4b0a-92b3-07654b13869c",
+                "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be",
+                "b2c22c59-6032-4d54-ad91-3fdfc883c915"
+            ],
+            "relationName": "Pet Type",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Pet Color",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "09b478d9-3451-49ec-976a-002707fc0e3c",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "foreignField": [
+                        "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                        "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                    ],
+                    "parentRelationship": "d87e5037-34e7-4c0e-acd5-497aaafe5f71"
+                },
+                {
+                    "name": "Color Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "b211a42a-7ed4-4396-b2d6-956e7ae4a3c3",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+                    "foreignField": [
+                        "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+                        "edce24e3-5fed-4377-b0c4-db8800933ba1"
+                    ],
+                    "parentRelationship": "9b3e3bbd-4502-438b-8e2f-b46ca57d57a1"
+                },
+                {
+                    "name": "Pet Primary Color Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "c9ed2bd0-c784-4b88-be85-1b3a829a976b",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c999c84b-5506-4513-b693-28fbdfff2f8b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+            "primaryKey": [
+                {
+                    "GUID": "9126a800-499c-491b-931a-d0dfafb21973",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "09b478d9-3451-49ec-976a-002707fc0e3c"
+                        },
+                        {
+                            "keyId": "b211a42a-7ed4-4396-b2d6-956e7ae4a3c3"
+                        }
+                    ]
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Color",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Color Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "edce24e3-5fed-4377-b0c4-db8800933ba1",
+                    "error": {},
+                    "childRelationships": [
+                        "9b3e3bbd-4502-438b-8e2f-b46ca57d57a1"
+                    ]
+                },
+                {
+                    "name": "Color Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "ad13fa6c-5015-4af6-9e39-c9fe3ec27bd9",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "efd7f49a-edd1-445f-8bbd-0da73b7eca61"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Pet Vaccination",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "b8976aee-cd7c-4654-b8f9-b341080fc8fd",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "foreignField": [
+                        "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                        "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                    ],
+                    "parentRelationship": "fd8a2fa5-d714-4860-90d5-a4414b82f692"
+                },
+                {
+                    "name": "Vaccination Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "284d330f-ea3b-4ab2-a168-42f7af0a8af9",
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "2543beac-21be-4da5-9953-6604dd36b497",
+                    "foreignField": [
+                        "2543beac-21be-4da5-9953-6604dd36b497",
+                        "3a7cabec-047d-4131-a36a-3e24a7bee35b"
+                    ],
+                    "parentRelationship": "51a48b01-7814-47b3-ae7c-a1b5bce36ad9",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "Pet Vaccination Date",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "childType": "date",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "primaryKey": false,
+                    "GUID": "c7880e34-5cf3-49de-8d27-87c72460a4bf",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e1620c5d-3947-4255-ac0b-565df6b4481f"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "3e17eab6-4154-4fbb-b578-79f2e1682424",
+            "primaryKey": [
+                {
+                    "GUID": "afb2da14-92c5-4af9-b92a-9d68e168fea9",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "b8976aee-cd7c-4654-b8f9-b341080fc8fd"
+                        },
+                        {
+                            "keyId": "284d330f-ea3b-4ab2-a168-42f7af0a8af9"
+                        }
+                    ]
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Vaccination",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Vaccination Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "3a7cabec-047d-4131-a36a-3e24a7bee35b",
+                    "childRelationships": [
+                        "51a48b01-7814-47b3-ae7c-a1b5bce36ad9"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "Vaccination Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "f05bfe26-15fb-4d1e-a2be-80c69e6dd032",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "601f6b00-de99-4eb7-ba9d-5149b5e0ad74"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "2543beac-21be-4da5-9953-6604dd36b497",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Pet Breed",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "2d013816-9b17-475a-b9dd-3ebfa9d784c6",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "foreignField": [
+                        "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                        "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                    ],
+                    "parentRelationship": "549bcd14-f540-4d9d-98ad-9d70f0c67dee"
+                },
+                {
+                    "name": "Breed Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "d89d0b20-94cc-4aa9-9ab4-b706ded0b482",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+                    "foreignField": [
+                        "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+                        "33eb655e-fe24-4cf6-9351-15fbdbca5369"
+                    ],
+                    "parentRelationship": "3955662e-8cf9-47a0-8308-09264727d935"
+                },
+                {
+                    "name": "Pet Breed Primary Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "c4d125e1-f49e-435c-9df9-4fb998e5aa65",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "2100d7f7-d4d3-442a-a062-d0c6095cdb3f"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "04ca3b52-d659-4023-98a5-07604a575912",
+            "primaryKey": [
+                {
+                    "GUID": "5ac87aa4-391b-4066-b0da-ac6f0ec2c0dd",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "2d013816-9b17-475a-b9dd-3ebfa9d784c6"
+                        },
+                        {
+                            "keyId": "d89d0b20-94cc-4aa9-9ab4-b706ded0b482"
+                        }
+                    ]
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Breed",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Breed Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "33eb655e-fe24-4cf6-9351-15fbdbca5369",
+                    "childRelationships": [
+                        "3955662e-8cf9-47a0-8308-09264727d935"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "Breed Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "587c840a-81df-4a13-9991-b650810dfcec",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "cc314bfc-2d43-45f0-ba87-7761d6c02ac5"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Gender",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Gender Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "6f9afcdf-5db3-4875-80bf-3af13a3b9b31",
+                    "childRelationships": [
+                        "5f5c08a2-6a8a-4baa-834b-18fae5e7ab33"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "Gender Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "b708f504-ff7a-4b9c-86a7-9097fa188b72",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "2dda086c-8220-4975-bd25-0fce71dba101"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Pet Image",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "8068c638-5456-4ef1-b8b2-c8acc439bd49",
+                    "relationshipType": "Foreign Key",
+                    "foreignCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "foreignField": [
+                        "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                        "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                    ],
+                    "parentRelationship": "089c5b2f-c617-4342-af95-912cdab0059c",
+                    "required": true,
+                    "error": {}
+                },
+                {
+                    "name": "Image Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "GUID": "7cc5d16c-919a-4cfd-88d3-57fdb001dcef",
+                    "required": true,
+                    "error": {},
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "7f1340db-1246-42b5-a8aa-6f98ea715d83",
+                    "foreignCollection": "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+                    "foreignField": [
+                        "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+                        "6d43e4de-4bc8-4d34-afa1-63c9ae856f72"
+                    ]
+                },
+                {
+                    "name": "Pet Feature Image Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "319f173a-e6ea-4de1-b140-d4dfa26eb439",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "4d5e9dd2-8cab-4414-a662-4c596fc3fd32"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+            "primaryKey": [
+                {
+                    "GUID": "5a2ccc92-b72d-4193-bc68-11b7f96e132f",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "8068c638-5456-4ef1-b8b2-c8acc439bd49"
+                        },
+                        {
+                            "keyId": "7cc5d16c-919a-4cfd-88d3-57fdb001dcef"
+                        }
+                    ]
+                }
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Image",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Image Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "6d43e4de-4bc8-4d34-afa1-63c9ae856f72",
+                    "childRelationships": [
+                        "7f1340db-1246-42b5-a8aa-6f98ea715d83"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "Image Path Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a9c2ba85-0224-488e-b8ac-cc5bd4bbd43f",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "317c0722-4456-4929-b051-6c84ba0f5a4a"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Size",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Size Code",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "c79e54ba-ddee-43b0-b4d0-9cd22ba6f4c9",
+                    "childRelationships": [
+                        "ce0cef06-7b01-4b66-bcc4-794bf880cab1"
+                    ],
+                    "error": {}
+                },
+                {
+                    "name": "Size Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "0d64fcd8-43b5-4851-a22d-a7e44fef196a",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c11a678d-786b-47f9-8336-4b56dfa74f66"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "dd75d462-900c-439b-930e-1a2c935f3ccf",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Dog",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "70ff4694-2bdd-4734-bb96-350e0a141998",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "Dog Good with Children Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "0c98f8bd-00fb-49c5-b9ba-5fc41fe38172",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bcc0eb65-339d-4ef3-a75d-3c571c5ed8ee"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "1052d5b5-fcf0-4b0a-92b3-07654b13869c",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "parentCollections": [
+                "45b48535-dc9b-4f3a-9f6e-a589b8753095"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Cat",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a819b0ab-f2f1-49d0-8243-efbdc4832437",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "Cat Declawed Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "9e138f75-0523-4aad-9908-44ade29c5925",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "5527893f-9953-43b0-b21b-d77ecfbc5d2e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "parentCollections": [
+                "45b48535-dc9b-4f3a-9f6e-a589b8753095"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        },
+        {
+            "collectionName": "Bird",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "dd3123e3-859a-45b5-984b-20220c0b2e8f",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "Bird Exotic Indicator",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "68868cd9-ab7d-49bf-906c-835098b5a982",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "40a44d04-df40-402a-b23c-713349cb1d4f"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "b2c22c59-6032-4d54-ad91-3fdfc883c915",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "parentCollections": [
+                "45b48535-dc9b-4f3a-9f6e-a589b8753095"
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [
+        {
+            "name": "Describe",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+                    "09b478d9-3451-49ec-976a-002707fc0e3c"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "childCollection": "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+            "GUID": "d87e5037-34e7-4c0e-acd5-497aaafe5f71",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "cba65b46-7324-4497-8f0c-848747334773",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1398.025650082454,
+                        "y": 1350.0183967546666
+                    },
+                    {
+                        "x": 1466.664539515279,
+                        "y": 1350.0183967546666
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Contain",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+                    "edce24e3-5fed-4377-b0c4-db8800933ba1"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+                    "b211a42a-7ed4-4396-b2d6-956e7ae4a3c3"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+            "childCollection": "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+            "GUID": "9b3e3bbd-4502-438b-8e2f-b46ca57d57a1",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "c16cb5d2-0ee7-4541-bb7c-646ac5de9288",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1365.6923167491204,
+                        "y": 1393.5183967546666
+                    },
+                    {
+                        "x": 1365.6923167491204,
+                        "y": 1439.917737473262
+                    },
+                    {
+                        "x": 1288.6515635821238,
+                        "y": 1439.917737473262
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "right"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Given to",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "2543beac-21be-4da5-9953-6604dd36b497",
+                    "3a7cabec-047d-4131-a36a-3e24a7bee35b"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "3e17eab6-4154-4fbb-b578-79f2e1682424",
+                    "284d330f-ea3b-4ab2-a168-42f7af0a8af9"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "2543beac-21be-4da5-9953-6604dd36b497",
+            "childCollection": "3e17eab6-4154-4fbb-b578-79f2e1682424",
+            "GUID": "51a48b01-7814-47b3-ae7c-a1b5bce36ad9",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "7c442acb-eaa9-4b79-885e-a4eee97ca907",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1798.9099425809623,
+                        "y": 1202.4147884240808
+                    },
+                    {
+                        "x": 1798.9099425809623,
+                        "y": 1170.8064947485097
+                    },
+                    {
+                        "x": 1917.9099425809611,
+                        "y": 1170.8064947485097
+                    },
+                    {
+                        "x": 1917.9099425809611,
+                        "y": 1141.139828081844
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Be Given",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "3e17eab6-4154-4fbb-b578-79f2e1682424",
+                    "b8976aee-cd7c-4654-b8f9-b341080fc8fd"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "childCollection": "3e17eab6-4154-4fbb-b578-79f2e1682424",
+            "GUID": "fd8a2fa5-d714-4860-90d5-a4414b82f692",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "3b145493-e054-4882-b6f5-68081f8e8a64",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1711.3572921630096,
+                        "y": 1263.2481217574134
+                    },
+                    {
+                        "x": 1664.1775825058112,
+                        "y": 1263.2481217574134
+                    },
+                    {
+                        "x": 1664.1775825058112,
+                        "y": 1328.3625868464674
+                    },
+                    {
+                        "x": 1635.664539515279,
+                        "y": 1328.3625868464674
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Belong To",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "04ca3b52-d659-4023-98a5-07604a575912",
+                    "2d013816-9b17-475a-b9dd-3ebfa9d784c6"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "childCollection": "04ca3b52-d659-4023-98a5-07604a575912",
+            "GUID": "549bcd14-f540-4d9d-98ad-9d70f0c67dee",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "8f1c23e5-72b4-4a2c-b732-24cb051facd6",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1511.450710573683,
+                        "y": 1235.8766827693285
+                    },
+                    {
+                        "x": 1511.450710573683,
+                        "y": 1274.0363014745637
+                    },
+                    {
+                        "x": 1573.8520395152789,
+                        "y": 1274.0363014745637
+                    },
+                    {
+                        "x": 1573.8520395152789,
+                        "y": 1290.862586846467
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Describe",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+                    "33eb655e-fe24-4cf6-9351-15fbdbca5369"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "04ca3b52-d659-4023-98a5-07604a575912",
+                    "d89d0b20-94cc-4aa9-9ab4-b706ded0b482"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+            "childCollection": "04ca3b52-d659-4023-98a5-07604a575912",
+            "GUID": "3955662e-8cf9-47a0-8308-09264727d935",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "f82575da-dc47-4696-a173-c824761c6ec0",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1488.7840439070167,
+                        "y": 1148.8766827693285
+                    },
+                    {
+                        "x": 1488.7840439070167,
+                        "y": 1120.9845675546983
+                    },
+                    {
+                        "x": 1570.283960694992,
+                        "y": 1120.9845675546983
+                    },
+                    {
+                        "x": 1570.283960694992,
+                        "y": 1090.4257856733989
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Categorize",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+                    "6f9afcdf-5db3-4875-80bf-3af13a3b9b31"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "5b120280-3d62-4dd7-be04-dd00ace55aad"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+            "childCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "GUID": "5f5c08a2-6a8a-4baa-834b-18fae5e7ab33",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "cd29452d-112c-4c5e-bd33-7ef18e482993",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1484.3312061819456,
+                        "y": 1290.862586846467
+                    },
+                    {
+                        "y": 1255.8625868464674,
+                        "x": 1484.3312061819456
+                    },
+                    {
+                        "y": 1255.8625868464674,
+                        "x": 1379.8247661861026
+                    },
+                    {
+                        "x": 1379.8247661861026,
+                        "y": 1149.9107796459964
+                    },
+                    {
+                        "x": 1304.318326190261,
+                        "y": 1149.9107796459964
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "right"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Take",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "2508e610-a87f-42c4-8a97-fb86e779b70e"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+                    "8068c638-5456-4ef1-b8b2-c8acc439bd49"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "childCollection": "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+            "GUID": "089c5b2f-c617-4342-af95-912cdab0059c",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "722b338f-6f4d-4fd6-9144-31e27f6b5bd4",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1715.8889744692306,
+                        "y": 1381.0731305432548
+                    },
+                    {
+                        "x": 1635.664539515279,
+                        "y": 1381.0731305432548
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Taken of",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+                    "6d43e4de-4bc8-4d34-afa1-63c9ae856f72"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+                    "7cc5d16c-919a-4cfd-88d3-57fdb001dcef"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+            "childCollection": "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+            "GUID": "7f1340db-1246-42b5-a8aa-6f98ea715d83",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "02a3b4db-be34-4685-9507-c98b3844a7ea",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1726.611194460064,
+                        "y": 1399.239797209922
+                    },
+                    {
+                        "x": 1726.611194460064,
+                        "y": 1455.5731305432535
+                    },
+                    {
+                        "x": 1798.6111944600646,
+                        "y": 1455.5731305432535
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "left"
+                ]
+            },
+            "isActivated": true
+        },
+        {
+            "name": "Group",
+            "relationshipType": "Foreign Master",
+            "parentField": [
+                [
+                    "dd75d462-900c-439b-930e-1a2c935f3ccf",
+                    "c79e54ba-ddee-43b0-b4d0-9cd22ba6f4c9"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                    "ac4a590b-2202-4129-a5cf-fe3ae04a4938"
+                ]
+            ],
+            "childCardinality": "0..n",
+            "parentCollection": "dd75d462-900c-439b-930e-1a2c935f3ccf",
+            "childCollection": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+            "GUID": "ce0cef06-7b01-4b66-bcc4-794bf880cab1",
+            "level": "field",
+            "lineSize": 2,
+            "hackoladeStyles": {
+                "GUID": "0dd89e38-aace-498f-b6d0-07efb286121f",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1466.664539515279,
+                        "y": 1301.695920179801
+                    },
+                    {
+                        "x": 1365.8189640296046,
+                        "y": 1301.695920179801
+                    },
+                    {
+                        "x": 1365.8189640296046,
+                        "y": 1264.2574937120107
+                    },
+                    {
+                        "x": 1288.3067218772653,
+                        "y": 1264.2574937120107
+                    }
+                ],
+                "sides": [
+                    "left",
+                    "right"
+                ]
+            },
+            "isActivated": true
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "45b48535-dc9b-4f3a-9f6e-a589b8753095": "Pet",
+        "2508e610-a87f-42c4-8a97-fb86e779b70e": "Pet Number",
+        "b3a92843-97b2-40ed-bfd6-9edcabeb2016": "Pet Name",
+        "063ec1b6-adcc-4289-877d-78666522a74f": "Pet Age ",
+        "ac4a590b-2202-4129-a5cf-fe3ae04a4938": "Size Code",
+        "5b120280-3d62-4dd7-be04-dd00ace55aad": "Gender Code",
+        "2e458c98-3567-41e9-83cd-2aadbca1c64c": "Pet Color",
+        "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358": "Color",
+        "edce24e3-5fed-4377-b0c4-db8800933ba1": "Color Code",
+        "ad13fa6c-5015-4af6-9e39-c9fe3ec27bd9": "Color Name",
+        "09b478d9-3451-49ec-976a-002707fc0e3c": "Pet Number",
+        "b211a42a-7ed4-4396-b2d6-956e7ae4a3c3": "Color Code",
+        "d87e5037-34e7-4c0e-acd5-497aaafe5f71": "Describe",
+        "9b3e3bbd-4502-438b-8e2f-b46ca57d57a1": "Contain",
+        "3e17eab6-4154-4fbb-b578-79f2e1682424": "Pet Vaccination",
+        "b8976aee-cd7c-4654-b8f9-b341080fc8fd": "Pet Number",
+        "284d330f-ea3b-4ab2-a168-42f7af0a8af9": "Vaccination Code",
+        "2543beac-21be-4da5-9953-6604dd36b497": "Vaccination",
+        "3a7cabec-047d-4131-a36a-3e24a7bee35b": "Vaccination Code",
+        "f05bfe26-15fb-4d1e-a2be-80c69e6dd032": "Vaccination Name",
+        "51a48b01-7814-47b3-ae7c-a1b5bce36ad9": "Given to",
+        "fd8a2fa5-d714-4860-90d5-a4414b82f692": "Be Given",
+        "04ca3b52-d659-4023-98a5-07604a575912": "Pet Breed",
+        "cbad8f3d-c735-46f5-a190-e429d6aa5a3c": "Breed",
+        "2d013816-9b17-475a-b9dd-3ebfa9d784c6": "Pet Number",
+        "d89d0b20-94cc-4aa9-9ab4-b706ded0b482": "Breed Code",
+        "549bcd14-f540-4d9d-98ad-9d70f0c67dee": "Belong To",
+        "c4d125e1-f49e-435c-9df9-4fb998e5aa65": "Pet Breed Primary Indicator",
+        "33eb655e-fe24-4cf6-9351-15fbdbca5369": "Breed Code",
+        "3955662e-8cf9-47a0-8308-09264727d935": "Describe",
+        "587c840a-81df-4a13-9991-b650810dfcec": "Breed Name",
+        "91e7ffb3-7e19-4a08-b170-456dd1fffd79": "Gender",
+        "6f9afcdf-5db3-4875-80bf-3af13a3b9b31": "Gender Code",
+        "b708f504-ff7a-4b9c-86a7-9097fa188b72": "Gender Name",
+        "5f5c08a2-6a8a-4baa-834b-18fae5e7ab33": "Categorize",
+        "7cc302c5-a5e1-4198-b036-17c640b3fb2b": "Pet Image",
+        "8068c638-5456-4ef1-b8b2-c8acc439bd49": "Pet Number",
+        "7cc5d16c-919a-4cfd-88d3-57fdb001dcef": "Image Number",
+        "089c5b2f-c617-4342-af95-912cdab0059c": "Take",
+        "319f173a-e6ea-4de1-b140-d4dfa26eb439": "Pet Feature Image Indicator",
+        "c9131e6a-883d-441c-8e2a-b28fda4deee1": "Image",
+        "6d43e4de-4bc8-4d34-afa1-63c9ae856f72": "Image Number",
+        "a9c2ba85-0224-488e-b8ac-cc5bd4bbd43f": "Image Path Name",
+        "7f1340db-1246-42b5-a8aa-6f98ea715d83": "Taken of",
+        "dd75d462-900c-439b-930e-1a2c935f3ccf": "Size",
+        "c79e54ba-ddee-43b0-b4d0-9cd22ba6f4c9": "Size Code",
+        "0d64fcd8-43b5-4851-a22d-a7e44fef196a": "Size Name",
+        "ce0cef06-7b01-4b66-bcc4-794bf880cab1": "Group",
+        "1052d5b5-fcf0-4b0a-92b3-07654b13869c": "Dog",
+        "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be": "Cat",
+        "b2c22c59-6032-4d54-ad91-3fdfc883c915": "Bird",
+        "c9ed2bd0-c784-4b88-be85-1b3a829a976b": "Pet Primary Color Indicator",
+        "70ff4694-2bdd-4734-bb96-350e0a141998": "Pet Number",
+        "a819b0ab-f2f1-49d0-8243-efbdc4832437": "Pet Number",
+        "dd3123e3-859a-45b5-984b-20220c0b2e8f": "Pet Number",
+        "0c98f8bd-00fb-49c5-b9ba-5fc41fe38172": "Dog Good with Children Indicator",
+        "9e138f75-0523-4aad-9908-44ade29c5925": "Cat Declawed Indicator",
+        "68868cd9-ab7d-49bf-906c-835098b5a982": "Bird Exotic Indicator",
+        "c7880e34-5cf3-49de-8d27-87c72460a4bf": "Pet Vaccination Date"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "facbf8b7-19f6-40bf-8db9-14619e043036"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "16507298-e04b-445a-b85e-b1a0cd975df5"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "9b924287-013f-4a72-94da-ea68bea47b9b"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-02-19T16:27:51.290Z",
+    "GUID": "1563daf6-0907-47b0-b9bc-2841058bf6ba",
+    "isLineageEnabled": false,
+    "lastModifTS": "2023-12-22T07:58:32.157Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.0.4"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                        "x": 1466.664539515279,
+                        "y": 1290.862586846467,
+                        "width": 169,
+                        "height": 123,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+                        "x": 1128.025650082454,
+                        "y": 1306.5183967546666,
+                        "width": 270,
+                        "height": 87,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+                        "x": 1126.6515635821238,
+                        "y": 1404.0844041399287,
+                        "width": 162,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "3e17eab6-4154-4fbb-b578-79f2e1682424",
+                        "x": 1711.3572921630096,
+                        "y": 1202.4147884240808,
+                        "width": 274,
+                        "height": 87,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "2543beac-21be-4da5-9953-6604dd36b497",
+                        "x": 1782.836839108432,
+                        "y": 1072.139828081844,
+                        "width": 196,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "04ca3b52-d659-4023-98a5-07604a575912",
+                        "x": 1406.9507105736825,
+                        "y": 1148.8766827693285,
+                        "width": 273,
+                        "height": 87,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+                        "x": 1457.9506273616587,
+                        "y": 1021.425785673399,
+                        "width": 166,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+                        "x": 1125.318326190261,
+                        "y": 1118.077446312663,
+                        "width": 179,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+                        "x": 1715.8889744692306,
+                        "y": 1312.239797209922,
+                        "width": 273,
+                        "height": 87,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+                        "x": 1798.6111944600646,
+                        "y": 1419.7956710665949,
+                        "width": 195,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "dd75d462-900c-439b-930e-1a2c935f3ccf",
+                        "x": 1129.3067218772653,
+                        "y": 1213.7574937120114,
+                        "width": 159,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "1052d5b5-fcf0-4b0a-92b3-07654b13869c",
+                        "x": 1128.664539515279,
+                        "y": 1513.862586846467,
+                        "width": 281,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be",
+                        "x": 1439.664539515279,
+                        "y": 1513.862586846467,
+                        "width": 223,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "b2c22c59-6032-4d54-ad91-3fdfc883c915",
+                        "x": 1692.664539515279,
+                        "y": 1513.862586846467,
+                        "width": 207,
+                        "height": 69,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdBackgroundColor": "#ffffff",
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                            "size": 100,
+                            "x": 1324.7952787187091,
+                            "y": 1321.722640675136
+                        },
+                        {
+                            "GUID": "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+                            "size": 100,
+                            "x": 1457.9971427355122,
+                            "y": 1136.8609389362975
+                        },
+                        {
+                            "GUID": "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+                            "size": 100,
+                            "x": 1575.7518258045757,
+                            "y": 1005.258363211799
+                        },
+                        {
+                            "GUID": "3e17eab6-4154-4fbb-b578-79f2e1682424",
+                            "size": 100,
+                            "x": 1211.8425685926325,
+                            "y": 1123.8571374869257
+                        },
+                        {
+                            "GUID": "2543beac-21be-4da5-9953-6604dd36b497",
+                            "size": 100,
+                            "x": 1021.8407844370295,
+                            "y": 1000
+                        },
+                        {
+                            "GUID": "04ca3b52-d659-4023-98a5-07604a575912",
+                            "size": 100,
+                            "x": 1115.0222858165428,
+                            "y": 1231.7450741206908
+                        },
+                        {
+                            "GUID": "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+                            "size": 100,
+                            "x": 1000,
+                            "y": 1110.5917296232647
+                        },
+                        {
+                            "GUID": "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+                            "size": 100,
+                            "x": 1101.4470126006493,
+                            "y": 1361.3561956264361
+                        },
+                        {
+                            "GUID": "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+                            "size": 100,
+                            "x": 1506.359908744616,
+                            "y": 1263.8681525501772
+                        },
+                        {
+                            "GUID": "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+                            "size": 100,
+                            "x": 1613.1880131287526,
+                            "y": 1132.4889369186549
+                        },
+                        {
+                            "GUID": "dd75d462-900c-439b-930e-1a2c935f3ccf",
+                            "size": 100,
+                            "x": 1516.030024865694,
+                            "y": 1443.8239021924487
+                        },
+                        {
+                            "GUID": "1052d5b5-fcf0-4b0a-92b3-07654b13869c",
+                            "size": 100,
+                            "x": 1224.33407702277,
+                            "y": 1525.3649743120086
+                        },
+                        {
+                            "GUID": "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be",
+                            "size": 100,
+                            "x": 1321.687413029622,
+                            "y": 1548.778885935083
+                        },
+                        {
+                            "GUID": "b2c22c59-6032-4d54-ad91-3fdfc883c915",
+                            "size": 100,
+                            "x": 1425.6638063812563,
+                            "y": 1525.1158842428522
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 226
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "45b48535-dc9b-4f3a-9f6e-a589b8753095",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "2e458c98-3567-41e9-83cd-2aadbca1c64c",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "c431a710-1cf6-45c6-ae8a-9e3bf9c9a358",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "3e17eab6-4154-4fbb-b578-79f2e1682424",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "2543beac-21be-4da5-9953-6604dd36b497",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "04ca3b52-d659-4023-98a5-07604a575912",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "cbad8f3d-c735-46f5-a190-e429d6aa5a3c",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "91e7ffb3-7e19-4a08-b170-456dd1fffd79",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "7cc302c5-a5e1-4198-b036-17c640b3fb2b",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "c9131e6a-883d-441c-8e2a-b28fda4deee1",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "dd75d462-900c-439b-930e-1a2c935f3ccf",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "1052d5b5-fcf0-4b0a-92b3-07654b13869c",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "0f9cacd5-4fc1-4cc3-8e16-655cd26fd8be",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    },
+                    {
+                        "GUID": "b2c22c59-6032-4d54-ad91-3fdfc883c915",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideDataTypes": true,
+                    "hideErdRelationshipsNames": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
