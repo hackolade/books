@@ -214,14 +214,14 @@
     "GUID": "100f3f11-1975-49e1-ac16-7d85e4226adf",
     "isLineageEnabled": false,
     "polyglotModelPaths": [],
-    "lastModifTS": "2023-10-07T15:31:09.911Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-22T08:21:57.269Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.4"
+        "version": "7.0.4"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true
@@ -237,10 +237,11 @@
                         "width": 282,
                         "height": 231,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     }
                 ],
+                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],

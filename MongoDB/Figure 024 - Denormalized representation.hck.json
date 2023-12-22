@@ -317,8 +317,8 @@
     "creationTS": "2023-05-08T15:38:26.277Z",
     "GUID": "84e9d667-33c0-4c1d-aa0e-12ea519a1a2c",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:28:04.876Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-22T07:50:21.312Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Polyglot",
@@ -326,7 +326,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.4"
+        "version": "7.0.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -340,10 +340,11 @@
                         "width": 255,
                         "height": 231,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     }
                 ],
+                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],

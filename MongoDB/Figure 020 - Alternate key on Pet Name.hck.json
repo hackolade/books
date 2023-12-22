@@ -134,8 +134,8 @@
     "creationTS": "2023-05-06T15:48:07.822Z",
     "GUID": "1134d908-9115-4760-a6d4-f051899ac403",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:27:31.826Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-22T07:49:12.705Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "SQLServer",
@@ -143,7 +143,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.4"
+        "version": "7.0.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -156,9 +156,12 @@
                         "y": 1147,
                         "width": 230,
                         "height": 87,
-                        "color": {}
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
                     }
                 ],
+                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],

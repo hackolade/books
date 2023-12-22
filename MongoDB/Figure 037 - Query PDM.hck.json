@@ -904,14 +904,14 @@
     "GUID": "0414afb7-179e-4106-b51c-ee8593f30c47",
     "isLineageEnabled": false,
     "polyglotModelPaths": [],
-    "lastModifTS": "2023-10-07T15:30:20.357Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-22T07:56:50.478Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.4"
+        "version": "7.0.4"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true
@@ -927,7 +927,7 @@
                         "width": 275,
                         "height": 303,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -937,7 +937,7 @@
                         "width": 190,
                         "height": 87,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -947,10 +947,11 @@
                         "width": 209,
                         "height": 105,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     }
                 ],
+                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],

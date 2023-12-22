@@ -2006,8 +2006,8 @@
     "creationTS": "2023-03-23T14:06:17.827Z",
     "GUID": "8d862900-2c12-4962-acc2-990841a5187a",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-10-07T15:30:47.590Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-22T07:59:46.504Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Polyglot",
@@ -2015,7 +2015,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "6.11.4"
+        "version": "7.0.4"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -2029,7 +2029,7 @@
                         "width": 189,
                         "height": 141,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -2039,7 +2039,7 @@
                         "width": 215,
                         "height": 69,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -2049,7 +2049,7 @@
                         "width": 196,
                         "height": 69,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -2059,7 +2059,7 @@
                         "width": 235,
                         "height": 213,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -2069,7 +2069,7 @@
                         "width": 289,
                         "height": 393,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     },
                     {
@@ -2079,10 +2079,11 @@
                         "width": 321,
                         "height": 573,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     }
                 ],
+                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],

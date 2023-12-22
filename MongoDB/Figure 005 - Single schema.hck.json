@@ -287,11 +287,11 @@
         "pluginVersion": "0.0.1",
         "pluginEngineVersion": "1.0.0"
     },
-    "lastModifTS": "2023-10-07T15:26:16.102Z",
-    "persistenceSchemaVersion": "6",
+    "lastModifTS": "2023-12-22T07:49:59.706Z",
+    "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "applicationInformation": {
-        "version": "6.11.4"
+        "version": "7.0.4"
     },
     "settings": {
         "centralPane": {
@@ -304,10 +304,11 @@
                         "width": 279,
                         "height": 321,
                         "color": {
-                            "hex": "#2196f3"
+                            "hex": "#a9a9a9"
                         }
                     }
                 ],
+                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],
