@@ -227,7 +227,7 @@
             "dbVersion": false
         }
     },
-    "lastModifTS": "2023-12-22T17:15:49.456Z",
+    "lastModifTS": "2023-12-26T08:53:34.953Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -236,7 +236,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.0.4"
+        "version": "7.0.5"
     },
     "settings": {
         "centralPane": {
@@ -248,7 +248,9 @@
                         "y": 1080,
                         "width": 361,
                         "height": 141,
-                        "color": {}
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
                     }
                 ],
                 "erdDefinitions": {
