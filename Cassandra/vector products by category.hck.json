@@ -91,7 +91,7 @@
                             "exclusiveMinimum": false,
                             "exclusiveMaximum": false,
                             "primaryKey": false,
-                            "mode": "integer",
+                            "mode": "float",
                             "childType": "numeric",
                             "type": "numeric",
                             "compositeKey": [
@@ -100,7 +100,7 @@
                             ],
                             "compositePartitionKey": false,
                             "compositeClusteringKey": false,
-                            "GUID": "83900748-b1c7-4b7d-8d67-88bee4d034bd",
+                            "GUID": "97567576-096d-4f7f-89ad-1983affc1ae7",
                             "arrayItem": true
                         }
                     ],
@@ -117,7 +117,7 @@
                     ],
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
-                    "GUID": "4d4fd908-6c83-4dd0-9304-f7c66f00fc12",
+                    "GUID": "398cdc45-e231-4f11-9d50-10b634e73d8c",
                     "error": {}
                 }
             ],
@@ -146,20 +146,21 @@
             ],
             "SecIndxs": [
                 {
-                    "GUID": "b375cf40-af10-49bb-b22b-265dc189fa1a",
+                    "GUID": "8f5018ec-7514-4eeb-a6c0-e684820ca2ba",
                     "isActivated": true,
                     "indexType": "custom",
                     "name": "ann_index",
                     "SecIndxKey": [
                         {
-                            "keyId": "4d4fd908-6c83-4dd0-9304-f7c66f00fc12"
+                            "keyId": "398cdc45-e231-4f11-9d50-10b634e73d8c"
                         }
                     ],
-                    "isSASI": false,
                     "customOptions": {
-                        "GUID": "20d41695-1c7b-4e20-b4bc-66df1e165373",
-                        "case_sensitive": false
-                    }
+                        "GUID": "435533b3-4edd-447f-a873-f453e06e09e0",
+                        "case_sensitive": false,
+                        "similarity_function": "COSINE"
+                    },
+                    "indexIfNotExist": true
                 }
             ]
         }
@@ -197,7 +198,7 @@
         "da71e38e-5113-4b6f-a09e-3f94fc9b1959": "item_color",
         "314d22fc-fb69-4c12-82e7-1dcb3627da1c": "item_name",
         "37c6f783-9241-48a5-8099-d177696802d1": "item_category",
-        "4d4fd908-6c83-4dd0-9304-f7c66f00fc12": "item_vector"
+        "398cdc45-e231-4f11-9d50-10b634e73d8c": "item_vector"
     },
     "definitions": {
         "type": "definitions",
@@ -227,16 +228,16 @@
             "dbVersion": false
         }
     },
-    "lastModifTS": "2023-12-26T08:53:34.953Z",
+    "lastModifTS": "2024-01-04T18:15:48.017Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Cassandra",
-        "pluginVersion": "0.1.131",
+        "pluginVersion": "0.1.132",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.0.5"
+        "version": "7.0.7"
     },
     "settings": {
         "centralPane": {
@@ -244,9 +245,9 @@
                 "erd": [
                     {
                         "GUID": "3bf66ab4-52e3-4a2e-8593-800001eef930",
-                        "x": 1080,
-                        "y": 1080,
-                        "width": 361,
+                        "x": 1261,
+                        "y": 1129,
+                        "width": 360,
                         "height": 141,
                         "color": {
                             "hex": "#a9a9a9"
@@ -261,8 +262,8 @@
                 },
                 "buckets": [
                     {
-                        "x": 1040,
-                        "y": 1040,
+                        "x": 1221,
+                        "y": 1089,
                         "GUID": "fa7f4914-8557-458d-90fb-13c2a8a5211c"
                     }
                 ],
