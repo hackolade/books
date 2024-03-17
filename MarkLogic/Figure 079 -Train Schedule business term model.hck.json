@@ -1,0 +1,513 @@
+{
+    "modelName": "Figure 79: Train Schedule business term model",
+    "collections": [
+        {
+            "collectionName": "Schedule",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ddeaeeca-3903-4c44-9368-14079bdf435b"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "005281d1-ecb6-4d10-8687-b07719db2a6c",
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+        },
+        {
+            "collectionName": "Train",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3833dc78-c678-4dcc-8223-cf929ba7872e"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "6feba551-f91f-4597-9a3c-73e9d9fa767d",
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+        },
+        {
+            "collectionName": "Route",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c68e21d7-cfd4-4291-a4e8-5ebfe302effc"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "47de1457-9e46-44f2-aef5-b1c936cf452c",
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+        },
+        {
+            "collectionName": "Work Event(s)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b2c4bb2c-e66e-4a94-9587-e3ac73fbd52d"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+        },
+        {
+            "collectionName": "Station(s)",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "9514e96e-87d7-4474-b674-bf6648819016"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "0bbe71bd-0f60-4a1b-9788-35f1de4f8225",
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Figure 79: Train Schedule business term model",
+            "type": "bucket",
+            "collectionIds": [
+                "005281d1-ecb6-4d10-8687-b07719db2a6c",
+                "6feba551-f91f-4597-9a3c-73e9d9fa767d",
+                "47de1457-9e46-44f2-aef5-b1c936cf452c",
+                "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
+                "0bbe71bd-0f60-4a1b-9788-35f1de4f8225"
+            ],
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "has",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "6feba551-f91f-4597-9a3c-73e9d9fa767d",
+            "childCollection": "005281d1-ecb6-4d10-8687-b07719db2a6c",
+            "level": "entity",
+            "GUID": "adf6c080-65a7-4d8e-a224-6e2b57133109",
+            "lineSize": 2,
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04",
+            "properties": []
+        },
+        {
+            "name": "has a",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "005281d1-ecb6-4d10-8687-b07719db2a6c",
+            "childCollection": "47de1457-9e46-44f2-aef5-b1c936cf452c",
+            "level": "entity",
+            "GUID": "d6dc150a-d055-4df9-be54-b6443ef76066",
+            "lineSize": 2,
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04",
+            "properties": []
+        },
+        {
+            "name": "has",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "005281d1-ecb6-4d10-8687-b07719db2a6c",
+            "childCollection": "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
+            "level": "entity",
+            "GUID": "ad10f30d-fb37-4863-aaf9-2d627340678d",
+            "lineSize": 2,
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04",
+            "properties": []
+        },
+        {
+            "name": "comprised of",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "47de1457-9e46-44f2-aef5-b1c936cf452c",
+            "childCollection": "0bbe71bd-0f60-4a1b-9788-35f1de4f8225",
+            "level": "entity",
+            "GUID": "6f6313ed-6963-43f7-beb7-f56cb2aa0820",
+            "lineSize": 2,
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04",
+            "properties": []
+        },
+        {
+            "name": "occur at",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
+            "childCollection": "0bbe71bd-0f60-4a1b-9788-35f1de4f8225",
+            "level": "entity",
+            "GUID": "3b2017f0-ad04-46f6-a270-f4ad82754838",
+            "lineSize": 2,
+            "bucketId": "1d75f904-c68e-4501-8ed0-b300ca4f8c04",
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "1d75f904-c68e-4501-8ed0-b300ca4f8c04": "Figure 79: Train Schedule business term model",
+        "005281d1-ecb6-4d10-8687-b07719db2a6c": "Schedule",
+        "6feba551-f91f-4597-9a3c-73e9d9fa767d": "Train",
+        "adf6c080-65a7-4d8e-a224-6e2b57133109": "has",
+        "47de1457-9e46-44f2-aef5-b1c936cf452c": "Route",
+        "d6dc150a-d055-4df9-be54-b6443ef76066": "has a",
+        "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d": "Work Event(s)",
+        "ad10f30d-fb37-4863-aaf9-2d627340678d": "has",
+        "0bbe71bd-0f60-4a1b-9788-35f1de4f8225": "Station(s)",
+        "6f6313ed-6963-43f7-beb7-f56cb2aa0820": "comprised of",
+        "3b2017f0-ad04-46f6-a270-f4ad82754838": "occur at"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "d767baf9-7c5b-4ed4-9213-b57531e1e21e"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "283771c3-b70b-4013-b53b-06cdc6d281f0"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "4ca81724-9eaf-4336-8c06-2f4e7bb9457c"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2024-03-16T13:45:26.827Z",
+    "GUID": "872dbcfe-7e69-4bcb-9144-8850e5d38579",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-03-16T14:08:56.933Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.3.4"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "005281d1-ecb6-4d10-8687-b07719db2a6c",
+                        "x": 1211,
+                        "y": 1166,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "6feba551-f91f-4597-9a3c-73e9d9fa767d",
+                        "x": 1491,
+                        "y": 1248,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "adf6c080-65a7-4d8e-a224-6e2b57133109",
+                        "x": 1471,
+                        "y": 1257,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "47de1457-9e46-44f2-aef5-b1c936cf452c",
+                        "x": 1235,
+                        "y": 1356,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "d6dc150a-d055-4df9-be54-b6443ef76066",
+                        "x": 1343,
+                        "y": 1311,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
+                        "x": 1523,
+                        "y": 1429,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "ad10f30d-fb37-4863-aaf9-2d627340678d",
+                        "x": 1487,
+                        "y": 1347.5,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "0bbe71bd-0f60-4a1b-9788-35f1de4f8225",
+                        "x": 1458,
+                        "y": 1588,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "6f6313ed-6963-43f7-beb7-f56cb2aa0820",
+                        "x": 1466.5,
+                        "y": 1522,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "3b2017f0-ad04-46f6-a270-f4ad82754838",
+                        "x": 1610.5,
+                        "y": 1558.5,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1129,
+                        "y": 1133,
+                        "GUID": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "005281d1-ecb6-4d10-8687-b07719db2a6c",
+                            "size": 100,
+                            "x": 1198,
+                            "y": 1142
+                        },
+                        {
+                            "GUID": "6feba551-f91f-4597-9a3c-73e9d9fa767d",
+                            "size": 100,
+                            "x": 1439,
+                            "y": 1142
+                        },
+                        {
+                            "GUID": "47de1457-9e46-44f2-aef5-b1c936cf452c",
+                            "size": 100,
+                            "x": 1198,
+                            "y": 1443
+                        },
+                        {
+                            "GUID": "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
+                            "size": 100,
+                            "x": 1325.97863931478,
+                            "y": 1292.224658552981
+                        },
+                        {
+                            "GUID": "0bbe71bd-0f60-4a1b-9788-35f1de4f8225",
+                            "size": 100,
+                            "x": 1439,
+                            "y": 1443
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 1158,
+                            "y": 1102,
+                            "GUID": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
