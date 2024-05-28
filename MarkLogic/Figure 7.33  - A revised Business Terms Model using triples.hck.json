@@ -1,0 +1,1209 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "fec56b91-995b-4672-82ed-68d562508ce0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Breed",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c1d63530-e539-4175-9654-280a62cf122c"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "81f3a75e-1a57-45c0-ba45-bb385a34b733",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Gender",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "8a8441fb-5da7-4db7-9615-6a8615c0aa93"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "51cd5943-974c-489f-84d0-d3419553d66f",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Size",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b8830ea5-1ac0-4f4a-b420-bcff61056606"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "07ff43c9-264d-4713-9752-3cd14d412658",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Color",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c50f7891-5d78-47c4-842b-2327fd6d5b4a"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "a8161ded-fc56-4d1c-a25a-b84caa580035",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Dog",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "5f9aa23e-a42e-43f4-9404-33eba4564f23"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "2318a190-8bf0-4190-b772-b4dec3d34258",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Bird",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "058e1596-d9e1-489f-819e-469d850ac588"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "49885302-c753-471a-83dc-5e62f06d8432",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Cat",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d52cecce-f1a3-491e-948c-bc8e24804e83"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Vaccination",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b3c5fd31-9689-400c-b8c5-7148975ef764"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "fa7dee1e-c65c-485d-a534-225ca11ef444",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        },
+        {
+            "collectionName": "Image",
+            "type": "object",
+            "properties": [],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e096077f-1195-4adf-a627-c389968859f5"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "369a0758-b873-4dec-930d-91dc7af9165e",
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Figure 7.33: A revised Business Term Model using triples",
+            "type": "bucket",
+            "collectionIds": [
+                "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+                "81f3a75e-1a57-45c0-ba45-bb385a34b733",
+                "51cd5943-974c-489f-84d0-d3419553d66f",
+                "07ff43c9-264d-4713-9752-3cd14d412658",
+                "a8161ded-fc56-4d1c-a25a-b84caa580035",
+                "2318a190-8bf0-4190-b772-b4dec3d34258",
+                "49885302-c753-471a-83dc-5e62f06d8432",
+                "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8",
+                "fa7dee1e-c65c-485d-a534-225ca11ef444",
+                "369a0758-b873-4dec-930d-91dc7af9165e"
+            ],
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "name": "belongs to",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "81f3a75e-1a57-45c0-ba45-bb385a34b733",
+            "level": "entity",
+            "GUID": "ca16f0f6-1956-4391-830e-2fa15f13c024",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "is caraterized by",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "51cd5943-974c-489f-84d0-d3419553d66f",
+            "level": "entity",
+            "GUID": "0cb65579-78e1-4a7f-bf00-730b1a884f25",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "is grouped by",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "07ff43c9-264d-4713-9752-3cd14d412658",
+            "level": "entity",
+            "GUID": "249b3809-dce2-4aff-9df6-85d5a53ca109",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "is described by",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "a8161ded-fc56-4d1c-a25a-b84caa580035",
+            "level": "entity",
+            "GUID": "9c93c6ce-a627-406b-9ac5-e4bd59bb6136",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "is a",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "2318a190-8bf0-4190-b772-b4dec3d34258",
+            "childCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "level": "entity",
+            "GUID": "1e51e703-985a-4d0f-befa-22cda27142a8",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "may be",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "2318a190-8bf0-4190-b772-b4dec3d34258",
+            "level": "entity",
+            "GUID": "c540c8ce-0aef-4edf-affa-0b088bf9e83d",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "is a",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "49885302-c753-471a-83dc-5e62f06d8432",
+            "childCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "level": "entity",
+            "GUID": "95272bb1-5a8c-4d85-b00b-f1dbf2b7c3e1",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "may be",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "49885302-c753-471a-83dc-5e62f06d8432",
+            "level": "entity",
+            "GUID": "cc986754-09e6-44a2-8d7c-f2a0113ad8b7",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "is a",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8",
+            "childCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "level": "entity",
+            "GUID": "28caf319-0755-47dc-a4bb-3bb9d51623bb",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "may be",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8",
+            "level": "entity",
+            "GUID": "04f84349-d260-480c-9e44-b67102ca00a6",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "has been given 1 or more",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "fa7dee1e-c65c-485d-a534-225ca11ef444",
+            "level": "entity",
+            "GUID": "f011f84c-2009-4918-b8cb-2849c72f5394",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        },
+        {
+            "name": "must take 1 or more",
+            "relationshipType": "",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childField": [],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+            "childCollection": "369a0758-b873-4dec-930d-91dc7af9165e",
+            "level": "entity",
+            "GUID": "91c1a235-c73a-4cbb-bd7f-83ef84228587",
+            "lineSize": 2,
+            "bucketId": "f90b7a32-ed54-4884-add8-d5af3b5689d9",
+            "properties": []
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "fb71a710-42ce-432d-a9e2-e92778ba0aff": "date",
+        "cb4127cd-5d64-4602-a594-84afe10086ed": "method",
+        "f90b7a32-ed54-4884-add8-d5af3b5689d9": "Figure 7.33: A revised Business Term Model using triples",
+        "48d9ba14-cb72-4df6-92c6-61abbd7b8a32": "Pet",
+        "81f3a75e-1a57-45c0-ba45-bb385a34b733": "Breed",
+        "ca16f0f6-1956-4391-830e-2fa15f13c024": "belongs to",
+        "51cd5943-974c-489f-84d0-d3419553d66f": "Gender",
+        "0cb65579-78e1-4a7f-bf00-730b1a884f25": "is caraterized by",
+        "07ff43c9-264d-4713-9752-3cd14d412658": "Size",
+        "249b3809-dce2-4aff-9df6-85d5a53ca109": "is grouped by",
+        "a8161ded-fc56-4d1c-a25a-b84caa580035": "Color",
+        "9c93c6ce-a627-406b-9ac5-e4bd59bb6136": "is described by",
+        "2318a190-8bf0-4190-b772-b4dec3d34258": "Dog",
+        "1e51e703-985a-4d0f-befa-22cda27142a8": "is a",
+        "c540c8ce-0aef-4edf-affa-0b088bf9e83d": "may be",
+        "49885302-c753-471a-83dc-5e62f06d8432": "Bird",
+        "95272bb1-5a8c-4d85-b00b-f1dbf2b7c3e1": "is a",
+        "cc986754-09e6-44a2-8d7c-f2a0113ad8b7": "may be",
+        "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8": "Cat",
+        "28caf319-0755-47dc-a4bb-3bb9d51623bb": "is a",
+        "04f84349-d260-480c-9e44-b67102ca00a6": "may be",
+        "fa7dee1e-c65c-485d-a534-225ca11ef444": "Vaccination",
+        "f011f84c-2009-4918-b8cb-2849c72f5394": "has been given 1 or more",
+        "369a0758-b873-4dec-930d-91dc7af9165e": "Image",
+        "91c1a235-c73a-4cbb-bd7f-83ef84228587": "must take 1 or more"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "fa25a7c7-bee0-45c7-b151-cde34f622720"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "0aa14e5f-8c52-4f32-ba07-238efc283158"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "c92a5fd2-b2b9-4850-80a5-8d3f6e039c93"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2024-03-14T05:56:21.093Z",
+    "GUID": "6b000de2-e868-40d2-896e-a712043ba923",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-05-28T14:18:31.224Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.4.4"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+                        "x": 1858,
+                        "y": 1250,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "81f3a75e-1a57-45c0-ba45-bb385a34b733",
+                        "x": 1327,
+                        "y": 1080,
+                        "width": 156,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "ca16f0f6-1956-4391-830e-2fa15f13c024",
+                        "x": 1843,
+                        "y": 1080,
+                        "width": 180,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "51cd5943-974c-489f-84d0-d3419553d66f",
+                        "x": 1050,
+                        "y": 1450,
+                        "width": 164,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "0cb65579-78e1-4a7f-bf00-730b1a884f25",
+                        "x": 1299,
+                        "y": 1450,
+                        "width": 212,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "07ff43c9-264d-4713-9752-3cd14d412658",
+                        "x": 1602,
+                        "y": 1150,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "249b3809-dce2-4aff-9df6-85d5a53ca109",
+                        "x": 2141,
+                        "y": 1150,
+                        "width": 197,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "a8161ded-fc56-4d1c-a25a-b84caa580035",
+                        "x": 1056,
+                        "y": 1150,
+                        "width": 153,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "9c93c6ce-a627-406b-9ac5-e4bd59bb6136",
+                        "x": 1303,
+                        "y": 1150,
+                        "width": 204,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "2318a190-8bf0-4190-b772-b4dec3d34258",
+                        "x": 1057,
+                        "y": 1300,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "1e51e703-985a-4d0f-befa-22cda27142a8",
+                        "x": 1330,
+                        "y": 1350,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "c540c8ce-0aef-4edf-affa-0b088bf9e83d",
+                        "x": 1324,
+                        "y": 1250,
+                        "width": 162,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "49885302-c753-471a-83dc-5e62f06d8432",
+                        "x": 1858,
+                        "y": 1520,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "95272bb1-5a8c-4d85-b00b-f1dbf2b7c3e1",
+                        "x": 1858,
+                        "y": 1420,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "cc986754-09e6-44a2-8d7c-f2a0113ad8b7",
+                        "x": 1596,
+                        "y": 1290,
+                        "width": 162,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8",
+                        "x": 2474,
+                        "y": 1150,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "28caf319-0755-47dc-a4bb-3bb9d51623bb",
+                        "x": 2164,
+                        "y": 1250,
+                        "width": 151,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "04f84349-d260-480c-9e44-b67102ca00a6",
+                        "x": 2159,
+                        "y": 1350,
+                        "width": 162,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "fa7dee1e-c65c-485d-a534-225ca11ef444",
+                        "x": 2456,
+                        "y": 1550,
+                        "width": 187,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "f011f84c-2009-4918-b8cb-2849c72f5394",
+                        "x": 2108,
+                        "y": 1550,
+                        "width": 263,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "369a0758-b873-4dec-930d-91dc7af9165e",
+                        "x": 2728,
+                        "y": 1450,
+                        "width": 157,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "91c1a235-c73a-4cbb-bd7f-83ef84228587",
+                        "x": 2122,
+                        "y": 1450,
+                        "width": 235,
+                        "height": 30,
+                        "color": {
+                            "hsl": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "l": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "hex": "#a9a9a9",
+                            "rgb": {
+                                "r": 169,
+                                "g": 169,
+                                "b": 169,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 206.57142857142858,
+                                "s": 0,
+                                "v": 0.6627450980392157,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    }
+                ],
+                "erdBackgroundColor": "#ffffff",
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1010,
+                        "y": 1040,
+                        "GUID": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "48d9ba14-cb72-4df6-92c6-61abbd7b8a32",
+                            "size": 100,
+                            "x": 20811.663311872337,
+                            "y": 19109.542197792893
+                        },
+                        {
+                            "GUID": "81f3a75e-1a57-45c0-ba45-bb385a34b733",
+                            "size": 100,
+                            "x": 21064.663311872337,
+                            "y": 18950.382822792893
+                        },
+                        {
+                            "GUID": "51cd5943-974c-489f-84d0-d3419553d66f",
+                            "size": 100,
+                            "x": 20576.663311872337,
+                            "y": 18954.382822792893
+                        },
+                        {
+                            "GUID": "07ff43c9-264d-4713-9752-3cd14d412658",
+                            "size": 100,
+                            "x": 20576.663311872337,
+                            "y": 19066.583018105393
+                        },
+                        {
+                            "GUID": "a8161ded-fc56-4d1c-a25a-b84caa580035",
+                            "size": 100,
+                            "x": 20576.663311872337,
+                            "y": 19178.382822792893
+                        },
+                        {
+                            "GUID": "2318a190-8bf0-4190-b772-b4dec3d34258",
+                            "size": 100,
+                            "x": 20576.663311872337,
+                            "y": 19336.382822792893
+                        },
+                        {
+                            "GUID": "49885302-c753-471a-83dc-5e62f06d8432",
+                            "size": 100,
+                            "x": 20811.663311872337,
+                            "y": 19336.382822792893
+                        },
+                        {
+                            "GUID": "f42b1ee1-5508-4ad0-9cdc-17bc2b8237c8",
+                            "size": 100,
+                            "x": 21064.663311872337,
+                            "y": 19336.382822792893
+                        },
+                        {
+                            "GUID": "fa7dee1e-c65c-485d-a534-225ca11ef444",
+                            "size": 100,
+                            "x": 21064.663311872337,
+                            "y": 19063.583018105393
+                        },
+                        {
+                            "GUID": "369a0758-b873-4dec-930d-91dc7af9165e",
+                            "size": 100,
+                            "x": 21064.663311872337,
+                            "y": 19178.382822792893
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 20536.663311872337,
+                            "y": 18910.382822792893,
+                            "GUID": "f90b7a32-ed54-4884-add8-d5af3b5689d9"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": false,
+                    "defaultLinkLength": 242
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
