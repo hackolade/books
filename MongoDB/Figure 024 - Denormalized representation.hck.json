@@ -317,7 +317,7 @@
     "creationTS": "2023-05-08T15:38:26.277Z",
     "GUID": "84e9d667-33c0-4c1d-aa0e-12ea519a1a2c",
     "isLineageEnabled": false,
-    "lastModifTS": "2023-12-22T07:50:21.312Z",
+    "lastModifTS": "2024-03-15T17:50:01.410Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -326,7 +326,7 @@
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.0.4"
+        "version": "7.3.3"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -384,7 +384,11 @@
                         "autoHeight": false
                     }
                 ],
-                "relationshipUpdateDisabled": false
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideDataTypes": true
+                }
             },
             "collectionLevel": {},
             "changed": false
