@@ -3687,7 +3687,7 @@
                     "error": {}
                 },
                 {
-                    "name": "text",
+                    "name": "desc",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
@@ -4617,169 +4617,6 @@
                     "type": "ascending"
                 }
             ]
-        },
-        {
-            "collectionName": "temperature_data_",
-            "type": "object",
-            "properties": [
-                {
-                    "name": "device_id",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": true,
-                    "childType": "uuid",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": true,
-                    "compositeClusteringKey": false,
-                    "GUID": "4ad123a5-68dc-4052-99e9-40f77a13c8bd",
-                    "required": true,
-                    "error": {}
-                },
-                {
-                    "name": "date",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": true,
-                    "childType": "date",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": true,
-                    "compositeClusteringKey": false,
-                    "GUID": "28dce2d9-0817-4997-a379-a74b207cddf5",
-                    "required": true,
-                    "error": {}
-                },
-                {
-                    "name": "bucket",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
-                    "primaryKey": true,
-                    "mode": "integer",
-                    "childType": "numeric",
-                    "type": "numeric",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": true,
-                    "compositeClusteringKey": false,
-                    "GUID": "43ce0e21-171e-47a9-b266-02b8db8bca35",
-                    "required": true,
-                    "error": {}
-                },
-                {
-                    "name": "reading_time",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": true,
-                    "childType": "timestamp",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": false,
-                    "compositeClusteringKey": true,
-                    "GUID": "df0e8525-5396-4bb3-b0de-f7280bd88354",
-                    "required": true,
-                    "error": {}
-                },
-                {
-                    "name": "temperature",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
-                    "primaryKey": false,
-                    "mode": "double",
-                    "childType": "numeric",
-                    "type": "numeric",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": false,
-                    "compositeClusteringKey": false,
-                    "GUID": "a3da6802-ae68-4dcc-84e9-bf553d26510e",
-                    "error": {}
-                },
-                {
-                    "name": "humidity",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
-                    "primaryKey": false,
-                    "mode": "double",
-                    "childType": "numeric",
-                    "type": "numeric",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": false,
-                    "compositeClusteringKey": false,
-                    "GUID": "f10beea6-52e5-43e3-9b3d-5ab7fe7f954a",
-                    "error": {}
-                },
-                {
-                    "name": "location",
-                    "hackoladeMeta": {},
-                    "isActivated": true,
-                    "primaryKey": false,
-                    "mode": "text",
-                    "subtype": "string",
-                    "childType": "char",
-                    "type": "string",
-                    "compositeKey": [
-                        "compositePartitionKey",
-                        "compositeClusteringKey"
-                    ],
-                    "compositePartitionKey": false,
-                    "compositeClusteringKey": false,
-                    "GUID": "b33ed594-8500-42bb-92dd-68b25e761897",
-                    "error": {}
-                }
-            ],
-            "definitions": {
-                "type": "definitions",
-                "properties": [],
-                "GUID": "02f6a433-8ff2-4e5b-9685-518bccecd9a5"
-            },
-            "isActivated": true,
-            "additionalProperties": false,
-            "collectionUsers": [],
-            "tableIfNotExist": false,
-            "searchIndexIfNotExist": false,
-            "GUID": "2e50a1ff-c29d-4091-a382-2b430758788a",
-            "bucketId": "07673255-1e4d-4cd6-8eec-5c840a74e11e",
-            "compositePartitionKey": [
-                {
-                    "keyId": "4ad123a5-68dc-4052-99e9-40f77a13c8bd"
-                },
-                {
-                    "keyId": "28dce2d9-0817-4997-a379-a74b207cddf5"
-                },
-                {
-                    "keyId": "43ce0e21-171e-47a9-b266-02b8db8bca35"
-                }
-            ],
-            "compositeClusteringKey": [
-                {
-                    "keyId": "df0e8525-5396-4bb3-b0de-f7280bd88354",
-                    "type": "ascending"
-                }
-            ],
-            "hackoladeMeta": {}
         }
     ],
     "buckets": [
@@ -4838,8 +4675,7 @@
                 "0fa5efe1-7b50-4a63-81ac-fd42fa856dfb",
                 "d646c2ea-6a39-496e-9bc0-40884ea23656",
                 "8206eaa0-70b2-4f9d-8d1a-a358422a4160",
-                "3e9dda08-dcd0-45f6-a646-8dec46b0d015",
-                "2e50a1ff-c29d-4091-a382-2b430758788a"
+                "3e9dda08-dcd0-45f6-a646-8dec46b0d015"
             ],
             "backgroundColor": {
                 "r": 255,
@@ -5097,7 +4933,7 @@
         "d697e46f-dd53-479a-a601-d63d0c1523af": "item",
         "bc111941-b453-4bc3-a0c4-bbd9fc885997": "itemid",
         "cd7cc089-294f-46c9-b75c-44cd78755b6d": "title",
-        "2ade32a6-cc6a-4e62-ab28-bcc9346671bb": "text",
+        "2ade32a6-cc6a-4e62-ab28-bcc9346671bb": "desc",
         "0a7d3f78-bf5b-4d27-b407-0282116f4a29": "user_interaction_by_day ",
         "8d37c702-9c28-47ab-8cb7-8309c69165b2": "user_id",
         "d3e9984f-c7c0-4d2d-9efc-fab8230310f8": "item_id",
@@ -5140,15 +4976,7 @@
         "2bef493a-4160-43c9-8370-4829cc188fda": "reading_time",
         "771aa51c-19cd-46e5-a152-820d57a17bdc": "temperature",
         "4ea3a73e-04b5-4021-85b9-8fa2560b1438": "humidity",
-        "3dd5c755-a2a4-40e1-a955-bb2ed8694c0b": "location",
-        "2e50a1ff-c29d-4091-a382-2b430758788a": "temperature_data_",
-        "4ad123a5-68dc-4052-99e9-40f77a13c8bd": "device_id",
-        "28dce2d9-0817-4997-a379-a74b207cddf5": "date",
-        "43ce0e21-171e-47a9-b266-02b8db8bca35": "bucket",
-        "df0e8525-5396-4bb3-b0de-f7280bd88354": "reading_time",
-        "a3da6802-ae68-4dcc-84e9-bf553d26510e": "temperature",
-        "f10beea6-52e5-43e3-9b3d-5ab7fe7f954a": "humidity",
-        "b33ed594-8500-42bb-92dd-68b25e761897": "location"
+        "3dd5c755-a2a4-40e1-a955-bb2ed8694c0b": "location"
     },
     "definitions": {
         "type": "definitions",
@@ -5265,18 +5093,18 @@
     "dbVendor": "Cassandra",
     "appTarget": "CASSANDRA",
     "creationTS": "2023-08-06T13:38:19.444Z",
-    "GUID": "4bd19724-5f0c-4d19-9854-c420d35b7857",
+    "GUID": "72fa69fd-698f-4937-bc75-6a4a70fd37b8",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-01-13T10:41:21.542Z",
+    "lastModifTS": "2024-01-12T17:47:00.680Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Cassandra",
-        "pluginVersion": "0.1.132",
+        "pluginVersion": "0.1.131",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.1.0"
+        "version": "7.0.5"
     },
     "hackoladeMeta": {},
     "settings": {
@@ -5406,7 +5234,7 @@
                     {
                         "GUID": "6ca2d331-ed13-4add-91a6-2b83a55fd8a5",
                         "x": 2843.75,
-                        "y": 2244,
+                        "y": 2243.3333333333335,
                         "width": 164,
                         "height": 87,
                         "color": {
@@ -5416,7 +5244,7 @@
                     {
                         "GUID": "d697e46f-dd53-479a-a601-d63d0c1523af",
                         "x": 3070.25,
-                        "y": 2246,
+                        "y": 2245.3333333333335,
                         "width": 164,
                         "height": 87,
                         "color": {
@@ -5426,7 +5254,7 @@
                     {
                         "GUID": "0a7d3f78-bf5b-4d27-b407-0282116f4a29",
                         "x": 3114.25,
-                        "y": 2366.5,
+                        "y": 2365.8333333333335,
                         "width": 301,
                         "height": 159,
                         "color": {
@@ -5436,7 +5264,7 @@
                     {
                         "GUID": "26a2a19c-3f2a-4146-813b-3044f129a157",
                         "x": 2974.25,
-                        "y": 2574.75,
+                        "y": 2574.0833333333335,
                         "width": 301,
                         "height": 159,
                         "color": {
@@ -5446,7 +5274,7 @@
                     {
                         "GUID": "a3ad8e3f-1dad-44a8-a1b2-961a8f383d97",
                         "x": 2654.75,
-                        "y": 2383.75,
+                        "y": 2383.0833333333335,
                         "width": 266,
                         "height": 53,
                         "color": {
@@ -5482,19 +5310,8 @@
                         "color": {
                             "hex": "#a9a9a9"
                         }
-                    },
-                    {
-                        "GUID": "2e50a1ff-c29d-4091-a382-2b430758788a",
-                        "x": 2206,
-                        "y": 1571,
-                        "width": 283,
-                        "height": 159,
-                        "color": {
-                            "hex": "#a9a9a9"
-                        }
                     }
                 ],
-                "erdBackgroundColor": "#ffffff",
                 "erdDefinitions": {
                     "erd": [],
                     "rootPath": [],
@@ -5524,7 +5341,7 @@
                     },
                     {
                         "x": 2614.75,
-                        "y": 2204,
+                        "y": 2203.3333333333335,
                         "GUID": "a1b1127f-f683-4588-aa96-b257d22c4dd9"
                     }
                 ],
