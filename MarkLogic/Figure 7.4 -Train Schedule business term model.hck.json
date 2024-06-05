@@ -215,7 +215,7 @@
     "creationTS": "2024-03-16T13:45:26.827Z",
     "GUID": "872dbcfe-7e69-4bcb-9144-8850e5d38579",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-05-31T15:42:09.880Z",
+    "lastModifTS": "2024-06-05T19:17:10.304Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
@@ -457,9 +457,9 @@
                     "erd": [
                         {
                             "GUID": "005281d1-ecb6-4d10-8687-b07719db2a6c",
-                            "size": 100,
-                            "x": 878,
-                            "y": 866
+                            "size": 120,
+                            "x": 874,
+                            "y": 856
                         },
                         {
                             "GUID": "6feba551-f91f-4597-9a3c-73e9d9fa767d",
@@ -469,9 +469,9 @@
                         },
                         {
                             "GUID": "47de1457-9e46-44f2-aef5-b1c936cf452c",
-                            "size": 140,
-                            "x": 862,
-                            "y": 1149
+                            "size": 120,
+                            "x": 875,
+                            "y": 1162
                         },
                         {
                             "GUID": "75eb2518-0e9f-4bb6-887b-a2aba5b2e24d",
@@ -488,8 +488,8 @@
                     ],
                     "buckets": [
                         {
-                            "x": 828,
-                            "y": 826,
+                            "x": 834,
+                            "y": 816,
                             "GUID": "1d75f904-c68e-4501-8ed0-b300ca4f8c04"
                         }
                     ],
