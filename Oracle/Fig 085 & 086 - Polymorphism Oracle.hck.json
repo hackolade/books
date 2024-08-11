@@ -284,7 +284,12 @@
                 "d7727684-e0c0-42de-a90c-3986f13c8a89",
                 "aea0367f-ab95-42df-9ab9-cde44fe90acb",
                 "ae96be62-e87d-4d95-8a4b-3989d935e6cd"
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            }
         }
     ],
     "views": [
@@ -465,7 +470,8 @@
                                 "d7727684-e0c0-42de-a90c-3986f13c8a89"
                             ],
                             "childTableAlias": "savings",
-                            "whereClause": "s.savingsID = savings.ID"
+                            "whereClause": "s.savingsID = savings.ID",
+                            "error": {}
                         },
                         {
                             "GUID": "86dcce78-2644-4ee9-94ac-dd2693fc505d",
@@ -581,13 +587,14 @@
                                     "error": {}
                                 }
                             ],
+                            "name": "unnest",
                             "joinedCollectionRefIdPath": [
                                 "aea0367f-ab95-42df-9ab9-cde44fe90acb"
                             ],
                             "childTableAlias": "brokerage",
-                            "unnestSubquery": false,
+                            "unnestSubquery": true,
                             "whereClause": "p.brokerageId = brokerage.ID",
-                            "name": "unnest"
+                            "error": {}
                         }
                     ],
                     "name": "JSON",
@@ -713,12 +720,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1760,
-                        "y": 1655.44364880498
+                        "x": 1776.1201384441476,
+                        "y": 1650.8432495218656
                     },
                     {
-                        "x": 1760,
-                        "y": 1596.2388862440712
+                        "x": 1776.1201384441476,
+                        "y": 1622.921624760933
+                    },
+                    {
+                        "x": 1776,
+                        "y": 1622.921624760933
+                    },
+                    {
+                        "x": 1776,
+                        "y": 1595
                     }
                 ],
                 "sides": [
@@ -773,15 +788,15 @@
                     },
                     {
                         "x": 1391.8,
-                        "y": 1427.3805568779644
+                        "y": 1428
                     },
                     {
-                        "x": 1167.2454902402364,
-                        "y": 1427.3805568779644
+                        "x": 1149.364240601461,
+                        "y": 1428
                     },
                     {
-                        "x": 1167.2454902402364,
-                        "y": 1488.7611137559288
+                        "x": 1149.364240601461,
+                        "y": 1490
                     }
                 ],
                 "sides": [
@@ -836,15 +851,15 @@
                     },
                     {
                         "x": 1460.3,
-                        "y": 1428
+                        "y": 1428.6416397278588
                     },
                     {
-                        "x": 1460.2222751185761,
-                        "y": 1428
+                        "x": 1460.6176903413673,
+                        "y": 1428.6416397278588
                     },
                     {
-                        "x": 1460.2222751185761,
-                        "y": 1490
+                        "x": 1460.6176903413673,
+                        "y": 1491.2832794557175
                     }
                 ],
                 "sides": [
@@ -899,21 +914,26 @@
                     },
                     {
                         "x": 1528.8,
-                        "y": 1428.6194431220356
+                        "y": 1428
                     },
                     {
-                        "x": 1760,
-                        "y": 1428.6194431220356
+                        "x": 1776,
+                        "y": 1428
                     },
                     {
-                        "x": 1760,
-                        "y": 1491.2388862440712
+                        "x": 1776,
+                        "y": 1490
                     }
                 ],
                 "sides": [
                     "bottom",
                     "top"
                 ]
+            },
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
             }
         }
     ],
@@ -942,10 +962,10 @@
         "2eb0c246-de6d-4be8-aa34-a402ab81f330": "JSON",
         "24f95e2c-f01c-4fbd-8382-b9128e7f4d11": "checkingId",
         "663069f4-cdbc-4ac3-b2b1-78327711814b": "overdraftLimit",
-        "1e431a9d-c910-4fcd-89af-1712654a7b73": "unnest",
+        "1e431a9d-c910-4fcd-89af-1712654a7b73": "JSON",
         "e98fcd9c-7e5e-46ca-96b4-71f0faa9adf1": "savingsId",
         "9fc1b184-a122-4138-9744-04a91c0f6c26": "interestRate",
-        "86dcce78-2644-4ee9-94ac-dd2693fc505d": "unnest",
+        "86dcce78-2644-4ee9-94ac-dd2693fc505d": "JSON",
         "11e50ef3-fcb7-42e4-b605-06613a13470e": "brokerageId",
         "c9fb72a9-ef42-40ba-8bd1-81aee825c739": "tradingLimit",
         "fee875bb-d3d2-48a2-a7db-8063f54f1bd2": "marginAllowed",
@@ -984,13 +1004,13 @@
                         "GUID": "cbf81e27-692a-45ca-93f4-87a885820a44",
                         "required": true,
                         "sample": 1,
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1009,6 +1029,7 @@
                         "GUID": "c77235d6-53b0-4c4a-870d-06d537c7b915",
                         "required": true,
                         "sample": 1,
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
@@ -1020,8 +1041,7 @@
                             "e53b8823-3e8d-4053-8f18-4a4a82414b56",
                             "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d"
                         ],
-                        "relationshipType": "Foreign Key",
-                        "error": {}
+                        "relationshipType": "Foreign Key"
                     },
                     {
                         "code": "",
@@ -1042,13 +1062,13 @@
                         "sample": 55000,
                         "foreignCollection": "",
                         "foreignField": [],
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1074,8 +1094,7 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1097,6 +1116,7 @@
                         "GUID": "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
                         "required": true,
                         "sample": 1,
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
@@ -1108,8 +1128,7 @@
                             "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
                             "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c"
                         ],
-                        "relationshipType": "Foreign Key",
-                        "error": {}
+                        "relationshipType": "Foreign Key"
                     },
                     {
                         "code": "",
@@ -1131,6 +1150,7 @@
                         "GUID": "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
                         "required": true,
                         "sample": 1,
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
@@ -1142,8 +1162,7 @@
                             "b5b07df8-fe25-46cf-aee0-411dce367e66",
                             "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca"
                         ],
-                        "relationshipType": "Foreign Key",
-                        "error": {}
+                        "relationshipType": "Foreign Key"
                     },
                     {
                         "code": "",
@@ -1165,6 +1184,7 @@
                         "GUID": "29df0870-9bd8-4a2c-b406-300b5253918c",
                         "required": true,
                         "sample": 1,
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
@@ -1176,8 +1196,7 @@
                             "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
                             "3c11fde7-04e0-4941-8e26-ae1555314343"
                         ],
-                        "relationshipType": "Foreign Key",
-                        "error": {}
+                        "relationshipType": "Foreign Key"
                     }
                 ],
                 "definitions": {
@@ -1205,7 +1224,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper"
             },
             {
@@ -1261,14 +1280,13 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     }
                 ],
                 "definitions": {
                     "type": "definitions",
                     "properties": [],
-                    "GUID": "28548bd5-731f-410c-9749-6c5e7b27d040"
+                    "GUID": "b9242a46-473a-446b-8ca9-3b16277d70b3"
                 },
                 "isActivated": true,
                 "additionalProperties": false,
@@ -1289,7 +1307,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/person",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "normalizationSourceFieldId": "c77235d6-53b0-4c4a-870d-06d537c7b915",
@@ -1319,7 +1337,7 @@
                 "definitionEntityType": "relationship",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "kind": "relativePath",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
@@ -1352,13 +1370,13 @@
                         "sample": 2,
                         "foreignCollection": "",
                         "foreignField": [],
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1381,8 +1399,7 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1399,19 +1416,19 @@
                         "name": "overdraftLimit",
                         "isActivated": true,
                         "GUID": "37001c3c-f988-43a2-bf31-2f8404591860",
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     }
                 ],
                 "definitions": {
                     "type": "definitions",
                     "properties": [],
-                    "GUID": "c174ce7a-4821-4eda-ac76-14cc190a2e16"
+                    "GUID": "dfaeb028-246b-4aa2-b1d0-30739490b3b6"
                 },
                 "isActivated": true,
                 "additionalProperties": false,
@@ -1432,7 +1449,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/checkingAccount",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "normalizationSourceFieldId": "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
@@ -1462,13 +1479,13 @@
                         "sample": 2,
                         "foreignCollection": "",
                         "foreignField": [],
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1491,8 +1508,7 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1518,14 +1534,13 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     }
                 ],
                 "definitions": {
                     "type": "definitions",
                     "properties": [],
-                    "GUID": "4d16fdac-5ab4-4b17-b774-f3720b750305"
+                    "GUID": "1d2342be-db6e-45ec-8143-0cf314b6c0e9"
                 },
                 "isActivated": true,
                 "additionalProperties": false,
@@ -1546,7 +1561,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/savingsAccount",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "normalizationSourceFieldId": "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
@@ -1576,13 +1591,13 @@
                         "sample": 3,
                         "foreignCollection": "",
                         "foreignField": [],
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1605,8 +1620,7 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
@@ -1627,22 +1641,19 @@
                         "sample": 5000,
                         "foreignCollection": "",
                         "foreignField": [],
+                        "synonym": "integer",
                         "compositeKey": [
                             "partitionKey",
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     },
                     {
                         "code": "",
                         "primaryKey": false,
-                        "mode": "nvarchar2",
-                        "length": 20,
-                        "subtype": "string",
-                        "childType": "char",
-                        "type": "char",
+                        "childType": "boolean",
+                        "type": "boolean",
                         "partitionKey": false,
                         "compositePartitionKey": false,
                         "compositePrimaryKey": false,
@@ -1659,14 +1670,13 @@
                             "compositePartitionKey",
                             "compositePrimaryKey",
                             "compositeUniqueKey"
-                        ],
-                        "error": {}
+                        ]
                     }
                 ],
                 "definitions": {
                     "type": "definitions",
                     "properties": [],
-                    "GUID": "b228ba64-d55d-41cb-95d5-35dafcc4c00e"
+                    "GUID": "fb1d4a1f-d406-4157-a477-91b5521cddfe"
                 },
                 "isActivated": true,
                 "additionalProperties": false,
@@ -1687,7 +1697,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/brokerageAccount",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "normalizationSourceFieldId": "29df0870-9bd8-4a2c-b406-300b5253918c",
@@ -1849,7 +1859,7 @@
                 "definitionEntityType": "collection",
                 "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
                 "normalizationSourceCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "kind": "relativePath",
                 "fileType": "hackoladeSchema",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/brokerageAccount/properties/positions",
@@ -1886,7 +1896,7 @@
                 "definitionEntityType": "relationship",
                 "normalizationSourceCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/brokerageAccount",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "kind": "relativePath",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
@@ -1919,7 +1929,7 @@
                 "definitionEntityType": "relationship",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "kind": "relativePath",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
@@ -1952,7 +1962,7 @@
                 "definitionEntityType": "relationship",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "kind": "relativePath",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
@@ -1985,7 +1995,7 @@
                 "definitionEntityType": "relationship",
                 "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "kind": "relativePath",
                 "fileType": "hackoladeSchema",
                 "definitionRefs": [
@@ -2027,7 +2037,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data"
             }
         ],
@@ -2049,8 +2059,8 @@
     "polyglotModelPaths": [
         {
             "GUID": "b274c3ef-d9b1-4a29-bd43-8c1a60ce6243",
-            "polyglotModelName": "polymorphism (polyglot).hck",
-            "polyglotModelPath": "polymorphism (polyglot).hck.json",
+            "polyglotModelName": "Fig 084 - Polymorphism (polyglot).hck",
+            "polyglotModelPath": "Fig 084 - Polymorphism (polyglot).hck.json",
             "normalization": true
         }
     ],
@@ -2059,16 +2069,16 @@
             "dbVersion": false
         }
     },
-    "lastModifTS": "2024-06-26T12:03:17.086Z",
+    "lastModifTS": "2024-08-11T09:27:28.450Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Oracle",
-        "pluginVersion": "0.2.2",
+        "pluginVersion": "0.2.7",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.5.0"
+        "version": "7.7.3"
     },
     "settings": {
         "centralPane": {
@@ -2096,8 +2106,8 @@
                     },
                     {
                         "GUID": "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
-                        "x": 1028.7454902402364,
-                        "y": 1488.7611137559288,
+                        "x": 1010.864240601461,
+                        "y": 1490,
                         "width": 277,
                         "height": 87,
                         "color": {
@@ -2106,8 +2116,8 @@
                     },
                     {
                         "GUID": "d7727684-e0c0-42de-a90c-3986f13c8a89",
-                        "x": 1327.2222751185761,
-                        "y": 1490,
+                        "x": 1327.6176903413673,
+                        "y": 1491.2832794557175,
                         "width": 266,
                         "height": 87,
                         "color": {
@@ -2116,9 +2126,9 @@
                     },
                     {
                         "GUID": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
-                        "x": 1615,
-                        "y": 1491.2388862440712,
-                        "width": 290,
+                        "x": 1635,
+                        "y": 1490,
+                        "width": 282,
                         "height": 105,
                         "color": {
                             "hex": "#a9a9a9"
@@ -2126,8 +2136,8 @@
                     },
                     {
                         "GUID": "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
-                        "x": 1641,
-                        "y": 1655.44364880498,
+                        "x": 1657.1201384441476,
+                        "y": 1650.8432495218656,
                         "width": 238,
                         "height": 120,
                         "color": {
@@ -2136,8 +2146,8 @@
                     },
                     {
                         "GUID": "64bbcf27-8740-423d-bea9-2b1fba99a2d9",
-                        "x": 1174.0814959852826,
-                        "y": 1657.8958833662182,
+                        "x": 1177.8139746890367,
+                        "y": 1618.4191296178512,
                         "width": 342,
                         "height": 393,
                         "color": {
@@ -2153,7 +2163,7 @@
                 },
                 "buckets": [
                     {
-                        "x": 988.7454902402364,
+                        "x": 970.864240601461,
                         "y": 1170,
                         "GUID": "d32d1aae-be0c-4af8-a4c7-dacc194865f1"
                     }
@@ -2180,7 +2190,7 @@
                     {
                         "autoWidth": true,
                         "autoHeight": true,
-                        "GUID": "b0392b38-0c92-4dba-9025-8a9356bf6b3e"
+                        "GUID": "aea0367f-ab95-42df-9ab9-cde44fe90acb"
                     },
                     {
                         "autoWidth": true,
@@ -2190,7 +2200,7 @@
                     {
                         "autoWidth": true,
                         "autoHeight": true,
-                        "GUID": "aea0367f-ab95-42df-9ab9-cde44fe90acb"
+                        "GUID": "b0392b38-0c92-4dba-9025-8a9356bf6b3e"
                     }
                 ],
                 "relationshipUpdateDisabled": false,

@@ -249,14 +249,14 @@
         },
         "customPropertiesUpdated": true
     },
-    "lastModifTS": "2024-06-16T12:48:14.254Z",
+    "lastModifTS": "2024-08-11T09:02:07.678Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.5.0"
+        "version": "7.7.3"
     },
     "settings": {
         "centralPane": {
@@ -264,8 +264,8 @@
                 "erd": [
                     {
                         "GUID": "9b591f44-427b-4ca4-852b-a4c1fe9678b1",
-                        "x": 1110,
-                        "y": 1065,
+                        "x": 1157,
+                        "y": 1258,
                         "width": 237,
                         "height": 119,
                         "color": {
@@ -274,8 +274,8 @@
                     },
                     {
                         "GUID": "30777036-72a0-41fc-b899-da57d9d2c73d",
-                        "x": 1144,
-                        "y": 1258,
+                        "x": 1141,
+                        "y": 1064,
                         "width": 258,
                         "height": 137,
                         "color": {

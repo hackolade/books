@@ -1,0 +1,401 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Pet",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "Pet Number",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "18da426a-ffcd-41fb-a8ac-a10c01f84e39",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "Pet Name",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "d6995eb5-7b66-4166-a2e8-46eccb773efa",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "Gender",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "enabled": true,
+                    "properties": [
+                        {
+                            "name": "Gender Code",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "autoincrement": {
+                                "step_num": 1
+                            },
+                            "tPrecision": 9,
+                            "primaryKey": false,
+                            "childType": "varchar",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "compositePrimaryKey": false,
+                            "compositeUniqueKey": false,
+                            "GUID": "b24064ce-8bf2-4fd6-8dff-336ea44008e9",
+                            "error": {},
+                            "foreignCollection": "",
+                            "foreignField": []
+                        },
+                        {
+                            "name": "Gender Name",
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "autoincrement": {
+                                "step_num": 1
+                            },
+                            "tPrecision": 9,
+                            "primaryKey": false,
+                            "childType": "varchar",
+                            "type": "string",
+                            "compositeKey": [
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "compositePrimaryKey": false,
+                            "compositeUniqueKey": false,
+                            "GUID": "15981c41-9416-4da3-b7a5-ceb93e588d0b",
+                            "error": {},
+                            "foreignCollection": "",
+                            "foreignField": []
+                        }
+                    ],
+                    "additionalProperties": false,
+                    "childType": "object",
+                    "type": "document",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "55da8bf8-a69a-4a33-9178-cab3a4a68685",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "Vaccinations",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "additionalItems": true,
+                    "uniqueItems": false,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "autoincrement": {
+                                "step_num": 1
+                            },
+                            "tPrecision": 9,
+                            "primaryKey": false,
+                            "enabled": true,
+                            "properties": [
+                                {
+                                    "name": "Vaccination Date",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "autoincrement": {
+                                        "step_num": 1
+                                    },
+                                    "tPrecision": 9,
+                                    "primaryKey": false,
+                                    "childType": "varchar",
+                                    "type": "string",
+                                    "compositeKey": [
+                                        "compositePrimaryKey",
+                                        "compositeUniqueKey"
+                                    ],
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "GUID": "ad3d954f-9bdf-420d-8287-4068206d7005",
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                },
+                                {
+                                    "name": "Vaccination",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "autoincrement": {
+                                        "step_num": 1
+                                    },
+                                    "tPrecision": 9,
+                                    "primaryKey": false,
+                                    "enabled": true,
+                                    "properties": [
+                                        {
+                                            "name": "Vaccination Code",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "autoincrement": {
+                                                "step_num": 1
+                                            },
+                                            "tPrecision": 9,
+                                            "primaryKey": false,
+                                            "childType": "varchar",
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositePrimaryKey",
+                                                "compositeUniqueKey"
+                                            ],
+                                            "compositePrimaryKey": false,
+                                            "compositeUniqueKey": false,
+                                            "GUID": "756d0d5e-4d7a-44fd-8eb9-b53e26238aed",
+                                            "error": {},
+                                            "foreignCollection": "",
+                                            "foreignField": []
+                                        },
+                                        {
+                                            "name": "Vaccination Name",
+                                            "hackoladeMeta": {},
+                                            "isActivated": true,
+                                            "autoincrement": {
+                                                "step_num": 1
+                                            },
+                                            "tPrecision": 9,
+                                            "primaryKey": false,
+                                            "childType": "varchar",
+                                            "type": "string",
+                                            "compositeKey": [
+                                                "compositePrimaryKey",
+                                                "compositeUniqueKey"
+                                            ],
+                                            "compositePrimaryKey": false,
+                                            "compositeUniqueKey": false,
+                                            "GUID": "f470375b-18e5-449e-be53-d1df28770df2",
+                                            "error": {},
+                                            "foreignCollection": "",
+                                            "foreignField": []
+                                        }
+                                    ],
+                                    "additionalProperties": false,
+                                    "childType": "object",
+                                    "type": "document",
+                                    "compositeKey": [
+                                        "compositePrimaryKey",
+                                        "compositeUniqueKey"
+                                    ],
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "GUID": "bf60b50f-0b4c-4425-93f2-c09c24b43abc",
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                }
+                            ],
+                            "additionalProperties": false,
+                            "childType": "object",
+                            "type": "document",
+                            "compositeKey": [
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "compositePrimaryKey": false,
+                            "compositeUniqueKey": false,
+                            "GUID": "a58a291f-eb60-4940-8868-0e77d854c9d0",
+                            "arrayItem": true,
+                            "foreignCollection": "",
+                            "foreignField": []
+                        }
+                    ],
+                    "childType": "array",
+                    "type": "array",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "ecf7563f-96c1-40f8-883d-95761cc35b4a",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "ab6afc0a-47cb-4c32-adc3-e3d3724f7832"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "d324d139-b7d9-40f8-a631-c4e59e5db977",
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "18da426a-ffcd-41fb-a8ac-a10c01f84e39": "Pet Number",
+        "d6995eb5-7b66-4166-a2e8-46eccb773efa": "Pet Name",
+        "55da8bf8-a69a-4a33-9178-cab3a4a68685": "Gender",
+        "b24064ce-8bf2-4fd6-8dff-336ea44008e9": "Gender Code",
+        "15981c41-9416-4da3-b7a5-ceb93e588d0b": "Gender Name",
+        "ecf7563f-96c1-40f8-883d-95761cc35b4a": "Vaccinations",
+        "ad3d954f-9bdf-420d-8287-4068206d7005": "Vaccination Date",
+        "bf60b50f-0b4c-4425-93f2-c09c24b43abc": "Vaccination",
+        "756d0d5e-4d7a-44fd-8eb9-b53e26238aed": "Vaccination Code",
+        "f470375b-18e5-449e-be53-d1df28770df2": "Vaccination Name",
+        "d324d139-b7d9-40f8-a631-c4e59e5db977": "Pet"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "bf77463a-539f-441e-b321-164eb43fbfb0"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "17b8eb5f-7be9-4126-b0af-88482145c09a"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "cb1da723-4650-479b-ab40-3967dfea3fab"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2023-05-08T15:38:26.277Z",
+    "GUID": "84e9d667-33c0-4c1d-aa0e-12ea519a1a2c",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-03-15T17:50:01.410Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.3.3"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "d324d139-b7d9-40f8-a631-c4e59e5db977",
+                        "x": 1106.2930629400767,
+                        "y": 1148.6092474764826,
+                        "width": 255,
+                        "height": 231,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdBackgroundColor": "#ffffff",
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "d324d139-b7d9-40f8-a631-c4e59e5db977",
+                            "size": 100,
+                            "x": 1088.2930629400767,
+                            "y": 1693.6092474764826
+                        }
+                    ],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "GUID": "d324d139-b7d9-40f8-a631-c4e59e5db977",
+                        "autoWidth": false,
+                        "autoHeight": false
+                    }
+                ],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false,
+                    "hideDataTypes": true
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

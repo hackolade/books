@@ -479,7 +479,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data/accountsSuper"
             },
             {
@@ -510,7 +510,7 @@
                     ]
                 ],
                 "kind": "relativePath",
-                "link": "polymorphism (polyglot).hck.json",
+                "link": "Fig 084 - Polymorphism (polyglot).hck.json",
                 "fieldRelativePath": "#/polymorphism data"
             }
         ],
@@ -529,14 +529,14 @@
     "creationTS": "2024-06-24T16:44:58.403Z",
     "GUID": "9eec6174-4887-429e-86a5-2e9620106468",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-06-26T12:03:13.679Z",
+    "lastModifTS": "2024-08-11T09:24:34.422Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.5.0"
+        "version": "7.7.3"
     },
     "hackoladeMeta": {
         "customPropertiesUpdated": true,
@@ -547,8 +547,8 @@
     "polyglotModelPaths": [
         {
             "GUID": "0b450304-ed7b-4ba9-9c0c-8133c4af6dd5",
-            "polyglotModelName": "polymorphism (polyglot).hck",
-            "polyglotModelPath": "polymorphism (polyglot).hck.json",
+            "polyglotModelName": "Fig 084 - Polymorphism (polyglot).hck",
+            "polyglotModelPath": "Fig 084 - Polymorphism (polyglot).hck.json",
             "normalization": false
         }
     ],

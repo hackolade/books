@@ -1,0 +1,911 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "collectionName": "Account",
+            "code": "",
+            "isActivated": true,
+            "additionalProperties": true,
+            "properties": [
+                {
+                    "name": "accountNumber",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": true,
+                    "GUID": "c74ed43e-c6cb-4c50-97bd-8973efb42006",
+                    "type": "string",
+                    "hackoladeMeta": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "dateOpened",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "date",
+                    "primaryKey": false,
+                    "GUID": "ffd7d0cf-e36a-495f-b165-24cb39af1a3b",
+                    "type": "string",
+                    "hackoladeMeta": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "balance",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "double",
+                    "mode": "",
+                    "primaryKey": false,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "GUID": "763a73e3-3c0c-4260-a1f1-1d7469a20b01",
+                    "type": "numeric",
+                    "hackoladeMeta": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "accountType",
+                    "code": "",
+                    "isActivated": true,
+                    "childType": "varchar",
+                    "mode": "string",
+                    "primaryKey": false,
+                    "enum": [
+                        "checking",
+                        "savings",
+                        "loan"
+                    ],
+                    "GUID": "e3b318fb-fcfe-404b-a82e-1f89a0fda1ce",
+                    "type": "string",
+                    "hackoladeMeta": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "choice": "anyOf",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "isActivated": true,
+                            "childType": "object",
+                            "properties": [
+                                {
+                                    "name": "minimumBalanace",
+                                    "hackoladeMeta": {},
+                                    "isActivated": true,
+                                    "tPrecision": 9,
+                                    "index": true,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "primaryKey": false,
+                                    "childType": "number",
+                                    "type": "numeric",
+                                    "compositeKey": [
+                                        "compositePrimaryKey",
+                                        "compositeUniqueKey"
+                                    ],
+                                    "compositePrimaryKey": false,
+                                    "compositeUniqueKey": false,
+                                    "GUID": "08edd229-a24b-4a23-91dc-b52dea187daa",
+                                    "mode": "dec",
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                },
+                                {
+                                    "name": "overdraftLimit",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "integer",
+                                    "mode": "int",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "1c5c8039-fedb-48af-aa64-3fa58d71d183",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                }
+                            ],
+                            "GUID": "e7b910c7-1a89-4d23-89e4-057e67a2e2c1",
+                            "type": "document",
+                            "hackoladeMeta": {},
+                            "subschema": true,
+                            "displayName": "checking",
+                            "error": {},
+                            "foreignCollection": "",
+                            "foreignField": []
+                        },
+                        {
+                            "isActivated": true,
+                            "childType": "object",
+                            "properties": [
+                                {
+                                    "name": "interestRate",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "number",
+                                    "mode": "dec",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "cb390350-adf6-4bf9-8bc9-3115d8d9a23a",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                },
+                                {
+                                    "name": "interestEarned",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "double",
+                                    "mode": "",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "d61ba960-76d6-40c4-97a0-2182f9664d86",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                }
+                            ],
+                            "GUID": "22e8f774-925c-4d06-9c88-cc91a829f64a",
+                            "type": "document",
+                            "hackoladeMeta": {},
+                            "subschema": true,
+                            "displayName": "savings",
+                            "error": {},
+                            "foreignCollection": "",
+                            "foreignField": []
+                        },
+                        {
+                            "isActivated": true,
+                            "childType": "object",
+                            "properties": [
+                                {
+                                    "name": "loanAmount",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "double",
+                                    "mode": "",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "5edd0273-89d2-4b91-95ab-df068ffb3ef3",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                },
+                                {
+                                    "name": "term",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "integer",
+                                    "mode": "int",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "bf8d9538-1f37-4ef3-a736-c8ecfb1c50ee",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                },
+                                {
+                                    "name": "interestRate",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "number",
+                                    "mode": "dec",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "4114fffb-f0c4-4c1f-9fca-7be874864130",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                },
+                                {
+                                    "name": "monthlyPmt",
+                                    "code": "",
+                                    "isActivated": true,
+                                    "childType": "double",
+                                    "mode": "",
+                                    "primaryKey": false,
+                                    "exclusiveMinimum": false,
+                                    "exclusiveMaximum": false,
+                                    "GUID": "8657e2b2-416f-4ce1-843e-89ea2ae0e71d",
+                                    "type": "numeric",
+                                    "hackoladeMeta": {},
+                                    "error": {},
+                                    "foreignCollection": "",
+                                    "foreignField": []
+                                }
+                            ],
+                            "GUID": "a37f267c-7bf8-4d71-87cc-56ed236c56d6",
+                            "type": "document",
+                            "hackoladeMeta": {},
+                            "subschema": true,
+                            "displayName": "loan",
+                            "error": {},
+                            "foreignCollection": "",
+                            "foreignField": []
+                        }
+                    ],
+                    "GUID": "fbed514f-d43f-4ff6-90c6-9ef1c099ec8b",
+                    "type": "choice",
+                    "hackoladeMeta": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "9830a892-9982-441f-91a8-ec870b678b9b"
+            },
+            "GUID": "a24d225b-3fa5-4eb4-aee0-994666523764",
+            "type": "object",
+            "hackoladeMeta": {},
+            "error": {},
+            "bucketId": "8ff9e6b5-4085-4e46-81b8-0086bf9bae8c"
+        },
+        {
+            "collectionName": "Account(1)",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "accountNumber",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": true,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "9cea6900-4032-45f7-a8d8-176ac4ce511e",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "dateOpened",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "index": true,
+                    "childType": "date",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "primaryKey": false,
+                    "GUID": "f18e17a3-47f7-4647-934c-184cdc4661db",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "balance",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "float",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "12578b24-acc5-4239-87af-04bca64b66d5",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "accountType",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "autoincrement": {
+                        "step_num": 1
+                    },
+                    "tPrecision": 9,
+                    "primaryKey": false,
+                    "childType": "varchar",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "a824d777-6528-414b-871c-742ddef99337",
+                    "error": {
+                        "enums": [
+                            false,
+                            false,
+                            false
+                        ],
+                        "exampleItems": [
+                            false,
+                            false,
+                            false
+                        ]
+                    },
+                    "enum": [
+                        "checking",
+                        "savings",
+                        "loan"
+                    ],
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "284acfd4-6ff1-406e-b518-a91a2e760424"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+            "relationName": "accountDetails",
+            "hackoladeMeta": {},
+            "childCollection": [
+                "c9137587-af74-4d1a-8f81-6c9947d846c6",
+                "f36046ea-c2cb-4ce8-a346-e84144e2d285",
+                "9253a16e-ca72-45dc-bff0-19bed7b467e3"
+            ],
+            "bucketId": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+        },
+        {
+            "collectionName": "checking",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "minimumBalanace",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "c802ac99-f484-41f8-8cca-74314b5073a1",
+                    "mode": "dec",
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "error": {
+                        "name": false,
+                        "code": false
+                    }
+                },
+                {
+                    "name": "overdraftLimit",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "bc8df4cf-f790-4f49-92e7-0e76831395bf",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d42b265f-e24c-4870-8e21-4943491abdb0"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "c9137587-af74-4d1a-8f81-6c9947d846c6",
+            "hackoladeMeta": {},
+            "parentCollection": "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+            "bucketId": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+        },
+        {
+            "collectionName": "savings",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "interestRate",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "7cd73375-49fd-4b92-8f45-18e6995f0cf0",
+                    "mode": "decimal",
+                    "precision": 2,
+                    "scale": 5,
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "interestEarned",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "float",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "3c249504-da21-4b66-a7cd-b37e48b09a85",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b078cc2c-0833-4fcf-89d3-e557d3863d31"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "f36046ea-c2cb-4ce8-a346-e84144e2d285",
+            "hackoladeMeta": {},
+            "parentCollection": "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+            "bucketId": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+        },
+        {
+            "collectionName": "loan",
+            "type": "object",
+            "properties": [
+                {
+                    "name": "loanAmount",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "float",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "ce265df6-47de-4f88-adce-05a46b4dc769",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "term",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "mode": "int32",
+                    "childType": "integer",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "8e939a49-64b2-453e-b53d-990aca26b72b",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "interestRate",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "index": true,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "f8024ec2-a535-4bd4-b3d3-04e28c7a22a3",
+                    "mode": "decimal",
+                    "precision": 2,
+                    "scale": 5,
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                },
+                {
+                    "name": "monthlyPmt",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "tPrecision": 9,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "primaryKey": false,
+                    "childType": "float",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "GUID": "53097e06-51b7-4214-856d-2af0e262a8c1",
+                    "error": {},
+                    "foreignCollection": "",
+                    "foreignField": []
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3370c251-fc13-419a-aeb2-fb663c137543"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "GUID": "9253a16e-ca72-45dc-bff0-19bed7b467e3",
+            "hackoladeMeta": {},
+            "parentCollection": "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+            "bucketId": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+        }
+    ],
+    "buckets": [
+        {
+            "name": "Figure 5: single schema",
+            "type": "bucket",
+            "collectionIds": [
+                "a24d225b-3fa5-4eb4-aee0-994666523764"
+            ],
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "8ff9e6b5-4085-4e46-81b8-0086bf9bae8c"
+        },
+        {
+            "name": "Fifure 6: Subtyping",
+            "type": "bucket",
+            "collectionIds": [
+                "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+                "c9137587-af74-4d1a-8f81-6c9947d846c6",
+                "f36046ea-c2cb-4ce8-a346-e84144e2d285",
+                "9253a16e-ca72-45dc-bff0-19bed7b467e3"
+            ],
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "indexes": [],
+            "GUID": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "8ff9e6b5-4085-4e46-81b8-0086bf9bae8c": "Figure 5: single schema",
+        "c74ed43e-c6cb-4c50-97bd-8973efb42006": "accountNumber",
+        "ffd7d0cf-e36a-495f-b165-24cb39af1a3b": "dateOpened",
+        "763a73e3-3c0c-4260-a1f1-1d7469a20b01": "balance",
+        "e3b318fb-fcfe-404b-a82e-1f89a0fda1ce": "accountType",
+        "08edd229-a24b-4a23-91dc-b52dea187daa": "minimumBalanace",
+        "1c5c8039-fedb-48af-aa64-3fa58d71d183": "overdraftLimit",
+        "cb390350-adf6-4bf9-8bc9-3115d8d9a23a": "interestRate",
+        "d61ba960-76d6-40c4-97a0-2182f9664d86": "interestEarned",
+        "5edd0273-89d2-4b91-95ab-df068ffb3ef3": "loanAmount",
+        "bf8d9538-1f37-4ef3-a736-c8ecfb1c50ee": "term",
+        "4114fffb-f0c4-4c1f-9fca-7be874864130": "interestRate",
+        "8657e2b2-416f-4ce1-843e-89ea2ae0e71d": "monthlyPmt",
+        "a24d225b-3fa5-4eb4-aee0-994666523764": "Account",
+        "22f70c2b-cab0-4d71-852d-3da5101421e3": "Fifure 6: Subtyping",
+        "9cea6900-4032-45f7-a8d8-176ac4ce511e": "accountNumber",
+        "f18e17a3-47f7-4647-934c-184cdc4661db": "dateOpened",
+        "12578b24-acc5-4239-87af-04bca64b66d5": "balance",
+        "a824d777-6528-414b-871c-742ddef99337": "accountType",
+        "04b3ccbd-bd46-4a45-a9c3-59709305a87c": "Account(1)",
+        "c802ac99-f484-41f8-8cca-74314b5073a1": "minimumBalanace",
+        "bc8df4cf-f790-4f49-92e7-0e76831395bf": "overdraftLimit",
+        "c9137587-af74-4d1a-8f81-6c9947d846c6": "checking",
+        "7cd73375-49fd-4b92-8f45-18e6995f0cf0": "interestRate",
+        "3c249504-da21-4b66-a7cd-b37e48b09a85": "interestEarned",
+        "f36046ea-c2cb-4ce8-a346-e84144e2d285": "savings",
+        "ce265df6-47de-4f88-adce-05a46b4dc769": "loanAmount",
+        "8e939a49-64b2-453e-b53d-990aca26b72b": "term",
+        "f8024ec2-a535-4bd4-b3d3-04e28c7a22a3": "interestRate",
+        "53097e06-51b7-4214-856d-2af0e262a8c1": "monthlyPmt",
+        "9253a16e-ca72-45dc-bff0-19bed7b467e3": "loan"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "6a090ba5-b2a7-417c-bbf3-0196712e124a"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "60e476ee-daf8-42f6-a0fb-6085e3fd4683"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "82b30e80-147b-41a0-bfdb-af69a8597bfd"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "Polyglot",
+    "appTarget": "Polyglot",
+    "creationTS": "2024-05-28T13:27:15.622Z",
+    "GUID": "5d50962e-95e9-4ead-af6b-8c22b36aff2f",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-08-11T08:34:51.067Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Polyglot",
+        "pluginVersion": "0.0.1",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.7.3"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "a24d225b-3fa5-4eb4-aee0-994666523764",
+                        "x": 1301.5047050901053,
+                        "y": 1517.9999999999995,
+                        "width": 259,
+                        "height": 318,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+                        "x": 1338.4337349397583,
+                        "y": 1976.502409638557,
+                        "width": 203,
+                        "height": 102,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "c9137587-af74-4d1a-8f81-6c9947d846c6",
+                        "x": 1076.4337349397583,
+                        "y": 2178.502409638557,
+                        "width": 216,
+                        "height": 65,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "f36046ea-c2cb-4ce8-a346-e84144e2d285",
+                        "x": 1322.4337349397583,
+                        "y": 2178.502409638557,
+                        "width": 235,
+                        "height": 65,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "9253a16e-ca72-45dc-bff0-19bed7b467e3",
+                        "x": 1587.4337349397583,
+                        "y": 2178.502409638557,
+                        "width": 222,
+                        "height": 101,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1261.5047050901053,
+                        "y": 1477.9999999999995,
+                        "GUID": "8ff9e6b5-4085-4e46-81b8-0086bf9bae8c"
+                    },
+                    {
+                        "x": 1036.4337349397583,
+                        "y": 1936.502409638557,
+                        "GUID": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "a24d225b-3fa5-4eb4-aee0-994666523764",
+                            "size": 100,
+                            "x": 1216,
+                            "y": 1601
+                        },
+                        {
+                            "GUID": "04b3ccbd-bd46-4a45-a9c3-59709305a87c",
+                            "size": 100,
+                            "x": 1296,
+                            "y": 2041.4000244140625
+                        },
+                        {
+                            "GUID": "c9137587-af74-4d1a-8f81-6c9947d846c6",
+                            "size": 100,
+                            "x": 1316,
+                            "y": 2061.4000244140625
+                        },
+                        {
+                            "GUID": "f36046ea-c2cb-4ce8-a346-e84144e2d285",
+                            "size": 100,
+                            "x": 1336,
+                            "y": 2081.4000244140625
+                        },
+                        {
+                            "GUID": "9253a16e-ca72-45dc-bff0-19bed7b467e3",
+                            "size": 100,
+                            "x": 1356,
+                            "y": 2101.4000244140625
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 1097,
+                            "y": 1544,
+                            "GUID": "8ff9e6b5-4085-4e46-81b8-0086bf9bae8c"
+                        },
+                        {
+                            "x": 1184,
+                            "y": 1976.4000244140625,
+                            "GUID": "22f70c2b-cab0-4d71-852d-3da5101421e3"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": true,
+                        "autoHeight": true,
+                        "GUID": "a24d225b-3fa5-4eb4-aee0-994666523764"
+                    },
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "04b3ccbd-bd46-4a45-a9c3-59709305a87c"
+                    },
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "c9137587-af74-4d1a-8f81-6c9947d846c6"
+                    },
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "f36046ea-c2cb-4ce8-a346-e84144e2d285"
+                    },
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "9253a16e-ca72-45dc-bff0-19bed7b467e3"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
