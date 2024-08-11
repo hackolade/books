@@ -1,0 +1,618 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "GUID": "9856e389-0d58-4771-856e-e3d4160d842f",
+            "type": "reference",
+            "$ref": "#external/definitions/accountsSuper",
+            "refType": "polyglot",
+            "ref": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+            "refIdPath": [
+                "9eec6174-4887-429e-86a5-2e9620106468",
+                "3814cbfc-ec03-4660-8c13-13cdf9451bc6",
+                "ef0b4d63-7b65-4133-8af0-2a5370ac12c9"
+            ],
+            "isActivated": true,
+            "collectionName": "accountsSuper",
+            "bucketId": "c795427e-a326-4bf3-84af-463ddda8f986",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "679c152f-4962-47c3-9d2f-bb23f38021ee"
+            },
+            "additionalProperties": true,
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "16943773-e81b-5c3f-a803-21b8d7305f68",
+                        "choice": "anyOf"
+                    }
+                ]
+            },
+            "error": {
+                "refPath": false
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "c795427e-a326-4bf3-84af-463ddda8f986",
+            "name": "polymorphism data",
+            "type": "reference",
+            "$ref": "#external/definitions/polymorphism data",
+            "refType": "polyglot",
+            "ref": "9c699c5b-7258-448e-831e-5e163d5e3697",
+            "refIdPath": [
+                "9eec6174-4887-429e-86a5-2e9620106468",
+                "3814cbfc-ec03-4660-8c13-13cdf9451bc6",
+                "9c699c5b-7258-448e-831e-5e163d5e3697"
+            ],
+            "isActivated": true,
+            "code": "",
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "9856e389-0d58-4771-856e-e3d4160d842f"
+            ]
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "9856e389-0d58-4771-856e-e3d4160d842f": "accountsSuper",
+        "c795427e-a326-4bf3-84af-463ddda8f986": "polymorphism data"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "1f6c700b-e8a2-4e01-b57c-1222a205d782"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "code": "",
+                "collectionName": "accountsSuper",
+                "type": "object",
+                "properties": [
+                    {
+                        "code": "",
+                        "type": "integer",
+                        "properties": [],
+                        "name": "id",
+                        "isActivated": true,
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": true,
+                        "GUID": "cbf81e27-692a-45ca-93f4-87a885820a44",
+                        "required": true,
+                        "sample": 1,
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "type": "document",
+                        "properties": [
+                            {
+                                "code": "",
+                                "type": "string",
+                                "properties": [],
+                                "name": "id",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "GUID": "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d",
+                                "required": true,
+                                "foreignCollection": "",
+                                "foreignField": [],
+                                "sample": "1201",
+                                "error": {}
+                            },
+                            {
+                                "code": "",
+                                "type": "string",
+                                "properties": [],
+                                "name": "name",
+                                "isActivated": true,
+                                "primaryKey": false,
+                                "maxLength": 50,
+                                "GUID": "a43f3ccd-f3a9-4957-9cd0-bda8b08a79fd",
+                                "required": true,
+                                "sample": "Jim",
+                                "simpletextProp": "Jim",
+                                "error": {}
+                            }
+                        ],
+                        "additionalProperties": false,
+                        "name": "person",
+                        "isActivated": true,
+                        "primaryKey": false,
+                        "GUID": "c77235d6-53b0-4c4a-870d-06d537c7b915",
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "type": "integer",
+                        "properties": [],
+                        "name": "balance",
+                        "isActivated": true,
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "GUID": "d25b71a9-c356-49c1-b292-6196750fa499",
+                        "required": true,
+                        "sample": 55000,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "error": {}
+                    },
+                    {
+                        "code": "",
+                        "type": "numeric",
+                        "properties": [],
+                        "name": "monthlyFee",
+                        "isActivated": true,
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "GUID": "0d789a4b-7fd3-4251-800e-3762ad9b85c7",
+                        "required": true,
+                        "sample": 5.99,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "error": {}
+                    },
+                    {
+                        "type": "choice",
+                        "properties": [
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "80558f42-b79d-5e92-8854-fb25f8a4b38b",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "checkingAccount",
+                                        "isActivated": true,
+                                        "type": "document",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "type": "integer",
+                                                "properties": [],
+                                                "name": "checkingId",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c",
+                                                "required": true,
+                                                "sample": 2,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "string",
+                                                "properties": [],
+                                                "name": "name",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "162edb5f-46c8-4c5f-bfc8-d620ce37d0a1",
+                                                "sample": "Standard Checking",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "integer",
+                                                "properties": [],
+                                                "name": "overdraftLimit",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "37001c3c-f988-43a2-bf31-2f8404591860",
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "color": "#555555",
+                                        "GUID": "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
+                                        "description": "",
+                                        "comments": "",
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "192056c5-e2d1-5be8-81f9-14b1270417ba",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "savingsAccount",
+                                        "isActivated": true,
+                                        "type": "document",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "type": "integer",
+                                                "properties": [],
+                                                "name": "savingsId",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca",
+                                                "required": true,
+                                                "sample": 2,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "string",
+                                                "properties": [],
+                                                "name": "name",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "edbab22a-60de-4697-896e-0b0c0d03dcc9",
+                                                "sample": "Super Saver",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "numeric",
+                                                "properties": [],
+                                                "name": "interestRate",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "d35ad919-d981-43b0-82be-1afcb7e4a0bd",
+                                                "required": false,
+                                                "sample": 3.25,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "color": "#555555",
+                                        "GUID": "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
+                                        "description": "",
+                                        "comments": "",
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            },
+                            {
+                                "subschema": true,
+                                "isActivated": true,
+                                "type": "document",
+                                "GUID": "39cde983-e8b3-5e2d-95a0-59034ece813c",
+                                "properties": [
+                                    {
+                                        "code": "",
+                                        "name": "brokerageAccount",
+                                        "isActivated": true,
+                                        "type": "document",
+                                        "properties": [
+                                            {
+                                                "code": "",
+                                                "type": "integer",
+                                                "properties": [],
+                                                "name": "brokerageId",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "3c11fde7-04e0-4941-8e26-ae1555314343",
+                                                "required": true,
+                                                "sample": 3,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "string",
+                                                "properties": [],
+                                                "name": "name",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "8b2ca3a1-952b-4c5d-b3aa-b4f9affb04c8",
+                                                "sample": "Brokerage Pro",
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "integer",
+                                                "properties": [],
+                                                "name": "tradingLimit",
+                                                "isActivated": true,
+                                                "exclusiveMinimum": false,
+                                                "exclusiveMaximum": false,
+                                                "primaryKey": false,
+                                                "GUID": "99f892cb-cf54-4426-b92b-221b1706e57e",
+                                                "required": false,
+                                                "sample": 5000,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "boolean",
+                                                "name": "marginAllowed",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "GUID": "fe7918b5-e9c2-4d4f-8a80-3e127d2b7b6c",
+                                                "required": false,
+                                                "sample": false,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            },
+                                            {
+                                                "code": "",
+                                                "type": "array",
+                                                "properties": [
+                                                    {
+                                                        "type": "document",
+                                                        "properties": [
+                                                            {
+                                                                "code": "",
+                                                                "type": "integer",
+                                                                "properties": [],
+                                                                "name": "pid",
+                                                                "isActivated": true,
+                                                                "exclusiveMinimum": false,
+                                                                "exclusiveMaximum": false,
+                                                                "primaryKey": false,
+                                                                "GUID": "38fe9228-e5db-4f7c-a3c1-6f75d088f260",
+                                                                "required": true,
+                                                                "sample": 1,
+                                                                "error": {}
+                                                            },
+                                                            {
+                                                                "code": "",
+                                                                "type": "integer",
+                                                                "properties": [],
+                                                                "name": "quantity",
+                                                                "isActivated": true,
+                                                                "exclusiveMinimum": false,
+                                                                "exclusiveMaximum": false,
+                                                                "primaryKey": false,
+                                                                "GUID": "066b11da-a6d3-41cb-88ab-30ba69eda626",
+                                                                "required": true,
+                                                                "sample": 10,
+                                                                "error": {}
+                                                            },
+                                                            {
+                                                                "code": "",
+                                                                "type": "string",
+                                                                "properties": [],
+                                                                "name": "symbol",
+                                                                "isActivated": true,
+                                                                "primaryKey": false,
+                                                                "maxLength": 5,
+                                                                "GUID": "16a2e5f6-b68b-4e02-88ed-2c957d10f24d",
+                                                                "required": true,
+                                                                "sample": "ORCL",
+                                                                "error": {}
+                                                            }
+                                                        ],
+                                                        "additionalProperties": true,
+                                                        "hackoladeMeta": {},
+                                                        "isActivated": true,
+                                                        "primaryKey": false,
+                                                        "GUID": "9a915022-24ba-4af3-8b2f-4bc8dc50f4bc",
+                                                        "arrayItem": true,
+                                                        "error": {}
+                                                    }
+                                                ],
+                                                "additionalItems": true,
+                                                "name": "positions",
+                                                "isActivated": true,
+                                                "primaryKey": false,
+                                                "uniqueItems": false,
+                                                "GUID": "ca258b8b-3203-472b-ab02-6a3948aae940",
+                                                "required": false,
+                                                "foreignCollection": "",
+                                                "foreignField": [],
+                                                "error": {}
+                                            }
+                                        ],
+                                        "additionalProperties": false,
+                                        "color": "#555555",
+                                        "GUID": "29df0870-9bd8-4a2c-b406-300b5253918c",
+                                        "description": "",
+                                        "comments": "",
+                                        "error": {}
+                                    }
+                                ],
+                                "error": {}
+                            }
+                        ],
+                        "isActivated": true,
+                        "choice": "oneOf",
+                        "GUID": "16943773-e81b-5c3f-a803-21b8d7305f68",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "GUID": "99a5e124-1da8-478f-966b-e6b544a6b6f9",
+                    "properties": []
+                },
+                "isActivated": true,
+                "additionalProperties": true,
+                "GUID": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "childCollection": [
+                    "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
+                    "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
+                    "29df0870-9bd8-4a2c-b406-300b5253918c"
+                ],
+                "definitionEntityType": "collection",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "9856e389-0d58-4771-856e-e3d4160d842f"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "polymorphism (polyglot).hck.json",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper"
+            },
+            {
+                "code": "",
+                "name": "polymorphism data",
+                "type": "bucket",
+                "collectionIds": [
+                    "ef0b4d63-7b65-4133-8af0-2a5370ac12c9"
+                ],
+                "backgroundColor": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionEntityType": "bucket",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "c795427e-a326-4bf3-84af-463ddda8f986"
+                    ]
+                ],
+                "kind": "relativePath",
+                "link": "polymorphism (polyglot).hck.json",
+                "fieldRelativePath": "#/polymorphism data"
+            }
+        ],
+        "GUID": "3814cbfc-ec03-4660-8c13-13cdf9451bc6"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "d3ad9eb2-959e-4ebd-a8ce-7c75b8f6bab9"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2024-06-24T16:44:58.403Z",
+    "GUID": "9eec6174-4887-429e-86a5-2e9620106468",
+    "isLineageEnabled": false,
+    "lastModifTS": "2024-06-26T12:03:13.679Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.5.0"
+    },
+    "hackoladeMeta": {
+        "customPropertiesUpdated": true,
+        "validationErrors": {
+            "approvedPurpose": true
+        }
+    },
+    "polyglotModelPaths": [
+        {
+            "GUID": "0b450304-ed7b-4ba9-9c0c-8133c4af6dd5",
+            "polyglotModelName": "polymorphism (polyglot).hck",
+            "polyglotModelPath": "polymorphism (polyglot).hck.json",
+            "normalization": false
+        }
+    ],
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "9856e389-0d58-4771-856e-e3d4160d842f",
+                        "x": 1111.9398663697104,
+                        "y": 1129.0267260579058,
+                        "width": 298,
+                        "height": 537,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1071.9398663697104,
+                        "y": 1089.0267260579058,
+                        "GUID": "c795427e-a326-4bf3-84af-463ddda8f986"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": true,
+                        "autoHeight": true,
+                        "GUID": "9856e389-0d58-4771-856e-e3d4160d842f"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

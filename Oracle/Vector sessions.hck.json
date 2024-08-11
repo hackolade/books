@@ -1,0 +1,362 @@
+{
+    "modelName": "Vector sessions",
+    "collections": [
+        {
+            "collectionName": "sessions",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "ssid",
+                    "isActivated": true,
+                    "primaryKey": true,
+                    "unique": false,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "mode": "number",
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": true,
+                    "compositeUniqueKey": false,
+                    "default": "",
+                    "identity": {
+                        "GUID": "0e7d575c-a658-4976-b231-00ad2358e377"
+                    },
+                    "synonym": "",
+                    "required": true,
+                    "GUID": "8019033e-eacb-4c2a-8c88-19f3eb83dc89",
+                    "compositeKey": [
+                        "compositePrimaryKey"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar2",
+                    "length": 128,
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "encryption": {
+                        "GUID": "35231ab7-a850-4ece-8f77-b1a1b88f6319"
+                    },
+                    "default": "",
+                    "synonym": "",
+                    "required": false,
+                    "GUID": "b2134ee9-9792-423b-bf06-e31eb3a08917",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "room",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar2",
+                    "length": 128,
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "encryption": {
+                        "GUID": "a984773a-dc95-44d5-86a4-208c0ac18947"
+                    },
+                    "default": "",
+                    "synonym": "",
+                    "required": false,
+                    "GUID": "efef76c0-7ad8-44d0-84ad-1c0af477b2a1",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "time_slot",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar2",
+                    "length": 128,
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "encryption": {
+                        "GUID": "7f433c3d-f24c-4360-93d1-42e548158b52"
+                    },
+                    "default": "",
+                    "synonym": "",
+                    "required": false,
+                    "GUID": "5bf9d714-7058-469a-87cd-3407e1114ef6",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "abstract",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "mode": "varchar2",
+                    "length": 32767,
+                    "subtype": "string",
+                    "childType": "char",
+                    "type": "string",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "encryption": {
+                        "GUID": "f11d5844-fe5c-4a51-bc25-e97c08e56085"
+                    },
+                    "default": "",
+                    "synonym": "",
+                    "required": false,
+                    "GUID": "55e59e39-91cc-4074-bed9-80cfe61bd868",
+                    "error": {}
+                },
+                {
+                    "name": "content",
+                    "hackoladeMeta": {},
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "primaryKey": false,
+                            "unique": false,
+                            "exclusiveMinimum": false,
+                            "exclusiveMaximum": false,
+                            "mode": "float",
+                            "childType": "number",
+                            "type": "numeric",
+                            "compositeKey": [
+                                "partitionKey",
+                                "compositePartitionKey",
+                                "compositePrimaryKey",
+                                "compositeUniqueKey"
+                            ],
+                            "partitionKey": false,
+                            "compositePartitionKey": false,
+                            "compositePrimaryKey": false,
+                            "compositeUniqueKey": false,
+                            "GUID": "f85466f6-67cc-420e-bf10-457848f53df2",
+                            "arrayItem": true,
+                            "error": {}
+                        }
+                    ],
+                    "childType": "vector",
+                    "type": "array",
+                    "compositeKey": [
+                        "partitionKey",
+                        "compositePartitionKey",
+                        "compositePrimaryKey",
+                        "compositeUniqueKey"
+                    ],
+                    "partitionKey": false,
+                    "compositePartitionKey": false,
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "code": "",
+                    "required": false,
+                    "GUID": "8d38772b-a85a-4616-b3a9-35ce675c4e00",
+                    "dimension": 1548,
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "speaker_id",
+                    "isActivated": true,
+                    "primaryKey": false,
+                    "unique": false,
+                    "exclusiveMinimum": false,
+                    "exclusiveMaximum": false,
+                    "mode": "number",
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositePrimaryKey": false,
+                    "compositeUniqueKey": false,
+                    "default": "",
+                    "identity": {
+                        "GUID": "25b36661-6d30-4287-8331-574026ac205d"
+                    },
+                    "synonym": "",
+                    "required": false,
+                    "GUID": "9862e856-cf15-4f76-96d4-21e2c5050df5",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "02119b11-7775-4f34-9620-63ad0576c3b9"
+            },
+            "isActivated": true,
+            "additionalProperties": false,
+            "temporary": false,
+            "temporaryType": "global",
+            "sharded": false,
+            "duplicated": false,
+            "immutable": false,
+            "GUID": "40b7ebe4-7c0e-418b-97ae-8fefad801ba0",
+            "code": "",
+            "bucketId": "af51f4d8-0f1c-487f-8bde-77aa847ce72a",
+            "partitioning": [],
+            "tableProperties": "",
+            "selectStatement": "",
+            "primaryKey": [
+                {
+                    "GUID": "5f8a47fb-5049-4cd9-b6b8-48441ced264f",
+                    "constraintName": "pk_session",
+                    "compositePrimaryKey": [
+                        {
+                            "keyId": "8019033e-eacb-4c2a-8c88-19f3eb83dc89"
+                        }
+                    ]
+                }
+            ],
+            "uniqueKey": [],
+            "chkConstr": [],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "name": "PUBLIC",
+            "type": "bucket",
+            "collectionIds": [
+                "40b7ebe4-7c0e-418b-97ae-8fefad801ba0"
+            ],
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "isActivated": true,
+            "GUID": "af51f4d8-0f1c-487f-8bde-77aa847ce72a",
+            "hackoladeMeta": {},
+            "sequences": []
+        }
+    ],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "af51f4d8-0f1c-487f-8bde-77aa847ce72a": "PUBLIC",
+        "8019033e-eacb-4c2a-8c88-19f3eb83dc89": "ssid",
+        "b2134ee9-9792-423b-bf06-e31eb3a08917": "name",
+        "efef76c0-7ad8-44d0-84ad-1c0af477b2a1": "room",
+        "5bf9d714-7058-469a-87cd-3407e1114ef6": "time_slot",
+        "55e59e39-91cc-4074-bed9-80cfe61bd868": "abstract",
+        "8d38772b-a85a-4616-b3a9-35ce675c4e00": "content",
+        "9862e856-cf15-4f76-96d4-21e2c5050df5": "speaker_id",
+        "40b7ebe4-7c0e-418b-97ae-8fefad801ba0": "sessions"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "d73412ba-e9ef-406e-9954-46f0973fff7f"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "a3616b8c-070b-4baa-b421-624697ff0cb1"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "b8b3edb8-12f7-460f-97a6-a43a47bbd3ef"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "23ai",
+    "dbVendor": "Oracle",
+    "appTarget": "Oracle",
+    "creationTS": "2024-06-25T16:48:04.343Z",
+    "GUID": "f05004f2-9223-4454-bb62-2131e4f833ce",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "dbVersion": false
+        }
+    },
+    "code": "",
+    "lastModifTS": "2024-06-26T12:03:39.609Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Oracle",
+        "pluginVersion": "0.2.2",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.5.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "40b7ebe4-7c0e-418b-97ae-8fefad801ba0",
+                        "x": 1203,
+                        "y": 1272,
+                        "width": 278,
+                        "height": 177,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1163,
+                        "y": 1232,
+                        "GUID": "af51f4d8-0f1c-487f-8bde-77aa847ce72a"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

@@ -1,0 +1,328 @@
+{
+    "modelName": "New Model",
+    "collections": [
+        {
+            "collectionName": "SCHEDULEDV",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "_id",
+                    "isActivated": true,
+                    "type": "numeric",
+                    "properties": [],
+                    "color": "#555555",
+                    "dbFieldProperties": [
+                        "check"
+                    ],
+                    "GUID": "c86bebf3-8a94-4821-99ba-1c49872a3075",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "name",
+                    "isActivated": true,
+                    "color": "#555555",
+                    "type": "multiple",
+                    "multipleTypes": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "string",
+                            "color": "#555555",
+                            "GUID": "4efe3efa-130c-439f-853e-f86b7240036f",
+                            "maxLength": 128
+                        },
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "null",
+                            "color": "#555555",
+                            "GUID": "1a786e5b-fd85-45de-bf85-6e180a46d408"
+                        }
+                    ],
+                    "GUID": "3c269e63-f9ff-4f38-b071-6185920e481b",
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "schedule",
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "scheduleId",
+                                    "isActivated": true,
+                                    "type": "numeric",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "additionalProperties": false,
+                                    "GUID": "51033fa3-3c4b-46ee-abc4-e2fd290f7a44",
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "color": "#555555",
+                            "GUID": "c39f9465-6e3d-46c9-a573-651a832ff3a2",
+                            "arrayItem": true,
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "color": "#555555",
+                    "GUID": "689b0178-b9f8-480f-b6ea-8807d130668b",
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "03c3b650-bee8-46e8-b0bc-5f23c67be60a",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "9b591f44-427b-4ca4-852b-a4c1fe9678b1",
+            "$schema": "http://json-schema.org/draft-04/schema#",
+            "dbObject": "SYS.SCHEDULEDV",
+            "dbObjectType": "dualityView",
+            "dbObjectProperties": [
+                "update",
+                "check"
+            ],
+            "hackoladeMeta": {},
+            "bucketId": ""
+        },
+        {
+            "collectionName": "Speaker JSON collection",
+            "type": "object",
+            "properties": [
+                {
+                    "code": "",
+                    "name": "speaker",
+                    "isActivated": true,
+                    "type": "string",
+                    "properties": [],
+                    "color": "#555555",
+                    "primaryKey": false,
+                    "GUID": "5f0139e7-ee1e-479a-b0b2-e8e13511712b",
+                    "required": true,
+                    "examples": [
+                        "Beda"
+                    ],
+                    "error": {}
+                },
+                {
+                    "code": "",
+                    "name": "talks",
+                    "isActivated": true,
+                    "type": "array",
+                    "properties": [
+                        {
+                            "hackoladeMeta": {},
+                            "isActivated": true,
+                            "type": "document",
+                            "properties": [
+                                {
+                                    "code": "",
+                                    "name": "year",
+                                    "isActivated": true,
+                                    "type": "integer",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "primaryKey": false,
+                                    "GUID": "5d6a4638-6ef5-49d6-aae0-d1c56da3be89",
+                                    "required": true,
+                                    "examples": [
+                                        2021
+                                    ],
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "type",
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "primaryKey": false,
+                                    "GUID": "bb8d944b-6c3e-4d8e-9da8-fc2dabda642d",
+                                    "required": true,
+                                    "examples": [
+                                        "conference"
+                                    ],
+                                    "error": {}
+                                },
+                                {
+                                    "code": "",
+                                    "name": "name",
+                                    "isActivated": true,
+                                    "type": "string",
+                                    "properties": [],
+                                    "color": "#555555",
+                                    "primaryKey": false,
+                                    "GUID": "f8f56fd2-b49b-4586-abee-7710ec5fd4f2",
+                                    "required": true,
+                                    "examples": [
+                                        "IT-Tage"
+                                    ],
+                                    "error": {}
+                                }
+                            ],
+                            "additionalProperties": true,
+                            "color": "#555555",
+                            "GUID": "5d2998c5-5b1c-4f30-8bee-864fc93e2602",
+                            "arrayItem": true,
+                            "error": {}
+                        }
+                    ],
+                    "additionalItems": true,
+                    "color": "#555555",
+                    "primaryKey": false,
+                    "GUID": "964c486c-6fb2-420b-ae58-9fe3ac88b61b",
+                    "required": true,
+                    "error": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "GUID": "4c3855ed-6b0b-4eda-bcb7-c3e842659f81",
+                "properties": []
+            },
+            "isActivated": true,
+            "additionalProperties": true,
+            "GUID": "30777036-72a0-41fc-b899-da57d9d2c73d",
+            "code": "",
+            "hackoladeMeta": {},
+            "bucketId": ""
+        }
+    ],
+    "buckets": [],
+    "views": [],
+    "relationships": [],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "c86bebf3-8a94-4821-99ba-1c49872a3075": "_id",
+        "3c269e63-f9ff-4f38-b071-6185920e481b": "name",
+        "689b0178-b9f8-480f-b6ea-8807d130668b": "schedule",
+        "51033fa3-3c4b-46ee-abc4-e2fd290f7a44": "scheduleId",
+        "9b591f44-427b-4ca4-852b-a4c1fe9678b1": "SCHEDULEDV",
+        "5f0139e7-ee1e-479a-b0b2-e8e13511712b": "speaker",
+        "964c486c-6fb2-420b-ae58-9fe3ac88b61b": "talks",
+        "5d6a4638-6ef5-49d6-aae0-d1c56da3be89": "year",
+        "bb8d944b-6c3e-4d8e-9da8-fc2dabda642d": "type",
+        "f8f56fd2-b49b-4586-abee-7710ec5fd4f2": "name",
+        "30777036-72a0-41fc-b899-da57d9d2c73d": "Speaker JSON collection"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "564b6c68-3c21-456e-8f5e-91da6dcf7d53"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [],
+        "GUID": "99f2ce43-2bc8-4d7f-926c-22485ac922b6"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "a3f33df3-265e-4e25-a2b8-397ec8cd074f"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVendor": "JSON",
+    "dbVersion": "2019-09",
+    "appTarget": "JSON",
+    "creationTS": "2024-06-14T12:27:48.037Z",
+    "GUID": "87db92e1-0fa4-4714-9949-4e6f3bcc8c74",
+    "isLineageEnabled": false,
+    "hackoladeMeta": {
+        "validationErrors": {
+            "approvedPurpose": true
+        },
+        "customPropertiesUpdated": true
+    },
+    "lastModifTS": "2024-06-16T12:48:14.254Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.5.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "9b591f44-427b-4ca4-852b-a4c1fe9678b1",
+                        "x": 1110,
+                        "y": 1065,
+                        "width": 237,
+                        "height": 119,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "30777036-72a0-41fc-b899-da57d9d2c73d",
+                        "x": 1144,
+                        "y": 1258,
+                        "width": 258,
+                        "height": 137,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [
+                    {
+                        "autoWidth": false,
+                        "autoHeight": false,
+                        "GUID": "30777036-72a0-41fc-b899-da57d9d2c73d"
+                    }
+                ],
+                "relationshipUpdateDisabled": false
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}

@@ -182,7 +182,10 @@
             "writeCapacity": 1,
             "streamViewType": "Keys only",
             "GUID": "c8d3fb7a-a6e6-450c-81c9-869b900d87cc",
-            "bucketId": "6e5a24b3-057a-4deb-922c-e74817f89850"
+            "bucketId": "6e5a24b3-057a-4deb-922c-e74817f89850",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "orders",
@@ -425,7 +428,9 @@
             "streamViewType": "Keys only",
             "GUID": "479a8576-3f8a-4b40-9590-b7a25bd6c730",
             "bucketId": "24b29eeb-6277-470a-8c94-9f2efb5eff32",
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "orders",
@@ -623,7 +628,10 @@
             "writeCapacity": 1,
             "streamViewType": "Keys only",
             "GUID": "93cbd019-0784-4513-aab5-c7c06785f560",
-            "bucketId": "07a702b3-aaac-4e16-bf68-5ae154fb7365"
+            "bucketId": "07a702b3-aaac-4e16-bf68-5ae154fb7365",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -641,7 +649,10 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "6e5a24b3-057a-4deb-922c-e74817f89850"
+            "GUID": "6e5a24b3-057a-4deb-922c-e74817f89850",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "Structured item design",
@@ -657,7 +668,10 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "24b29eeb-6277-470a-8c94-9f2efb5eff32"
+            "GUID": "24b29eeb-6277-470a-8c94-9f2efb5eff32",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "JSON semi-structured design",
@@ -673,7 +687,10 @@
             },
             "show": true,
             "isActivated": true,
-            "GUID": "07a702b3-aaac-4e16-bf68-5ae154fb7365"
+            "GUID": "07a702b3-aaac-4e16-bf68-5ae154fb7365",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "views": [
@@ -1029,14 +1046,14 @@
         },
         "customPropertiesUpdated": true
     },
-    "lastModifTS": "2024-03-24T12:45:58.393Z",
+    "lastModifTS": "2024-06-16T12:50:56.287Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.3.5"
+        "version": "7.5.0"
     },
     "settings": {
         "centralPane": {

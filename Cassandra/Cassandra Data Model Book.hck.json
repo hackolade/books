@@ -500,7 +500,10 @@
                 {
                     "keyId": "a3033113-1c82-4335-a097-c16738420248"
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "orders_by_orderid",
@@ -613,7 +616,7 @@
                     "foreignField": []
                 },
                 {
-                    "name": "Orders",
+                    "name": "rders",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "subtype": "list<udt>",
@@ -672,7 +675,7 @@
                                     "primaryKey": false,
                                     "properties": [
                                         {
-                                            "name": "SKU",
+                                            "name": "sku",
                                             "hackoladeMeta": {},
                                             "isActivated": true,
                                             "primaryKey": false,
@@ -686,10 +689,10 @@
                                             ],
                                             "compositePartitionKey": false,
                                             "compositeClusteringKey": false,
-                                            "error": {},
                                             "GUID": "d1e7e639-6302-4589-89a3-bf86b454e4de",
                                             "foreignCollection": "",
-                                            "foreignField": []
+                                            "foreignField": [],
+                                            "error": {}
                                         },
                                         {
                                             "name": "id",
@@ -798,7 +801,10 @@
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
                     "GUID": "0d006f46-1f5e-42dc-96a8-b2341a4b9578",
-                    "error": {},
+                    "error": {
+                        "name": false,
+                        "code": false
+                    },
                     "foreignCollection": "",
                     "foreignField": []
                 }
@@ -820,7 +826,10 @@
                 }
             ],
             "compositeClusteringKey": [],
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "orders_by_customer_id",
@@ -956,7 +965,7 @@
                     "foreignField": []
                 },
                 {
-                    "name": "SKU",
+                    "name": "sku",
                     "hackoladeMeta": {},
                     "isActivated": true,
                     "primaryKey": false,
@@ -971,9 +980,9 @@
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
                     "GUID": "a5e78825-87b8-4877-96b3-7e4c2d798142",
-                    "error": {},
                     "foreignCollection": "",
-                    "foreignField": []
+                    "foreignField": [],
+                    "error": {}
                 },
                 {
                     "name": "product_id",
@@ -1060,7 +1069,10 @@
                     "type": "ascending"
                 }
             ],
-            "bucketId": ""
+            "bucketId": "",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "pet_by_type_availability",
@@ -1246,7 +1258,9 @@
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
                     "GUID": "47a376ea-9eb8-4aca-828e-51db0c580a60",
-                    "error": {}
+                    "error": {
+                        "name": true
+                    }
                 },
                 {
                     "name": "pet_primary_color",
@@ -1503,7 +1517,9 @@
                     }
                 }
             ],
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "autoHeight": true,
             "autoWidth": true,
             "fontStyle": [
@@ -1695,7 +1711,9 @@
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
                     "GUID": "8cc331ad-bf2a-49bd-8bce-97a35bb0b344",
-                    "error": {}
+                    "error": {
+                        "name": true
+                    }
                 },
                 {
                     "name": "pet_primary_color",
@@ -1962,7 +1980,9 @@
                     }
                 }
             ],
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "autoHeight": true,
             "autoWidth": true,
             "fontStyle": [
@@ -2154,7 +2174,9 @@
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
                     "GUID": "fc5f0aa2-06c3-4aa9-84bd-4b0ad7d61b29",
-                    "error": {}
+                    "error": {
+                        "name": true
+                    }
                 },
                 {
                     "name": "pet_primary_color",
@@ -2421,7 +2443,9 @@
                     }
                 }
             ],
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "autoHeight": true,
             "autoWidth": true,
             "fontStyle": [
@@ -2613,7 +2637,9 @@
                     "compositePartitionKey": false,
                     "compositeClusteringKey": false,
                     "GUID": "06077b8b-fd17-441f-8c13-556856429ca1",
-                    "error": {}
+                    "error": {
+                        "name": true
+                    }
                 },
                 {
                     "name": "pet_primary_color",
@@ -2880,7 +2906,9 @@
                     }
                 }
             ],
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "autoHeight": true,
             "autoWidth": true,
             "fontStyle": [
@@ -3043,7 +3071,10 @@
                     "keyId": "24b5491f-b7e1-4b6d-a450-cda116e0892f",
                     "type": "ascending"
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "temperature_data",
@@ -3183,7 +3214,9 @@
                     "type": "ascending"
                 }
             ],
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "shipmentsgeo_by_origin",
@@ -3389,7 +3422,10 @@
             "autoWidth": true,
             "fontStyle": [
                 "bold"
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "Vehiclesgeo",
@@ -3576,7 +3612,10 @@
                     "keyId": "e3aab2b1-6906-4375-a263-fe970cfa39b9",
                     "type": "ascending"
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "User",
@@ -3646,7 +3685,10 @@
             "tableIfNotExist": false,
             "searchIndexIfNotExist": false,
             "GUID": "6ca2d331-ed13-4add-91a6-2b83a55fd8a5",
-            "bucketId": "a1b1127f-f683-4588-aa96-b257d22c4dd9"
+            "bucketId": "a1b1127f-f683-4588-aa96-b257d22c4dd9",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "item",
@@ -3716,7 +3758,10 @@
             "tableIfNotExist": false,
             "searchIndexIfNotExist": false,
             "GUID": "d697e46f-dd53-479a-a601-d63d0c1523af",
-            "bucketId": "a1b1127f-f683-4588-aa96-b257d22c4dd9"
+            "bucketId": "a1b1127f-f683-4588-aa96-b257d22c4dd9",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "user_interaction_by_day ",
@@ -3887,7 +3932,10 @@
                     "keyId": "db6ca7dc-b4af-4aec-9d70-bff08b373ada",
                     "type": "descending"
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "users_by_itemid ",
@@ -4058,7 +4106,10 @@
                     "keyId": "8185ef48-123c-47ba-810c-7a43c0ac6da7",
                     "type": "descending"
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "products_by_category",
@@ -4095,7 +4146,10 @@
             "tableIfNotExist": false,
             "searchIndexIfNotExist": false,
             "GUID": "a3ad8e3f-1dad-44a8-a1b2-961a8f383d97",
-            "bucketId": "a1b1127f-f683-4588-aa96-b257d22c4dd9"
+            "bucketId": "a1b1127f-f683-4588-aa96-b257d22c4dd9",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "temperature_data_by_month",
@@ -4282,7 +4336,9 @@
                     "type": "descending"
                 }
             ],
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "autoHeight": true,
             "autoWidth": true,
             "fontStyle": [
@@ -4473,7 +4529,9 @@
                     "type": "descending"
                 }
             ],
-            "hackoladeMeta": {},
+            "hackoladeMeta": {
+                "validationErrors": {}
+            },
             "autoHeight": true,
             "autoWidth": true,
             "fontStyle": [
@@ -4616,7 +4674,10 @@
                     "keyId": "2bef493a-4160-43c9-8370-4829cc188fda",
                     "type": "ascending"
                 }
-            ]
+            ],
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "collectionName": "temperature_data_",
@@ -4779,7 +4840,9 @@
                     "type": "ascending"
                 }
             ],
-            "hackoladeMeta": {}
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "buckets": [
@@ -4807,11 +4870,13 @@
             "keyspaceIfNotExist": false,
             "GUID": "35b4d3c8-0fca-4f27-9681-6895db170530",
             "hackoladeMeta": {
-                "validationErrors": {}
+                "validationErrors": {
+                    "name": true
+                }
             }
         },
         {
-            "name": "Customer",
+            "name": "customer",
             "type": "bucket",
             "collectionIds": [
                 "03460295-ea42-4ca8-a965-4bdecc9eba94"
@@ -4828,7 +4893,8 @@
             "replStrategy": "SimpleStrategy",
             "addToCqlScript": true,
             "keyspaceIfNotExist": false,
-            "GUID": "03b4d399-3186-4978-9b74-c7cbcf4435f7"
+            "GUID": "03b4d399-3186-4978-9b74-c7cbcf4435f7",
+            "hackoladeMeta": {}
         },
         {
             "name": "iot",
@@ -4853,7 +4919,10 @@
             "replStrategy": "SimpleStrategy",
             "addToCqlScript": true,
             "keyspaceIfNotExist": false,
-            "GUID": "07673255-1e4d-4cd6-8eec-5c840a74e11e"
+            "GUID": "07673255-1e4d-4cd6-8eec-5c840a74e11e",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "logistics",
@@ -4874,7 +4943,10 @@
             "replStrategy": "SimpleStrategy",
             "addToCqlScript": true,
             "keyspaceIfNotExist": false,
-            "GUID": "ed3646e2-88a8-4968-a4d2-c0bdb45de703"
+            "GUID": "ed3646e2-88a8-4968-a4d2-c0bdb45de703",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         },
         {
             "name": "ecommerce",
@@ -4898,7 +4970,10 @@
             "replStrategy": "SimpleStrategy",
             "addToCqlScript": true,
             "keyspaceIfNotExist": false,
-            "GUID": "a1b1127f-f683-4588-aa96-b257d22c4dd9"
+            "GUID": "a1b1127f-f683-4588-aa96-b257d22c4dd9",
+            "hackoladeMeta": {
+                "validationErrors": {}
+            }
         }
     ],
     "views": [],
@@ -4911,7 +4986,12 @@
             "childField": [],
             "isActivated": true,
             "childCardinality": "1",
-            "GUID": "049ab587-274a-4dce-96b5-5ed5dadc4aae"
+            "GUID": "049ab587-274a-4dce-96b5-5ed5dadc4aae",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": true
+                }
+            }
         }
     ],
     "users": [],
@@ -4931,7 +5011,7 @@
         "03a0656e-6752-47f4-8118-b8f7688c0929": "date",
         "ba114771-56e9-4726-b2fc-2418d35c78ce": "type",
         "f58e585f-1ce8-4e97-865a-975a5e706daa": "age",
-        "03b4d399-3186-4978-9b74-c7cbcf4435f7": "Customer",
+        "03b4d399-3186-4978-9b74-c7cbcf4435f7": "customer",
         "03460295-ea42-4ca8-a965-4bdecc9eba94": "Customers",
         "a3033113-1c82-4335-a097-c16738420248": "customer_id",
         "3fccae09-a5e5-4b47-9ca7-97c09578c4b7": "address",
@@ -4952,11 +5032,11 @@
         "ba9070c9-d913-42bb-874d-eda89c7c5df7": "cust_name",
         "4e0482d1-35b8-466c-ab44-4dd9fb15f685": "cust_address",
         "a32ebdfc-00af-48a3-bb84-9e107d88a599": "order_id",
-        "0d006f46-1f5e-42dc-96a8-b2341a4b9578": "Orders",
+        "0d006f46-1f5e-42dc-96a8-b2341a4b9578": "rders",
         "8aeb19ac-31d0-48e2-b2b5-1e144d875aa3": "qty",
         "fc62c820-8516-4fe3-823e-e0f59c70d51e": "order_id",
         "0a397b5f-a42e-48f2-9ef5-3c706d2ecfee": "product",
-        "d1e7e639-6302-4589-89a3-bf86b454e4de": "SKU",
+        "d1e7e639-6302-4589-89a3-bf86b454e4de": "sku",
         "e38ea049-6b7f-4247-b5ff-fcb557aa361b": "id",
         "75e6aeb8-f200-4154-8aa4-9aba605876e2": "description",
         "b8b676ba-db20-4a17-832b-8b7d39eb1d98": "unit_price",
@@ -4967,7 +5047,7 @@
         "624caa42-5fc9-4b2c-9c4b-212e638251c8": "cust_id",
         "cad66daf-1ccd-4496-949e-4ad3b18b67e9": "qty",
         "ee1ee7b8-10f4-46c2-b597-99b2bdab88f8": "orderid",
-        "a5e78825-87b8-4877-96b3-7e4c2d798142": "SKU",
+        "a5e78825-87b8-4877-96b3-7e4c2d798142": "sku",
         "e8374c49-eba6-497c-a929-c9c83fabcbc4": "product_id",
         "329281dc-2e16-4c56-827b-0e4ca3345841": "product_desc",
         "5621e7af-adbf-4b79-b078-70497367b15a": "unit_price",
@@ -5175,7 +5255,8 @@
                         "compositePartitionKey": false,
                         "compositeClusteringKey": false,
                         "GUID": "90292e84-4a48-4075-a922-c66b8be0d56d",
-                        "error": {}
+                        "error": {},
+                        "definitionRefs": []
                     },
                     {
                         "name": "city",
@@ -5193,7 +5274,8 @@
                         "compositePartitionKey": false,
                         "compositeClusteringKey": false,
                         "GUID": "697ed616-815a-4764-9e94-56464ae2419f",
-                        "error": {}
+                        "error": {},
+                        "definitionRefs": []
                     },
                     {
                         "name": "street",
@@ -5211,7 +5293,8 @@
                         "compositePartitionKey": false,
                         "compositeClusteringKey": false,
                         "GUID": "5b6bea03-1539-49bf-8731-db811302529f",
-                        "error": {}
+                        "error": {},
+                        "definitionRefs": []
                     },
                     {
                         "name": "state",
@@ -5229,7 +5312,8 @@
                         "compositePartitionKey": false,
                         "compositeClusteringKey": false,
                         "GUID": "4685bc7b-5d2a-4215-b204-329fab9ba498",
-                        "error": {}
+                        "error": {},
+                        "definitionRefs": []
                     }
                 ],
                 "frozen": true,
@@ -5267,18 +5351,20 @@
     "creationTS": "2023-08-06T13:38:19.444Z",
     "GUID": "4bd19724-5f0c-4d19-9854-c420d35b7857",
     "isLineageEnabled": false,
-    "lastModifTS": "2024-01-13T10:41:21.542Z",
+    "lastModifTS": "2024-06-16T12:55:45.027Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Cassandra",
-        "pluginVersion": "0.1.132",
+        "pluginVersion": "0.1.133",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.1.0"
+        "version": "7.5.0"
     },
-    "hackoladeMeta": {},
+    "hackoladeMeta": {
+        "validationErrors": {}
+    },
     "settings": {
         "centralPane": {
             "dbLevel": {
@@ -5305,8 +5391,8 @@
                     },
                     {
                         "GUID": "79b70f10-a8d7-4cb7-8ed0-9b28d172ffcd",
-                        "x": 744.1492537313435,
-                        "y": 1974.3051409618574,
+                        "x": 734.1492537313435,
+                        "y": 1981.3051409618574,
                         "width": 346,
                         "height": 284,
                         "color": {

@@ -1,0 +1,43 @@
+{
+    "_id": 1,
+    "name": "Jim",
+    "accounts": [
+        {
+            "accountId": 1,
+            "name": "Standard Checking",
+            "balance": 500,
+            "monthlyFee": 5.99,
+            "checkingId": 2,
+            "overdraftLimit": 3.25
+        },
+        {
+            "accountId": 2,
+            "name": "Super Saver",
+            "balance": 12000,
+            "monthlyFee": 0,
+            "savingsId": 2,
+            "interestRate": 3.25
+        },
+        {
+            "accountId": 3,
+            "name": "Brokerage Pro",
+            "balance": 55000,
+            "monthlyFee": 0,
+            "brokerageId": 3,
+            "tradingLimit": 5000,
+            "marginAllowed": false,
+            "positions": [
+                {
+                    "pid": 1,
+                    "quantity": 10,
+                    "symbol": "ORCL"
+                },
+                {
+                    "pid": 2,
+                    "quantity": 30,
+                    "symbol": "HCKLD"
+                }
+            ]
+        }
+    ]
+}

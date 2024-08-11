@@ -1,0 +1,2102 @@
+{
+    "modelName": "New model",
+    "collections": [
+        {
+            "GUID": "71687546-1c70-440b-b90a-5e69f76d1117",
+            "type": "reference",
+            "$ref": "#external/definitions/accountsSuper",
+            "refType": "polyglot",
+            "ref": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "ef0b4d63-7b65-4133-8af0-2a5370ac12c9"
+            ],
+            "isActivated": true,
+            "collectionName": "accountsSuper",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "2dde4e59-9a33-4bea-b1e1-ac77462fb000"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "c77235d6-53b0-4c4a-870d-06d537c7b915",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                        "foreignField": [
+                            "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                            "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                            "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d"
+                        ],
+                        "parentRelationship": "72f9d47b-3303-45b5-a75c-3649de194d99"
+                    },
+                    {
+                        "GUID": "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                        "foreignField": [
+                            "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                            "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                            "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c"
+                        ],
+                        "parentRelationship": "cbf9f7f0-29fb-4533-9e83-13887d367210",
+                        "required": false,
+                        "error": {}
+                    },
+                    {
+                        "GUID": "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                        "foreignField": [
+                            "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                            "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                            "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca"
+                        ],
+                        "parentRelationship": "937fffef-89e0-4e95-9fbf-49549c84761a",
+                        "required": false,
+                        "error": {}
+                    },
+                    {
+                        "GUID": "29df0870-9bd8-4a2c-b406-300b5253918c",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                        "foreignField": [
+                            "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                            "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                            "3c11fde7-04e0-4941-8e26-ae1555314343"
+                        ],
+                        "parentRelationship": "16911b37-375a-413a-b0d2-ac17ae396df3",
+                        "required": false,
+                        "error": {}
+                    }
+                ]
+            },
+            "additionalProperties": true
+        },
+        {
+            "GUID": "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+            "type": "reference",
+            "$ref": "#external/definitions/person",
+            "refType": "polyglot",
+            "ref": "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "e53b8823-3e8d-4053-8f18-4a4a82414b56"
+            ],
+            "isActivated": true,
+            "collectionName": "person",
+            "code": "person",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "c07e10d7-a995-41a4-add2-6b5ebec8897c"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d",
+                        "childRelationships": [
+                            "72f9d47b-3303-45b5-a75c-3649de194d99"
+                        ]
+                    }
+                ]
+            },
+            "additionalProperties": false
+        },
+        {
+            "GUID": "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+            "type": "reference",
+            "$ref": "#external/definitions/checkingAccount",
+            "refType": "polyglot",
+            "ref": "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8"
+            ],
+            "isActivated": true,
+            "collectionName": "checkingAccount",
+            "code": "checkingAccount",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "5cc8709e-84f8-4811-9fdd-23b6b64ebe8e"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c",
+                        "childRelationships": [
+                            "cbf9f7f0-29fb-4533-9e83-13887d367210"
+                        ]
+                    }
+                ]
+            },
+            "additionalProperties": false
+        },
+        {
+            "GUID": "d7727684-e0c0-42de-a90c-3986f13c8a89",
+            "type": "reference",
+            "$ref": "#external/definitions/savingsAccount",
+            "refType": "polyglot",
+            "ref": "b5b07df8-fe25-46cf-aee0-411dce367e66",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "b5b07df8-fe25-46cf-aee0-411dce367e66"
+            ],
+            "isActivated": true,
+            "collectionName": "savingsAccount",
+            "code": "savingsAccount",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "6a36b586-b1a2-409c-bbcc-c736be42febb"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca",
+                        "childRelationships": [
+                            "937fffef-89e0-4e95-9fbf-49549c84761a"
+                        ]
+                    }
+                ]
+            },
+            "additionalProperties": false
+        },
+        {
+            "GUID": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+            "type": "reference",
+            "$ref": "#external/definitions/brokerageAccount",
+            "refType": "polyglot",
+            "ref": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "f588a49e-1f5e-43a7-8929-a6f16ba8f67f"
+            ],
+            "isActivated": true,
+            "collectionName": "brokerageAccount",
+            "code": "brokerageAccount",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "608fa2b4-e437-4c54-bcb3-d51a5e68bb47"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "3c11fde7-04e0-4941-8e26-ae1555314343",
+                        "childRelationships": [
+                            "abf263f2-a72e-46f9-a09e-a4456c48aa89",
+                            "16911b37-375a-413a-b0d2-ac17ae396df3"
+                        ]
+                    }
+                ]
+            },
+            "additionalProperties": false
+        },
+        {
+            "GUID": "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+            "type": "reference",
+            "$ref": "#external/definitions/positions",
+            "refType": "polyglot",
+            "ref": "18619520-5317-4119-93dd-fe1e31198f00",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "18619520-5317-4119-93dd-fe1e31198f00"
+            ],
+            "isActivated": true,
+            "collectionName": "positions",
+            "code": "positions",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "properties": [],
+            "definitions": {
+                "properties": [],
+                "GUID": "b507912c-a4db-4d94-8dea-ff18a1f56acc"
+            },
+            "referenceDiff": {
+                "properties": [
+                    {
+                        "GUID": "e633e59d-3577-4f4c-8b87-e0fee0faa9df",
+                        "relationshipType": "Foreign Key",
+                        "foreignCollection": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                        "foreignField": [
+                            "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                            "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                            "3c11fde7-04e0-4941-8e26-ae1555314343"
+                        ],
+                        "parentRelationship": "abf263f2-a72e-46f9-a09e-a4456c48aa89"
+                    }
+                ]
+            },
+            "additionalProperties": false
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "name": "polymorphism data",
+            "type": "reference",
+            "$ref": "#external/definitions/polymorphism data",
+            "refType": "polyglot",
+            "ref": "9c699c5b-7258-448e-831e-5e163d5e3697",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "9c699c5b-7258-448e-831e-5e163d5e3697"
+            ],
+            "isActivated": true,
+            "code": "",
+            "backgroundColor": {
+                "r": 255,
+                "g": 255,
+                "b": 255,
+                "a": 1
+            },
+            "show": true,
+            "collectionIds": [
+                "71687546-1c70-440b-b90a-5e69f76d1117",
+                "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                "ae96be62-e87d-4d95-8a4b-3989d935e6cd"
+            ]
+        }
+    ],
+    "views": [
+        {
+            "name": "personWithAccountsV",
+            "type": "object",
+            "properties": [
+                {
+                    "GUID": "a32d72dd-6c65-4985-9565-d151185fb274",
+                    "type": "reference",
+                    "name": "id",
+                    "ref": "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d",
+                    "refType": "collectionReference",
+                    "refIdPath": [
+                        "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                        "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                        "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d"
+                    ],
+                    "isActivated": true,
+                    "referencedColumnName": "id",
+                    "error": {}
+                },
+                {
+                    "GUID": "3018df27-c5cf-437d-9e64-0dc7546543d0",
+                    "type": "reference",
+                    "name": "name",
+                    "ref": "a43f3ccd-f3a9-4957-9cd0-bda8b08a79fd",
+                    "refType": "collectionReference",
+                    "refIdPath": [
+                        "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                        "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                        "a43f3ccd-f3a9-4957-9cd0-bda8b08a79fd"
+                    ],
+                    "isActivated": true,
+                    "referencedColumnName": "name",
+                    "error": {}
+                },
+                {
+                    "GUID": "badbe2ab-78f5-4116-b70d-b782d4bbcba3",
+                    "type": "document",
+                    "childType": "joinSubquery",
+                    "subtype": "object",
+                    "isActivated": true,
+                    "properties": [
+                        {
+                            "GUID": "cadf0545-e6ec-40e6-9573-b77490c46cda",
+                            "type": "reference",
+                            "name": "id",
+                            "ref": "cbf81e27-692a-45ca-93f4-87a885820a44",
+                            "refType": "collectionReference",
+                            "refIdPath": [
+                                "71687546-1c70-440b-b90a-5e69f76d1117",
+                                "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                                "cbf81e27-692a-45ca-93f4-87a885820a44"
+                            ],
+                            "isActivated": true,
+                            "referencedColumnName": "id",
+                            "error": {}
+                        },
+                        {
+                            "GUID": "278ae046-8ec7-4ef4-a4a1-0b25a93e44ff",
+                            "type": "reference",
+                            "name": "balance",
+                            "ref": "d25b71a9-c356-49c1-b292-6196750fa499",
+                            "refType": "collectionReference",
+                            "refIdPath": [
+                                "71687546-1c70-440b-b90a-5e69f76d1117",
+                                "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                                "d25b71a9-c356-49c1-b292-6196750fa499"
+                            ],
+                            "isActivated": true,
+                            "referencedColumnName": "balance",
+                            "error": {}
+                        },
+                        {
+                            "GUID": "4c4664d0-055e-4428-9304-fc8644242205",
+                            "type": "reference",
+                            "name": "monthlyFee",
+                            "ref": "0d789a4b-7fd3-4251-800e-3762ad9b85c7",
+                            "refType": "collectionReference",
+                            "refIdPath": [
+                                "71687546-1c70-440b-b90a-5e69f76d1117",
+                                "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                                "0d789a4b-7fd3-4251-800e-3762ad9b85c7"
+                            ],
+                            "isActivated": true,
+                            "referencedColumnName": "monthlyFee",
+                            "error": {}
+                        },
+                        {
+                            "GUID": "2eb0c246-de6d-4be8-aa34-a402ab81f330",
+                            "type": "document",
+                            "childType": "joinSubquery",
+                            "subtype": "object",
+                            "isActivated": true,
+                            "properties": [
+                                {
+                                    "GUID": "24f95e2c-f01c-4fbd-8382-b9128e7f4d11",
+                                    "type": "reference",
+                                    "name": "checkingId",
+                                    "ref": "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                                        "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                                        "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "checkingId",
+                                    "error": {}
+                                },
+                                {
+                                    "GUID": "663069f4-cdbc-4ac3-b2b1-78327711814b",
+                                    "type": "reference",
+                                    "name": "overdraftLimit",
+                                    "ref": "37001c3c-f988-43a2-bf31-2f8404591860",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                                        "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                                        "37001c3c-f988-43a2-bf31-2f8404591860"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "overdraftLimit",
+                                    "error": {}
+                                }
+                            ],
+                            "name": "unnest",
+                            "unnestSubquery": true,
+                            "joinedCollectionRefIdPath": [
+                                "b0392b38-0c92-4dba-9025-8a9356bf6b3e"
+                            ],
+                            "childTableAlias": "checking",
+                            "whereClause": "s.checkingID = checking.ID",
+                            "error": {}
+                        },
+                        {
+                            "GUID": "1e431a9d-c910-4fcd-89af-1712654a7b73",
+                            "type": "document",
+                            "childType": "joinSubquery",
+                            "subtype": "object",
+                            "isActivated": true,
+                            "properties": [
+                                {
+                                    "GUID": "e98fcd9c-7e5e-46ca-96b4-71f0faa9adf1",
+                                    "type": "reference",
+                                    "name": "savingsId",
+                                    "ref": "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                                        "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                                        "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "savingsId",
+                                    "error": {}
+                                },
+                                {
+                                    "GUID": "9fc1b184-a122-4138-9744-04a91c0f6c26",
+                                    "type": "reference",
+                                    "name": "interestRate",
+                                    "ref": "d35ad919-d981-43b0-82be-1afcb7e4a0bd",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                                        "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                                        "d35ad919-d981-43b0-82be-1afcb7e4a0bd"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "interestRate",
+                                    "error": {}
+                                }
+                            ],
+                            "name": "unnest",
+                            "unnestSubquery": true,
+                            "joinedCollectionRefIdPath": [
+                                "d7727684-e0c0-42de-a90c-3986f13c8a89"
+                            ],
+                            "childTableAlias": "savings",
+                            "whereClause": "s.savingsID = savings.ID",
+                            "error": {}
+                        },
+                        {
+                            "GUID": "86dcce78-2644-4ee9-94ac-dd2693fc505d",
+                            "type": "document",
+                            "childType": "joinSubquery",
+                            "subtype": "object",
+                            "isActivated": true,
+                            "properties": [
+                                {
+                                    "GUID": "11e50ef3-fcb7-42e4-b605-06613a13470e",
+                                    "type": "reference",
+                                    "name": "brokerageId",
+                                    "ref": "3c11fde7-04e0-4941-8e26-ae1555314343",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                                        "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                                        "3c11fde7-04e0-4941-8e26-ae1555314343"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "brokerageId",
+                                    "error": {}
+                                },
+                                {
+                                    "GUID": "c9fb72a9-ef42-40ba-8bd1-81aee825c739",
+                                    "type": "reference",
+                                    "name": "tradingLimit",
+                                    "ref": "99f892cb-cf54-4426-b92b-221b1706e57e",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                                        "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                                        "99f892cb-cf54-4426-b92b-221b1706e57e"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "tradingLimit",
+                                    "error": {}
+                                },
+                                {
+                                    "GUID": "fee875bb-d3d2-48a2-a7db-8063f54f1bd2",
+                                    "type": "reference",
+                                    "name": "marginAllowed",
+                                    "ref": "fe7918b5-e9c2-4d4f-8a80-3e127d2b7b6c",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                                        "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                                        "fe7918b5-e9c2-4d4f-8a80-3e127d2b7b6c"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "marginAllowed",
+                                    "error": {}
+                                },
+                                {
+                                    "GUID": "10500a90-e5eb-48ed-b2ab-1710d8b6f2a1",
+                                    "type": "document",
+                                    "childType": "joinSubquery",
+                                    "subtype": "object",
+                                    "isActivated": true,
+                                    "properties": [
+                                        {
+                                            "GUID": "f700d915-fe41-4362-91b0-841f4ac0be46",
+                                            "type": "reference",
+                                            "name": "pid",
+                                            "ref": "38fe9228-e5db-4f7c-a3c1-6f75d088f260",
+                                            "refType": "collectionReference",
+                                            "refIdPath": [
+                                                "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+                                                "18619520-5317-4119-93dd-fe1e31198f00",
+                                                "38fe9228-e5db-4f7c-a3c1-6f75d088f260"
+                                            ],
+                                            "isActivated": true,
+                                            "referencedColumnName": "pid",
+                                            "error": {}
+                                        },
+                                        {
+                                            "GUID": "64f45257-77b3-4463-8fee-8505619c4a30",
+                                            "type": "reference",
+                                            "name": "quantity",
+                                            "ref": "066b11da-a6d3-41cb-88ab-30ba69eda626",
+                                            "refType": "collectionReference",
+                                            "refIdPath": [
+                                                "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+                                                "18619520-5317-4119-93dd-fe1e31198f00",
+                                                "066b11da-a6d3-41cb-88ab-30ba69eda626"
+                                            ],
+                                            "isActivated": true,
+                                            "referencedColumnName": "quantity",
+                                            "error": {}
+                                        },
+                                        {
+                                            "GUID": "00bd03d5-6773-4240-bf2c-f09622572077",
+                                            "type": "reference",
+                                            "name": "symbol",
+                                            "ref": "16a2e5f6-b68b-4e02-88ed-2c957d10f24d",
+                                            "refType": "collectionReference",
+                                            "refIdPath": [
+                                                "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+                                                "18619520-5317-4119-93dd-fe1e31198f00",
+                                                "16a2e5f6-b68b-4e02-88ed-2c957d10f24d"
+                                            ],
+                                            "isActivated": true,
+                                            "referencedColumnName": "symbol",
+                                            "error": {}
+                                        }
+                                    ],
+                                    "name": "JSON",
+                                    "joinedCollectionRefIdPath": [
+                                        "ae96be62-e87d-4d95-8a4b-3989d935e6cd"
+                                    ],
+                                    "childTableAlias": "p",
+                                    "whereClause": "p.brokerageId = brokerage.ID",
+                                    "error": {}
+                                }
+                            ],
+                            "name": "unnest",
+                            "joinedCollectionRefIdPath": [
+                                "aea0367f-ab95-42df-9ab9-cde44fe90acb"
+                            ],
+                            "childTableAlias": "brokerage",
+                            "unnestSubquery": true,
+                            "whereClause": "p.brokerageId = brokerage.ID",
+                            "error": {}
+                        }
+                    ],
+                    "name": "JSON",
+                    "joinedCollectionRefIdPath": [
+                        "71687546-1c70-440b-b90a-5e69f76d1117"
+                    ],
+                    "childTableAlias": "s",
+                    "whereClause": "s.personId = p.id",
+                    "error": {}
+                }
+            ],
+            "isActivated": true,
+            "GUID": "64bbcf27-8740-423d-bea9-2b1fba99a2d9",
+            "pipeline": "[\n    {\n        \"$project\": {}\n    }\n]",
+            "viewOn": "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+            "bucketId": "d32d1aae-be0c-4af8-a4c7-dacc194865f1",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false,
+                    "code": false,
+                    "duality": false,
+                    "rootTableAlias": false
+                }
+            },
+            "duality": true,
+            "rootTableAlias": "p"
+        }
+    ],
+    "relationships": [
+        {
+            "name": "fk person.id to accountsSuper.person",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                    "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                    "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "71687546-1c70-440b-b90a-5e69f76d1117",
+                    "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                    "c77235d6-53b0-4c4a-870d-06d537c7b915"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+            "childCollection": "71687546-1c70-440b-b90a-5e69f76d1117",
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk person.id to accountsSuper.person",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "883c3f81-5a40-46d4-b345-db0d5ac91f42"
+            ],
+            "ref": "883c3f81-5a40-46d4-b345-db0d5ac91f42",
+            "GUID": "72f9d47b-3303-45b5-a75c-3649de194d99",
+            "hackoladeStyles": {
+                "GUID": "5abc2d21-8d52-4864-93bf-80804855ceb0",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1597.3,
+                        "y": 1288
+                    },
+                    {
+                        "x": 1657.7791449468114,
+                        "y": 1288
+                    }
+                ],
+                "sides": [
+                    "right",
+                    "left"
+                ]
+            }
+        },
+        {
+            "name": "fk brokerageAccount.brokerageId to positions.brokerageId",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                    "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                    "3c11fde7-04e0-4941-8e26-ae1555314343"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+                    "18619520-5317-4119-93dd-fe1e31198f00",
+                    "e633e59d-3577-4f4c-8b87-e0fee0faa9df"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "0..n",
+            "parentCollection": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+            "childCollection": "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk brokerageAccount.brokerageId to positions.brokerageId",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "21348f4c-f553-4fb6-a8c2-b77ca7520cbe"
+            ],
+            "ref": "21348f4c-f553-4fb6-a8c2-b77ca7520cbe",
+            "GUID": "abf263f2-a72e-46f9-a09e-a4456c48aa89",
+            "hackoladeStyles": {
+                "GUID": "f185fcb7-38c9-45c6-b9f3-449cc3a9c2de",
+                "autoPositioning": true,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1769.7037411655606,
+                        "y": 1640.5770138761256
+                    },
+                    {
+                        "x": 1769.7037411655606,
+                        "y": 1607.2885069380627
+                    },
+                    {
+                        "x": 1769.5,
+                        "y": 1607.2885069380627
+                    },
+                    {
+                        "x": 1769.5,
+                        "y": 1574
+                    }
+                ],
+                "sides": [
+                    "top",
+                    "bottom"
+                ]
+            }
+        },
+        {
+            "name": "fk checkingAccount.checkingId to accountsSuper.checkingAccount",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                    "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                    "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "71687546-1c70-440b-b90a-5e69f76d1117",
+                    "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                    "499ab95d-fd5e-420b-ab3a-a67eaca3c71d"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+            "childCollection": "71687546-1c70-440b-b90a-5e69f76d1117",
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk checkingAccount.checkingId to accountsSuper.checkingAccount",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "9ba52a84-1e0a-42d0-9675-34ce4e935212"
+            ],
+            "ref": "9ba52a84-1e0a-42d0-9675-34ce4e935212",
+            "GUID": "cbf9f7f0-29fb-4533-9e83-13887d367210",
+            "hackoladeStyles": {
+                "GUID": "0ccffa9c-6beb-4959-8ab6-57787772ebd1",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1405.3,
+                        "y": 1366
+                    },
+                    {
+                        "x": 1405.3,
+                        "y": 1432.5
+                    },
+                    {
+                        "x": 1179.19541883016,
+                        "y": 1432.5
+                    },
+                    {
+                        "x": 1179.19541883016,
+                        "y": 1490
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ]
+            }
+        },
+        {
+            "name": "fk savingsAccount.savingsId to accountsSuper.savingsAccount",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                    "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                    "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "71687546-1c70-440b-b90a-5e69f76d1117",
+                    "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                    "44a939c2-33ff-4f5a-85a0-7501b8c4209f"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "d7727684-e0c0-42de-a90c-3986f13c8a89",
+            "childCollection": "71687546-1c70-440b-b90a-5e69f76d1117",
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk savingsAccount.savingsId to accountsSuper.savingsAccount",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "1af78493-f102-47e8-88d0-3b8b821f5e1b"
+            ],
+            "ref": "1af78493-f102-47e8-88d0-3b8b821f5e1b",
+            "GUID": "937fffef-89e0-4e95-9fbf-49549c84761a",
+            "hackoladeStyles": {
+                "GUID": "e02d6c15-5b04-4dde-8f75-a929f4a43dd8",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1463.660613883643,
+                        "y": 1366
+                    },
+                    {
+                        "x": 1463.660613883643,
+                        "y": 1490
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ]
+            }
+        },
+        {
+            "name": "fk brokerageAccount.brokerageId to accountsSuper.brokerageAccount",
+            "relationshipType": "Foreign Key",
+            "parentField": [
+                [
+                    "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                    "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                    "3c11fde7-04e0-4941-8e26-ae1555314343"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childField": [
+                [
+                    "71687546-1c70-440b-b90a-5e69f76d1117",
+                    "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                    "29df0870-9bd8-4a2c-b406-300b5253918c"
+                ]
+            ],
+            "isActivated": true,
+            "childCardinality": "1",
+            "parentCollection": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+            "childCollection": "71687546-1c70-440b-b90a-5e69f76d1117",
+            "type": "reference",
+            "refType": "polyglot",
+            "$ref": "#external/definitions/fk brokerageAccount.brokerageId to accountsSuper.brokerageAccount",
+            "refIdPath": [
+                "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+                "3cac0c25-8c4a-4239-9a38-2c28708f4ec4",
+                "18440c08-812c-4688-9086-808812cd1003"
+            ],
+            "ref": "18440c08-812c-4688-9086-808812cd1003",
+            "GUID": "16911b37-375a-413a-b0d2-ac17ae396df3",
+            "hackoladeStyles": {
+                "GUID": "3f39697e-5d7a-4803-bb38-6136acd638df",
+                "autoPositioning": false,
+                "type": "Orthogonal",
+                "thickness": 2,
+                "color": "#79c4ff",
+                "dataType": "",
+                "shape": [
+                    {
+                        "x": 1518.7026507786134,
+                        "y": 1366
+                    },
+                    {
+                        "x": 1518.7026507786134,
+                        "y": 1428
+                    },
+                    {
+                        "x": 1769.5,
+                        "y": 1428
+                    },
+                    {
+                        "x": 1769.5,
+                        "y": 1490
+                    }
+                ],
+                "sides": [
+                    "bottom",
+                    "top"
+                ]
+            }
+        }
+    ],
+    "users": [],
+    "diagramViews": [],
+    "idToNameHashTable": {
+        "71687546-1c70-440b-b90a-5e69f76d1117": "accountsSuper",
+        "1ac7a0db-2539-4101-948d-d5be8dc31f7a": "person",
+        "b0392b38-0c92-4dba-9025-8a9356bf6b3e": "checkingAccount",
+        "d7727684-e0c0-42de-a90c-3986f13c8a89": "savingsAccount",
+        "aea0367f-ab95-42df-9ab9-cde44fe90acb": "brokerageAccount",
+        "ae96be62-e87d-4d95-8a4b-3989d935e6cd": "positions",
+        "d32d1aae-be0c-4af8-a4c7-dacc194865f1": "polymorphism data",
+        "72f9d47b-3303-45b5-a75c-3649de194d99": "fk person.id to accountsSuper.person",
+        "abf263f2-a72e-46f9-a09e-a4456c48aa89": "fk brokerageAccount.brokerageId to positions.brokerageId",
+        "cbf9f7f0-29fb-4533-9e83-13887d367210": "fk checkingAccount.checkingId to accountsSuper.checkingAccount",
+        "937fffef-89e0-4e95-9fbf-49549c84761a": "fk savingsAccount.savingsId to accountsSuper.savingsAccount",
+        "16911b37-375a-413a-b0d2-ac17ae396df3": "fk brokerageAccount.brokerageId to accountsSuper.brokerageAccount",
+        "64bbcf27-8740-423d-bea9-2b1fba99a2d9": "personWithAccountsV",
+        "a32d72dd-6c65-4985-9565-d151185fb274": "id",
+        "3018df27-c5cf-437d-9e64-0dc7546543d0": "name",
+        "badbe2ab-78f5-4116-b70d-b782d4bbcba3": "JSON",
+        "cadf0545-e6ec-40e6-9573-b77490c46cda": "id",
+        "278ae046-8ec7-4ef4-a4a1-0b25a93e44ff": "balance",
+        "4c4664d0-055e-4428-9304-fc8644242205": "monthlyFee",
+        "2eb0c246-de6d-4be8-aa34-a402ab81f330": "JSON",
+        "24f95e2c-f01c-4fbd-8382-b9128e7f4d11": "checkingId",
+        "663069f4-cdbc-4ac3-b2b1-78327711814b": "overdraftLimit",
+        "1e431a9d-c910-4fcd-89af-1712654a7b73": "JSON",
+        "e98fcd9c-7e5e-46ca-96b4-71f0faa9adf1": "savingsId",
+        "9fc1b184-a122-4138-9744-04a91c0f6c26": "interestRate",
+        "86dcce78-2644-4ee9-94ac-dd2693fc505d": "JSON",
+        "11e50ef3-fcb7-42e4-b605-06613a13470e": "brokerageId",
+        "c9fb72a9-ef42-40ba-8bd1-81aee825c739": "tradingLimit",
+        "fee875bb-d3d2-48a2-a7db-8063f54f1bd2": "marginAllowed",
+        "10500a90-e5eb-48ed-b2ab-1710d8b6f2a1": "JSON",
+        "f700d915-fe41-4362-91b0-841f4ac0be46": "pid",
+        "64f45257-77b3-4463-8fee-8505619c4a30": "quantity",
+        "00bd03d5-6773-4240-bf2c-f09622572077": "symbol"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "46ce6ef9-d019-4a3e-8565-7ece7dd3b024"
+    },
+    "polyglotDefinitions": {
+        "type": "polyglotDefinitions",
+        "properties": [
+            {
+                "collectionName": "accountsSuper",
+                "type": "object",
+                "properties": [
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": true,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "id",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "cbf81e27-692a-45ca-93f4-87a885820a44",
+                        "required": true,
+                        "sample": 1,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "person",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "c77235d6-53b0-4c4a-870d-06d537c7b915",
+                        "required": true,
+                        "sample": 1,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "foreignCollection": "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                        "foreignField": [
+                            "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                            "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "balance",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "d25b71a9-c356-49c1-b292-6196750fa499",
+                        "required": true,
+                        "sample": 55000,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "monthlyFee",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "0d789a4b-7fd3-4251-800e-3762ad9b85c7",
+                        "required": true,
+                        "sample": 0,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "checkingAccount",
+                        "hackoladeMeta": {
+                            "validationErrors": {}
+                        },
+                        "isActivated": true,
+                        "GUID": "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
+                        "required": true,
+                        "sample": 1,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "foreignCollection": "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                        "foreignField": [
+                            "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                            "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "savingsAccount",
+                        "hackoladeMeta": {
+                            "validationErrors": {}
+                        },
+                        "isActivated": true,
+                        "GUID": "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
+                        "required": true,
+                        "sample": 1,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "foreignCollection": "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                        "foreignField": [
+                            "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                            "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "brokerageAccount",
+                        "hackoladeMeta": {
+                            "validationErrors": {}
+                        },
+                        "isActivated": true,
+                        "GUID": "29df0870-9bd8-4a2c-b406-300b5253918c",
+                        "required": true,
+                        "sample": 1,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "foreignCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                        "foreignField": [
+                            "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                            "3c11fde7-04e0-4941-8e26-ae1555314343"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "GUID": "99a5e124-1da8-478f-966b-e6b544a6b6f9",
+                    "properties": []
+                },
+                "isActivated": true,
+                "additionalProperties": true,
+                "GUID": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "definitionEntityType": "collection",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "71687546-1c70-440b-b90a-5e69f76d1117"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "person",
+                "type": "object",
+                "properties": [
+                    {
+                        "primaryKey": true,
+                        "mode": "varchar2",
+                        "length": 20,
+                        "subtype": "string",
+                        "childType": "char",
+                        "type": "string",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "id",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d",
+                        "required": true,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "varchar2",
+                        "length": 50,
+                        "subtype": "string",
+                        "childType": "char",
+                        "type": "string",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "name",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "a43f3ccd-f3a9-4957-9cd0-bda8b08a79fd",
+                        "required": true,
+                        "sample": "Jim",
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "ac14f6c3-e040-42cd-9be2-3246bf614a10"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "temporary": false,
+                "temporaryType": "global",
+                "sharded": false,
+                "duplicated": false,
+                "immutable": false,
+                "GUID": "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                "code": "person",
+                "normalizationSourceFieldId": "c77235d6-53b0-4c4a-870d-06d537c7b915",
+                "definitionEntityType": "collection",
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/person",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionRefs": [
+                    [
+                        "1ac7a0db-2539-4101-948d-d5be8dc31f7a"
+                    ]
+                ]
+            },
+            {
+                "name": "fk person.id to accountsSuper.person",
+                "relationshipType": "Foreign Key",
+                "parentField": [
+                    [
+                        "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                        "9f44a0a6-669d-4dba-9ce1-0bd129d3c03d"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childField": [
+                    [
+                        "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                        "c77235d6-53b0-4c4a-870d-06d537c7b915"
+                    ]
+                ],
+                "isActivated": true,
+                "childCardinality": "1",
+                "parentCollection": "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                "childCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "GUID": "883c3f81-5a40-46d4-b345-db0d5ac91f42",
+                "definitionEntityType": "relationship",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "72f9d47b-3303-45b5-a75c-3649de194d99"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "checkingAccount",
+                "type": "object",
+                "properties": [
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": true,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "checkingId",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c",
+                        "required": true,
+                        "sample": 2,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "overdraftLimit",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "37001c3c-f988-43a2-bf31-2f8404591860",
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "24784150-4f2b-40d7-9773-06811d9c763a"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "temporary": false,
+                "temporaryType": "global",
+                "sharded": false,
+                "duplicated": false,
+                "immutable": false,
+                "GUID": "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                "code": "checkingAccount",
+                "normalizationSourceFieldId": "499ab95d-fd5e-420b-ab3a-a67eaca3c71d",
+                "definitionEntityType": "collection",
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/checkingAccount",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionRefs": [
+                    [
+                        "b0392b38-0c92-4dba-9025-8a9356bf6b3e"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "savingsAccount",
+                "type": "object",
+                "properties": [
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": true,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "savingsId",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca",
+                        "required": true,
+                        "sample": 2,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "interestRate",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "d35ad919-d981-43b0-82be-1afcb7e4a0bd",
+                        "required": false,
+                        "sample": 3.25,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "ddccb6fa-36ac-44d8-bf92-5203fe635b3d"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "temporary": false,
+                "temporaryType": "global",
+                "sharded": false,
+                "duplicated": false,
+                "immutable": false,
+                "GUID": "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                "code": "savingsAccount",
+                "normalizationSourceFieldId": "44a939c2-33ff-4f5a-85a0-7501b8c4209f",
+                "definitionEntityType": "collection",
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/savingsAccount",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionRefs": [
+                    [
+                        "d7727684-e0c0-42de-a90c-3986f13c8a89"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "brokerageAccount",
+                "type": "object",
+                "properties": [
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": true,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "brokerageId",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "3c11fde7-04e0-4941-8e26-ae1555314343",
+                        "required": true,
+                        "sample": 3,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "tradingLimit",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "99f892cb-cf54-4426-b92b-221b1706e57e",
+                        "required": false,
+                        "sample": 5000,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "nvarchar2",
+                        "length": 20,
+                        "subtype": "string",
+                        "childType": "char",
+                        "type": "char",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "marginAllowed",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "fe7918b5-e9c2-4d4f-8a80-3e127d2b7b6c",
+                        "required": false,
+                        "sample": false,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "1b011dde-030d-46db-8a1a-38831c59f897"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "temporary": false,
+                "temporaryType": "global",
+                "sharded": false,
+                "duplicated": false,
+                "immutable": false,
+                "GUID": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                "code": "brokerageAccount",
+                "normalizationSourceFieldId": "29df0870-9bd8-4a2c-b406-300b5253918c",
+                "definitionEntityType": "collection",
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/brokerageAccount",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionRefs": [
+                    [
+                        "aea0367f-ab95-42df-9ab9-cde44fe90acb"
+                    ]
+                ]
+            },
+            {
+                "collectionName": "positions",
+                "type": "object",
+                "properties": [
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": true,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "id",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "d8780b28-3925-4c4e-98be-d23426eb272b",
+                        "required": true,
+                        "sample": 3,
+                        "foreignCollection": "",
+                        "foreignField": [],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "brokerageId",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "e633e59d-3577-4f4c-8b87-e0fee0faa9df",
+                        "required": true,
+                        "sample": 3,
+                        "foreignCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                        "foreignField": [
+                            "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                            "3c11fde7-04e0-4941-8e26-ae1555314343"
+                        ],
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "relationshipType": "Foreign Key",
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "pid",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "38fe9228-e5db-4f7c-a3c1-6f75d088f260",
+                        "required": true,
+                        "sample": 2,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "exclusiveMinimum": false,
+                        "exclusiveMaximum": false,
+                        "primaryKey": false,
+                        "mode": "number",
+                        "childType": "number",
+                        "type": "numeric",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "quantity",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "066b11da-a6d3-41cb-88ab-30ba69eda626",
+                        "required": true,
+                        "sample": 30,
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    },
+                    {
+                        "primaryKey": false,
+                        "mode": "varchar2",
+                        "length": 5,
+                        "subtype": "string",
+                        "childType": "char",
+                        "type": "string",
+                        "partitionKey": false,
+                        "compositePartitionKey": false,
+                        "compositePrimaryKey": false,
+                        "compositeUniqueKey": false,
+                        "name": "symbol",
+                        "hackoladeMeta": {},
+                        "isActivated": true,
+                        "GUID": "16a2e5f6-b68b-4e02-88ed-2c957d10f24d",
+                        "required": true,
+                        "sample": "HCKLD",
+                        "compositeKey": [
+                            "partitionKey",
+                            "compositePartitionKey",
+                            "compositePrimaryKey",
+                            "compositeUniqueKey"
+                        ],
+                        "error": {}
+                    }
+                ],
+                "definitions": {
+                    "type": "definitions",
+                    "properties": [],
+                    "GUID": "669c8586-91c1-429a-baf1-c1bea487efc7"
+                },
+                "isActivated": true,
+                "additionalProperties": false,
+                "temporary": false,
+                "temporaryType": "global",
+                "sharded": false,
+                "duplicated": false,
+                "immutable": false,
+                "GUID": "18619520-5317-4119-93dd-fe1e31198f00",
+                "code": "positions",
+                "normalizationSourceFieldId": "ca258b8b-3203-472b-ab02-6a3948aae940",
+                "definitionEntityType": "collection",
+                "bucketId": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "normalizationSourceCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/brokerageAccount/properties/positions",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "definitionRefs": [
+                    [
+                        "ae96be62-e87d-4d95-8a4b-3989d935e6cd"
+                    ]
+                ]
+            },
+            {
+                "name": "fk brokerageAccount.brokerageId to positions.brokerageId",
+                "relationshipType": "Foreign Key",
+                "parentField": [
+                    [
+                        "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                        "3c11fde7-04e0-4941-8e26-ae1555314343"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childField": [
+                    [
+                        "18619520-5317-4119-93dd-fe1e31198f00",
+                        "e633e59d-3577-4f4c-8b87-e0fee0faa9df"
+                    ]
+                ],
+                "isActivated": true,
+                "childCardinality": "0..n",
+                "parentCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                "childCollection": "18619520-5317-4119-93dd-fe1e31198f00",
+                "GUID": "21348f4c-f553-4fb6-a8c2-b77ca7520cbe",
+                "definitionEntityType": "relationship",
+                "normalizationSourceCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper/properties/brokerageAccount",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "abf263f2-a72e-46f9-a09e-a4456c48aa89"
+                    ]
+                ]
+            },
+            {
+                "name": "fk checkingAccount.checkingId to accountsSuper.checkingAccount",
+                "relationshipType": "Foreign Key",
+                "parentField": [
+                    [
+                        "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                        "bb1c2965-6e1d-41e2-b21d-e3e7b715e77c"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childField": [
+                    [
+                        "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                        "499ab95d-fd5e-420b-ab3a-a67eaca3c71d"
+                    ]
+                ],
+                "isActivated": true,
+                "childCardinality": "1",
+                "parentCollection": "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                "childCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "GUID": "9ba52a84-1e0a-42d0-9675-34ce4e935212",
+                "definitionEntityType": "relationship",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "cbf9f7f0-29fb-4533-9e83-13887d367210"
+                    ]
+                ]
+            },
+            {
+                "name": "fk savingsAccount.savingsId to accountsSuper.savingsAccount",
+                "relationshipType": "Foreign Key",
+                "parentField": [
+                    [
+                        "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                        "0dd62a74-40e8-4f1b-8986-8ed0f5a416ca"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childField": [
+                    [
+                        "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                        "44a939c2-33ff-4f5a-85a0-7501b8c4209f"
+                    ]
+                ],
+                "isActivated": true,
+                "childCardinality": "1",
+                "parentCollection": "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                "childCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "GUID": "1af78493-f102-47e8-88d0-3b8b821f5e1b",
+                "definitionEntityType": "relationship",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "937fffef-89e0-4e95-9fbf-49549c84761a"
+                    ]
+                ]
+            },
+            {
+                "name": "fk brokerageAccount.brokerageId to accountsSuper.brokerageAccount",
+                "relationshipType": "Foreign Key",
+                "parentField": [
+                    [
+                        "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                        "3c11fde7-04e0-4941-8e26-ae1555314343"
+                    ]
+                ],
+                "parentCardinality": "1",
+                "childField": [
+                    [
+                        "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                        "29df0870-9bd8-4a2c-b406-300b5253918c"
+                    ]
+                ],
+                "isActivated": true,
+                "childCardinality": "1",
+                "parentCollection": "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                "childCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "GUID": "18440c08-812c-4688-9086-808812cd1003",
+                "definitionEntityType": "relationship",
+                "normalizationSourceCollection": "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                "fieldRelativePath": "#/polymorphism data/accountsSuper",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "16911b37-375a-413a-b0d2-ac17ae396df3"
+                    ]
+                ]
+            },
+            {
+                "name": "polymorphism data",
+                "type": "bucket",
+                "collectionIds": [
+                    "ef0b4d63-7b65-4133-8af0-2a5370ac12c9",
+                    "e53b8823-3e8d-4053-8f18-4a4a82414b56",
+                    "0f2c5a3a-fa14-4b09-9776-4df5a2587ff8",
+                    "b5b07df8-fe25-46cf-aee0-411dce367e66",
+                    "f588a49e-1f5e-43a7-8929-a6f16ba8f67f",
+                    "18619520-5317-4119-93dd-fe1e31198f00"
+                ],
+                "backgroundColor": {
+                    "r": 255,
+                    "g": 255,
+                    "b": 255,
+                    "a": 1
+                },
+                "show": true,
+                "isActivated": true,
+                "indexes": [],
+                "GUID": "9c699c5b-7258-448e-831e-5e163d5e3697",
+                "hackoladeMeta": {
+                    "validationErrors": {}
+                },
+                "code": "",
+                "definitionEntityType": "bucket",
+                "link": "polymorphism (polyglot).hck.json",
+                "kind": "relativePath",
+                "fieldRelativePath": "#/polymorphism data",
+                "fileType": "hackoladeSchema",
+                "definitionRefs": [
+                    [
+                        "d32d1aae-be0c-4af8-a4c7-dacc194865f1"
+                    ]
+                ]
+            }
+        ],
+        "GUID": "3cac0c25-8c4a-4239-9a38-2c28708f4ec4"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "d2f9f999-b510-489d-aba6-06127168daae"
+    },
+    "sources": [],
+    "decorativeSymbols": [],
+    "dbVersion": "23ai",
+    "dbVendor": "Oracle",
+    "appTarget": "Oracle",
+    "creationTS": "2024-06-24T16:46:44.571Z",
+    "GUID": "4bca31d4-9a4f-49c4-b84b-b85d0a01c51d",
+    "isLineageEnabled": false,
+    "polyglotModelPaths": [
+        {
+            "GUID": "b274c3ef-d9b1-4a29-bd43-8c1a60ce6243",
+            "polyglotModelName": "polymorphism (polyglot).hck",
+            "polyglotModelPath": "polymorphism (polyglot).hck.json",
+            "normalization": true
+        }
+    ],
+    "hackoladeMeta": {
+        "validationErrors": {
+            "dbVersion": false
+        }
+    },
+    "lastModifTS": "2024-06-25T06:26:15.041Z",
+    "persistenceSchemaVersion": "7",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Oracle",
+        "pluginVersion": "0.2.2",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "7.5.0"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "71687546-1c70-440b-b90a-5e69f76d1117",
+                        "x": 1323.3,
+                        "y": 1210,
+                        "width": 274,
+                        "height": 156,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "1ac7a0db-2539-4101-948d-d5be8dc31f7a",
+                        "x": 1657.7791449468114,
+                        "y": 1255,
+                        "width": 217,
+                        "height": 66,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "b0392b38-0c92-4dba-9025-8a9356bf6b3e",
+                        "x": 1062.19541883016,
+                        "y": 1490,
+                        "width": 234,
+                        "height": 66,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "d7727684-e0c0-42de-a90c-3986f13c8a89",
+                        "x": 1352,
+                        "y": 1490,
+                        "width": 227,
+                        "height": 66,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "aea0367f-ab95-42df-9ab9-cde44fe90acb",
+                        "x": 1635,
+                        "y": 1490,
+                        "width": 269,
+                        "height": 84,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "ae96be62-e87d-4d95-8a4b-3989d935e6cd",
+                        "x": 1650.7037411655606,
+                        "y": 1640.5770138761256,
+                        "width": 238,
+                        "height": 120,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    },
+                    {
+                        "GUID": "64bbcf27-8740-423d-bea9-2b1fba99a2d9",
+                        "x": 1179.0972541447543,
+                        "y": 1596.6033788706538,
+                        "width": 342,
+                        "height": 393,
+                        "color": {
+                            "hex": "#a9a9a9"
+                        }
+                    }
+                ],
+                "erdDefinitions": {
+                    "erd": [],
+                    "rootPath": [],
+                    "entities": [],
+                    "decorativeSymbols": []
+                },
+                "buckets": [
+                    {
+                        "x": 1022.19541883016,
+                        "y": 1170,
+                        "GUID": "d32d1aae-be0c-4af8-a4c7-dacc194865f1"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "diagramViews": [],
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": [],
+                "relationshipUpdateDisabled": false,
+                "displayOptions": {
+                    "dndHandles": false
+                }
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "shouldDistributeCollections": false
+        }
+    }
+}
