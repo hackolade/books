@@ -1,6 +1,6 @@
 # Oracle Database 23ai - Data Modeling and Schema Design for JSON-Relational Duality
 
-This repository contains the data models used to illustrate the book "MongoDB Data Modeling and Schema Design" of the series Align > Design > Refine 
+This repository contains the data models used to illustrate the book "Oracle Database 23ai - Data Modeling and Schema Design for JSON-Relational Duality" of the series Align > Design > Refine 
 
 Purchase your copy of the book on: 
 
