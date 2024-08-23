@@ -11,19 +11,15 @@
                     "isActivated": true,
                     "primaryKey": true,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "0f75d87e-8b88-47c6-ac5c-014d6099b307"
                     },
                     "synonym": "",
-                    "required": false,
+                    "required": true,
                     "GUID": "9c5ec5b6-fbd8-4990-a0b0-f2d631c97f5c",
                     "primaryKeyOptions": {
                         "GUID": "cd7bd441-a19e-4789-9a11-8f868e077103",
@@ -46,7 +42,6 @@
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "50f3c1b8-8618-42e5-8708-8a898a3c931d"
                     },
@@ -68,7 +63,6 @@
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "f60ca451-06a9-4325-be1a-b7ec9f50aa43"
                     },
@@ -98,7 +92,6 @@
                     "partitionKey": false,
                     "compositePartitionKey": false,
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "GUID": "e57d77e9-b886-42f5-84fd-35883db42459",
                     "error": {}
                 }
@@ -111,9 +104,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "temporary": false,
-            "temporaryType": "global",
             "sharded": false,
-            "duplicated": false,
             "immutable": false,
             "GUID": "7321ea93-db54-4408-b141-69d87be649e1",
             "code": "",
@@ -138,19 +129,15 @@
                     "isActivated": true,
                     "primaryKey": true,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "d8e8a61b-b659-4c3f-aa3f-e94f1f4bed47"
                     },
                     "synonym": "",
-                    "required": false,
+                    "required": true,
                     "GUID": "4be79747-9f85-4361-adbe-4222563b3ede",
                     "primaryKeyOptions": {
                         "GUID": "3af4e51a-c363-45fa-a78c-880e7353169d",
@@ -173,7 +160,6 @@
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "baacc3cd-9bd9-432b-bae9-7d364ea5a063"
                     },
@@ -191,11 +177,9 @@
                     "unique": false,
                     "mode": "varchar2",
                     "length": 10,
-                    "subtype": "string",
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "563b44bd-5947-4b09-8ffb-f44fa0235281"
                     },
@@ -214,9 +198,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "temporary": false,
-            "temporaryType": "global",
             "sharded": false,
-            "duplicated": false,
             "immutable": false,
             "GUID": "6ca10029-ebcc-4ec8-9f8b-4ae4845b9855",
             "code": "",
@@ -241,19 +223,15 @@
                     "isActivated": true,
                     "primaryKey": true,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "73b6935d-6916-4538-9c73-8681629d373a"
                     },
                     "synonym": "",
-                    "required": false,
+                    "required": true,
                     "GUID": "559cd51d-dd8c-4dbc-9298-d5b2127de8ec",
                     "primaryKeyOptions": {
                         "GUID": "270a19cb-564f-4702-a650-da0d94f640dc",
@@ -272,11 +250,9 @@
                     "unique": false,
                     "mode": "varchar2",
                     "length": 128,
-                    "subtype": "string",
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "80e5f744-a531-4207-99d5-18debcc25aaa"
                     },
@@ -294,11 +270,9 @@
                     "unique": false,
                     "mode": "varchar2",
                     "length": 128,
-                    "subtype": "string",
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "476e4e34-29f2-4023-ae7b-f3863ebd63f6"
                     },
@@ -316,11 +290,9 @@
                     "unique": false,
                     "mode": "varchar2",
                     "length": 128,
-                    "subtype": "string",
                     "childType": "char",
                     "type": "string",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "encryption": {
                         "GUID": "14de0f43-3273-47b6-922b-124d7b5493ad"
                     },
@@ -336,13 +308,10 @@
                     "isActivated": true,
                     "primaryKey": false,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "a9390b93-0342-4d96-81e0-92fbaf99f680"
@@ -368,9 +337,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "temporary": false,
-            "temporaryType": "global",
             "sharded": false,
-            "duplicated": false,
             "immutable": false,
             "GUID": "3afe5282-66ad-4d5b-9fe4-41cbdaf87999",
             "code": "",
@@ -395,19 +362,15 @@
                     "isActivated": true,
                     "primaryKey": true,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
-                    "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "d9bb99b9-0eaf-4799-a0e2-38c618be7e56"
                     },
                     "synonym": "",
-                    "required": false,
+                    "required": true,
                     "GUID": "e19e81b2-cb0a-442f-a922-e5888c5a7850",
                     "primaryKeyOptions": {
                         "GUID": "1de435a2-31b8-4bea-9fd7-78e4a531cb1f",
@@ -421,13 +384,10 @@
                     "isActivated": true,
                     "primaryKey": false,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "fe48d7f0-a32b-4fb4-b978-b1d1ba63e227"
@@ -450,13 +410,10 @@
                     "isActivated": true,
                     "primaryKey": false,
                     "unique": false,
-                    "exclusiveMinimum": false,
-                    "exclusiveMaximum": false,
                     "mode": "number",
                     "childType": "number",
                     "type": "numeric",
                     "compositePrimaryKey": false,
-                    "compositeUniqueKey": false,
                     "default": "",
                     "identity": {
                         "GUID": "fb0f4e80-b4c5-4299-8079-c6c22db1012e"
@@ -482,9 +439,7 @@
             "isActivated": true,
             "additionalProperties": false,
             "temporary": false,
-            "temporaryType": "global",
             "sharded": false,
-            "duplicated": false,
             "immutable": false,
             "GUID": "64470261-3c32-47d4-8936-d9454441672f",
             "code": "",
@@ -502,7 +457,7 @@
     ],
     "buckets": [
         {
-            "name": "PUBLIC",
+            "name": "DMZ",
             "type": "bucket",
             "collectionIds": [
                 "7321ea93-db54-4408-b141-69d87be649e1",
@@ -541,8 +496,9 @@
                     "isActivated": true,
                     "referencedColumnName": "sid",
                     "error": {
-                        "name": false
-                    }
+                        "primaryKey": false
+                    },
+                    "primaryKey": true
                 },
                 {
                     "GUID": "0f21fe7d-0dfb-411a-bdb7-7217515565c1",
@@ -615,8 +571,9 @@
                     "isActivated": true,
                     "referencedColumnName": "aid",
                     "error": {
-                        "name": false
-                    }
+                        "primaryKey": false
+                    },
+                    "primaryKey": true
                 },
                 {
                     "GUID": "24465a77-04ee-47fe-ac76-fcfdb98b31a5",
@@ -666,8 +623,12 @@
                     "isActivated": true,
                     "referencedColumnName": "aid",
                     "error": {
-                        "name": false
-                    }
+                        "primaryKey": false
+                    },
+                    "columnTagsClause": {
+                        "GUID": "fe461278-bb9d-49c5-b2ef-60d3fa5e29ba"
+                    },
+                    "primaryKey": true
                 },
                 {
                     "GUID": "6ae23c8f-c942-4eba-9912-7400e9ba5537",
@@ -804,14 +765,31 @@
                                                         "name": false
                                                     },
                                                     "name": "speaker"
+                                                },
+                                                {
+                                                    "GUID": "a570b8f2-f05a-41f7-b3d5-2729796d671c",
+                                                    "type": "reference",
+                                                    "ref": "4be79747-9f85-4361-adbe-4222563b3ede",
+                                                    "refType": "collectionReference",
+                                                    "refIdPath": [
+                                                        "6ca10029-ebcc-4ec8-9f8b-4ae4845b9855",
+                                                        "4be79747-9f85-4361-adbe-4222563b3ede"
+                                                    ],
+                                                    "isActivated": true,
+                                                    "referencedColumnName": "sid",
+                                                    "error": {
+                                                        "name": false
+                                                    },
+                                                    "name": "speaker_id"
                                                 }
                                             ],
-                                            "name": "sepaker",
+                                            "name": "speaker",
                                             "unnestSubquery": false,
                                             "joinedCollectionRefIdPath": [
                                                 "6ca10029-ebcc-4ec8-9f8b-4ae4845b9855"
                                             ],
                                             "childTableAlias": "s",
+                                            "whereClause": "\"s\".\"sid\" = \"sessions\".\"speaker_id\"",
                                             "error": {}
                                         }
                                     ],
@@ -820,6 +798,21 @@
                                         "3afe5282-66ad-4d5b-9fe4-41cbdaf87999"
                                     ],
                                     "unnestSubquery": false,
+                                    "whereClause": "\"sessions\".\"ssid\" = \"schedule\".\"session_id\"",
+                                    "error": {}
+                                },
+                                {
+                                    "GUID": "8eaccaed-2667-4824-b58d-c38b969ddd5c",
+                                    "type": "reference",
+                                    "name": "schedule_id",
+                                    "ref": "e19e81b2-cb0a-442f-a922-e5888c5a7850",
+                                    "refType": "collectionReference",
+                                    "refIdPath": [
+                                        "64470261-3c32-47d4-8936-d9454441672f",
+                                        "e19e81b2-cb0a-442f-a922-e5888c5a7850"
+                                    ],
+                                    "isActivated": true,
+                                    "referencedColumnName": "schedule_id",
                                     "error": {}
                                 }
                             ],
@@ -844,13 +837,14 @@
                         "64470261-3c32-47d4-8936-d9454441672f"
                     ],
                     "additionalItems": true,
-                    "error": {},
                     "tableTagsClause": {
                         "GUID": "de88d454-3308-43b8-b07f-1147184bd29b",
                         "insert": "insert",
                         "update": "update",
                         "delete": "delete"
-                    }
+                    },
+                    "whereClause": "\"schedule\".\"attendee_id\" = \"a\".\"aid\"",
+                    "error": {}
                 }
             ],
             "isActivated": true,
@@ -906,20 +900,12 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1364.9608282271568,
-                        "y": 1403.52486680618
+                        "x": 1408,
+                        "y": 1404
                     },
                     {
-                        "x": 1398.9608282271568,
-                        "y": 1403.52486680618
-                    },
-                    {
-                        "x": 1398.9608282271568,
-                        "y": 1403.52486680618
-                    },
-                    {
-                        "x": 1432.9608282271568,
-                        "y": 1403.52486680618
+                        "x": 1499,
+                        "y": 1404
                     }
                 ],
                 "sides": [
@@ -958,20 +944,20 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1350.9608282271568,
-                        "y": 1233.52486680618
+                        "x": 1394,
+                        "y": 1234
                     },
                     {
-                        "x": 1381.9608282271568,
-                        "y": 1233.52486680618
+                        "x": 1441,
+                        "y": 1234
                     },
                     {
-                        "x": 1381.9608282271568,
-                        "y": 1233.02486680618
+                        "x": 1441,
+                        "y": 1233.5
                     },
                     {
-                        "x": 1412.9608282271568,
-                        "y": 1233.02486680618
+                        "x": 1488,
+                        "y": 1233.5
                     }
                 ],
                 "sides": [
@@ -1010,20 +996,12 @@
                 "dataType": "",
                 "shape": [
                     {
-                        "x": 1254.9608282271568,
-                        "y": 1275.52486680618
+                        "x": 1275.5,
+                        "y": 1276
                     },
                     {
-                        "x": 1254.9608282271568,
-                        "y": 1309.52486680618
-                    },
-                    {
-                        "x": 1254.9608282271568,
-                        "y": 1309.52486680618
-                    },
-                    {
-                        "x": 1254.9608282271568,
-                        "y": 1343.52486680618
+                        "x": 1275.5,
+                        "y": 1344
                     }
                 ],
                 "sides": [
@@ -1036,7 +1014,7 @@
     "users": [],
     "diagramViews": [],
     "idToNameHashTable": {
-        "a2580827-9bfd-49dc-a4d2-254c02c125a8": "PUBLIC",
+        "a2580827-9bfd-49dc-a4d2-254c02c125a8": "DMZ",
         "9c5ec5b6-fbd8-4990-a0b0-f2d631c97f5c": "aid",
         "82dc7045-0b4a-4c64-944d-fda2d7373440": "name",
         "a2e762c7-529c-405c-b199-ee0bbfb6d96d": "free_ticket",
@@ -1102,7 +1080,7 @@
         "a9452bdc-55a4-48a5-a71b-d9536cb1ed7a": "session",
         "4841317a-4c3a-4a08-bd31-9b5a22704955": "room",
         "d3ee5534-e424-410a-a7cc-896ff22cf510": "time",
-        "afc361a2-ff23-420a-89a8-54a4a7c89230": "sepaker",
+        "afc361a2-ff23-420a-89a8-54a4a7c89230": "speaker",
         "425df22d-ed3f-4c85-a423-752028c9f5ab": "speaker",
         "206b11ba-4212-4c94-b978-2f4e9c95104d": "speakerDview",
         "516d5b8b-dc8c-428c-a27e-1640f0cff7ad": "_id",
@@ -1147,7 +1125,9 @@
         "af5acb74-3cf8-49b6-aeea-d752e16af8bc": "code",
         "71ea712b-9cb5-48a5-9a89-8c4553b410f3": "session",
         "34bc4027-0992-4513-8c59-1a01f50c39b4": "room",
-        "6e261dab-fb7a-427f-9b22-98f926f3f1fb": "time"
+        "6e261dab-fb7a-427f-9b22-98f926f3f1fb": "time",
+        "8eaccaed-2667-4824-b58d-c38b969ddd5c": "schedule_id",
+        "a570b8f2-f05a-41f7-b3d5-2729796d671c": "speaker_id"
     },
     "definitions": {
         "type": "definitions",
@@ -1166,7 +1146,7 @@
     },
     "sources": [],
     "decorativeSymbols": [],
-    "dbVersion": "23c",
+    "dbVersion": "23ai",
     "dbVendor": "Oracle",
     "appTarget": "Oracle",
     "creationTS": "2024-01-27T03:39:50.142Z",
@@ -1178,16 +1158,16 @@
             "dbVersion": false
         }
     },
-    "lastModifTS": "2024-02-29T21:01:25.611Z",
+    "lastModifTS": "2024-08-22T07:18:31.481Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Oracle",
-        "pluginVersion": "0.1.38",
+        "pluginVersion": "0.2.9",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.3.1"
+        "version": "7.7.4"
     },
     "settings": {
         "centralPane": {
@@ -1195,58 +1175,58 @@
                 "erd": [
                     {
                         "GUID": "7321ea93-db54-4408-b141-69d87be649e1",
-                        "x": 1411.9608282271568,
-                        "y": 1180.52486680618,
-                        "width": 247,
+                        "x": 1488,
+                        "y": 1181,
+                        "width": 271,
                         "height": 105,
                         "color": {}
                     },
                     {
                         "GUID": "6ca10029-ebcc-4ec8-9f8b-4ae4845b9855",
-                        "x": 1431.9608282271568,
-                        "y": 1361.52486680618,
-                        "width": 208,
+                        "x": 1499,
+                        "y": 1362,
+                        "width": 249,
                         "height": 84,
                         "color": {}
                     },
                     {
                         "GUID": "3afe5282-66ad-4d5b-9fe4-41cbdaf87999",
-                        "x": 1143.9608282271568,
-                        "y": 1343.52486680618,
-                        "width": 220,
+                        "x": 1143,
+                        "y": 1344,
+                        "width": 265,
                         "height": 120,
                         "color": {}
                     },
                     {
                         "GUID": "64470261-3c32-47d4-8936-d9454441672f",
-                        "x": 1157.9608282271568,
-                        "y": 1191.52486680618,
-                        "width": 192,
+                        "x": 1157,
+                        "y": 1192,
+                        "width": 237,
                         "height": 84,
                         "color": {}
                     },
                     {
                         "GUID": "8d11f498-5b26-44fc-a112-927b6d44bbbd",
-                        "x": 1186.9608282271568,
-                        "y": 1507.564958444208,
+                        "x": 1168.0463380332892,
+                        "y": 1511.1114253555581,
                         "width": 224,
                         "height": 87,
                         "color": {}
                     },
                     {
                         "GUID": "30ec0ec9-b259-401d-9dd1-f2ae0f302e21",
-                        "x": 1444.097139796459,
-                        "y": 1507.947495332905,
+                        "x": 1514,
+                        "y": 1513.8582735184884,
                         "width": 219,
                         "height": 69,
                         "color": {}
                     },
                     {
                         "GUID": "7eb5f73c-263f-4fc1-af04-d9598b0ead1b",
-                        "x": 1278.2529244470884,
-                        "y": 1628.438956153259,
-                        "width": 312,
-                        "height": 249,
+                        "x": 1306.6246597378895,
+                        "y": 1631.985423064609,
+                        "width": 300,
+                        "height": 285,
                         "color": {}
                     }
                 ],
@@ -1258,8 +1238,8 @@
                 },
                 "buckets": [
                     {
-                        "x": 1103.9608282271568,
-                        "y": 1140.52486680618,
+                        "x": 1103,
+                        "y": 1141,
                         "GUID": "a2580827-9bfd-49dc-a4d2-254c02c125a8"
                     }
                 ],
