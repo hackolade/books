@@ -1158,16 +1158,16 @@
             "dbVersion": false
         }
     },
-    "lastModifTS": "2024-08-22T07:18:31.481Z",
+    "lastModifTS": "2024-08-29T18:56:14.601Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Oracle",
-        "pluginVersion": "0.2.9",
+        "pluginVersion": "0.2.10",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.7.4"
+        "version": "7.7.6"
     },
     "settings": {
         "centralPane": {
@@ -1209,7 +1209,7 @@
                         "GUID": "8d11f498-5b26-44fc-a112-927b6d44bbbd",
                         "x": 1168.0463380332892,
                         "y": 1511.1114253555581,
-                        "width": 224,
+                        "width": 248,
                         "height": 87,
                         "color": {}
                     },
@@ -1217,7 +1217,7 @@
                         "GUID": "30ec0ec9-b259-401d-9dd1-f2ae0f302e21",
                         "x": 1514,
                         "y": 1513.8582735184884,
-                        "width": 219,
+                        "width": 243,
                         "height": 69,
                         "color": {}
                     },
@@ -1225,7 +1225,7 @@
                         "GUID": "7eb5f73c-263f-4fc1-af04-d9598b0ead1b",
                         "x": 1306.6246597378895,
                         "y": 1631.985423064609,
-                        "width": 300,
+                        "width": 352,
                         "height": 285,
                         "color": {}
                     }
@@ -1261,7 +1261,23 @@
                 "diagramViews": [],
                 "decorativeSymbols": [],
                 "nestedCollectionsLayout": "horizontal",
-                "options": [],
+                "options": [
+                    {
+                        "autoWidth": true,
+                        "autoHeight": true,
+                        "GUID": "7eb5f73c-263f-4fc1-af04-d9598b0ead1b"
+                    },
+                    {
+                        "autoWidth": true,
+                        "autoHeight": true,
+                        "GUID": "30ec0ec9-b259-401d-9dd1-f2ae0f302e21"
+                    },
+                    {
+                        "autoWidth": true,
+                        "autoHeight": true,
+                        "GUID": "8d11f498-5b26-44fc-a112-927b6d44bbbd"
+                    }
+                ],
                 "relationshipUpdateDisabled": false,
                 "displayOptions": {
                     "dndHandles": false
