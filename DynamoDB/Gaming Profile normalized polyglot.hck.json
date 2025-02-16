@@ -1,0 +1,1272 @@
+{
+  "modelName": "New model",
+  "collections": [
+    {
+      "GUID": "ff5bf027-6220-41a6-bce5-880499ffd388",
+      "collectionName": "Player",
+      "type": "object",
+      "properties": [
+        {
+          "name": "PlayerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "7b3e494a-8517-4cbb-aed7-aeb05224bc11",
+          "error": {},
+          "childRelationships": [
+            "ed328fee-7d42-4d32-b9d5-821b35db2044",
+            "ad82b210-21c5-4242-99cb-3000a61576ba",
+            "acaf402a-b188-425f-9932-92dfc9ed35c5",
+            "c689acb5-69da-4de2-889e-a163ecdfc0a5",
+            "da0d916c-e432-4286-8d82-d7aa4057fbf0"
+          ]
+        },
+        {
+          "name": "CreateAt",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "tPrecision": 9,
+          "required": false,
+          "alternateKey": false,
+          "childType": "timestamp_tz",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "error": {
+            "name": false
+          },
+          "GUID": "d9fe082c-75ed-4eab-a634-60a70d6d25e3"
+        },
+        {
+          "name": "UpdateAt",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "tPrecision": 9,
+          "required": false,
+          "alternateKey": false,
+          "childType": "timestamp_tz",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "error": {
+            "name": false
+          },
+          "GUID": "103b04b1-082d-42e3-83fd-ae9f5b72b73b"
+        },
+        {
+          "name": "Nickname",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "d23af563-a5a5-47ce-bf78-943fc8b67e1d",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "Email",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "17386fe6-96bb-46c6-b9df-902e3a5086f5",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "Gender",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "99f79fb3-4fdc-496d-bb47-a468053e08e9",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "Currency",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "1a5df173-3b95-486f-9399-a420e2d1881f",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "Level",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "e5842f5e-42da-4ae9-a8e3-89cd98b2f6e5",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "Health",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "e9a7f0b5-cea6-4669-85f2-1d54409c6cbd",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "Experience",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "a2c15410-8463-49a7-94fe-b8be6a8f1c2d",
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ec773299-2134-4472-ba1b-2e31bf132c53"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "3673548c-2223-4eeb-a4cf-d91272bf54bf",
+      "collectionName": "Tasks",
+      "type": "object",
+      "properties": [
+        {
+          "name": "TaskID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "48f44a3b-dfe0-4896-9ae8-cf2bbb26e9e9",
+          "error": {}
+        },
+        {
+          "name": "PlayerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "37d400f3-d29f-43ff-9445-6a789137c979",
+          "error": {
+            "name": false
+          },
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "foreignField": [
+            "ff5bf027-6220-41a6-bce5-880499ffd388",
+            "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+          ],
+          "parentRelationship": "ed328fee-7d42-4d32-b9d5-821b35db2044"
+        },
+        {
+          "name": "TaskName",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "61e9aa5d-9868-4797-8b5e-99a37a3cb348",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "TaskDescription",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "2c360413-4d60-4795-8882-7a03d2c99d32",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "TaskStatus",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "050ee457-b4ec-438f-8cfa-a6be579733e0",
+          "error": {}
+        },
+        {
+          "name": "TaskReward",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "4dbe6db7-ef4e-4814-9b3d-62d153ab7db8",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "7a7f4320-74dc-4e88-89d0-84f022d3ccc1"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "cac5f438-edf2-4dfc-b8f5-c9e7fc0f2a0f",
+      "collectionName": "Items",
+      "type": "object",
+      "properties": [
+        {
+          "name": "ItemID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "250083ad-8487-4129-a3f4-3f29e563822a",
+          "error": {}
+        },
+        {
+          "name": "PlayerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "c4bafb5d-6056-46e9-9029-145c8d6d6221",
+          "error": {
+            "name": false
+          },
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "foreignField": [
+            "ff5bf027-6220-41a6-bce5-880499ffd388",
+            "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+          ],
+          "parentRelationship": "ad82b210-21c5-4242-99cb-3000a61576ba"
+        },
+        {
+          "name": "ItemName",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "f82e1f1d-d7f6-4f10-a37a-45531a36e2dd",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "ItemType",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "a8289abd-e07b-46bc-b495-756faf0f35ad",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "ItemCount",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "7ea4a5fa-d22b-4a19-8331-4e06192d7fa7",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "ItemAttributes",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "e6188e37-6f52-43b0-9831-f245bded8be3",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "e81eb5d6-b05a-42cb-9caf-d1808f55498a"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "0ec46e62-ad73-45ac-aff2-8b4278944ac8",
+      "collectionName": "Activities",
+      "type": "object",
+      "properties": [
+        {
+          "name": "ActivityID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "0c294ba7-6ac7-48ac-8784-b644b953d712",
+          "error": {}
+        },
+        {
+          "name": "PlayerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "d18a4882-10fd-47d2-b76b-d1b15af6120c",
+          "error": {
+            "name": false
+          },
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "foreignField": [
+            "ff5bf027-6220-41a6-bce5-880499ffd388",
+            "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+          ],
+          "parentRelationship": "acaf402a-b188-425f-9932-92dfc9ed35c5"
+        },
+        {
+          "name": "ActivityName",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "2461961f-940d-4749-8aa4-937f21284451",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "ActivityType",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "1e79afc1-3f97-4ead-8451-1237f1260526",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "ActivityStartTime",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "tPrecision": 9,
+          "required": false,
+          "alternateKey": false,
+          "childType": "timestamp_tz",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "error": {
+            "name": false
+          },
+          "GUID": "ddaa185a-4fb2-41db-9039-470efd4f8080"
+        },
+        {
+          "name": "ActivityEndTime",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "tPrecision": 9,
+          "required": false,
+          "alternateKey": false,
+          "childType": "timestamp_tz",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "error": {
+            "name": false
+          },
+          "GUID": "0bbf0357-4f78-4c3e-9b21-dda28f70bf00"
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "548169c5-f7c0-4aac-9c22-6e5a0ff39698"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "9dd32173-4013-4cd0-82e1-8a43eab77255",
+      "collectionName": "Equipments",
+      "type": "object",
+      "properties": [
+        {
+          "name": "EquipmentID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "ec6688b2-3d59-4095-b835-c04dcdd10492",
+          "error": {}
+        },
+        {
+          "name": "PlayerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "69cfc8f4-bb33-430e-8b8e-8acdfb46dce3",
+          "error": {
+            "name": false
+          },
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "foreignField": [
+            "ff5bf027-6220-41a6-bce5-880499ffd388",
+            "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+          ],
+          "parentRelationship": "c689acb5-69da-4de2-889e-a163ecdfc0a5"
+        },
+        {
+          "name": "EquipmentName",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "6d0bb763-aa61-4e4d-9bf9-1909b51b001c",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "EquipmentType",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "c3a1a48c-7d4f-4326-9da5-788c79a7c97f",
+          "error": {
+            "name": false
+          }
+        },
+        {
+          "name": "EquipmentAttributes",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "c2ede025-a1c1-4143-844b-21ae701ba98c",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "92c61b2a-de17-46f9-b12f-093b49bf627c"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "14d611cf-ed0b-4ae5-9360-9c022c8e1273",
+      "collectionName": "Friends",
+      "type": "object",
+      "properties": [
+        {
+          "name": "FriendID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "29781949-b525-4990-a02b-ab8e68334981",
+          "error": {}
+        },
+        {
+          "name": "PlayerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "ba330e42-7db8-40b2-8e6f-745501c69264",
+          "error": {
+            "name": false
+          },
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "foreignField": [
+            "ff5bf027-6220-41a6-bce5-880499ffd388",
+            "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+          ],
+          "parentRelationship": "da0d916c-e432-4286-8d82-d7aa4057fbf0"
+        },
+        {
+          "name": "FriendList",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "d6a2e8fd-8c75-4002-bb39-23535bb14fdd",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "283579e3-7fe9-4ecd-9ec9-8768fbef6f4c"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [
+    {
+      "name": "fk_Player_PlayerID_to_Tasks_PlayerID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "3673548c-2223-4eeb-a4cf-d91272bf54bf",
+          "37d400f3-d29f-43ff-9445-6a789137c979"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+      "childCollection": "3673548c-2223-4eeb-a4cf-d91272bf54bf",
+      "GUID": "ed328fee-7d42-4d32-b9d5-821b35db2044",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "68284112-d440-4166-b60c-0a82acb05521",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1289,
+            "y": 1313.5
+          },
+          {
+            "x": 1325.5,
+            "y": 1313.5
+          },
+          {
+            "x": 1325.5,
+            "y": 1313
+          },
+          {
+            "x": 1362,
+            "y": 1313
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_Player_PlayerID_to_Items_PlayerID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "cac5f438-edf2-4dfc-b8f5-c9e7fc0f2a0f",
+          "c4bafb5d-6056-46e9-9029-145c8d6d6221"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+      "childCollection": "cac5f438-edf2-4dfc-b8f5-c9e7fc0f2a0f",
+      "GUID": "ad82b210-21c5-4242-99cb-3000a61576ba",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "7b022375-d6ae-4e19-af39-ab5dca5f3aea",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1649,
+            "y": 1312.5
+          },
+          {
+            "x": 1619,
+            "y": 1312.5
+          },
+          {
+            "x": 1619,
+            "y": 1313
+          },
+          {
+            "x": 1589,
+            "y": 1313
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_Player_PlayerID_to_Activities_PlayerID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "0ec46e62-ad73-45ac-aff2-8b4278944ac8",
+          "d18a4882-10fd-47d2-b76b-d1b15af6120c"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+      "childCollection": "0ec46e62-ad73-45ac-aff2-8b4278944ac8",
+      "GUID": "acaf402a-b188-425f-9932-92dfc9ed35c5",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "472ff3f8-ecbd-4c87-8cc3-727026beef63",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1291.3662115822374,
+            "y": 1544.7359010938187
+          },
+          {
+            "x": 1326.6831057911186,
+            "y": 1544.7359010938187
+          },
+          {
+            "x": 1326.6831057911186,
+            "y": 1384
+          },
+          {
+            "x": 1362,
+            "y": 1384
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_Player_PlayerID_to_Equipments_PlayerID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "9dd32173-4013-4cd0-82e1-8a43eab77255",
+          "69cfc8f4-bb33-430e-8b8e-8acdfb46dce3"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+      "childCollection": "9dd32173-4013-4cd0-82e1-8a43eab77255",
+      "GUID": "c689acb5-69da-4de2-889e-a163ecdfc0a5",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "73f33852-61c7-4720-8972-b43a157d949b",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1652.588028169014,
+            "y": 1513.323929262833
+          },
+          {
+            "x": 1620.7940140845071,
+            "y": 1513.323929262833
+          },
+          {
+            "x": 1620.7940140845071,
+            "y": 1384
+          },
+          {
+            "x": 1589,
+            "y": 1384
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_Player_PlayerID_to_Friends_PlayerID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "ff5bf027-6220-41a6-bce5-880499ffd388",
+          "7b3e494a-8517-4cbb-aed7-aeb05224bc11"
+        ]
+      ],
+      "parentCardinality": "0..n",
+      "childField": [
+        [
+          "14d611cf-ed0b-4ae5-9360-9c022c8e1273",
+          "ba330e42-7db8-40b2-8e6f-745501c69264"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "ff5bf027-6220-41a6-bce5-880499ffd388",
+      "childCollection": "14d611cf-ed0b-4ae5-9360-9c022c8e1273",
+      "GUID": "da0d916c-e432-4286-8d82-d7aa4057fbf0",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "b3812cac-e29a-4ac8-8513-f09c3f2ec5a8",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1476,
+            "y": 1536.0457615594623
+          },
+          {
+            "x": 1476,
+            "y": 1495.5228807797312
+          },
+          {
+            "x": 1475.5,
+            "y": 1495.5228807797312
+          },
+          {
+            "x": 1475.5,
+            "y": 1455
+          }
+        ],
+        "sides": [
+          "top",
+          "bottom"
+        ]
+      }
+    }
+  ],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "ff5bf027-6220-41a6-bce5-880499ffd388": "Player",
+    "7b3e494a-8517-4cbb-aed7-aeb05224bc11": "PlayerID",
+    "d9fe082c-75ed-4eab-a634-60a70d6d25e3": "CreateAt",
+    "103b04b1-082d-42e3-83fd-ae9f5b72b73b": "UpdateAt",
+    "d23af563-a5a5-47ce-bf78-943fc8b67e1d": "Nickname",
+    "17386fe6-96bb-46c6-b9df-902e3a5086f5": "Email",
+    "99f79fb3-4fdc-496d-bb47-a468053e08e9": "Gender",
+    "1a5df173-3b95-486f-9399-a420e2d1881f": "Currency",
+    "e5842f5e-42da-4ae9-a8e3-89cd98b2f6e5": "Level",
+    "e9a7f0b5-cea6-4669-85f2-1d54409c6cbd": "Health",
+    "a2c15410-8463-49a7-94fe-b8be6a8f1c2d": "Experience",
+    "3673548c-2223-4eeb-a4cf-d91272bf54bf": "Tasks",
+    "48f44a3b-dfe0-4896-9ae8-cf2bbb26e9e9": "TaskID",
+    "37d400f3-d29f-43ff-9445-6a789137c979": "PlayerID",
+    "61e9aa5d-9868-4797-8b5e-99a37a3cb348": "TaskName",
+    "2c360413-4d60-4795-8882-7a03d2c99d32": "TaskDescription",
+    "050ee457-b4ec-438f-8cfa-a6be579733e0": "TaskStatus",
+    "4dbe6db7-ef4e-4814-9b3d-62d153ab7db8": "TaskReward",
+    "ed328fee-7d42-4d32-b9d5-821b35db2044": "fk_Player_PlayerID_to_Tasks_PlayerID",
+    "cac5f438-edf2-4dfc-b8f5-c9e7fc0f2a0f": "Items",
+    "250083ad-8487-4129-a3f4-3f29e563822a": "ItemID",
+    "c4bafb5d-6056-46e9-9029-145c8d6d6221": "PlayerID",
+    "f82e1f1d-d7f6-4f10-a37a-45531a36e2dd": "ItemName",
+    "a8289abd-e07b-46bc-b495-756faf0f35ad": "ItemType",
+    "7ea4a5fa-d22b-4a19-8331-4e06192d7fa7": "ItemCount",
+    "e6188e37-6f52-43b0-9831-f245bded8be3": "ItemAttributes",
+    "ad82b210-21c5-4242-99cb-3000a61576ba": "fk_Player_PlayerID_to_Items_PlayerID",
+    "0ec46e62-ad73-45ac-aff2-8b4278944ac8": "Activities",
+    "0c294ba7-6ac7-48ac-8784-b644b953d712": "ActivityID",
+    "d18a4882-10fd-47d2-b76b-d1b15af6120c": "PlayerID",
+    "2461961f-940d-4749-8aa4-937f21284451": "ActivityName",
+    "1e79afc1-3f97-4ead-8451-1237f1260526": "ActivityType",
+    "ddaa185a-4fb2-41db-9039-470efd4f8080": "ActivityStartTime",
+    "0bbf0357-4f78-4c3e-9b21-dda28f70bf00": "ActivityEndTime",
+    "acaf402a-b188-425f-9932-92dfc9ed35c5": "fk_Player_PlayerID_to_Activities_PlayerID",
+    "9dd32173-4013-4cd0-82e1-8a43eab77255": "Equipments",
+    "ec6688b2-3d59-4095-b835-c04dcdd10492": "EquipmentID",
+    "69cfc8f4-bb33-430e-8b8e-8acdfb46dce3": "PlayerID",
+    "6d0bb763-aa61-4e4d-9bf9-1909b51b001c": "EquipmentName",
+    "c3a1a48c-7d4f-4326-9da5-788c79a7c97f": "EquipmentType",
+    "c2ede025-a1c1-4143-844b-21ae701ba98c": "EquipmentAttributes",
+    "c689acb5-69da-4de2-889e-a163ecdfc0a5": "fk_Player_PlayerID_to_Equipments_PlayerID",
+    "14d611cf-ed0b-4ae5-9360-9c022c8e1273": "Friends",
+    "29781949-b525-4990-a02b-ab8e68334981": "FriendID",
+    "ba330e42-7db8-40b2-8e6f-745501c69264": "PlayerID",
+    "d6a2e8fd-8c75-4002-bb39-23535bb14fdd": "FriendList",
+    "da0d916c-e432-4286-8d82-d7aa4057fbf0": "fk_Player_PlayerID_to_Friends_PlayerID"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "ce2b5851-1b4d-4fb0-8c12-18632f3f0c24"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "b05e7036-270a-4484-8209-7944d3dc7734"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "abd76898-5f3d-4cef-8a9f-b403b1406d08"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Polyglot",
+  "appTarget": "Polyglot",
+  "creationTS": "2025-02-03T09:54:40.384Z",
+  "GUID": "c76bd041-711f-4514-b33d-00f9a0ff2312",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-02-05T12:30:47.079Z",
+  "persistenceSchemaVersion": "7",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Polyglot",
+    "pluginVersion": "0.0.1",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "7.9.11"
+  },
+  "hackoladeMeta": {},
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "ff5bf027-6220-41a6-bce5-880499ffd388",
+            "x": 1362,
+            "y": 1242,
+            "width": 227,
+            "height": 213,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "3673548c-2223-4eeb-a4cf-d91272bf54bf",
+            "x": 1042,
+            "y": 1243,
+            "width": 247,
+            "height": 141,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "cac5f438-edf2-4dfc-b8f5-c9e7fc0f2a0f",
+            "x": 1649,
+            "y": 1242,
+            "width": 238,
+            "height": 141,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "0ec46e62-ad73-45ac-aff2-8b4278944ac8",
+            "x": 1032.3662115822374,
+            "y": 1474.2359010938187,
+            "width": 259,
+            "height": 141,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "9dd32173-4013-4cd0-82e1-8a43eab77255",
+            "x": 1652.588028169014,
+            "y": 1451.823929262833,
+            "width": 274,
+            "height": 123,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "14d611cf-ed0b-4ae5-9360-9c022c8e1273",
+            "x": 1370,
+            "y": 1536.0457615594623,
+            "width": 212,
+            "height": 87,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [
+            {
+              "GUID": "ff5bf027-6220-41a6-bce5-880499ffd388",
+              "size": 100,
+              "x": 1255,
+              "y": 1059
+            },
+            {
+              "GUID": "3673548c-2223-4eeb-a4cf-d91272bf54bf",
+              "size": 100,
+              "x": 1059,
+              "y": 1059
+            },
+            {
+              "GUID": "cac5f438-edf2-4dfc-b8f5-c9e7fc0f2a0f",
+              "size": 100,
+              "x": 1451,
+              "y": 1059
+            },
+            {
+              "GUID": "0ec46e62-ad73-45ac-aff2-8b4278944ac8",
+              "size": 100,
+              "x": 1059,
+              "y": 1209.5875312779226
+            },
+            {
+              "GUID": "9dd32173-4013-4cd0-82e1-8a43eab77255",
+              "size": 100,
+              "x": 1451,
+              "y": 1214.5598481507295
+            },
+            {
+              "GUID": "14d611cf-ed0b-4ae5-9360-9c022c8e1273",
+              "size": 100,
+              "x": 1255,
+              "y": 1220.9616825217793
+            }
+          ],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": false,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

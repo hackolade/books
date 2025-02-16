@@ -1,0 +1,418 @@
+{
+  "modelName": "Recurring Payments",
+  "collections": [
+    {
+      "GUID": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+      "collectionName": "Account",
+      "type": "object",
+      "properties": [
+        {
+          "name": "ACC@AccountID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "bc0b89ab-b032-4de4-a5e9-546fd6ca7a90",
+          "childRelationships": [
+            "4fcb79b1-4146-4675-b7a1-0348203ae1c3",
+            "fa8dc932-e56d-4694-8e85-61806abce89e"
+          ],
+          "error": {}
+        },
+        {
+          "name": "Account Details",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "cc321719-0e24-4611-9d1e-ba1ab3b6868d",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "29bc4c0b-eba3-4695-8da3-bd941815d3b0"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "0358452a-ffec-47e5-99d3-066b4cec895c",
+      "collectionName": "Subscription",
+      "type": "object",
+      "properties": [
+        {
+          "name": "ACC@AccountID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "3273bf07-2759-49e1-aebd-9fdd657b6cef",
+          "foreignCollection": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+          "foreignField": [
+            "69302a4c-981e-4bc8-b966-5421702f4b9a",
+            "bc0b89ab-b032-4de4-a5e9-546fd6ca7a90"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "4fcb79b1-4146-4675-b7a1-0348203ae1c3",
+          "error": {}
+        },
+        {
+          "name": "Subscription Details",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "GUID": "a034bf92-dae6-4cf3-bd47-f7bb745578e1",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "b9dfa70c-cd50-4dd8-965a-10c8f7381f85"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "5c838be0-caad-4929-9485-aadd3347c542",
+      "collectionName": "Receipt",
+      "type": "object",
+      "properties": [
+        {
+          "name": "ACC@AccountID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "9087d0f3-e29a-40bf-b8ca-ea407309ea76",
+          "childRelationships": [],
+          "foreignCollection": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+          "foreignField": [
+            "69302a4c-981e-4bc8-b966-5421702f4b9a",
+            "bc0b89ab-b032-4de4-a5e9-546fd6ca7a90"
+          ],
+          "relationshipType": "Foreign Key",
+          "parentRelationship": "fa8dc932-e56d-4694-8e85-61806abce89e",
+          "error": {}
+        },
+        {
+          "name": "Receipt Details",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "eb085ef2-d750-49c2-9803-71c0ba1b6966",
+          "error": {
+            "name": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "c6da0b87-c8a8-4a2f-ae3f-df2652a19c59"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [
+    {
+      "name": "fk_Account_ACC@AccountID_to_Subscription_ACC@AccountID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "69302a4c-981e-4bc8-b966-5421702f4b9a",
+          "bc0b89ab-b032-4de4-a5e9-546fd6ca7a90"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "0358452a-ffec-47e5-99d3-066b4cec895c",
+          "3273bf07-2759-49e1-aebd-9fdd657b6cef"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+      "childCollection": "0358452a-ffec-47e5-99d3-066b4cec895c",
+      "GUID": "4fcb79b1-4146-4675-b7a1-0348203ae1c3",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "dbcd5f5e-fb6d-4a0a-9bbc-a94b125f1c0e",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1398,
+            "y": 1237.5
+          },
+          {
+            "x": 1368.5,
+            "y": 1237.5
+          },
+          {
+            "x": 1368.5,
+            "y": 1300
+          },
+          {
+            "x": 1339,
+            "y": 1300
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_Account_ACC@AccountID_to_New entity_ACC@AccountID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "69302a4c-981e-4bc8-b966-5421702f4b9a",
+          "bc0b89ab-b032-4de4-a5e9-546fd6ca7a90"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "5c838be0-caad-4929-9485-aadd3347c542",
+          "9087d0f3-e29a-40bf-b8ca-ea407309ea76"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+      "childCollection": "5c838be0-caad-4929-9485-aadd3347c542",
+      "GUID": "fa8dc932-e56d-4694-8e85-61806abce89e",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "0e651c33-7a1e-4af1-a75d-adf843eb8642",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1409,
+            "y": 1376.5
+          },
+          {
+            "x": 1374,
+            "y": 1376.5
+          },
+          {
+            "x": 1374,
+            "y": 1323
+          },
+          {
+            "x": 1339,
+            "y": 1323
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    }
+  ],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "69302a4c-981e-4bc8-b966-5421702f4b9a": "Account",
+    "bc0b89ab-b032-4de4-a5e9-546fd6ca7a90": "ACC@AccountID",
+    "cc321719-0e24-4611-9d1e-ba1ab3b6868d": "Account Details",
+    "0358452a-ffec-47e5-99d3-066b4cec895c": "Subscription",
+    "a034bf92-dae6-4cf3-bd47-f7bb745578e1": "Subscription Details",
+    "3273bf07-2759-49e1-aebd-9fdd657b6cef": "ACC@AccountID",
+    "4fcb79b1-4146-4675-b7a1-0348203ae1c3": "fk_Account_ACC@AccountID_to_Subscription_ACC@AccountID",
+    "5c838be0-caad-4929-9485-aadd3347c542": "Receipt",
+    "eb085ef2-d750-49c2-9803-71c0ba1b6966": "Receipt Details",
+    "9087d0f3-e29a-40bf-b8ca-ea407309ea76": "ACC@AccountID",
+    "fa8dc932-e56d-4694-8e85-61806abce89e": "fk_Account_ACC@AccountID_to_New entity_ACC@AccountID"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "d22e9e8a-a31d-491c-9b0c-c5e9e3046581"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "7036aa2d-0bba-4a3e-a0e9-32711b8e72ee"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "fedb88ef-c7cc-49ac-8969-0762b77cbeb2"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Polyglot",
+  "appTarget": "Polyglot",
+  "creationTS": "2025-02-05T15:45:47.104Z",
+  "GUID": "a9f78f2b-478a-40e2-a829-521f08a833ae",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-02-05T15:51:25.765Z",
+  "persistenceSchemaVersion": "7",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Polyglot",
+    "pluginVersion": "0.0.1",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "7.9.11"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+            "x": 1094,
+            "y": 1277,
+            "width": 245,
+            "height": 69,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "0358452a-ffec-47e5-99d3-066b4cec895c",
+            "x": 1398,
+            "y": 1203,
+            "width": 269,
+            "height": 69,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "5c838be0-caad-4929-9485-aadd3347c542",
+            "x": 1409,
+            "y": 1342,
+            "width": 248,
+            "height": 69,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [
+          "69302a4c-981e-4bc8-b966-5421702f4b9a"
+        ],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [
+            {
+              "GUID": "69302a4c-981e-4bc8-b966-5421702f4b9a",
+              "size": 100,
+              "x": 1272.3379601703007,
+              "y": 858.8160932055982
+            },
+            {
+              "GUID": "0358452a-ffec-47e5-99d3-066b4cec895c",
+              "size": 100,
+              "x": 1463.5600414143296,
+              "y": 864.8664975606912
+            },
+            {
+              "GUID": "5c838be0-caad-4929-9485-aadd3347c542",
+              "size": 100,
+              "x": 1081.0409217508118,
+              "y": 854.9682217758003
+            }
+          ],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": true,
+          "defaultLinkLength": 191
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

@@ -1,0 +1,608 @@
+{
+  "modelName": "New model",
+  "collections": [
+    {
+      "GUID": "5dfd50fc-0841-4325-a7b7-311352faf799",
+      "collectionName": "Complaint",
+      "type": "object",
+      "properties": [
+        {
+          "name": "ComplaintID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "f6c10632-a416-4a09-9554-5ffb9a2d0783",
+          "error": {},
+          "childRelationships": [
+            "2b62d379-d3c9-48b9-a065-36dc78e989bf"
+          ]
+        },
+        {
+          "name": "CreationDate",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "index": true,
+          "required": false,
+          "alternateKey": false,
+          "childType": "date",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "error": {
+            "name": false
+          },
+          "primaryKey": false,
+          "GUID": "de38900a-17a4-4612-a8cd-0fdeaf17baf0"
+        },
+        {
+          "name": "CustomerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "f7ddb3b5-1806-4578-b536-a7f8933afe8e",
+          "error": {},
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+          "foreignField": [
+            "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+            "f93ace59-a78c-4635-a7fe-283e3fcd32b2"
+          ],
+          "parentRelationship": "b2343b62-2b1b-41ef-bc1a-8451074203f8"
+        },
+        {
+          "name": "AgentID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "fc36f5f9-d7b8-4cff-a2ae-86f1255001f9",
+          "error": {},
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "ce3662db-c71e-4f53-9f25-08212eb85e77",
+          "foreignField": [
+            "ce3662db-c71e-4f53-9f25-08212eb85e77",
+            "c4286977-71e5-40d4-97de-1234337b1b24"
+          ],
+          "parentRelationship": "ecee0c9a-953d-409b-bc4b-cc948b516d8a"
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "ccb8da0c-888b-4068-a54a-9e81683f7ef9"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "7ddcee3a-64ba-4641-8bf8-4a8ebe8f94ef",
+      "collectionName": "Comment",
+      "type": "object",
+      "properties": [
+        {
+          "name": "CommentID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "23bed3ba-d944-4169-a4f5-4e50d211f978",
+          "error": {}
+        },
+        {
+          "name": "CommentDate",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "index": true,
+          "required": false,
+          "alternateKey": false,
+          "childType": "date",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "error": {
+            "name": false
+          },
+          "primaryKey": false,
+          "GUID": "14c75753-0d13-434d-bbeb-616dd7cf0560"
+        },
+        {
+          "name": "ComplaintID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "e203fc1b-6a10-461f-91a2-00654da9a1c8",
+          "error": {
+            "name": false
+          },
+          "relationshipType": "Foreign Key",
+          "foreignCollection": "5dfd50fc-0841-4325-a7b7-311352faf799",
+          "foreignField": [
+            "5dfd50fc-0841-4325-a7b7-311352faf799",
+            "f6c10632-a416-4a09-9554-5ffb9a2d0783"
+          ],
+          "parentRelationship": "2b62d379-d3c9-48b9-a065-36dc78e989bf"
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "6edc8aeb-bfc1-4362-a23b-61a6baa7f524"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "ce3662db-c71e-4f53-9f25-08212eb85e77",
+      "collectionName": "Agent",
+      "type": "object",
+      "properties": [
+        {
+          "name": "AgentID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "c4286977-71e5-40d4-97de-1234337b1b24",
+          "error": {},
+          "childRelationships": [
+            "ecee0c9a-953d-409b-bc4b-cc948b516d8a"
+          ]
+        },
+        {
+          "name": "New attribute1",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "c0d2f74d-0733-4f13-ad4a-2d53c94bdeaf",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        },
+        {
+          "name": "New attribute2",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": false,
+          "required": false,
+          "alternateKey": false,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "compositePrimaryKey": false,
+          "compositeUniqueKey": false,
+          "GUID": "1b4af3b7-61a0-4e1b-9379-42a9d4245f7e",
+          "error": {
+            "name": false,
+            "code": false
+          }
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "7774dd2a-9280-49e7-ba64-ccb0312d9292"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    },
+    {
+      "GUID": "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+      "collectionName": "Customer",
+      "type": "object",
+      "properties": [
+        {
+          "name": "CustomerID",
+          "hackoladeMeta": {},
+          "isActivated": true,
+          "primaryKey": true,
+          "required": true,
+          "childType": "varchar",
+          "type": "string",
+          "compositeKey": [
+            "compositePrimaryKey",
+            "compositeUniqueKey"
+          ],
+          "GUID": "f93ace59-a78c-4635-a7fe-283e3fcd32b2",
+          "childRelationships": [
+            "b2343b62-2b1b-41ef-bc1a-8451074203f8"
+          ],
+          "error": {}
+        }
+      ],
+      "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "1c351d28-6138-4d4b-85dc-3d44dcc266a1"
+      },
+      "isActivated": true,
+      "additionalProperties": false,
+      "jinjaVariable": "As name prefix"
+    }
+  ],
+  "buckets": [],
+  "views": [],
+  "relationships": [
+    {
+      "name": "fk_Customer_CustomerID_to_Complaint_CustomerID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+          "f93ace59-a78c-4635-a7fe-283e3fcd32b2"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "5dfd50fc-0841-4325-a7b7-311352faf799",
+          "f7ddb3b5-1806-4578-b536-a7f8933afe8e"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+      "childCollection": "5dfd50fc-0841-4325-a7b7-311352faf799",
+      "GUID": "b2343b62-2b1b-41ef-bc1a-8451074203f8",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "61b74235-e253-45cf-9b72-bda1d8c38b43",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1281,
+            "y": 1306.5
+          },
+          {
+            "x": 1198,
+            "y": 1306.5
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    },
+    {
+      "name": "fk_Agent_AgentID_to_Complaint_AgentID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "ce3662db-c71e-4f53-9f25-08212eb85e77",
+          "c4286977-71e5-40d4-97de-1234337b1b24"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "5dfd50fc-0841-4325-a7b7-311352faf799",
+          "fc36f5f9-d7b8-4cff-a2ae-86f1255001f9"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "ce3662db-c71e-4f53-9f25-08212eb85e77",
+      "childCollection": "5dfd50fc-0841-4325-a7b7-311352faf799",
+      "GUID": "ecee0c9a-953d-409b-bc4b-cc948b516d8a",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "4053055e-d74a-480e-a40d-8d2dc037adff",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1514,
+            "y": 1324
+          },
+          {
+            "x": 1546.5,
+            "y": 1324
+          },
+          {
+            "x": 1546.5,
+            "y": 1361.5
+          },
+          {
+            "x": 1579,
+            "y": 1361.5
+          }
+        ],
+        "sides": [
+          "right",
+          "left"
+        ]
+      }
+    },
+    {
+      "name": "fk_Complaint_ComplaintID_to_Comment_ComplaintID",
+      "relationshipType": "Foreign Key",
+      "parentField": [
+        [
+          "5dfd50fc-0841-4325-a7b7-311352faf799",
+          "f6c10632-a416-4a09-9554-5ffb9a2d0783"
+        ]
+      ],
+      "parentCardinality": "1",
+      "childField": [
+        [
+          "7ddcee3a-64ba-4641-8bf8-4a8ebe8f94ef",
+          "e203fc1b-6a10-461f-91a2-00654da9a1c8"
+        ]
+      ],
+      "isActivated": true,
+      "childCardinality": "0..n",
+      "parentCollection": "5dfd50fc-0841-4325-a7b7-311352faf799",
+      "childCollection": "7ddcee3a-64ba-4641-8bf8-4a8ebe8f94ef",
+      "GUID": "2b62d379-d3c9-48b9-a065-36dc78e989bf",
+      "level": "field",
+      "lineSize": 2,
+      "hackoladeStyles": {
+        "GUID": "3493bd03-15ac-42b5-9115-8bc40869ee79",
+        "autoPositioning": true,
+        "type": "Orthogonal",
+        "thickness": 2,
+        "color": "#79c4ff",
+        "dataType": "",
+        "shape": [
+          {
+            "x": 1592,
+            "y": 1246.5
+          },
+          {
+            "x": 1553,
+            "y": 1246.5
+          },
+          {
+            "x": 1553,
+            "y": 1289
+          },
+          {
+            "x": 1514,
+            "y": 1289
+          }
+        ],
+        "sides": [
+          "left",
+          "right"
+        ]
+      }
+    }
+  ],
+  "users": [],
+  "diagramViews": [],
+  "idToNameHashTable": {
+    "5dfd50fc-0841-4325-a7b7-311352faf799": "Complaint",
+    "f6c10632-a416-4a09-9554-5ffb9a2d0783": "ComplaintID",
+    "de38900a-17a4-4612-a8cd-0fdeaf17baf0": "CreationDate",
+    "7ddcee3a-64ba-4641-8bf8-4a8ebe8f94ef": "Comment",
+    "23bed3ba-d944-4169-a4f5-4e50d211f978": "CommentID",
+    "14c75753-0d13-434d-bbeb-616dd7cf0560": "CommentDate",
+    "e203fc1b-6a10-461f-91a2-00654da9a1c8": "ComplaintID",
+    "ce3662db-c71e-4f53-9f25-08212eb85e77": "Agent",
+    "c4286977-71e5-40d4-97de-1234337b1b24": "AgentID",
+    "c0d2f74d-0733-4f13-ad4a-2d53c94bdeaf": "New attribute1",
+    "1b4af3b7-61a0-4e1b-9379-42a9d4245f7e": "New attribute2",
+    "0a6af0b3-c715-473f-bc44-e927e37c02d7": "Customer",
+    "f93ace59-a78c-4635-a7fe-283e3fcd32b2": "CustomerID",
+    "f7ddb3b5-1806-4578-b536-a7f8933afe8e": "CustomerID",
+    "b2343b62-2b1b-41ef-bc1a-8451074203f8": "fk_Customer_CustomerID_to_Complaint_CustomerID",
+    "fc36f5f9-d7b8-4cff-a2ae-86f1255001f9": "AgentID",
+    "ecee0c9a-953d-409b-bc4b-cc948b516d8a": "fk_Agent_AgentID_to_Complaint_AgentID",
+    "2b62d379-d3c9-48b9-a065-36dc78e989bf": "fk_Complaint_ComplaintID_to_Comment_ComplaintID"
+  },
+  "definitions": {
+    "type": "definitions",
+    "properties": [],
+    "GUID": "4b8cbcd7-92eb-4806-a0a1-b788f592eed6"
+  },
+  "polyglotDefinitions": {
+    "type": "polyglotDefinitions",
+    "properties": [],
+    "GUID": "88ab9ad2-931f-4337-99fc-d0c168af52b1"
+  },
+  "externalDefinitions": {
+    "type": "externalDefinitions",
+    "properties": [],
+    "GUID": "58c798b7-78c3-4e2c-af24-576206b0e9d9"
+  },
+  "sources": [],
+  "decorativeSymbols": [],
+  "dbVendor": "Polyglot",
+  "appTarget": "Polyglot",
+  "creationTS": "2025-02-05T12:30:59.371Z",
+  "GUID": "02b61a92-fdff-431a-b725-12694465fc1c",
+  "isLineageEnabled": false,
+  "lastModifTS": "2025-02-05T12:37:06.361Z",
+  "persistenceSchemaVersion": "7",
+  "isCreatedByPlugin": true,
+  "pluginInformation": {
+    "pluginName": "Polyglot",
+    "pluginVersion": "0.0.1",
+    "pluginEngineVersion": "1.0.0"
+  },
+  "applicationInformation": {
+    "version": "7.9.11"
+  },
+  "settings": {
+    "centralPane": {
+      "dbLevel": {
+        "erd": [
+          {
+            "GUID": "5dfd50fc-0841-4325-a7b7-311352faf799",
+            "x": 1281,
+            "y": 1254,
+            "width": 233,
+            "height": 105,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "7ddcee3a-64ba-4641-8bf8-4a8ebe8f94ef",
+            "x": 1592,
+            "y": 1203,
+            "width": 215,
+            "height": 87,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "ce3662db-c71e-4f53-9f25-08212eb85e77",
+            "x": 1579,
+            "y": 1318,
+            "width": 242,
+            "height": 87,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          },
+          {
+            "GUID": "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+            "x": 997,
+            "y": 1281,
+            "width": 201,
+            "height": 51,
+            "color": {
+              "hex": "#a9a9a9"
+            }
+          }
+        ],
+        "erdDefinitions": {
+          "erd": [],
+          "rootPath": [],
+          "entities": [],
+          "decorativeSymbols": []
+        },
+        "buckets": [],
+        "collapsedNodes": [],
+        "activeRelationship": "",
+        "activeRelationshipFields": {
+          "childField": [],
+          "parentField": []
+        },
+        "selectedCollections": [
+          "5dfd50fc-0841-4325-a7b7-311352faf799",
+          "0a6af0b3-c715-473f-bc44-e927e37c02d7"
+        ],
+        "displayColorPicker": false,
+        "graphView": {
+          "erd": [
+            {
+              "GUID": "5dfd50fc-0841-4325-a7b7-311352faf799",
+              "size": 100,
+              "x": 1251.5330052479085,
+              "y": 1005
+            },
+            {
+              "GUID": "7ddcee3a-64ba-4641-8bf8-4a8ebe8f94ef",
+              "size": 100,
+              "x": 1406,
+              "y": 923.7765913139563
+            },
+            {
+              "GUID": "ce3662db-c71e-4f53-9f25-08212eb85e77",
+              "size": 100,
+              "x": 1406,
+              "y": 1082.9202264896978
+            },
+            {
+              "GUID": "0a6af0b3-c715-473f-bc44-e927e37c02d7",
+              "size": 100,
+              "x": 1085.5176101324173,
+              "y": 1005
+            }
+          ],
+          "buckets": [],
+          "decorativeSymbols": [],
+          "forceLayout": false,
+          "defaultLinkLength": 300
+        },
+        "diagramViews": [],
+        "decorativeSymbols": [],
+        "nestedCollectionsLayout": "horizontal",
+        "options": [],
+        "relationshipUpdateDisabled": false
+      },
+      "collectionLevel": {},
+      "changed": false
+    },
+    "dtDiagram": {
+      "collapsedNodes": [],
+      "shouldDistributeCollections": false
+    }
+  }
+}

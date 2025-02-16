@@ -1158,16 +1158,16 @@
             "dbVersion": false
         }
     },
-    "lastModifTS": "2024-08-29T18:56:14.601Z",
+    "lastModifTS": "2024-10-08T14:32:16.680Z",
     "persistenceSchemaVersion": "7",
     "isCreatedByPlugin": true,
     "pluginInformation": {
         "pluginName": "Oracle",
-        "pluginVersion": "0.2.10",
+        "pluginVersion": "0.2.17",
         "pluginEngineVersion": "1.0.0"
     },
     "applicationInformation": {
-        "version": "7.7.6"
+        "version": "7.7.11"
     },
     "settings": {
         "centralPane": {
